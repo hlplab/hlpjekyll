@@ -1,0 +1,39 @@
+- name: Zach Burchill
+  username: zburchill
+  email: zburchill@bcs.rochester.edu
+  department: BCS
+  blurb: >
+    I'm interested in language adaptation, production, and comprehension, but I haven't narrowed my
+    focus much as of yet. Other areas that have caught my curiosity include binomial word order,
+    text-setting, and synchronous speech.
+
+- name: Esteban Buz
+  username: ebuz
+  email: ebuz@bcs.rochester.edu
+  department: BCS
+  homepage: http://www.bcs.rochester.edu/people/ebuz/
+  blurb: >
+    My interests are in phonetic production and variation, audience design and computational models
+    of speaker behavior. My current focus is on if speakers behave in a boundedly rational way during
+    phonetic production.
+
+- name: Dave Kleinschmidt
+  username: dkleinschmidt
+  email: dkleinschmidt@bcs.rochester.edu
+  department: BCS
+  homepage: http://www.bcs.rochester.edu/people/dkleinschmidt/
+  blurb: >
+    I'm interested in computational modeling and speech perception, and specifically in developing
+    models of how phonetic categories are learned and deployed that are plausible from linguistic,
+    computational, neural, and developmental perspectives. I'm also interested in how phonetic categories
+    interact with lexical representations.
+
+- name: Linda Liu
+  username: lliu
+  email: lliu@bcs.rochester.edu
+  department: BCS
+  blurb: >
+    I am interested in taking computational and experimental approaches to investigate sentence
+    comprehension, accent adaptation, and how listeners form structural generalizations across speaker
+    groups. I also have interests computational modeling, prosody, and cross-modality/domain work,
+    e.g. sign language and music cognition.

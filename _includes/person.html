@@ -1,0 +1,9 @@
+<table id="{{person.username}}" class="person">
+    <thead>
+        <tr><th width="100px"></th><th width="33%"></th><th width="33%"></th><th width="33%"></th></tr>
+    </thead>
+    <tbody>
+        <tr><td rowspan="2"><img src="/pics/{{person.username}}.jpg" height="100px" width="100px" alt=""/></td><td class="name">{{person.name}} ({{person.department}})</td><td><a href="mailto:{{person.email}}"></a></a></td><td><a href="{{person.homepage}}">[personal homepage]</a></td></tr>
+        <tr><td colspan="3">{{person.blurb}}</td></tr>
+    </tbody>
+</table>
