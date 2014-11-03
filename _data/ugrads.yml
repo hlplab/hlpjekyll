@@ -1,0 +1,40 @@
+# FIXME: setting all majors to BCS even though I know it's wrong for some
+- lastname: Chu
+  firstname: Becky
+  username: bchu
+  email: bchu@u.rochester.edu
+  major: BCS
+  gradyear: 2016
+  workswith: Mariya Fedzechkina
+
+- lastname: Cronin
+  firstname: Michaela
+  email: mcronin3@u.rochester.edu
+  username: mcronin
+  major: BCS
+  gradyear: 2015
+  workswith: Dave Kleinschmidt
+
+- lastname: Harris
+  firstname: Lindsey
+  email: linsey.harris@rochester.edu
+  username: lharris
+  major: BCS
+  gradyear: 2015
+  workswith: Esteban Buz
+
+- lastname: Leonard
+  firstname: Brian
+  email: bleonar5@u.rochester.edu
+  username: bleonard
+  major: BCS
+  gradyear: 2015
+  workswith: Esteban Buz
+
+- lastname: MacDonald
+  firstname: Anna
+  email: amacdon4@u.rochester.edu
+  username: amacdonald
+  major: BCS
+  gradyear: 2015
+  workswith: Esteban Buz

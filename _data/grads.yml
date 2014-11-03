@@ -1,4 +1,5 @@
-- name: Zach Burchill
+- lastname: Burchill
+  firstname: Zach
   username: zburchill
   email: zburchill@bcs.rochester.edu
   department: BCS
@@ -7,7 +8,8 @@
     focus much as of yet. Other areas that have caught my curiosity include binomial word order,
     text-setting, and synchronous speech.
 
-- name: Esteban Buz
+- lastname: Buz
+  firstname: Esteban
   username: ebuz
   email: ebuz@bcs.rochester.edu
   department: BCS
@@ -17,7 +19,8 @@
     of speaker behavior. My current focus is on if speakers behave in a boundedly rational way during
     phonetic production.
 
-- name: Dave Kleinschmidt
+- lastname: Kleinschmidt
+  firstname: Dave
   username: dkleinschmidt
   email: dkleinschmidt@bcs.rochester.edu
   department: BCS
@@ -28,7 +31,8 @@
     computational, neural, and developmental perspectives. I'm also interested in how phonetic categories
     interact with lexical representations.
 
-- name: Linda Liu
+- lastname: Liu
+  firstname: Linda
   username: lliu
   email: lliu@bcs.rochester.edu
   department: BCS
