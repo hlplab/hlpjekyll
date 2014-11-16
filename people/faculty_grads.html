@@ -1,0 +1,25 @@
+---
+layout: page
+title: HLP Lab People - Faculty, Postdocs, and Grads
+---
+
+{% if site.data.faculty %}
+<h2><a name="Faculty">Faculty</a></h2>
+{% for person in site.data.faculty | sort: 'lastname', 'firstname' %}
+{% include person.html %}
+{% endfor %}
+{% endif %}
+
+{% if site.data.postdocs %}
+<h2><a name="Postdocs">Postdocs</a></h2>
+{% for person in site.data.postdocs | sort: 'lastname', 'firstname' %}
+{% include person.html %}
+{% endfor %}
+{% endif %}
+
+{% if site.data.grads %}
+<h2><a name="Grads">Grad students</a></h2>
+{% for person in site.data.grads | sort: 'lastname', 'firstname' %}
+{% include person.html %}
+{% endfor %}
+{% endif %}
