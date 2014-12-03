@@ -1,0 +1,18 @@
+---
+layout: page
+title: HLP Lab People - Staff and Undergraduate RAs
+---
+
+{% if site.data.staff %}
+<h2><a name="staff">Staff</a></h2>
+{% for person in site.data.staff | sort: 'lastname', 'firstname' %}
+{% include person.html %}
+{% endfor %}
+{% endif %}
+
+{% if site.data.ugrads %}
+<h2><a name="ugrads">Current Undergraduate RAs</a></h2>
+{% for person in site.data.ugrads | sort: 'lastname', 'firstname' %}
+{% include ugrad.html %}
+{% endfor %}
+{% endif %}

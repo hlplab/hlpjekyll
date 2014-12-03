@@ -1,0 +1,15 @@
+- lastname: Watts
+  firstname: Andrew
+  username: awatts
+  email: awatts@mail.bcs.rochester.edu
+  department: BCS
+  blurb: >
+    I program and crap. FIXME: this should be better
+
+- lastname: Nikolayeva
+  firstname: Olga
+  username: onikolayeva
+  email: onikolayeva@bcs.rochester.edu
+  department: BCS
+  blurb: >
+    FIXME: FILL THIS IN
