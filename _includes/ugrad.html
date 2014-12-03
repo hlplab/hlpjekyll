@@ -4,15 +4,13 @@
         <img src="/pics/{{person.username}}.jpg" height="250px" width="250px" alt=""/>
       </div>
       <div class="large-4 columns">
-        {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %} ({{person.major}}, {{person.gradyear}})
+        {{person.firstname}} {{person.lastname}} ({{person.major}}, {{person.gradyear}})
       </div>
-      <div class="large-4 columns">
+      <div class="large-2 columns">
+        <p>Works with: {{person.workswith}}</p>
+      </div>
+      <div class="large-2 columns">
         <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a><br/>
       </div>
-  </div>
-  <div class="row">
-    <div class="large-12 columns">
-      <p>{{person.blurb}}</p>
-    </div>
   </div>
 </div>
