@@ -1,6 +1,7 @@
 - lastname: Watts
   firstname: Andrew
   username: awatts
+  haspic: true
   email: awatts@mail.bcs.rochester.edu
   department: BCS
   blurb: >
@@ -9,6 +10,7 @@
 - lastname: Nikolayeva
   firstname: Olga
   username: onikolayeva
+  haspic: true
   email: onikolayeva@bcs.rochester.edu
   department: BCS
   blurb: >

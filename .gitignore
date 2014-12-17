@@ -1,2 +1,5 @@
 _site
 .sass-cache
+
+# Files MacOS leaves laying around
+._*

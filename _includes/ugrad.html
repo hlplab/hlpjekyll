@@ -1,16 +1,20 @@
 <div class="row" id="{{person.username}}" >
   <div class="row">
       <div class="large-4 columns">
+        {%if person.haspic %}
         <img src="/pics/{{person.username}}.jpg" height="250px" width="250px" alt=""/>
+        {% else %}
+        <img src="/pics/person.png" height="250px" width="250px" alt=""/>
+        {% endif %}
       </div>
       <div class="large-4 columns">
         {{person.firstname}} {{person.lastname}} ({{person.major}}, {{person.gradyear}})
       </div>
       <div class="large-2 columns">
-        <p>Works with: {{person.workswith}}</p>
+        <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a><br/>
       </div>
       <div class="large-2 columns">
-        <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a><br/>
+        <p>Works with: {{person.workswith}}</p>
       </div>
   </div>
 </div>

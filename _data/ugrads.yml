@@ -2,6 +2,7 @@
 - lastname: Chu
   firstname: Becky
   username: bchu
+  haspic: false
   email: bchu@u.rochester.edu
   major: BCS
   gradyear: 2016
@@ -11,6 +12,7 @@
   firstname: Michaela
   email: mcronin3@u.rochester.edu
   username: mcronin
+  haspic: false
   major: BCS
   gradyear: 2015
   workswith: Dave Kleinschmidt
@@ -19,6 +21,7 @@
   firstname: Lindsey
   email: linsey.harris@rochester.edu
   username: lharris
+  haspic: false
   major: BCS
   gradyear: 2015
   workswith: Esteban Buz
@@ -27,6 +30,7 @@
   firstname: Brian
   email: bleonar5@u.rochester.edu
   username: bleonard
+  haspic: false
   major: BCS
   gradyear: 2015
   workswith: Esteban Buz
@@ -35,6 +39,7 @@
   firstname: Anna
   email: amacdon4@u.rochester.edu
   username: amacdonald
+  haspic: false
   major: BCS
   gradyear: 2015
   workswith: Esteban Buz
