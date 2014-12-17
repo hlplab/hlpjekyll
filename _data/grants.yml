@@ -1,0 +1,67 @@
+- years: 2013-2018
+  amount: $1,576,134
+  agency: <a href="http://nih.gov/">NIH</a>
+  award: NIHCD R01 HD075797
+  description: Phonetic adaptation as (near-)rational learning in a variable environment
+  link: http://projectreporter.nih.gov/project_info_description.cfm?projectnumber=1R01HD075797-01
+
+- years: 2012-2013
+  amount: $40,000
+  agency: University of Rochester
+  award: Provost’s Multidisciplinary Award
+  description: Communicative Pressures in Language and in Music
+  copis:
+    name: David Temperley
+    link: http://theory.esm.rochester.edu/temperley/
+- years: 2012-2013
+  amount: $16,000
+  agency: <a href="http://www.nsf.gov/">NSF</a>
+  award: REUs for NSF IIS-1150028
+  description: >
+    CAREER: Communicative Efficiency and Adaptiveness in the Ideal Speaker
+  link: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1150028
+
+- years: 2012-2017
+  amount: $519,834
+  agency: <a href="http://www.nsf.gov/">NSF</a>
+  award: >
+    NSF IIS-1150028: CAREER
+  description: Communicative Efficiency and Adaptiveness in the Ideal Speaker
+  link: http://www.nsf.gov/awardsearch/showAward?AWD_ID=1150028
+
+- years: 2011-2013
+  amount: $50,000
+  agency: <a href="http://www.sloan.org/">Alfred P. Sloan Foundation</a>
+  award: BR2011-092
+  description: >
+    Alfred P. Sloan Research Fellowship [118 researchers in math, economics,
+    neuroscience, computer science, and biology in the US and Canada]
+
+- years: 2009-2012
+  amount: $97,654
+  agency: <a href="http://www.nsf.gov/">NSF</a>
+  award: BCS-0844472
+  description: Bayesian Cue Integration in Probability-Sensitive Language Processing
+  link: http://nsf.gov/awardsearch/showAward.do?AwardNumber=0845059
+  copis: <a href="http://tedlab.mit.edu/tedlab_website/People.html#TedGibson">E. Gibson (MIT)
+
+- years: 2009-2011
+  amount: $286,895
+  agency: <a href="http://www.nsf.gov/">NSF</a>
+  award: BCS-0848353
+  description: >
+    Studying Language Production in the Field: Accessibility Effect on Variation
+  link: http://nsf.gov/awardsearch/showAward.do?AwardNumber=0848353
+  copis:
+    name: Jürgen Bohnemeyer
+    affiliation: SUNY at Buffalo
+    link: http://www.acsu.buffalo.edu/~jb77/
+- years: 2008-2009
+  amount: $23,000
+  agency: <a href="http://www.rochester.edu/">UR</a>
+  award: Provost's Multidisciplinary Award
+  description: >
+    Computational Psycholinguistics: Integrating Computational and Behavioral Methods to Study Human Language Processing
+  summary: ExecutiveSummary2009.pdf
+  presentation: JaegerGildeaLenhartTanenhaus-woAnimation.pdf
+  copis: <a href="http://www.cs.rochester.edu/u/gildea/">D. Gildea</a>, <a href="http://www.cs.rochester.edu/u/schubert/">L. Shubert</a>, <a href="http://www.bcs.rochester.edu/people/faculty/tanenhaus_michael/index.html">M. Tanenhaus</a>

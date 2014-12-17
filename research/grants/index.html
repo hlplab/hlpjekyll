@@ -19,73 +19,15 @@ title: Research Grants
     <tr><th>Years</th><th>Amount</th><th>Agency</th><th>Award</th><th>Title</th><th>Co-PIs</th></tr>
   </thead>
   <tbody>
+    {% for grant in site.data.grants %}
     <tr>
-      <td>2013-2018</td>
-      <td>$1,576,134</td>
-      <td><a href="http://nih.gov/">NIH</a></td>
-      <td>NIHCD R01 HD075797</td>
-      <td>Phonetic adaptation as (near-)rational learning in a variable environment
-      [<a href="http://projectreporter.nih.gov/project_info_description.cfm?projectnumber=1R01HD075797-01">Summary</a>]</td>
-      <td></td>
+      <td>{{grant.years}}</td>
+      <td>{{grant.amount}}</td>
+      <td>{{grant.agency}}</td>
+      <td>{{grant.award}}</td>
+      <td>{{grant.description}} {% if grant.link %}[<a href="{{grant.link}}">Summary</a>]{% endif %}</td>
+      <td>{% if grant.copis %}{% if grant.copis.link %}<a href="{{grant.copis.link}}">{% endif %}{{grant.copis.name}}{% if grant.copis.link %}</a>{% endif %}{% endif %}</td>
     </tr>
-    <tr>
-      <td>2012-2013</td>
-      <td>$40,000</td>
-      <td>University of Rochester</td>
-      <td>Provost’s Multidisciplinary Award</td>
-      <td>Communicative Pressures in Language and in Music</td>
-      <td><a href="http://theory.esm.rochester.edu/temperley/">D. Temperley </a></td>
-    </tr>
-    <tr>
-      <td>2012-2013</td>
-      <td>$16,000</td>
-      <td><a href="http://www.nsf.gov/">NSF</a></td>
-      <td>REUs for NSF IIS-1150028</td>
-      <td>CAREER: Communicative Efficiency and Adaptiveness in the Ideal Speaker
-      [<a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1150028">Summary</a>]</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>2012-2017</td>
-      <td>$519,834</td>
-      <td><a href="http://www.nsf.gov/">NSF</a></td>
-      <td>NSF IIS-1150028: CAREER</td>
-      <td>Communicative Efficiency and Adaptiveness in the Ideal Speaker
-      [<a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1150028">Summary</a>]</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>2011-2013</td>
-      <td>$50,00</td>
-      <td><a href="http://www.sloan.org/">Alfred P. Sloan Foundation</a></td>
-      <td>BR2011-092</td>
-      <td>Alfred P. Sloan Research Fellowship [118 researchers in math, economics,
-        neuroscience, computer science, and biology in the US and Canada]</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>2009-2012</td>
-      <td>$97,654</td>
-      <td><a href="http://www.nsf.gov/">NSF</a></td>
-      <td>BCS-0844472</td>
-      <td>Bayesian Cue Integration in Probability-Sensitive Language Processing [<a href="http://nsf.gov/awardsearch/showAward.do?AwardNumber=0845059">Summary</a>]</td>
-      <td><a href="http://tedlab.mit.edu/tedlab_website/People.html#TedGibson">E. Gibson (MIT)</a></td>
-    </tr>
-    <tr>
-      <td>2009-2011</td>
-      <td>$286,895</td>
-      <td><a href="http://www.nsf.gov/">NSF</a></td>
-      <td>BCS-0848353</a></td>
-      <td>Studying Language Production in the Field: Accessibility Effect on Variation [<a href="http://nsf.gov/awardsearch/showAward.do?AwardNumber=0848353">Summary</a>]</td>
-      <td><a href="http://www.acsu.buffalo.edu/~jb77/">J. Bohnemeyer (UB)</a></td>
-    </tr>
-    <tr>
-      <td>2008-2009</td>
-      <td>$23,000</td>
-      <td><a href="http://www.rochester.edu/">UR</a></td>
-      <td>Provost's Multidisciplinary Award</td>
-      <td>Computational Psycholinguistics: Integrating Computational and Behavioral Methods to Study Human Language Processing [<a href="ExecutiveSummary2009.pdf">Summary</a>] [<a href="JaegerGildeaLenhartTanenhaus-woAnimation.pdf">Presentation</a>]</td>
-      <td><a href="http://www.cs.rochester.edu/u/gildea/">D. Gildea</a>, <a href="http://www.cs.rochester.edu/u/schubert/">L. Shubert</a>, <a href="http://www.bcs.rochester.edu/people/faculty/tanenhaus_michael/index.html">M. Tanenhaus</a></td>
-    </tr>
+    {% endfor %}
   </tbody>
 </table>
