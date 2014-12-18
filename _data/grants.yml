@@ -11,8 +11,9 @@
   award: Provost’s Multidisciplinary Award
   description: Communicative Pressures in Language and in Music
   copis:
-    name: David Temperley
-    link: http://theory.esm.rochester.edu/temperley/
+    - name: David Temperley
+      link: http://theory.esm.rochester.edu/temperley/
+
 - years: 2012-2013
   amount: $16,000
   agency: <a href="http://www.nsf.gov/">NSF</a>
@@ -53,9 +54,9 @@
     Studying Language Production in the Field: Accessibility Effect on Variation
   link: http://nsf.gov/awardsearch/showAward.do?AwardNumber=0848353
   copis:
-    name: Jürgen Bohnemeyer
-    affiliation: SUNY at Buffalo
-    link: http://www.acsu.buffalo.edu/~jb77/
+    - name: Jürgen Bohnemeyer
+      affiliation: SUNY at Buffalo
+      link: http://www.acsu.buffalo.edu/~jb77/
 - years: 2008-2009
   amount: $23,000
   agency: <a href="http://www.rochester.edu/">UR</a>
@@ -64,4 +65,10 @@
     Computational Psycholinguistics: Integrating Computational and Behavioral Methods to Study Human Language Processing
   summary: ExecutiveSummary2009.pdf
   presentation: JaegerGildeaLenhartTanenhaus-woAnimation.pdf
-  copis: <a href="http://www.cs.rochester.edu/u/gildea/">D. Gildea</a>, <a href="http://www.cs.rochester.edu/u/schubert/">L. Shubert</a>, <a href="http://www.bcs.rochester.edu/people/faculty/tanenhaus_michael/index.html">M. Tanenhaus</a>
+  copis:
+     - name: Dan Gildea
+       link: http://www.cs.rochester.edu/u/gildea/
+     - name: Len Shubert
+       link: http://www.cs.rochester.edu/u/schubert/
+     - name: Mike Tanenhaus
+       link: http://www.bcs.rochester.edu/people/faculty/tanenhaus_michael/index.html
