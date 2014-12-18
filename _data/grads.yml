@@ -2,6 +2,7 @@
   firstname: Zach
   username: zburchill
   email: zburchill@bcs.rochester.edu
+  haspic: true
   department: BCS
   blurb: >
     I'm interested in language adaptation, production, and comprehension, but I haven't narrowed my
@@ -12,6 +13,7 @@
   firstname: Esteban
   username: ebuz
   email: ebuz@bcs.rochester.edu
+  haspic: true
   department: BCS
   homepage: http://www.bcs.rochester.edu/people/ebuz/
   blurb: >
@@ -23,6 +25,7 @@
   firstname: Dave
   username: dkleinschmidt
   email: dkleinschmidt@bcs.rochester.edu
+  haspic: true
   department: BCS
   homepage: http://www.bcs.rochester.edu/people/dkleinschmidt/
   blurb: >
@@ -35,6 +38,7 @@
   firstname: Linda
   username: lliu
   email: lliu@bcs.rochester.edu
+  haspic: true
   department: BCS
   blurb: >
     I am interested in taking computational and experimental approaches to investigate sentence

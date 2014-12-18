@@ -1,2 +1,103 @@
-# TODO: Fill this in with graduate alumni
-# Don't forget to add their current employer
+- lastname: Corbin
+  firstname: Samuel
+  username: scorbin
+  haspic: false
+  email: scorbin@bcs.rochester.edu
+  department: BCS
+  degree: MA
+  year: 2014
+
+- lastname: Degen
+  firstname: Judith
+  username: jdegen
+  haspic: false
+  email: jdegen@stanford.edu
+  department: BCS
+  degree: PhD
+  year: 2013
+  homepage: https://sites.google.com/site/judithdegen/home
+  current: Post doctoral researcher, Department of Psychology, Stanford University
+
+- lastname: Van Durme
+  firstname: Benjamin
+  username: vandurme
+  haspic: true
+  email: vandurme@cs.jhu.edu
+  department: CS
+  degree: PhD
+  year: 2010
+  homepage: http://www.cs.jhu.edu/~vandurme/
+  current: Assistant Research Professor, Department of Computer Science, Johns Hopkins University
+
+- lastname: Fedzechkina
+  firstname: Maryia
+  username: mfedzechkina
+  haspic: true
+  email: mashaf@bcs.rochester.edu
+  department: BCS
+  degree: PhD
+  year: 2014
+  homepage: http://www.bcs.rochester.edu/people/mfedzechkina/files/Home.html
+  current: Post doctoral fellow, Department of Psychology, University of Pennsylvania
+
+- lastname: Fine
+  firstname: Alex
+  username: afine
+  haspic: true
+  email: afine@bcs.rochester.edu
+  department: BCS, Ling
+  degree: PhD
+  year: 2013
+  homepage: http://internal.psychology.illinois.edu/~abfine/AlexFineHome.html
+  current: Lady Davis Fellow, Hebrew University of Jerusalem
+
+- lastname: Frank
+  firstname: Austin
+  username: afrank
+  haspic: false
+  email: afrank@bcs.rochester.edu
+  department: BCS
+  degree: PhD
+  year: 2010
+  current: Senior Data Scientist at Riot Games and Research Scientist at Amazon.com
+
+- lastname: Gómez Gallo
+  firstname: Carlos
+  username: cgomez
+  haspic: false
+  email: cgomez@cs.rochester.edu
+  department: CS
+  degree: PhD
+  year: 2011
+
+- lastname: Klein
+  firstname: Natalie
+  username: nklein
+  haspic: false
+  email: nklein@bcs.rochester.edu
+  department: BCS
+  degree: PhD
+  year: 2011
+  current: Senior Human Subjects Protection Scientist, US Army Office of Research Protections, Fort Detrick, MD
+
+- lastname: Post
+  firstname: Matt
+  username: mpost
+  haspic: true
+  email: post@cs.jhu.edu
+  department: CS
+  degree: PhD
+  year: 2010
+  homepage: http://cs.jhu.edu/~post/index.html
+  current: Research Scientist, Department of Computer Science, Johns Hopkins University
+
+- lastname: Qian
+  firstname: Ting
+  username: tqian
+  haspic: false
+  email: ting.qian@rochester.edu
+  department: BCS
+  degree: PhD
+  year: 2014
+  homepage: http://www.bcs.rochester.edu/people/tqian/
+  current: Post doctoral fellow, Department of Cognitive, Linguistic, and Psychological Sciences, Brown University

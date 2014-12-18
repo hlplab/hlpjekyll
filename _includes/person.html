@@ -1,7 +1,11 @@
 <div class="row" id="{{person.username}}" >
   <div class="row">
       <div class="large-4 columns">
+        {%if person.haspic %}
         <img src="/pics/{{person.username}}.jpg" height="250px" width="250px" alt=""/>
+        {% else %}
+        <img src="/pics/person.png" height="250px" width="250px" alt=""/>
+        {% endif %}
       </div>
       <div class="large-4 columns">
         {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %} ({{person.department}})

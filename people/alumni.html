@@ -1,0 +1,44 @@
+---
+layout: page
+title: HLP Lab People - Alumni
+---
+
+<h2>Alumni</h2>
+
+{% if site.data.postdoc_alumni %}
+<h3><a name="Post-doc Alumni">Post-doc Alumni</a></h3>
+{% for person in site.data.postdoc_alumni | sort: 'lastname', 'firstname' %}
+{% include person.html %}
+{% endfor %}
+{% endif %}
+
+{% if site.data.grad_alumni %}
+<h2><a name="Graduate Alumni">Graduate Alumni</a></h2>
+{% for person in site.data.grad_alumni | sort: 'lastname', 'firstname' %}
+<div class="row" id="{{person.username}}" >
+    <div class="large-4 columns">
+      {%if person.haspic %}
+      <img src="/pics/{{person.username}}.jpg" height="250px" width="250px" alt=""/>
+      {% else %}
+      <img src="/pics/person.png" height="250px" width="250px" alt=""/>
+      {% endif %}
+    </div>
+    <div class="large-4 columns">
+      {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %} ({{person.department}})<br/>
+      {{person.degree}} ({{person.year}})<br/>
+      {% if person.current %}<br/>{{person.current}}{% endif %}
+    </div>
+    <div class="large-4 columns">
+      <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a><br/>
+    </div>
+</div>
+<hr/>
+{% endfor %}
+{% endif %}
+
+{% if site.data.ugrad_alumni %}
+<h2><a name="Undergraduate Alumni">Undergraduate Alumni</a></h2>
+{% for person in site.data.ugrad_alumni | sort: 'lastname', 'firstname' %}
+{% include person.html %}
+{% endfor %}
+{% endif %}
