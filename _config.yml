@@ -9,6 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.hlp.rochester.edu" # the base hostname & protocol for your site
 twitter_username: _hlplab_
 github_username:  hlplab
+bitbucket_username: hlplab
 
 # Build settings
 markdown: kramdown
