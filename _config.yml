@@ -10,6 +10,7 @@ url: "https://www.hlp.rochester.edu" # the base hostname & protocol for your sit
 twitter_username: _hlplab_
 github_username:  hlplab
 bitbucket_username: hlplab
+wordpress_username: hlplab
 
 # Build settings
 markdown: kramdown

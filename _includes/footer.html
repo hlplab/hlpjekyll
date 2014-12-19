@@ -50,6 +50,14 @@
             </a>
           </li>
           {% endif %}
+
+          {% if site.wordpress_username %}
+          <li>
+            <a href="https://{{site.wordpress_username}}.wordpress.com/" class="svg webicon wordpress">
+              <span class="username">{{ site.wordpress_username }}</span>
+            </a>
+          </li>
+          {% endif %}
         </ul>
       </div>
 
