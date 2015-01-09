@@ -14,3 +14,11 @@ wordpress_username: hlplab
 
 # Build settings
 markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: /news/:year/:month/:day/:title.html
