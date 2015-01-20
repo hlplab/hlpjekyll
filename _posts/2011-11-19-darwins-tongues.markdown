@@ -2,7 +2,8 @@
 layout: post
 title:  "Darwin’s tongues: Languages, like genes, can tell evolutionary tales"
 date:   2011-11-19 11:59:59
-categories: language
+tags: language
+categories: news
 ---
 
 ## [ScienceNews, 11/19/2011](http://www.sciencenews.org/view/feature/id/335805)

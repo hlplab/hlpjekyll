@@ -2,7 +2,8 @@
 layout: post
 title:  "Tongue Twisters Topic of Students’ Studies"
 date:   2013-03-01 11:59:59
-categories: undergrads research
+tags: undergrads research
+categories: news
 ---
 
 ## [The Buzz - March 1, 2013](http://www.rochester.edu/thebuzz/?p=7032)

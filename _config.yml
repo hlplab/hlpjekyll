@@ -17,10 +17,11 @@ markdown: kramdown
 
 exclude: [deploywww.sh]
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: /news/:year/:month/:day/:title.html
+#defaults:
+#  -
+#    scope:
+#      path: ""
+#      type: "posts"
+#    values:
+#      permalink: /news/:year/:month/:day/:title.html
+#

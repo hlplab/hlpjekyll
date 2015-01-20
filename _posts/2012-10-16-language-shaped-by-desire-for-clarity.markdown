@@ -2,7 +2,8 @@
 layout: post
 title:  "Language is shaped by brain’s desire for clarity and ease"
 date:   2012-10-16 11:59:59
-categories: efficient language
+tags: efficient language
+categories: news
 ---
 
 ## [University of Rochester News, 10/16/12](http://www.rochester.edu/news/show.php?id=4672)

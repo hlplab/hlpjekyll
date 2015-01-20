@@ -2,7 +2,8 @@
 layout: post
 title:  "Two University of Rochester Scientists Awarded Sloan Fellowships"
 date:   2011-03-04 11:59:59
-categories: efficient language
+tags: efficient language
+categories: news
 ---
 
 ## [University of Rochester News, 03/04/2011](http://rochester.edu/news/show.php?id=3777)
