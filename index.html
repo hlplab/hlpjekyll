@@ -2,22 +2,34 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home catchy">
+  <div class="row">
+    <div class="large-4 columns contactus">
+      <a class="button radius" href="/research/participate/">Participate in an Experiment</a>
+      <a class="button radius" href="/contact/">Contact</a>
+    </div>
+    <div class="large-8 columns">
+      <h1 class="page-heading">HLP Lab In the news</h1>
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+            <h3>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h3>
+          </li>
+        {% endfor %}
+      </ul>
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-8 columns">
+      <a class="twitter-timeline" href="https://twitter.com/_hlplab_" data-widget-id="545294009972035584">Tweets by @_hlplab_</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+    <div class="large-4 columns">
+    </div>
+  </div>
 </div>
