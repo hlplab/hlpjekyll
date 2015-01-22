@@ -7,8 +7,8 @@
     department: Linguistics
     institution: <a href="http://www.uchicago.edu/">University of Chicago</a>
   homepage: http://home.uchicago.edu/~lemieux/
-  start: Fall Semester 2009
-  end: Fall Semester 2009
+  start: 2009-08-30
+  end: 2009-12-22
 
 - lastname: Kerz
   firstname: Elma
@@ -103,8 +103,8 @@
     department: Neurobiology of Language department
     institution: <a href="http://www.mpi.nl/">Max Planck Institute for Psycholinguistics</a>
   homepage: http://geertjevanbergen.com/
-  start: 2015-03-??
-  end: 2015-04-??
+  start: 2015-03-01
+  end: 2015-04-01
   funding: 3-year Innovational Research Incentive / Veni grant by the Netherlands Organisation for Scientific Research (NWO)
   blurb: >
     In my research project I investigate the role of discourse markers of expectation
@@ -123,8 +123,8 @@
     department: Linguistics and Basque Studies
     institution: <a href="http://www.ehu.eus/">University of Basque Country</a>
   homepage: http://www.ehu.eus/HEB/idoia_ros/
-  start: 2015-03-??
-  end: 2015-06-??
+  start: 2015-03-01
+  end: 2015-06-01
   funding: >
     Ayuda a la movilidad predoctoral para la realización de estancias breves en
     centros de I+D del Ministerio de Competitividad y Economía de España".
