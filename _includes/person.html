@@ -2,21 +2,26 @@
   <div class="row">
       <div class="large-4 columns">
         {%if person.haspic %}
-        <img src="/pics/{{person.username}}.jpg" height="250px" width="250px" alt=""/>
+          {% assign picname = "/pics/USERNAME.jpg"|replace:'USERNAME',person.username |prepend: site.baseurl  %}
+        <img src="{{ picname }}" height="250px" width="250px" alt=""/>
         {% else %}
-        <img src="/pics/person.png" height="250px" width="250px" alt=""/>
+        <img src="{{ "/pics/person.png" |prepend: site.baseurl }}" height="250px" width="250px" alt=""/>
         {% endif %}
       </div>
-      <div class="large-4 columns">
-        {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %} ({{person.department}})
+      <div class="large-8 columns">
+        <div class="row">
+          <div class="large-6 columns">
+            {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %} ({{person.department}})
+          </div>
+          <div class="large-6 columns">
+            <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a><br/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-12 columns">
+            <p>{{person.blurb}}</p>
+          </div>
+        </div>
       </div>
-      <div class="large-4 columns">
-        <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a><br/>
-      </div>
-  </div>
-  <div class="row">
-    <div class="large-12 columns">
-      <p>{{person.blurb}}</p>
-    </div>
   </div>
 </div>

@@ -1,0 +1,139 @@
+- lastname: Lemieux
+  firstname: Alice
+  username: alemieux
+  haspic: false
+  affiliation:
+    role: Graduate student
+    department: Linguistics
+    institution: <a href="http://www.uchicago.edu/">University of Chicago</a>
+  homepage: http://home.uchicago.edu/~lemieux/
+  start: Fall Semester 2009
+  end: Fall Semester 2009
+
+- lastname: Kerz
+  firstname: Elma
+  username: ekerz
+  haspic: true
+  affiliation:
+    role: Wissenschaftlicher Mitarbeiter
+    institution: <a href="http://www.rwth-aachen.de/go/id/bdz/">RWTH Aachen</a>
+  homepage: http://www.elmakerz.de/
+  start: 2009-09-26
+  end: 2009-10-13
+
+- lastname: van Bergen
+  firstname: Geertje
+  username: gvanbergen
+  haspic: true
+  affiliation:
+    role: Graduate student
+    department: Linguistics
+    institution: <a href="http://www.ru.nl/english/">Radboud University Nijmegen</a>
+  homepage: http://geertjevanbergen.com/
+  start: 2010-04-26
+  end: 2010-05-15
+
+- lastname: Berthele
+  firstname: Raphael
+  username: rberthele
+  haspic: false
+  affiliation:
+    role: Professor and Director
+    department: Institute for Multilingualism
+    institution: <a href="http://www.unifr.ch/home/welcomeE.php">University of Fribourg</a>
+  homepage: http://www.institute-multilingualism.ch/en/Staff/board-of-directors/Raphael-Berthele
+  start: 2011-03-28
+  end: 2011-04-21
+
+- lastname: Hörberg
+  firstname: Thomas
+  username: thorberg
+  haspic: false
+  affiliation:
+    role: Graduate student
+    department: Linguistics
+    institution: <a href="http://www.su.se/english/">Stockholm University</a>
+  homepage: http://www.ling.su.se/pub/jsp/polopoly.jsp?d=14331&a=81539
+  start: 2011-04-06
+  end: 2011-04-30
+
+- lastname: Linzen
+  firstname: Tal
+  username: tlinzen
+  email: linzen@nyu.edu
+  haspic: false
+  affiliation:
+    role: Graduate student
+    department: Linguistics
+    institution: <a href="http://www.nyu.edu/">NYU</a>
+  homepage: http://tallinzen.net/
+  start: 2012-06-20
+  end: 2012-06-30
+
+- lastname: Schepens
+  firstname: Job
+  username: jschepens
+  haspic: false
+  affiliation:
+    role: Graduate student
+    department: Centre for Language Studies
+    institution: <a href="http://www.ru.nl/english/">Radboud University</a>
+  homepage: https://sites.google.com/site/jobschepens/
+  start: 2014-01-13
+  end: 2014-05-30
+
+- lastname: Montero Melis
+  firstname: Guillermo
+  username: gmelis
+  haspic: false
+  affiliation:
+    role: Graduate student
+    department: Centre for Research on Bilingualism
+    institution: <a href="http://www.su.se/english/"> Stockholm University</a>
+  homepage: http://www.biling.su.se/english/about-us/contact/staff-and-phd-students/guillermo-montero-melis-1.91597
+  start: 2014-04-13
+  end: 2014-05-02
+
+- lastname: van Bergen
+  firstname: Geertje
+  username: gvanbergen
+  haspic: true
+  affiliation:
+    role: Research staff member
+    department: Neurobiology of Language department
+    institution: <a href="http://www.mpi.nl/">Max Planck Institute for Psycholinguistics</a>
+  homepage: http://geertjevanbergen.com/
+  start: 2015-03-??
+  end: 2015-04-??
+  funding: 3-year Innovational Research Incentive / Veni grant by the Netherlands Organisation for Scientific Research (NWO)
+  blurb: >
+    In my research project I investigate the role of discourse markers of expectation
+    (such as actually, in fact, indeed, of course) in incremental sentence processing,
+    using eye tracking (visual world) and EEG. During my stay in Rochester I would
+    like to present my project plans and discuss my experimental designs. Also ,
+    I will possibly run an EEG study on the influence of language on object perception
+    (as part of a joined project with Monique Flecken).
+
+- lastname: Ros
+  firstname: Idoia
+  username: iros
+  haspic: false
+  affiliation:
+    role: Graduate student
+    department: Linguistics and Basque Studies
+    institution: <a href="http://www.ehu.eus/">University of Basque Country</a>
+  homepage: http://www.ehu.eus/HEB/idoia_ros/
+  start: 2015-03-??
+  end: 2015-06-??
+  funding: >
+    Ayuda a la movilidad predoctoral para la realización de estancias breves en
+    centros de I+D del Ministerio de Competitividad y Economía de España".
+    (Short-term visit Grant from the Spanish Ministry of Competitiviy and Economy).
+  blurb: >
+    During my visit at the Human Language Processing Lab, I'm planning to run a
+    cross-linguistic study on the effect of information structure on linguistic form.
+    The first study is looking at the basic effects of contrast on constituent order
+    and prosody in language production in English and Basque, while later experiments
+    will focus on common vs. privileged ground.
+
+# When possible, have funding and blurb
