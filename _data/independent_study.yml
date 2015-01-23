@@ -1,0 +1,205 @@
+- lastname: Chu
+  firstname: Becky
+  major: BCS
+  term: Summer
+  year: 2014
+  project: Processing biases that shape language acquisition
+  advisor: Masha Fedzechkina
+  thesis: false
+  funding: Bishop Award for Excellence in Undergraduate Research
+
+- lastname: Partridge
+  firstname: Eric
+  major:
+    - BCS
+    - Psychology
+  term: Spring
+  year: 2012
+  project: Production at the two-word stage
+  advisor: Masha Fedzechkina
+  thesis: false
+
+- lastname: Krishnan
+  firstname: Shreya
+  term: Spring
+  year: 2012
+  project: Production at the two-word stage
+  advisor: Masha Fedzechkina
+  thesis: false
+
+- lastname: Davison
+  firstname: Thomas
+  major:
+    - Poltical Science
+    - BCS
+  term: Spring
+  year: 2012
+  project: Effects of linguistic and musical training on language processing
+  advisor:
+    - Alex Fine
+    - Dave Kleinschmidt
+  thesis: false
+
+- lastname: Lisandrelli
+  firstname: Grace
+  major:
+    - BCS
+    - Psychology
+  term: Spring
+  year: 2012
+  project: Effects of linguistic and musical training on language processing
+  advisor:
+    - Alex Fine
+    - Dave Kleinschmidt
+  thesis: false
+
+- lastname: Gogos
+  firstname: Narissa
+  major: BCS
+  term: Spring
+  year: 2012
+  project: Effects of linguistic and musical training on language processing
+  advisor:
+    - Alex Fine
+    - Dave Kleinschmidt
+  thesis: false
+
+- lastname: Kremer
+  firstname: Peter
+  term: Spring
+  year: 2012
+  project: Audience Design
+  advisor:
+    - Jenny Roche
+    - Esteban Buz
+  thesis: false
+
+- lastname: Fleming
+  firstname: Justin
+  major: BCS
+  term: Spring
+  year: 2012
+  project: Audience Design
+  advisor:
+    - Jenny Roche
+    - Esteban Buz
+  thesis: false
+
+- lastname: Cannon
+  firstname: Grace
+  term: Spring
+  year: 2012
+  project: Audience Design
+  advisor:
+    - Jenny Roche
+    - Esteban Buz
+  thesis: false
+
+- lastname: Hansen-Karr
+  firstname: Camber
+  major: BCS
+  term: Spring
+  year: 2011
+  project: Syntactic persistence and social attitude
+  advisor: T. Florian Jaeger
+  thesis: false
+
+- lastname: Stanley
+  firstname: Tara
+  major: BCS
+  term: Spring
+  year: 2011
+  project: Functional biases in language acquisition
+  advisor: Masha Fedzechkina
+  thesis: false
+
+- lastname: Gutman
+  firstname: Jacqueline
+  major: BCS
+  term: Spring
+  year: 2010
+  project: Ambiguity Avoidance and Adaptation
+  advisor: T. Florian Jaeger
+  thesis: false
+  funding: Bilski-Mayer research fellowship
+
+- lastname: Dolan
+  firstname: Colleen
+  major: BCS
+  term: Spring
+  year: 2010
+  project: Processing and Word Order Acquisition
+  advisor:
+    - T. Florian Jaeger
+    - Masha Fedzechkina
+  thesis: false
+
+- lastname: Glass
+  firstname: Rebecca
+  major: BCS
+  term: Spring
+  year: 2010
+  project: Processing and Word Order Acquisition
+  advisor:
+    - T. Florian Jaeger
+    - Masha Fedzechkina
+  thesis: false
+
+- lastname: Hilliard
+  firstname: Caitlin
+  major:
+    - BCS
+    - ASL
+  term: Spring
+  year: 2010
+  project: Phonological similarity effects on sentence production
+  advisor: T. Florian Jaeger
+  thesis: false
+
+- lastname: Housel
+  firstname: Katrina
+  major: BCS
+  term: Spring
+  year: 2010
+  project: Phonological similarity effects on sentence production
+  advisor: T. Florian Jaeger
+  thesis: true
+  funding: Bishop Award for Excellence in Undergraduate Research
+
+- lastname: Tran
+  firstname: Jane
+  major: Psychology
+  term: Spring
+  year: 2010
+  project: Cross-linguistic syntactic priming
+  advisor:
+    - T. Florian Jaeger
+    - Ting Qian
+  thesis: false
+
+- lastname: Perlman
+  firstname: Amanda
+  term: Fall
+  year: 2009
+  project: Ambiguity Avoidance in Reducible Subject Relatives
+  advisor: T. Florian Jaeger
+  thesis: false
+
+- lastname: Gutman
+  firstname: Jacqueline
+  major: BCS
+  term: Fall
+  year: 2009
+  project: Ambiguity Avoidance in Reducible Subject Relatives
+  advisor: T. Florian Jaeger
+  thesis: false
+
+- lastname: Qian
+  firstname: Ting
+  major: BCS
+  term: Fall
+  year: 2008
+  project: Efficiency of Language Production in Native and Non-native Speakers
+  advisor: T. Florian Jaeger
+  thesis: true
+  funding: Bishop Award for Excellence in Undergraduate Research
