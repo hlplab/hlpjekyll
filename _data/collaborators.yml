@@ -1,0 +1,34 @@
+- name: Evelina Fedorenko
+  url: http://web.mit.edu/evelina9/www/
+  university: MIT
+  department: BCS
+
+- name: Peter Graff
+  url: http://web.mit.edu/graff/www/
+  university: MIT
+  department: Linguistics and Philosophy
+
+- name: Jane Grimshaw
+  url: https://sites.google.com/site/janegrimshaw/
+  university: Rutgers University
+  department: Linguistics
+
+- name: Dan Jurafsky
+  url: http://www.stanford.edu/~jurafsky/
+  university: Stanford
+  department: Linguistics
+
+- name: Cheyenne Munson
+  url: http://www2.psychology.uiowa.edu/students/munson/
+  university: University of Iowa
+  department: Psychology
+
+- name: Tom Wasow
+  url: http://www.stanford.edu/~wasow/
+  university: Stanford
+  department: Linguistics
+
+- name: Kodi Weatherholz
+  url: http://www.ling.ohio-state.edu/~kweatherholtz/
+  university: The Ohio State University
+  department: Linguistics
