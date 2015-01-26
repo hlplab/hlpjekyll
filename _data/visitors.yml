@@ -61,7 +61,7 @@
   firstname: Tal
   username: tlinzen
   email: linzen@nyu.edu
-  haspic: false
+  haspic: true
   affiliation:
     role: Graduate student
     department: Linguistics
@@ -73,7 +73,7 @@
 - lastname: Schepens
   firstname: Job
   username: jschepens
-  haspic: false
+  haspic: true
   affiliation:
     role: Graduate student
     department: Centre for Language Studies
@@ -81,6 +81,12 @@
   homepage: https://sites.google.com/site/jobschepens/
   start: 2014-01-13
   end: 2014-05-30
+  blurb: >
+    I came to the lab to study second language learnability depending on language
+    background and other factors such as age and exposure. The larger the linguistic
+    gaps learners need to bridge, the lower the learnability. We adopted a large-scale
+    approach, making use of testing scores, typological data, and mixed effects
+    regression modeling.
 
 - lastname: Montero Melis
   firstname: Guillermo
