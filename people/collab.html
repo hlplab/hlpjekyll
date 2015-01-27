@@ -1,0 +1,37 @@
+---
+layout: page
+title: Collaborators
+---
+
+<h3>Collaborating Labs</h3>
+<table id="labs">
+  <thead>
+      <tr><th>Lab</th><th>PI</th><th>University</th><th>Department</th></tr>
+  </thead>
+  <tbody>
+    {% for lab in site.data.collab_labs %}
+    <tr>
+      <td>{% if lab.lab_url %}<a href="{{lab.lab_url}}">{% endif %}{{lab.lab}}{% if lab.lab_url %}</a>{% endif %}</td>
+      <td>{% if lab.pi_url %}<a href="{{lab.pi_url}}">{% endif %}{{lab.pi}}{% if lab.pi_url %}</a>{% endif %}</td>
+      <td>{{lab.university}}</td>
+      <td>{{lab.department}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h3>Other Collaborators</h3>
+<table id="collaborators">
+  <thead>
+      <tr><th>Name</th><th>University</th><th>Department</th></tr>
+  </thead>
+  <tbody>
+  {% for collab in site.data.collaborators %}
+  <tr>
+    <td><a href="{{collab.url}}">{{collab.name}}</a></td>
+    <td>{{collab.university}}</td>
+    <td>{{collab.department}}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
