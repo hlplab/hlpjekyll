@@ -13,7 +13,7 @@ title: Independent Study Students
   <tbody>
     {% for student in row.items %}
     <tr>
-      <td>{{student.firstname}} {{student.lastname}}</td>
+      <td>{{student.firstname}} {{student.lastname}}{% if student.funding %}<a href="#funding">*</a>{% endif %}</td>
       <td>{% if student.major %}{{student.major |join:', '}}{% endif %}</td>
       <td>{{student.term}}, {{student.year}}</td>
       <td>{{student.project}}</td>
@@ -24,3 +24,18 @@ title: Independent Study Students
   </tbody>
 </table>
 {% endfor %}
+
+{% assign funding = site.data.independent_study | group_by:'funding' %}
+<ul><a name="funding"></a>
+{% for source in funding%}
+{% if source.name != '' %}
+<li>Research supported by a {{source.name}}:
+  <ul>
+    {% for student in source.items %}
+    <li>{{student.firstname}} {{student.lastname}}</li>
+    {% endfor %}
+  </ul>
+</li>
+{% endif %}
+{% endfor %}
+</ul>
