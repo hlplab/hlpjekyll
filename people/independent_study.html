@@ -5,37 +5,45 @@ title: Independent Study Students
 
 {% assign grouped_students = site.data.independent_study | group_by:'year' %}
 {% for row in grouped_students %}
-<h2>{{row.name}}</h2>
-<table id="students_{{row.name}}">
-  <thead>
-    <tr><th>Name</th><th>Major</th><th>Research Semester</th><th>Research Title</th><th>Advisor</th><th>BA Thesis?</th></tr>
-  </thead>
-  <tbody>
-    {% for student in row.items %}
-    <tr>
-      <td>{{student.firstname}} {{student.lastname}}{% if student.funding %}<a href="#funding">*</a>{% endif %}</td>
-      <td>{% if student.major %}{{student.major |join:', '}}{% endif %}</td>
-      <td>{{student.term}}, {{student.year}}</td>
-      <td>{{student.project}}</td>
-      <td>{{student.advisor |join:', '}}</td>
-      <td>{% if student.thesis %}Yes{% else %}No{% endif %}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+<div class="row">
+  <div class="large-12 columns">
+  <h2>{{row.name}}</h2>
+    <table id="students_{{row.name}}">
+      <thead>
+        <tr><th>Name</th><th>Major</th><th>Research Semester</th><th>Research Title</th><th>Advisor</th><th>BA Thesis?</th></tr>
+      </thead>
+      <tbody>
+        {% for student in row.items %}
+        <tr>
+          <td>{{student.firstname}} {{student.lastname}}{% if student.funding %}<a href="#funding">*</a>{% endif %}</td>
+          <td>{% if student.major %}{{student.major |join:', '}}{% endif %}</td>
+          <td>{{student.term}}, {{student.year}}</td>
+          <td>{{student.project}}</td>
+          <td>{{student.advisor |join:', '}}</td>
+          <td>{% if student.thesis %}Yes{% else %}No{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
 {% endfor %}
 
-{% assign funding = site.data.independent_study | group_by:'funding' %}
-<ul><a name="funding"></a>
-{% for source in funding%}
-{% if source.name != '' %}
-<li>Research supported by a {{source.name}}:
-  <ul>
-    {% for student in source.items %}
-    <li>{{student.firstname}} {{student.lastname}}</li>
+<div class="row">
+  <div class="large-12 columns">
+    {% assign funding = site.data.independent_study | group_by:'funding' %}
+    <ul><a name="funding"></a>
+    {% for source in funding%}
+    {% if source.name != '' %}
+    <li>Research supported by a {{source.name}}:
+      <ul>
+        {% for student in source.items %}
+        <li>{{student.firstname}} {{student.lastname}}</li>
+        {% endfor %}
+      </ul>
+    </li>
+    {% endif %}
     {% endfor %}
-  </ul>
-</li>
-{% endif %}
-{% endfor %}
-</ul>
+    </ul>
+  </div>
+</div>
