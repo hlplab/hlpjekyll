@@ -3,7 +3,13 @@
 {{ reference }}
 
 {% if entry.abstract %}
-<p>{{ entry.abstract }}</p>
+<p>Abstract: {{ entry.abstract }}</p>
 {% endif %}
 
+{% if entry.keywords %}
+<p>Keywords: {{ entry.keywords }}</p>
+{% endif %}
+
+{% comment %}
 <pre>{{ entry.bibtex }}</pre>
+{% endcomment %}

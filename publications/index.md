@@ -3,4 +3,18 @@ layout: page
 title: Publications
 ---
 
-{% bibliography %}
+You can find all our papers on [academia.edu](http://www.academia.edu/).
+
+## Submitted
+{% bibliography --query @*[year=Submitted] %}
+
+## In Press
+{% bibliography --query @*[year=In Press] %}
+
+## In Prep
+{% bibliography --query @*[year=In Prep] %}
+
+{% for year in (2005..2013) reversed %}
+## {{year}}
+{% bibliography --query @*[year={{year}}] %}
+{% endfor %}
