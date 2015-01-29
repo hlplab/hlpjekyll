@@ -20,10 +20,13 @@ exclude: [deploywww.sh]
 gems: ['jekyll/scholar']
 
 scholar:
-  sort_by: year
-  order: descending
+  style: elsevier-harvard
+  sort_by: name
   bibliography: hlplab.bib
   bibliography_template: bib
+  bibtex_filters:
+    - latex
+    #- urllink
 
 #defaults:
 #  -

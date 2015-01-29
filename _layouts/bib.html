@@ -1,15 +1,27 @@
 ---
 ---
 {{ reference }}
-
-{% if entry.abstract %}
-<p>Abstract: {{ entry.abstract }}</p>
-{% endif %}
-
+<br/>
 {% if entry.keywords %}
 <p>Keywords: {{ entry.keywords }}</p>
 {% endif %}
 
-{% comment %}
+{% if entry.abstract %}
+<a data-dropdown="{{entry.key|replace:':',''}}_abstract" aria-controls="{{entry.key|replace:':',''}}_abstract" aria-expanded="false">[Abstract]</a>
+<div id="{{entry.key|replace:':',''}}_abstract" data-dropdown-content class="large f-dropdown content" aria-hidden="true" tabindex="-1">
+  <p>Abstract: {{ entry.abstract }}</p>
+</div>
+{% endif %}
+
+{% if entry.doi %}
+<a href="http://dx.doi.org/{{entry.doi}}">[DOI]</a>
+{% endif %}
+
+{% if entry.url %}
+<a href="{{entry.url}}">[Paper]</a>
+{% endif %}
+
+<a data-dropdown="{{entry.key|replace:':',''}}_bibtex" aria-controls="{{entry.key|replace:':',''}}_bibtex" aria-expanded="false">[BibTeX]</a>
+<div id="{{entry.key|replace:':',''}}_bibtex" data-dropdown-content class="large f-dropdown content" aria-hidden="true" tabindex="-1">
 <pre>{{ entry.bibtex }}</pre>
-{% endcomment %}
+</div>
