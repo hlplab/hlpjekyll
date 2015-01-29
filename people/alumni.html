@@ -19,23 +19,12 @@ title: HLP Lab People - Alumni
       {% endif %}
     </div>
     <div class="large-8 columns">
-      <div class="row">
-        <div class="large-6 columns">
-          {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %} ({{person.department}})<br/>
-          {{person.range}}
-        </div>
-        <div class="large-6 columns">
-          <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a><br/>
-        </div>
-      </div>
+      <ul>
+        <li><b>Name</b>: {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %} <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a></li>
+        <li><b>Range</b>: {{person.range}}</li>
+        {% if person.current %}<li><b>Current position</b>: {{person.current}}</li>{% endif %}
+      </ul>
     </div>
-  </div>
-  <div class="row">
-    {% if person.current %}
-    <div class="large-12 columns">
-      {{person.current}}
-    </div>
-    {% endif %}
   </div>
 </div>
 <hr/>
@@ -56,23 +45,12 @@ title: HLP Lab People - Alumni
       {% endif %}
     </div>
     <div class="large-8 columns">
-      <div class="row">
-        <div class="large-6 columns">
-          {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %} ({{person.department}})<br/>
-          {{person.degree}} ({{person.year}})<br/>
-        </div>
-        <div class="large-6 columns">
-          <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a><br/>
-        </div>
-      </div>
-  </div>
-  </div>
-  <div class="row">
-    {% if person.current %}
-    <div class="large-12 columns">
-      {{person.current}}
+      <ul>
+        <li><b>Name</b>: {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %} <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a></li>
+        <li><b>Degree</b>: {{person.degree}} ({{person.department}}) {{person.year}}</li>
+        {% if person.current %}<li><b>Current position</b>: {{person.current}}</li>{% endif %}
+      </ul>
     </div>
-    {% endif %}
   </div>
 </div>
 {% unless forloop.last %}
