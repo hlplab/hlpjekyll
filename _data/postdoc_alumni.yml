@@ -4,7 +4,9 @@
   haspic: true
   email: kbicknell@northwestern.edu
   department: BCS
-  range: Summer 2013 - Spring 2014
+  range:
+    start: Summer 2013
+    end: Spring 2014
   homepage: http://faculty.wcas.northwestern.edu/kbicknell
   current: Assistant professor, Department of Linguistics, Northwestern University
 
@@ -14,7 +16,9 @@
   haspic: false
   email: lkbutler@email.arizona.edu
   department: BCS
-  range: Fall 2009 - Winter 2012
+  range:
+    start: Fall 2009
+    end: Winter 2012
   homepage: http://www.hlp.rochester.edu/~lbutler/
 
 - lastname: Farmer
@@ -23,7 +27,9 @@
   haspic: true
   email: thomas-farmer@uiowa.edu
   department: BCS
-  range: Fall 2010-Summer 2012
+  range:
+    start: Fall 2010
+    end: Summer 2012
   homepage: https://sites.google.com/site/thomasfarmeruniversityofiowa/
   current: Assistant professor, Department of Psychology, University of Iowa
 
@@ -33,7 +39,9 @@
   haspic: false
   email: scottfraundorf@gmail.com
   department: BCS
-  range: Fall 2013 - Summer 2014
+  range:
+    start: Fall 2013
+    end: Summer 2014
   homepage: http://www.scottfraundorf.com/
   current: Assistant Professor, Department of Psychology, University of Pittsburgh
 
@@ -43,7 +51,9 @@
   haspic: false
   email: bpajak@bcs.rochester.edu
   department: BCS
-  range: Fall 2012 - Spring 2014
+  range:
+    start: Fall 2012
+    end: Spring 2014
   current: Research faculty, Department of Linguistics, Northwestern University
 
 - lastname: Roche
@@ -52,7 +62,9 @@
   haspic: false
   email: jroche3@kent.edu
   department: BCS
-  range: Fall 2011 - Spring 2014
+  range:
+    start: Fall 2011
+    end: Spring 2014
   homepage: http://www.jennyroche.com/
   current: Assistant Professor, Department of Speech Pathology & Audiology Kent State University
 
@@ -62,6 +74,8 @@
   haspic: false
   email: snider@alumni.stanford.edu
   department: BCS, Ling
-  range: Fall 2008 -Spring 2010
+  range:
+    start: Fall 2008
+    end: Spring 2010
   homepage: http://www.hlp.rochester.edu/~nsnider/
   current: Research Manager, Natural Language Understanding at Nuance Communications
