@@ -73,7 +73,7 @@
 - lastname: Klein
   firstname: Natalie
   username: nklein
-  haspic: false
+  haspic: true
   email: nklein@bcs.rochester.edu
   department: BCS
   degree: PhD
@@ -94,7 +94,7 @@
 - lastname: Qian
   firstname: Ting
   username: tqian
-  haspic: false
+  haspic: true
   email: ting.qian@rochester.edu
   department: BCS
   degree: PhD

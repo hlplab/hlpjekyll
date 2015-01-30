@@ -36,7 +36,7 @@
 - lastname: Fraundorf
   firstname: Scott
   username: sfraundorf
-  haspic: false
+  haspic: true
   email: scottfraundorf@gmail.com
   department: BCS
   range:
@@ -59,7 +59,7 @@
 - lastname: Roche
   firstname: Jenny
   username: jroche
-  haspic: false
+  haspic: true
   email: jroche3@kent.edu
   department: BCS
   range:
@@ -71,7 +71,7 @@
 - lastname: Snider
   firstname: Neal
   username: nsnider
-  haspic: false
+  haspic: true
   email: snider@alumni.stanford.edu
   department: BCS, Ling
   range:
