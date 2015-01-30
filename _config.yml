@@ -13,7 +13,10 @@ bitbucket_username: hlplab
 wordpress_username: hlplab
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks", "footnotes"]
 
 exclude: [deploywww.sh]
 
