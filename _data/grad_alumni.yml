@@ -54,12 +54,12 @@
 - lastname: Frank
   firstname: Austin
   username: afrank
-  haspic: false
+  haspic: true
   email: afrank@bcs.rochester.edu
   department: BCS
   degree: PhD
   year: 2010
-  current: Senior Data Scientist at Riot Games and Research Scientist at Amazon.com
+  current: Senior Data Scientist at Riot Games
 
 - lastname: Gómez Gallo
   firstname: Carlos
