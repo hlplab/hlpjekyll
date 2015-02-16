@@ -3,9 +3,40 @@
       <div class="large-3 columns">
         <img src="{{ "/pics/UR.v2.png" |prepend: site.baseurl }}" width="164" height="133">
       </div>
+      <div class="large-6 columns">
+        <ul class="inline-list">
+          <li>
+            <a href="https://github.com/{{ site.github_username }}" class="item">
+              <img src="{{site.baseurl}}/webicons/webicon-github.svg" width="40" height="40">
+            </a>
+          </li>
+          <li>
+            <a href="https://bitbucket.org/{{ site.bitbucket_username }}" class="item">
+              <img src="{{site.baseurl}}/webicons/webicon-bitbucket.svg" width="40" height="40">
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/{{ site.twitter_username }}" class="item">
+              <img src="{{site.baseurl}}/webicons/webicon-twitter.svg" width="40" height="40">
+            </a>
+          </li>
+          <li>
+            <a href="https://{{site.wordpress_username}}.wordpress.com/" class="item">
+              <img src="{{site.baseurl}}/webicons/webicon-wordpress.svg" width="40" height="40">
+            </a>
+          </li>
+          <li>
+            <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="item">
+              <img src="{{site.baseurl}}/webicons/webicon-rss.svg" width="40" height="40">
+            </a>
+          </li>
+        </ul>
+        Copyright&#169; 2007-2015 HLP Lab - University of Rochester
+      </div>
       <div class="large-3 columns">
-        <h2 class="footer-heading">{{ site.title }}</h2>
+        <!-- <h2 class="footer-heading">{{ site.title }}</h2>-->
         <ul class="vcard">
+          <li class="fn">HLP Lab</li>
           <li class="street-address">RC Box 270268, Meliora Hall</li>
           <li class="street-address">University of Rochester</li>
           <li class="locality">Rochester, <span class="state">NY</span>, <span class="zip">14627-0268</span></li>
@@ -13,39 +44,10 @@
           <li class="email"><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
-      <div class="large-3 columns">
-        <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-5">
-          <li>
-            <a href="https://github.com/{{ site.github_username }}" class="svg webicon large github">
-
-              <span class="username">{{ site.github_username }}</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://bitbucket.org/{{ site.bitbucket_username }}" class="svg webicon large bitbucket">
-              <span class="username">{{ site.bitbucket_username }}</span>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}" class="svg webicon large twitter">
-              <span class="username">{{ site.twitter_username }}</span>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://{{site.wordpress_username}}.wordpress.com/" class="svg webicon large wordpress">
-              <span class="username">{{ site.wordpress_username }}</span>
-            </a>
-          </li>
-
-          <li>
-            <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="svg webicon large rss"> Subscribe via RSS</a>
-          </li>
-        </ul>
-      </div>
+      {% comment %}
       <div class="large-3 columns">
         <p class="text">{{ site.description }}</p>
       </div>
+      {% endcomment %}
     </div>
 </footer>

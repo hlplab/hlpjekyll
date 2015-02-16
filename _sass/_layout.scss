@@ -106,6 +106,10 @@
     background: linear-gradient(to bottom, $grey-color-light, #666666);
 }
 
+.site-footer ul.vcard {
+  border: none;
+}
+
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
