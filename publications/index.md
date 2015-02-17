@@ -14,7 +14,7 @@ You can find all our papers on [academia.edu](http://www.academia.edu/).
 ## In Prep
 {% bibliography --query @*[year=In Prep] %}
 
-{% for year in (2005..2013) reversed %}
+{% for year in (2005..2014) reversed %}
 ## {{year}}
 {% bibliography --query @*[year={{year}}] %}
 {% endfor %}
