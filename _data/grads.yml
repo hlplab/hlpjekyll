@@ -45,3 +45,20 @@
     comprehension, accent adaptation, and how listeners form structural generalizations across speaker
     groups. I also have interests computational modeling, prosody, and cross-modality/domain work,
     e.g. sign language and music cognition.
+
+- lastname: Pogue
+  firstname: Amanda
+  username: apogue
+  email: apogue@bcs.rochester.edu
+  haspic: true
+  department: BCS
+
+- lastname: Seifeldin
+  firstname: Maryam
+  username: mseifeldin
+  email: mseifeldin@bcs.rochester.edu
+  haspic: true
+  department: BCS
+  blurb: >
+    I am interested in how higher-level implicit knowledge of the sociolinguistic
+    distribution of feature variation can affect adaptive strategies in sentence processing.

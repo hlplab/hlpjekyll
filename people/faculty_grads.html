@@ -15,7 +15,7 @@ title: HLP Lab People - Faculty, Postdocs, and Grads
 
 {% if site.data.postdocs %}
 <h2><a name="Postdocs">Postdocs</a></h2>
-{% assign sorted_postdocs = site.data.grads |sort: 'lastname' %}
+{% assign sorted_postdocs = site.data.postdocs |sort: 'lastname' %}
 {% for person in sorted_postdocs %}
 {% include person.html %}
 {% unless forloop.last %}

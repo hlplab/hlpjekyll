@@ -7,7 +7,8 @@ title: HLP Lab People - Alumni
 
 {% if site.data.postdoc_alumni %}
 <h3><a name="Post-doc Alumni">Post-doc Alumni</a></h3>
-{% for person in site.data.postdoc_alumni | sort: 'lastname', 'firstname' %}
+{% assign sorted_postdocs = site.data.postdoc_alumni |sort: 'lastname' %}
+{% for person in sorted_postdocs %}
 <div class="row" id="{{person.username}}">
   <div class="row">
     <div class="large-4 columns">
@@ -33,7 +34,8 @@ title: HLP Lab People - Alumni
 
 {% if site.data.grad_alumni %}
 <h2><a name="Graduate Alumni">Graduate Alumni</a></h2>
-{% for person in site.data.grad_alumni | sort: 'lastname', 'firstname' %}
+{% assign sorted_grads = site.data.grad_alumni |sort: 'lastname' %}
+{% for person in sorted_grads %}
 <div class="row" id="{{person.username}}">
   <div class="row">
     <div class="large-4 columns">
@@ -61,7 +63,19 @@ title: HLP Lab People - Alumni
 
 {% if site.data.ugrad_alumni %}
 <h2><a name="Undergraduate Alumni">Undergraduate Alumni</a></h2>
-{% for person in site.data.ugrad_alumni | sort: 'lastname', 'firstname' %}
-{% include person.html %}
-{% endfor %}
-{% endif %}
+<div class="row">
+  <div class="large-12 columns">
+    {% assign sorted_ugrads = site.data.ugrad_alumni |sort: 'lastname' %}
+    <table id="undergrad_alumni">
+      <thead>
+        <tr><th>Name</th><th>Major</th><th>Worked With</th><th>Graduation Year</th></tr>
+      </thead>
+      <tbody>
+    {% for person in sorted_ugrads %}
+      <tr><td>{{person.firstname}} {{person.lastname}}</td><td>{{person.major|join:', '}}</td><td>{{person.workedwith|join:', '}}</td><td>{{person.gradyear}}</td></tr>
+    {% endfor %}
+      </tbody>
+    </table>
+    {% endif %}
+  </div>
+</div>
