@@ -12,15 +12,16 @@ layout: default
     {{ content }}
   </article>
 
-  <p>Tagged with: {{ page.tags | join: ', ' }}</p>
+  {% comment %}Ideally, use site.tags.TAG to make a link to a page with all pages with tag{% endcomment %}
+  <p>Tagged with: {{ page.tags | array_to_sentence_string }}</p>
 
   <div id="post-nav" class="clearfix">
     {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+    <a class="prev" href="{{page.previous.url |prepend: site.baseurl}}">&laquo; {{page.previous.title}}</a>
     {% endif %}
     {% if page.previous.url and page.next.url %} | {% endif %}
     {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+    <a class="next" href="{{page.next.url |prepend: site.baseurl}}">{{page.next.title}} &raquo;</a>
     {% endif %}
   </div>
 

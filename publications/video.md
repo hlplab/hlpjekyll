@@ -5,7 +5,8 @@ title: Video and audio Presentations
 
 ## Colloquium talks
 
-  * Jaeger, T. Florian. Speakers' preferences at choice points in language production facilitate efficient communication. Rutgers University colloquium talk (Part 1 of 2) April, 2010. [Theora video ( 45M)] [MP4 video (130M)] [Watch online]
+  * Jaeger, T. Florian. Speakers' preferences at choice points in language production facilitate efficient communication. Rutgers University colloquium talk (Part 1 of 2) April, 2010.
+  <iframe width="420" height="315" src="https://www.youtube.com/embed/1fFkO7xV0SY" frameborder="0" allowfullscreen></iframe>
   * Jaeger, T. Florian. Penn State Young Scientists talk. January, 2010. [MP3 audio ( 20M)]
 
 ## Workshop Materials
@@ -16,5 +17,5 @@ title: Video and audio Presentations
 
 ## Undergrad Research Expo 2008
 
-  * Housel, Katrina. Phonological Priming in Spontaneous Speech Production. University of Rochester Undergrad Rearch Exposition April, 2008. [MPEG4 Video (197M)] [PPT Slides (1.6M)]
-  * Qian, Ting. Investigating Information Distribution in Chinese and Chinese English. University of Rochester Undergrad Rearch Exposition April, 2008. [MPEG4 video (247M)] [PPTX Slides (481K)]
+  * Housel, Katrina. Phonological Priming in Spontaneous Speech Production. University of Rochester Undergrad Rearch Exposition April, 2008. [PPT Slides (1.6M)] <iframe width="420" height="315" src="https://www.youtube.com/embed/up-oIc0d0i8" frameborder="0" allowfullscreen></iframe>
+  * Qian, Ting. Investigating Information Distribution in Chinese and Chinese English. University of Rochester Undergrad Rearch Exposition April, 2008.  [PPTX Slides (481K)] <iframe width="420" height="315" src="https://www.youtube.com/embed/G28Bea6cRIo" frameborder="0" allowfullscreen></iframe>

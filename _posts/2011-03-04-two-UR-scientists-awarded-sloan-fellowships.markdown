@@ -13,4 +13,4 @@ categories: news
   > $50,000 over two years from the Sloan Foundation. They are among 118 scholars
   > chosen for the honor this year.
 
-![Sloan Foundation logo](/pics/sloan.gif)
+![Sloan Foundation logo]({{"/pics/sloan.gif"|prepend: site.baseurl}})

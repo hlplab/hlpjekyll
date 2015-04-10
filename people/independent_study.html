@@ -3,12 +3,31 @@ layout: page
 title: Independent Study Students
 ---
 
-{% assign grouped_students = site.data.independent_study | group_by:'year' %}
+<div class="row">
+  <div class="large-12 columns">
+    {% assign funding = site.data.independent_study | group_by:'funding' %}
+    <ul><a name="funding"></a>
+    {% for source in funding%}
+    {% if source.name != '' %}
+    <li>Research supported by a {{source.name}}:
+      <ul>
+        {% for student in source.items %}
+        <li>{{student.firstname}} {{student.lastname}}</li>
+        {% endfor %}
+      </ul>
+    </li>
+    {% endif %}
+    {% endfor %}
+    </ul>
+  </div>
+</div>
+
+{% assign grouped_students = site.data.independent_study | sort:'year'| reverse| group_by:'year' %}
 {% for row in grouped_students %}
 <div class="row">
   <div class="large-12 columns">
   <h2>{{row.name}}</h2>
-    <table id="students_{{row.name}}">
+    <table id="students_{{row.name}}" style="width: 100%;">
       <thead>
         <tr><th>Name</th><th>Major</th><th>Research Semester</th><th>Research Title</th><th>Advisor</th><th>BA Thesis?</th></tr>
       </thead>
@@ -28,22 +47,3 @@ title: Independent Study Students
   </div>
 </div>
 {% endfor %}
-
-<div class="row">
-  <div class="large-12 columns">
-    {% assign funding = site.data.independent_study | group_by:'funding' %}
-    <ul><a name="funding"></a>
-    {% for source in funding%}
-    {% if source.name != '' %}
-    <li>Research supported by a {{source.name}}:
-      <ul>
-        {% for student in source.items %}
-        <li>{{student.firstname}} {{student.lastname}}</li>
-        {% endfor %}
-      </ul>
-    </li>
-    {% endif %}
-    {% endfor %}
-    </ul>
-  </div>
-</div>

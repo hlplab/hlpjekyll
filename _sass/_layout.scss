@@ -87,16 +87,6 @@
     }
 }
 
-.catchy {
-  background-image: url("../pics/testpattern.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.contactus {
-  background-color: rgba($background-color, 0.6);
-}
-
 /**
  * Site footer
  */
@@ -206,8 +196,6 @@
     font-size: 16px;
 }
 
-
-
 /**
  * Posts
  */
@@ -251,4 +239,72 @@
             font-size: 18px;
         }
     }
+}
+
+.post-preview {
+  font-size: small;
+}
+
+/**
+* People pages
+*/
+
+.person {
+  margin: 2rem 0 !important;
+
+.img-circular {
+  background-size: cover;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  display: block;
+  height: 200px;
+  width: 200px;
+  }
+}
+
+
+// Other stuff
+
+.catchy {
+  //background-image: url("../pics/testpattern.png");
+  background-image: url('../pics/neuron.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2rem;
+  min-height: 450px;
+}
+
+#hlpblurb {
+  background-color: rgba($background-color, 0.85);
+}
+
+.contactus {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+#hlpblurb p {
+  color: black;
+}
+
+#hlpblurb h2 {
+  color: $primary-color;
+}
+
+#hlpblurb h2 span{
+  color: darken($primary-color, 5%);
+  font-size: 120%;
+  font-weight: bold;
+}
+
+#wpfeed {
+  min-height: 150px;
+  max-height: 600px;
+  overflow: scroll;
+  background-color: rgba($background-color, 0.85);
+}
+
+.wp-entry {
+  list-style: none;
 }

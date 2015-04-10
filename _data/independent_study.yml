@@ -1,3 +1,42 @@
+- lastname: Keck
+  firstname: Christine
+  major: Psychology
+  term: Fall?
+  year: 2013
+  project: ?????
+  advisor: Masha Fedzechkina?
+  thesis: false
+
+- lastname: Menhaj
+  firstname: Delarom
+  major: Linguistics
+  term: Spring
+  year: 2013
+  project: The role of language experience in morphological acquisition
+  advisor: Masha Fedzechkina
+  thesis: false
+
+- lastname: Craycraft
+  firstname: Nicole
+  major: BCS
+  term: Spring
+  year: 2014
+  project: ????
+  advisor: Florian Jaeger
+  thesis: true
+  funding: Bilski-Mayer research fellowship
+
+- lastname: Blackley
+  firstname: Suzanne
+  major: BCS
+  term: Summer
+  year: 2014
+  project: >
+    Communicative influences on the acquisition of optional case systems: A
+    partner study using miniature artificial languages
+  advisor: Masha Fedzechkina
+  thesis: false
+
 - lastname: Chu
   firstname: Becky
   major: BCS
@@ -6,7 +45,7 @@
   project: Processing biases that shape language acquisition
   advisor: Masha Fedzechkina
   thesis: false
-  funding: Bishop Award for Excellence in Undergraduate Research
+  funding: Bilski-Mayer research fellowship
 
 - lastname: Partridge
   firstname: Eric

@@ -9,16 +9,10 @@ title: HLP Lab People - Alumni
 <h3><a name="Post-doc Alumni">Post-doc Alumni</a></h3>
 {% assign sorted_postdocs = site.data.postdoc_alumni |sort: 'lastname' %}
 {% for person in sorted_postdocs %}
-<div class="row" id="{{person.username}}">
+<div class="row person" id="{{person.username}}">
   <div class="row">
-    <div class="large-4 columns">
-      {%if person.haspic %}
-        {% assign picname = "/pics/USERNAME.jpg"|replace:'USERNAME',person.username |prepend: site.baseurl  %}
-      <img src="{{ picname }}" height="250px" width="250px" alt=""/>
-      {% else %}
-      <img src="{{ "/pics/person.png" |prepend: site.baseurl }}" height="250px" width="250px" alt=""/>
-      {% endif %}
-    </div>
+    {%comment%}Pics on this page should be 150x150{%endcomment%}
+    {% include roundpic.html %}
     <div class="large-8 columns">
       <ul>
         <li><b>Name</b>: {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %} <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a></li>
@@ -36,16 +30,9 @@ title: HLP Lab People - Alumni
 <h2><a name="Graduate Alumni">Graduate Alumni</a></h2>
 {% assign sorted_grads = site.data.grad_alumni |sort: 'lastname' %}
 {% for person in sorted_grads %}
-<div class="row" id="{{person.username}}">
+<div class="row person" id="{{person.username}}">
   <div class="row">
-    <div class="large-4 columns">
-      {%if person.haspic %}
-        {% assign picname = "/pics/USERNAME.jpg"|replace:'USERNAME',person.username |prepend: site.baseurl  %}
-      <img src="{{ picname }}" height="250px" width="250px" alt=""/>
-      {% else %}
-      <img src="{{ "/pics/person.png" |prepend: site.baseurl }}" height="250px" width="250px" alt=""/>
-      {% endif %}
-    </div>
+    {% include roundpic.html %}
     <div class="large-8 columns">
       <ul>
         <li><b>Name</b>: {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %} <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a></li>
@@ -66,7 +53,7 @@ title: HLP Lab People - Alumni
 <div class="row">
   <div class="large-12 columns">
     {% assign sorted_ugrads = site.data.ugrad_alumni |sort: 'lastname' %}
-    <table id="undergrad_alumni">
+    <table id="undergrad_alumni" style="width: 100%;">
       <thead>
         <tr><th>Name</th><th>Major</th><th>Worked With</th><th>Graduation Year</th></tr>
       </thead>

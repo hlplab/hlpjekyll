@@ -1,13 +1,6 @@
-<div class="row" id="{{person.username}}" >
+<div class="row person" id="{{person.username}}" >
   <div class="row">
-      <div class="large-4 columns">
-        {%if person.haspic %}
-          {% assign picname = "/pics/USERNAME.jpg"|replace:'USERNAME',person.username |prepend: site.baseurl  %}
-        <img src="{{ picname }}" height="250px" width="250px" alt=""/>
-        {% else %}
-        <img src="{{ "/pics/person.png" |prepend: site.baseurl }}" height="250px" width="250px" alt=""/>
-        {% endif %}
-      </div>
+      {% include roundpic.html %}
       <div class="large-8 columns">
         <div class="row">
           <div class="large-6 columns">

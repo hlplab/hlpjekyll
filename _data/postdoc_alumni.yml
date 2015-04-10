@@ -48,12 +48,13 @@
 - lastname: Pajak
   firstname: Bozena
   username: bpajak
-  haspic: false
-  email: bpajak@bcs.rochester.edu
+  haspic: true
+  email: bpajak@northwestern.edu
   department: BCS
   range:
     start: Fall 2012
-    end: Spring 2014
+    end: Summer 2014
+  homepage: https://bpajak.github.io/
   current: Research faculty, Department of Linguistics, Northwestern University
 
 - lastname: Roche
