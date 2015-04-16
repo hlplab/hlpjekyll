@@ -6,7 +6,7 @@ title: Independent Study Students
 <div class="row">
   <div class="large-12 columns">
     {% assign funding = site.data.independent_study | group_by:'funding' %}
-    <ul><a name="funding"></a>
+    <ul id="funding">
     {% for source in funding%}
     {% if source.name != '' %}
     <li>Research supported by a {{source.name}}:

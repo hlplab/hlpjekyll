@@ -4,7 +4,7 @@ title: HLP Lab People - Staff and Undergraduate RAs
 ---
 
 {% if site.data.staff %}
-<h2><a name="staff">Staff</a></h2>
+<h2 id="staff">Staff</h2>
 {% assign sorted_staff = site.data.staff |sort: 'lastname' %}
 {% for person in sorted_staff  %}
 {% include person.html %}
@@ -15,7 +15,7 @@ title: HLP Lab People - Staff and Undergraduate RAs
 {% endif %}
 
 {% if site.data.ugrads %}
-<h2><a name="ugrads">Current Undergraduate RAs</a></h2>
+<h2 id="ugrads">Current Undergraduate RAs</h2>
 {% assign sorted_ugrads = site.data.ugrads |sort: 'lastname' %}
 {% for person in sorted_ugrads %}
 {% include ugrad.html %}
