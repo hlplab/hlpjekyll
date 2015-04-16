@@ -3,3 +3,4 @@ _site
 
 # Files MacOS leaves laying around
 ._*
+.DS_Store
