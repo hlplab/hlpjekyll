@@ -15,7 +15,9 @@ We employ a variety of computational and behavioral paradigms (e.g., eye-trackin
 
 ## Learn more
 
-You can listen to and watch the following talk summarizing some of our work on efficiency in language production (given in April 2010 at Rutgers. Thanks to Chris Kourtev and Andrew Watts for preparing the flash movie). [[Video]]({{site.baseurl}}/florian_rutgers.html)
+You can listen to and watch the following talk summarizing some of our work on efficiency in language production (given in April 2010 at Rutgers. Thanks to Chris Kourtev and Andrew Watts for preparing the video).
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/1fFkO7xV0SY" frameborder="0" allowfullscreen></iframe>
 
 A list of [ongoing projects](http://wiki.bcs.rochester.edu/HlpLab/Projects) can be found in our lab wiki, and our publication page contains [presentations and papers about previous projects]({{site.baseurl}}/publications/). In case you're interested in our work, but do not have a background in psycholinguistics, here are some handbook references that may get you started:
 
