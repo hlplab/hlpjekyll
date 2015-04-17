@@ -21,7 +21,9 @@ redcarpet:
 
 exclude: [deploywww.sh]
 
-gems: ['jekyll/scholar']
+gems:
+  - 'jekyll/scholar'
+  - jekyll-sitemap
 
 scholar:
   style: elsevier-harvard
