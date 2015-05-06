@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Research Assistant
+custom_remote_js:
+  - //cdnjs.cloudflare.com/ajax/libs/html5media/1.1.8/html5media.js
 ---
 
 ## University Undergrad Jobs
@@ -37,56 +39,22 @@ The following videos make up a single item from an experiment with two different
   3. Two donuts, one man
   4. One donut, one man
 
-<!--
-  The <video> tag  should work in Firefox >= 3.5, Safari >= 4.0,
-  and Chrome >= 3.0. The default is to use Ogg Theora videos if
-  suppported, falling back on MPEG4, and then the Java applet takes
-  over if the <video> element isn't supported (e.g. IE or Opera).
-  See http://www.theora.org/cortado/
--->
+
 <video width="432" height="256" controls>
     <source src="givedonutman0.ogv" type="video/ogg" />
     <source src="givedonutman0.mp4" type="video/mp4" />
-    <object type="application/x-java-applet" width="432" height="256">
-        <param name="code" value="com.fluendo.player.Cortado.class" />
-        <param name="archive" value="http://theora.org/cortado.jar" />
-        <param name="url" value="givedonutman0.ogv"/>
-        <param name="audio" value="false"/>
-        <param name="autoPlay" value="false"/>
-    </object>
 </video>
 <video width="432" height="256" controls>
     <source src="givedonutman1.ogv" type="video/ogg" />
     <source src="givedonutman1.mp4" type="video/mp4" />
-    <object type="application/x-java-applet" width="432" height="256">
-        <param name="code" value="com.fluendo.player.Cortado.class" />
-        <param name="archive" value="http://theora.org/cortado.jar" />
-        <param name="url" value="givedonutman1.ogv"/>
-        <param name="audio" value="false"/>
-        <param name="autoPlay" value="false"/>
-    </object>
 </video>
 <video width="432" height="256" controls>
     <source src="givedonutman2.ogv" type="video/ogg" />
     <source src="givedonutman2.mp4" type="video/mp4" />
-    <object type="application/x-java-applet" width="432" height="256">
-        <param name="code" value="com.fluendo.player.Cortado.class" />
-        <param name="archive" value="http://theora.org/cortado.jar" />
-        <param name="url" value="givedonutman2.ogv"/>
-        <param name="audio" value="false"/>
-        <param name="autoPlay" value="false"/>
-    </object>
 </video>
 <video width="432" height="256" controls>
     <source src="givedonutman3.ogv" type="video/ogg" />
     <source src="givedonutman3.mp4" type="video/mp4" />
-    <object type="application/x-java-applet" width="432" height="256">
-        <param name="code" value="com.fluendo.player.Cortado.class" />
-        <param name="archive" value="http://theora.org/cortado.jar" />
-        <param name="url" value="givedonutman3.ogv"/>
-        <param name="audio" value="false"/>
-        <param name="autoPlay" value="false"/>
-    </object>
 </video>
 
 Further example videos are given at the following HLP Lab blog posting: [Follow up experiments on sentence production in Yucatec](http://hlplab.wordpress.com/2008/07/26/follow-up-experiments-on-sentence-production-in-yucatec/).
