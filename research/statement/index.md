@@ -5,6 +5,27 @@ title: Research Statement
 
 ## What type of research do we do?
 
+<ul class="hlp-orbit" data-orbit>
+  <li>
+    <img src="{{site.baseurl}}/pics/florian_katrina_yucatan.jpg" alt="Yucatec fieldworkd" />
+    <div class="orbit-caption">
+      T. Florian Jaeger and Katrina Housel Furth in the Yucatec doing fieldwork on Mayan in 2009
+    </div>
+  </li>
+  <li class="active">
+    <img src="{{site.baseurl}}/pics/testpattern_16x9.png" alt="A TV test pattern" />
+    <div class="orbit-caption">
+      People really need to give me some pictures
+    </div>
+  </li>
+  <li>
+    <img src="{{site.baseurl}}/pics/neuron_16x9.jpg" alt="A random neuron pic" />
+    <div class="orbit-caption">
+      Seriously guys, I'm just picking some random crap from Google Image Search
+    </div>
+  </li>
+</ul>
+
 **HLP lab research** focuses on language production and comprehension and the interaction between them. We use mathematical frameworks to develop computational models of how the systems underlying language processing and production facilitate robust communication and test them against behavioral data from speech, phonological, morphological, syntactic and discourse processing. This involves, to an increasing extent, research in **implicit distributional/statistical learning, adaptation to the statistics of the environments and how we adjust our processing and productions based on recent experience and feedback**. While most of our research focuses on online processing, we are also interested in how these mechanisms shape language over time, explaining historical language change and typological patterns through biases operating during language acquisition or throughout life.
 
 **In production**, we investigate how speakers plan their utterances and to what extent decision during incremental language production are guided by general computational principles (such as the uniform distribution of information over time or over planning units to minimize comprehension effort and to maximize information transfer; or efficient use of limited resources such as syntactic working memory). We investigate these decisions at many levels of linguistic representation, including phonological, morphological, and grammatical encoding; decision about speech rate at the lowest level of production; decisions about referential expressions (pronominalization; ellipsis); and decisions as to how to structure a discourse at higher levels of production.
@@ -17,7 +38,9 @@ We employ a variety of computational and behavioral paradigms (e.g., eye-trackin
 
 You can listen to and watch the following talk summarizing some of our work on efficiency in language production (given in April 2010 at Rutgers. Thanks to Chris Kourtev and Andrew Watts for preparing the video).
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/1fFkO7xV0SY" frameborder="0" allowfullscreen></iframe>
+<div class="flex-video">
+  <iframe width="420" height="315" src="https://www.youtube.com/embed/1fFkO7xV0SY" frameborder="0" allowfullscreen></iframe>
+</div>
 
 A list of [ongoing projects](http://wiki.bcs.rochester.edu/HlpLab/Projects) can be found in our lab wiki, and our publication page contains [presentations and papers about previous projects]({{site.baseurl}}/publications/). In case you're interested in our work, but do not have a background in psycholinguistics, here are some handbook references that may get you started:
 
