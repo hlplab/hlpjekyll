@@ -285,6 +285,10 @@
   padding: 1rem;
 }
 
+#contentrow, #contactinfo {
+  margin-left: 1rem;
+}
+
 #hlpblurb p {
   color: black;
 }
@@ -299,11 +303,21 @@
   font-weight: bold;
 }
 
+#hlpblurb h4 {
+  color: $primary-color;
+}
+
+#hlpblurb h4 span{
+  color: darken($primary-color, 5%);
+  font-size: 120%;
+  font-weight: bold;
+}
+
 #wpfeed {
   min-height: 150px;
-  max-height: 600px;
+  max-height: 700px;
   overflow: scroll;
-  background-color: rgba($background-color, 0.85);
+/*   background-color: rgba($background-color, 0.85); */
 }
 
 .wp-entry {

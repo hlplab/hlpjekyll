@@ -1,0 +1,81 @@
+---
+layout: default
+custom_remote_js:
+  - //cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js
+custom_local_js:
+  - gfeed
+---
+
+<div id="contactinfo" class="row">
+  <div class="large-3 columns">
+    <a class="button radius" href="{{ "/research/participate/" |prepend: site.baseurl }}">Participate in an Experiment</a>
+  </div>
+  <div class="large-3 columns end">
+    <a class="button radius" href="{{ "/contact/" |prepend: site.baseurl }}">Contact</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="large-10 large-offset-1 columns">
+    <ul class="hlp-orbit" data-orbit>
+      <li>
+        <img src="{{site.baseurl}}/pics/florian_katrina_yucatan.jpg" alt="Yucatec fieldworkd" />
+        <div class="orbit-caption">
+          T. Florian Jaeger and Katrina Housel Furth in the Yucatec doing fieldwork on Mayan in 2009
+        </div>
+      </li>
+      <li class="active">
+        <img src="{{site.baseurl}}/pics/testpattern_16x9.png" alt="A TV test pattern" />
+        <div class="orbit-caption">
+          People really need to give me some pictures
+        </div>
+      </li>
+      <li>
+        <img src="{{site.baseurl}}/pics/neuron_16x9.jpg" alt="A random neuron pic" />
+        <div class="orbit-caption">
+          Seriously guys, I'm just picking some random crap from Google Image Search
+        </div>
+      </li>
+    </ul>
+  </div>
+  <hr/>
+</div>
+
+
+ <div id="contentrow" class="row" data-equalizer>
+   <div class="large-4 columns" data-equalizer-watch>
+     <div id="twitterfeed">
+       {% include twitter_feed.html %}
+     </div>
+   </div>
+
+   <div id="hlpblurb" class="large-4 columns" data-equalizer-watch>
+     <img src="https://placehold.it/400x300&text=[HLP Logo]"/>
+     <h4><span>H</span>uman <span>L</span>anguage <span>P</span>rocessing <span>Lab</span></h4>
+     <p>Ut sagittis erat ac blandit accumsan. Nullam mollis sodales magna sed
+       mattis. Fusce sagittis sollicitudin tortor molestie mattis. In laoreet
+       consectetur dolor ut tristique. Proin accumsan magna ut orci ornare malesuada.
+       Vivamus lacinia sem auctor arcu sodales, in aliquam risus molestie. Morbi
+       pretium dapibus nisi, sit amet molestie dolor commodo non. Morbi non mauris
+       massa. Cras faucibus elementum tellus ornare tincidunt. Vivamus vulputate
+       nisi in orci commodo malesuada. Curabitur at tellus nec neque varius
+       pharetra eget in lectus. Etiam cursus leo quis est luctus mattis.
+     </p>
+   </div>
+
+   <div id="wpfeed" class="large-4 columns" data-equalizer-watch>
+       <div class="row">
+         <div class="large-9 columns">
+           <h1 class="page-heading"><a></a></h1>
+         </div>
+         <div class="large-3 columns">
+           <a class="rss"><img src="{{site.baseurl}}/webicons/webicon-rss.svg" alt="RSS" width="20" height="20"></a>
+         </div>
+       </div>
+       <div class="row">
+         <ul class="wp-entry">
+         </ul>
+       </div>
+   </div>
+
+   </div>
