@@ -266,58 +266,19 @@
 
 // Other stuff
 
-.catchy {
-  //background-image: url("../pics/testpattern.png");
-  background-image: url('../pics/neuron.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
-  min-height: 450px;
+#contactus {
+  margin-bottom: 8rem;
 }
 
-#hlpblurb {
-  background-color: rgba($background-color, 0.85);
-}
-
-.contactus {
-  margin: 1rem;
-  padding: 1rem;
-}
-
-#contentrow, #contactinfo {
-  margin-left: 1rem;
-}
-
-#hlpblurb p {
-  color: black;
-}
-
-#hlpblurb h2 {
-  color: $primary-color;
-}
-
-#hlpblurb h2 span{
-  color: darken($primary-color, 5%);
-  font-size: 120%;
-  font-weight: bold;
-}
-
-#hlpblurb h4 {
-  color: $primary-color;
-}
-
-#hlpblurb h4 span{
-  color: darken($primary-color, 5%);
-  font-size: 120%;
-  font-weight: bold;
+#contentrow {
+  margin-left: 2rem;
 }
 
 #wpfeed {
   min-height: 150px;
   max-height: 700px;
   overflow: scroll;
-/*   background-color: rgba($background-color, 0.85); */
+  margin-top: 6rem;
 }
 
 .wp-entry {
@@ -329,4 +290,28 @@ iframe[seamless] {
   border: 0px none transparent;
   padding: 0px;
   overflow: hidden;
+}
+
+#research {
+  //background-color: rgba($smoke, 0.85);
+  background-color:rgba(0, 70, 127, 0.85);
+  color: white;
+  padding: 2rem;
+}
+
+#research h3 {
+  color: $secondary-color;
+}
+
+#socialbuttons {
+  margin-top: 3rem;
+}
+
+.site-footer p {
+  font-size: small;
+}
+
+.site-footer ul.vcard {
+  font-size: small;
+  margin: 0; // vcard default has 1.25rem bottom margin
 }
