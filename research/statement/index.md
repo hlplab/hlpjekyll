@@ -26,7 +26,7 @@ variably rapid speeds of 3-7 syllables/second that are not under your
 control ... What then allows us to typically understand each other
 (though certainly not without the occasional problem)? Understanding the
 perceptual and motor inference processes that underlie our ability to
-robustly communicate, is the primary goal of research in my lab. To this
+robustly communicate, is the primary goal of research in HLP Lab. To this
 end, we study language comprehension and production, and the adaptive
 learning processes that facilitate message transfer despite noise in the
 environment and in our biological systems. We employ mathematical and
@@ -55,16 +55,16 @@ classes, words, and syntactic structures.
 Research in HLP Lab seeks to understand how these beliefs and
 uncertainty about them affect language understanding via prediction
 (e.g., Bicknell et al., 2014; Fine et al., 2010, 2013; Linzen and
-Jaeger, 2014). For example, we recently have investigated the *role of
-word-by-word entropy in parsing* written input (Linzen and Jaeger, 2014,
+Jaeger, 2014). For example, we recently have investigated the _role of
+word-by-word entropy in parsing_ written input (Linzen and Jaeger, 2014,
 in prep). In other recent research, we have investigated how much
 uncertainty listeners can maintain about the speech signal as it unfolds
 over time (Bicknell et al., 2014, in prep). This research suggests that
 the human brain compresses the high-dimensional speech signal in a way
 that even many syllables downstream, subphonetic details are readily
-recoverable. Furthermore, this work suggests that the *combination of
+recoverable. Furthermore, this work suggests that the _combination of
 information from the bottom-up acoustic signal and top-down constraints
-follows the principles of an ideal observer* (Bicknell et al., in prep).
+follows the principles of an ideal observer_ (Bicknell et al., in prep).
 
 **The lack of invariance problem and how we can understand each other at
 all.** This ability to integrate information from different sources into
@@ -82,10 +82,10 @@ overcomes this problem. We have proposed that the key in understanding
 robust speech perception is to view it as a problem of inference under
 uncertainty at multiple levels (Kleinschmidt and Jaeger, 2012, 2015; see
 also Qian et al., 2012, under revision for an extension beyond language
-processing). *Listeners need to be able to recognize the statistics of
+processing). _Listeners need to be able to recognize the statistics of
 previously encountered (familiar) talkers, adapt to the statistics of
 novel talkers, and generalize based on previous experience with similar
-talkers*. This draws a picture of language competence that differs
+talkers_. This draws a picture of language competence that differs
 starkly from the idea that speaking and understanding a language
 involves ‘one grammar’. Rather, we continuously adapt both previous
 beliefs about the structure of the linguistic input we have received and
@@ -97,8 +97,8 @@ due to separate mechanisms (Kleinschmidt and Jaeger, 2011, 2012),
 explaining-away effects in perception, our ability to generalize to
 novel speakers of the same language background, etc.
 
-*We have also extended this view to second language acquisition and
-limitations in our ability to learn new languages* (Pajak et al, in
+_We have also extended this view to second language acquisition and
+limitations in our ability to learn new languages_ (Pajak et al, in
 press; Toscano et al., under revision). Further tests of this account
 are currently under way, employing artificial language learning (Chu et
 al., in prep) as well as the statistical modeling of big data from over
@@ -110,9 +110,9 @@ Yildirim et al., 2013, under review). In self-paced reading (Fine et
 al., 2010, 2013; Fine and Jaeger, 2013a, under review; Fraundorf and
 Jaeger, 2014; Linzen and Jaeger, in prep), eye-tracking reading studies
 (Farmer et al., 2014), and spoken visual world studies (Fraundorf et
-al., in prep), we have found that *comprehenders can rapidly adjust
+al., in prep), we have found that _comprehenders can rapidly adjust
 their expectations about the relative frequency of different syntactic
-structures in the current context*. We have found that the magnitude of
+structures in the current context_. We have found that the magnitude of
 expectation violation at any point in time is a predictor of the change
 in expectations at subsequent processing (prediction error-based
 learning, Fine and Jaeger, 2013b; Jaeger and Snider, 2013). Furthermore,
@@ -125,15 +125,15 @@ prediction and uncertainty affect language processing (Bicknell et al.,
 to appear; Kuperberg and Jaeger, under review; Linzen & Jaeger, 2015).
 
 **To what extent and how do speakers contribute to successful
-communication?** Another focus of research in my lab lies on the
+communication?** Another focus of research in HLP Lab lies on the
 speaker. Languages often provide several near-meaning equivalent ways of
 encoding the same message. We have investigated to what extent speakers’
 preferences between different forms for the same meaning are affected by
 a bias to trade off production ease or effort against the goal to be
 understood (e.g., Jaeger, 2006, 2010; Levy and Jaeger, 2007; Jaeger and
-Ferreira, 2013). For example, we have investigated *speakers’ preference
+Ferreira, 2013). For example, we have investigated _speakers’ preference
 to produce more or less reduced words or structures based on the
-contextual inferability of the meaning they encode* (e.g., Frank and
+contextual inferability of the meaning they encode_ (e.g., Frank and
 Jaeger, 2008; Jaeger, 2011; Kurumada and Jaeger, 2013, 2015; Norcliffe
 and Jaeger, 2015; Wasow et al., 2011). At any level of linguistic
 representations –ranging from phonetics, via morphology, syntactic
@@ -145,7 +145,7 @@ production is organized in a way that on average dedicates less effort
 to the production of linguistic form that can be inferred from the
 context.
 
-*We have observed similar preferences in language learning*.
+_We have observed similar preferences in language learning_.
 Specifically, we have employed artificial language learning to
 investigate whether learners have abstract biases for languages that
 balance effort and robust message transfer (Fedzechkina et al., 2011,
@@ -164,23 +164,23 @@ Specifically, we have proposed that speakers integrate feedback both
 from the perception of their own speech and from interlocutors with the
 goal to increase the communicative success of subsequent utterances (in
 ways similar to implicit learning in motor control, cf. Jaeger, 2013;
-Jaeger and Ferreira, 2013). To study these questions, *we study how
-speakers change their pronunciation* (Buz et al., 2014, under review;
-Seyfarth et al., 2015) *and syntactic production preferences (Roche et
-al., in prep)*. In related lines of work, we have investigated how
+Jaeger and Ferreira, 2013). To study these questions, _we study how
+speakers change their pronunciation_ (Buz et al., 2014, under review;
+Seyfarth et al., 2015) _and syntactic production preferences (Roche et
+al., in prep)_. In related lines of work, we have investigated how
 speakers adapt to what they perceive to be their interlocutors’
-expectations (Jaeger and Snider, 2013) or in response to *social
-relations or status of interlocutors* (Weatherholtz et al., 2014).
+expectations (Jaeger and Snider, 2013) or in response to _social
+relations or status of interlocutors_ (Weatherholtz et al., 2014).
 
 **Methodological advancement.** This includes introductions and reviews
-of advanced statistical methods (e.g., *Generalized Linear Mixed
-Models*, Jaeger, 2008) and their application to typology, which
+of advanced statistical methods (e.g., _Generalized Linear Mixed
+Models_, Jaeger, 2008) and their application to typology, which
 typically provides hierarchically organized data (Jaeger et al., 2011,
 2012) or corpus-based research, which typically involves heterogeneous
 and high-dimensional data (Frank and Jaeger, 2008; Jaeger, 2006, 2010,
-2011). Researchers in my lab have also been strongly involved in the
-development, testing, and application of new *crowdsourcing paradigms
-for language research* (e.g., web-based paradigms for acceptability
+2011). Researchers in HLP Lab have also been strongly involved in the
+development, testing, and application of new _crowdsourcing paradigms
+for language research_ (e.g., web-based paradigms for acceptability
 judgments, Jaeger, 2004; self-paced reading, Fine et al., 2010;
 artificial language learning, Tily et al., 2011; iterative language
 learning, Gutman, 2012; speech perception and adaptation, Kleinschmidt
@@ -189,18 +189,20 @@ role of feedback in articulation, Buz et al., 2014; socially-mediated
 alignment in spoken scene descriptions, Weatherholtz et al., 2014).
 These paradigms allow the collection of data from speakers and listeners
 of different socio-economic and language backgrounds. Going beyond the
-study of college populations also motivates our *study of language
-production via speech corpora* (Degen and Jaeger, in prep; Gallo et al.,
+study of college populations also motivates our _study of language
+production via speech corpora_ (Degen and Jaeger, in prep; Gallo et al.,
 2008, 2009; Jaeger, 2010, 2011; Jaeger and Wasow, 2006; Jaeger and
 Snider, 2013; see also Jaeger et al., 2012a,b on phonological production
-in unscripted speech) and a dedication to *cross-linguistic validation
-and extension of psycholinguistic theories* (e.g., Jaeger and Norcliffe,
+in unscripted speech) and a dedication to _cross-linguistic validation
+and extension of psycholinguistic theories_ (e.g., Jaeger and Norcliffe,
 2009; Qian, 2009; Qian and Jaeger, 2012), including research on Yucatec
 Maya (Butler et al., 2011, 2013, 2014, in prep; Norcliffe and Jaeger,
 2015), Mexican Spanish (e.g., Gallo et al., 2009; Butler et al., in
 prep), and Japanese (Kurumada and Jaeger, 2013, 2015).
 
-**Selected References**
+
+<a data-dropdown="drop_refs" aria-controls="drop_refs" aria-expanded="false"><b>Selected References &raquo;</b></a>
+<div id="drop_refs" data-dropdown-content class="f-dropdown content" aria-hidden="true" tabindex="-1">
 {% link_doi %}
   * Fedzechkina, M., Jaeger, T. F., & Newport, E. L. (2012). Language
   learners restructure their input to facilitate efficient communication.
@@ -282,6 +284,7 @@ prep), and Japanese (Kurumada and Jaeger, 2013, 2015).
   Linguistic Variability and Adaptation in Quantifier Meanings. Submitted
   for review to *Journal of Memory and Language.*
 {% endlink_doi %}
+</div>
 
 ## Learn more
 

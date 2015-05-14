@@ -292,6 +292,12 @@ iframe[seamless] {
   overflow: hidden;
 }
 
+#drop_refs {
+  max-width: 85%;
+  max-height: 450px;
+  overflow-y: scroll;
+}
+
 #research {
   //background-color: rgba($smoke, 0.85);
   background-color:rgba(0, 70, 127, 0.85);
