@@ -1,0 +1,62 @@
+---
+layout: default
+custom_remote_js:
+  - //cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js
+custom_local_js:
+  - gfeed
+---
+
+<div class="catchy large-12 columns">
+  <div class="row">
+    <div class="large-12 columns contactus">
+      <a class="button radius" href="{{ "/research/participate/" |prepend: site.baseurl }}">Participate in an Experiment</a>
+      <a class="button radius" href="{{ "/contact/" |prepend: site.baseurl }}">Contact</a>
+    </div>
+    <!-- <div class="large-6 columns"></div> -->
+  </div>
+  <div class="row" data-equalizer>
+    <div id="wpfeed" class="large-5 columns" data-equalizer-watch>
+      <div class="row">
+        <div class="large-9 columns">
+          <h1 class="page-heading"><a></a></h1>
+        </div>
+        <div class="large-3 columns">
+          <a class="rss"><img src="{{site.baseurl}}/webicons/webicon-rss.svg" alt="RSS" width="20" height="20"></a>
+        </div>
+      </div>
+      <div class="row">
+        <ul class="wp-entry">
+        </ul>
+      </div>
+    </div>
+    <div id="hlpblurb" class="large-7 columns" data-equalizer-watch>
+      <h2><span>H</span>uman <span>L</span>anguage <span>P</span>rocessing <span>Lab</span></h2>
+      <p>Ut sagittis erat ac blandit accumsan. Nullam mollis sodales magna sed
+        mattis. Fusce sagittis sollicitudin tortor molestie mattis. In laoreet
+        consectetur dolor ut tristique. Proin accumsan magna ut orci ornare malesuada.
+        Vivamus lacinia sem auctor arcu sodales, in aliquam risus molestie. Morbi
+        pretium dapibus nisi, sit amet molestie dolor commodo non. Morbi non mauris
+        massa. Cras faucibus elementum tellus ornare tincidunt. Vivamus vulputate
+        nisi in orci commodo malesuada. Curabitur at tellus nec neque varius
+        pharetra eget in lectus. Etiam cursus leo quis est luctus mattis.
+      </p>
+      <p>Duis sollicitudin justo quam, sed consectetur magna consequat id. Aliquam
+        at mi ultrices, consectetur urna in, gravida sapien. Pellentesque facilisis
+        sem et velit consectetur sagittis. In gravida diam id tellus elementum
+        faucibus at a est. Integer fringilla urna vel sapien luctus, at molestie
+        tellus imperdiet. Curabitur non tincidunt justo, ac placerat metus.
+        Pellentesque in libero egestas, sollicitudin erat vel, commodo nisl.
+        Curabitur tempus facilisis enim, faucibus sodales massa condimentum non.
+        Integer sit amet urna elit. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Vivamus varius vel purus sed maximus.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="large-12 columns">
+  <div class="row">
+    <div id="twitterfeed" class="large-12 columns">
+      {% include twitter_feed.html %}
+    </div>
+  </div>
+</div>
