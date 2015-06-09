@@ -1,0 +1,26 @@
+---
+layout: page
+---
+
+<div class="row">
+    <div class="large-2 columns offset-2">
+        <ul class="side-nav">
+        {% for link in page.navlinks %}
+          {% if link.fragments %}
+          <li role="menuitem"><a href="#">{{link.text}}</a>
+            <dl class="sub-nav">
+              {% for f in link.fragments %}
+              <dd><a href="#{{f.anchor}}">{{f.text}}</a></dd>
+              {% endfor %}
+            </dl>
+          </li>
+          {% else %}
+          <li role="menuitem"{% if link.current %}class="active"{% endif %}><a href="{% unless link.external %}{{site.baseurl}}/{% endunless %}{{link.link}}">{{link.text}}</a></li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
+    <div class="large-8 columns">
+        {{content}}
+    </div>
+</div>

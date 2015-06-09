@@ -1,0 +1,79 @@
+---
+layout: sidenav
+title: HLP Lab People
+navlinks:
+  - text: People
+    link: people/
+    current: true
+    fragments:
+      - text: Faculty
+        anchor: Faculty
+      - text: Postdocs
+        anchor: Postdocs
+      - text: Grad Students
+        anchor: Grads
+      - text: Staff
+        anchor: Staff
+      - text: Undergrad RAs
+        anchor: Ugrads
+  - text: Alumni
+    link: people/alumni.html
+  - text: Visitors
+    link: people/visitors.html
+  - text: Collaborators
+    link: people/collab.html
+---
+
+{% if site.data.faculty %}
+<h2 id="Faculty">Faculty</h2>
+{% for person in site.data.faculty | sort: 'lastname', 'firstname' %}
+{% include person.html %}
+{% unless forloop.last %}
+<hr/>
+{% endunless %}
+{% endfor %}
+{% endif %}
+
+{% if site.data.postdocs %}
+<h2 id="Postdocs">Postdocs</h2>
+{% assign sorted_postdocs = site.data.postdocs |sort: 'lastname' %}
+{% for person in sorted_postdocs %}
+{% include person.html %}
+{% unless forloop.last %}
+<hr/>
+{% endunless %}
+{% endfor %}
+{% endif %}
+
+{% if site.data.grads %}
+<h2 id="Grads">Grad students</h2>
+{% assign sorted_grads = site.data.grads |sort: 'lastname' %}
+{% for person in sorted_grads %}
+{% include person.html %}
+{% unless forloop.last %}
+<hr/>
+{% endunless %}
+{% endfor %}
+{% endif %}
+
+{% if site.data.staff %}
+<h2 id="Staff">Staff</h2>
+{% assign sorted_staff = site.data.staff |sort: 'lastname' %}
+{% for person in sorted_staff  %}
+{% include person.html %}
+{% unless forloop.last %}
+<hr/>
+{% endunless %}
+{% endfor %}
+{% endif %}
+
+{% if site.data.ugrads %}
+<h2 id="Ugrads">Current Undergraduate RAs</h2>
+{% assign sorted_ugrads = site.data.ugrads |sort: 'lastname' %}
+{% for person in sorted_ugrads %}
+{% include ugrad.html %}
+{% unless forloop.last %}
+<hr/>
+{% endunless %}
+{% endfor %}
+{% endif %}

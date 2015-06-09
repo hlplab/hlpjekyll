@@ -1,6 +1,21 @@
 ---
-layout: page
+layout: sidenav
 title: Research Statement
+navlinks:
+  - text: Research Statement
+    link: research/statement/
+    current: true
+  - text: How are we funded?
+    link: research/grants/
+  - text: Ongoing Projects
+    link: http://wiki.bcs.rochester.edu/HlpLab/Projects
+    external: true
+  - text: Independent Study Projects
+    link: research/indpendent_study.html
+  - text: Publications
+    link: publications/
+  - text: Video Publications
+    link: publications/video.html
 ---
 
 ## What type of research do we do?
@@ -204,8 +219,10 @@ prep), and Japanese (Kurumada and Jaeger, 2013, 2015).
 <a data-dropdown="drop_refs" aria-controls="drop_refs" aria-expanded="false"><b>Selected References &raquo;</b></a>
 <div id="drop_refs" data-dropdown-content class="f-dropdown content" aria-hidden="true" tabindex="-1">
 {% link_doi %}
+
   * Fedzechkina, M., Jaeger, T. F., & Newport, E. L. (2012). Language
   learners restructure their input to facilitate efficient communication.
+
   *Proceedings of the National Academy of Sciences of the United States of
   America*, 1–6. doi:10.1073/pnas.1215776109
 
@@ -283,6 +300,7 @@ prep), and Japanese (Kurumada and Jaeger, 2013, 2015).
   * Yildirim, I., Degen, J., Tanenhaus, M. K., & Jaeger, T. F. (submitted).
   Linguistic Variability and Adaptation in Quantifier Meanings. Submitted
   for review to *Journal of Memory and Language.*
+
 {% endlink_doi %}
 </div>
 

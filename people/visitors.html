@@ -4,7 +4,7 @@ title: HLP Lab People - Visiting Scholars
 ---
 
 {% if site.data.visitors %}
-<h2 id="Visiting Scholars">>Visiting Scholars</h2>
+<h2 id="Visiting Scholars">Visiting Scholars</h2>
 {% assign sorted_people = site.data.visitors |sort: 'start' |reverse %}
 {% for person in sorted_people %}
 <div class="row" id="{{person.username}}" >
