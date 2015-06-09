@@ -8,31 +8,13 @@
   gradyear: 2016
   workswith: Mariya Fedzechkina
 
-- lastname: Cronin
-  firstname: Michaela
-  email: mcronin3@u.rochester.edu
-  username: mcronin
-  haspic: false
-  major: BCS
-  gradyear: 2015
-  workswith: Dave Kleinschmidt
-
-- lastname: Harris
-  firstname: Lindsey
-  email: linsey.harris@rochester.edu
-  username: lharris
-  haspic: false
-  major: BCS
-  gradyear: 2015
-  workswith: Esteban Buz
-
 - lastname: Leonard
   firstname: Brian
   email: bleonar5@u.rochester.edu
   username: bleonard
   haspic: false
   major: BCS
-  gradyear: 2015
+  gradyear: 2017
   workswith: Esteban Buz
 
 - lastname: MacDonald
@@ -41,5 +23,5 @@
   username: amacdonald
   haspic: false
   major: BCS
-  gradyear: 2015
+  gradyear: 2016
   workswith: Esteban Buz

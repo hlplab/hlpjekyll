@@ -12,6 +12,13 @@
   workedwith: Alex Fine
   gradyear: 2014
 
+- lastname: Cronin
+  firstname: Michaela
+  email: mcronin3@u.rochester.edu
+  major: BCS
+  gradyear: 2015
+  workedwith: Dave Kleinschmidt
+
 - lastname: Dizon
   firstname: Maureen
   workedwith: Florian Jaeger
@@ -86,6 +93,13 @@
     - BCS
     - French
     - Linguistics
+
+- lastname: Harris
+  firstname: Lindsey
+  email: linsey.harris@rochester.edu
+  major: BCS
+  gradyear: 2015
+  workedwith: Esteban Buz
 
 - lastname: Hilliard
   firstname: Caitlin
