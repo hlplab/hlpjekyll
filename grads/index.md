@@ -1,6 +1,12 @@
 ---
-layout: page
+layout: sidenav
 title: Graduate Students and Post-docs
+navlinks:
+  - text: Graduate Students and Post-docs
+    link: grads/index.html
+    current: true
+  - text: Graduate Student and Post-doc Funding
+    link: grads/funding.html
 ---
 
 If the work done in our lab interests you, we invite you to [apply to the department

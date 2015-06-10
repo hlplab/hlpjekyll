@@ -1,11 +1,27 @@
 ---
-layout: page
+layout: sidenav
 title: Independent Study
+navlinks:
+  - text: Independent Study
+    link: jobs/independent.html
+    current: true
+  - text: Research Assistants
+    link: jobs/ra.html
+  - text: Volunteer
+    link: jobs/volunteer.html
+  - text: Graduate Students &amp; Post-Docs
+    link: grads/
+  - text: Grad &amp; Post-doc funding
+    link: grads/funding.html
+  - text: Visiting Faculty funding
+    link: jobs/faculty_funding.html
+  - text: Past job opportunities
+    link: jobs/past.html
 ---
 
 If you're an undergraduate at the University of Rochester interested in learning how to run experiments, how to use corpora for language research, or, if you're interested in language modeling, you can apply for an independent study project. You will be working with a faculty member and other experienced lab members, participate in lab meetings, get started on existing projects (to learn the methods we use) and develop and conduct your own research. Independent studies allow the people you work with to get to know you, which means that they can write informative letters of recommendation for grad school applications.
 
-Have a look at [a list of previous independent studies conducted in the lab]({{site.baseurl}}/people/independent_study.html).
+Have a look at [a list of previous independent studies conducted in the lab]({{site.baseurl}}/research/independent_study.html).
 
 Recent undergraduate direct research projects in the lab have included work on a variety of topics and often lead to conference presentations and/or B.A. theses:
 

@@ -1,6 +1,21 @@
 ---
-layout: page
+layout: sidenav
 title: Interested in sponsoring our research, teaching, or research opportunities for undergraduates?
+navlinks:
+  - text: Research Statement
+    link: research/statement/
+  - text: How are we funded?
+    link: research/grants/
+    current: true
+  - text: Ongoing Projects
+    link: http://wiki.bcs.rochester.edu/HlpLab/Projects
+    external: true
+  - text: Independent Study Projects
+    link: research/independent_study.html
+  - text: Publications
+    link: publications/
+  - text: Video Publications
+    link: publications/video.html
 ---
 
 ## Sponsor our research
@@ -45,7 +60,7 @@ In our lab, we take great pride in helping undergraduates to find their inner sc
 
 Research has many facets, from the creative exploration of novel ideas, to the nitty-gritty implementation of experiments, to the development of quantitative models, to sharing ones theories with other scientists. To allow students to find what drives their interest in the cognitive sciences, we aim to involve undergraduate researchers in all aspects of our research. We are dedicated to providing training in experimental methods, design, statistics, and theory. In addition to one-on-one advising, we run weekly or bi-weekly meetings in which we present technical tutorials, discuss papers, and help undergraduates develop their own research ideas.
 
-We typically have between 5-10 research assistants and a few volunteers work in the lab. They help with experiment preparation, data collections, and annotation. We also support independent undergraduate research. We guide students through the development of their own ideas, provide technical support and access to our experimental setups (e.g. eye-tracking, sound insulated rooms, high quality microphones, etc.). We also help them to present their work at international conferences and publish in top journals. We typically support between 1-3 independent undergraduate researchers in the lab, including through summer stipends. A number of these outstanding undergraduates have won university research stipends (see this [list of independent studies]({{ "/people/independent_study.html" |prepend: site.baseurl }})). Previous undergraduate support (e.g. via Bishop or Biski-Mayer fellowships for excellence in undergraduate research) has allowed our most outstanding undergraduate researchers to participate in fieldwork on Yucatec Maya (Mexico) or to conduct their own series of experiments in the lab (see our list of independent studies). Many of them have gone on to highly competitive graduate programs or to pursue medical degrees, including several recipients of Graduate Research Fellowships by the National Science Foundation.
+We typically have between 5-10 research assistants and a few volunteers work in the lab. They help with experiment preparation, data collections, and annotation. We also support independent undergraduate research. We guide students through the development of their own ideas, provide technical support and access to our experimental setups (e.g. eye-tracking, sound insulated rooms, high quality microphones, etc.). We also help them to present their work at international conferences and publish in top journals. We typically support between 1-3 independent undergraduate researchers in the lab, including through summer stipends. A number of these outstanding undergraduates have won university research stipends (see this [list of independent studies]({{ "/research/independent_study.html" |prepend: site.baseurl }})). Previous undergraduate support (e.g. via Bishop or Biski-Mayer fellowships for excellence in undergraduate research) has allowed our most outstanding undergraduate researchers to participate in fieldwork on Yucatec Maya (Mexico) or to conduct their own series of experiments in the lab (see our list of independent studies). Many of them have gone on to highly competitive graduate programs or to pursue medical degrees, including several recipients of Graduate Research Fellowships by the National Science Foundation.
 
 Some ideas for how you could support undergraduate research:
 

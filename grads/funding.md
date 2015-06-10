@@ -1,6 +1,12 @@
 ---
-layout: page
+layout: sidenav
 title: Graduate Student and Post-doc Funding
+navlinks:
+  - text: Graduate Students and Post-docs
+    link: grads/index.html
+  - text: Graduate Student and Post-doc Funding
+    link: grads/funding.html
+    current: true
 ---
 ## Funding to come to the lab
 

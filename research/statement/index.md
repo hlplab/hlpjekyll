@@ -11,7 +11,7 @@ navlinks:
     link: http://wiki.bcs.rochester.edu/HlpLab/Projects
     external: true
   - text: Independent Study Projects
-    link: research/indpendent_study.html
+    link: research/independent_study.html
   - text: Publications
     link: publications/
   - text: Video Publications

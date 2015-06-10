@@ -1,6 +1,20 @@
 ---
-layout: page
+layout: sidenav
 title: Participate in Experiments
+navlinks:
+  - text: Research Statement
+    link: research/statement/
+  - text: How are we funded?
+    link: research/grants/
+  - text: Ongoing Projects
+    link: http://wiki.bcs.rochester.edu/HlpLab/Projects
+    external: true
+  - text: Independent Study Projects
+    link: research/independent_study.html
+  - text: Publications
+    link: publications/
+  - text: Video Publications
+    link: publications/video.html
 ---
 
 **Interested in participating in one of our experiments?** We are always looking
