@@ -6,6 +6,8 @@
 - lastname: Choi
   firstname: Vivian
   workedwith: Maryia Fedzechkina
+  gradyear: 2012
+  major: BCS
 
 - lastname: Craycraft
   firstname: Nicole
@@ -23,6 +25,9 @@
   firstname: Maureen
   workedwith: Florian Jaeger
   gradyear: 2010
+  major:
+    - Linguistics
+    - Spanish
 
 - lastname: Doko
   firstname: Donias
@@ -30,16 +35,21 @@
     - Maryia Fedzechkina
     - Bozena Pajak
   gradyear: 2013
+  major:
+    - History
+    - Neuroscience
 
 - lastname: Dolan
   firstname: Colleen
   workedwith: Maryia Fedzechkina
   gradyear: 2012
+  major: BCS
 
 - lastname: Donatelli
   firstname: Cassandra
   workedwith: Former Poser RA
   gradyear: 2013
+  major: Archeology, Technology & Historical Structures
 
 - lastname: Ferris
   firstname: Jeremy
@@ -52,7 +62,8 @@
   workedwith:
     - Alex Fine
     - Dave Kleinschmidt
-  gradyear:
+  gradyear: 2013
+  major: BCS
 
 - lastname: Gogos
   firstname: Narissa
@@ -60,11 +71,13 @@
     - Alex Fine
     - Masha Fedzechkina
   gradyear: 2013
+  major: BCS
 
 - lastname: Grealish
   firstname: Alyson
   workedwith: Esteban Buz
-  gradyear: 2015
+  gradyear: 2016
+  major: Computer Science
 
 - lastname: Gruters
   firstname: Kurtis
@@ -78,6 +91,7 @@
   firstname: Alma
   workedwith: Jenny Roche
   gradyear: 2013
+  major: BCS
 
 - lastname: Gutman
   firstname: Jacqueline
@@ -110,11 +124,15 @@
   firstname: Katrina
   workedwith: Florian Jaeger
   gradyear: 2010
+  major: BCS
 
 - lastname: Krishnan
   firstname: Shreya
   workedwith: Maryia Fedzechkina
   gradyear: 2014
+  major:
+    - BCS
+    - Psychology
 
 - lastname: Kumar
   firstname: Swapna
@@ -126,6 +144,7 @@
   firstname: Theo
   workedwith: Masha Fedzechkina
   gradyear: 2014
+  major: Neuroscience
 
 - lastname: Minkina
   firstname: Irene
@@ -138,12 +157,15 @@
 - lastname: Murphy
   firstname: Derek
   workedwith: Jenny Roche
-  gradyear:
+  gradyear: 2011
+  major:
+    - BCS
+    - Film and Media Studies
 
 - lastname: Murphy
   firstname: Ryan
   workedwith: Florian Jaeger
-  gradyear:
+  gradyear: 2010
 
 - lastname: Perlman
   firstname: Amanda
@@ -154,11 +176,17 @@
   firstname: Allison
   workedwith: Esteban Buz
   gradyear: 2015
+  major:
+    - BCS
+    - Psychology
 
 - lastname: Sharp
   firstname: Jenny
   workedwith: Florian Jaeger
-  gradyear:
+  gradyear: 2014
+  major:
+    - BCS
+    - Spanish
 
 - lastname: Stanley
   firstname: Tara
@@ -170,16 +198,19 @@
   firstname: Erica
   workedwith: Maryia Fedzechkina
   gradyear: 2014
+  major: BCS
 
 - lastname: Wood
   firstname: Andrew
   workedwith: Florian Jaeger
   gradyear: 2010
+  major: Computer Science
 
 - lastname: Song
   firstname: Keyu
   workedwith: Bozena Pajak
   gradyear: 2015
+  major: Political Science
 
 - lastname: Smith
   firstname: Greta
@@ -195,3 +226,22 @@
   firstname: Suzanne
   workedwith: Masha Fedzechkina
   gradyear: 2014
+  major:
+    - BCS
+    - Linguistics
+
+- lastname: Meinhardt
+  firstname: Eric
+  workedwith: Florian Jaeger
+  gradyear: 2013
+  major:
+    - BCS
+    - Linguistics
+
+- lastname: Rowe
+  firstname: Emily
+  workedwith: Esteban Buz
+  gradyear: 2016
+  major: BCS
+
+
