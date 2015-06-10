@@ -8,12 +8,32 @@
   gradyear: 2016
   workswith: Mariya Fedzechkina
 
+- lastname: Clark
+  firstname: Madeline
+  username: mclark
+  haspic: false
+  email: mclark31@u.rochester.edu
+  major: Linguistics
+  gradyear: 2018
+  workswith:
+    - Zach Burchill
+    - Linda Liu
+
+- lastname: Krishnamoorthy
+  firstname: Aishwarya
+  username: akrishna
+  haspic: false
+  email: akrishn8@u.rochester.edu
+  major: ???
+  gradyear: 2016
+  workswith: Esteban Buz
+
 - lastname: Leonard
   firstname: Brian
   email: bleonar5@u.rochester.edu
   username: bleonard
   haspic: false
-  major: BCS
+  major: ???
   gradyear: 2017
   workswith: Esteban Buz
 
@@ -22,6 +42,18 @@
   email: amacdon4@u.rochester.edu
   username: amacdonald
   haspic: false
-  major: BCS
+  major: ???
   gradyear: 2016
   workswith: Esteban Buz
+
+- lastname: Oey
+  firstname: Lauren
+  username: loey
+  email: loey@u.rochester.edu
+  gradyear: 2018
+  major: ???
+  haspic: false
+  workswith:
+    - Zach Burchill
+    - Linda Liu
+

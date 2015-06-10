@@ -1,16 +1,25 @@
 ---
-layout: page
+layout: sidenav
 title: HLP Lab People - Visiting Scholars
+navlinks:
+  - text: People
+    link: people/
+  - text: Alumni
+    link: people/alumni.html
+  - text: Visitors
+    link: people/visitors.html
+    current: true
+  - text: Collaborators
+    link: people/collab.html
 ---
 
 {% if site.data.visitors %}
 <h2 id="Visiting Scholars">Visiting Scholars</h2>
 {% assign sorted_people = site.data.visitors |sort: 'start' |reverse %}
 {% for person in sorted_people %}
-<div class="row" id="{{person.username}}" >
+<div class="row person" id="{{person.username}}" >
   <div class="row">
-    {%comment%}For some reason, on this page and this page alone, roundpic screws up and no pic shows{%endcomment%}
-    {% include squarepic.html %}
+    {% include roundpic.html %}
     <div class="large-8 columns">
       <ul>
         <li><b>Name</b>: {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %}</li>
