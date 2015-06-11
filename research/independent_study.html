@@ -18,9 +18,12 @@ navlinks:
     link: publications/video.html
 ---
 
+{% assign sources = site.data.independent_study.funding %}
+
+{% comment %}
 <div class="row">
   <div class="large-12 columns">
-    {% assign funding = site.data.independent_study | group_by:'funding' %}
+    {% assign funding = site.data.independent_study.students | group_by:'funding' %}
     <ul id="funding">
     {% for source in funding%}
     {% if source.name != '' %}
@@ -36,8 +39,9 @@ navlinks:
     </ul>
   </div>
 </div>
+{% endcomment %}
 
-{% assign grouped_students = site.data.independent_study | sort:'year'| reverse| group_by:'year' %}
+{% assign grouped_students = site.data.independent_study.students | sort:'year'| reverse| group_by:'year' %}
 {% for row in grouped_students %}
 <div class="row">
   <div class="large-12 columns">
@@ -49,7 +53,7 @@ navlinks:
       <tbody>
         {% for student in row.items %}
         <tr>
-          <td>{{student.firstname}} {{student.lastname}}{% if student.funding %}<a href="#funding">*</a>{% endif %}</td>
+          <td>{{student.firstname}} {{student.lastname}}{% if student.funding %}{{sources|link_index_of: student.funding, "funding"}}{% endif %}</td>
           <td>{% if student.major %}{{student.major |join:', '}}{% endif %}</td>
           <td>{{student.term}}, {{student.year}}</td>
           <td>{{student.project}}</td>
@@ -62,3 +66,13 @@ navlinks:
   </div>
 </div>
 {% endfor %}
+
+<div class="row">
+  <div class="large-12 columns">
+    <ul id="funding">
+    {% for s in sources %}
+    <li id="funding{{forloop.index}}">[{{forloop.index}}] Research supported by a {{s}}</li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
