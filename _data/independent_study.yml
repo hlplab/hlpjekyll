@@ -2,6 +2,15 @@ funding:
   - &bilski Bilski-Mayer research fellowship
   - &bishop Bishop Award for Excellence in Undergraduate Research
 
+advisors:
+  - &fjaeger T. Florian Jaeger
+  - &mfedzech Mariya Fedzechkina
+  - &tqian Ting Qian
+  - &afine Alex Fine
+  - &dkleinschmidt Dave Kleinschmidt
+  - &jroche Jenny Roche
+  - &ebuz Esteban Buz
+
 students:
   # Florian found Christine Keck listed in his independent study course
   # listings, but has no memory of her or her project now
@@ -22,7 +31,7 @@ students:
     term: Spring
     year: 2013
     project: The role of language experience in morphological acquisition
-    advisor: Masha Fedzechkina
+    advisor: *mfedzech
     thesis: false
 
   - lastname: Craycraft
@@ -31,7 +40,7 @@ students:
     term: Spring
     year: 2014
     project: Effects of Reliability on Syntactic Adaptation
-    advisor: Florian Jaeger
+    advisor: *fjaeger
     thesis: true
     funding: *bilski
 
@@ -43,7 +52,7 @@ students:
     project: >
       Communicative influences on the acquisition of optional case systems: A
       partner study using miniature artificial languages
-    advisor: Masha Fedzechkina
+    advisor: *mfedzech
     thesis: false
 
   - lastname: Chu
@@ -52,7 +61,7 @@ students:
     term: Summer
     year: 2014
     project: Processing biases that shape language acquisition
-    advisor: Masha Fedzechkina
+    advisor: *mfedzech
     thesis: false
     funding: *bilski
 
@@ -64,7 +73,7 @@ students:
     term: Spring
     year: 2012
     project: Production at the two-word stage
-    advisor: Masha Fedzechkina
+    advisor: *mfedzech
     thesis: false
 
   - lastname: Krishnan
@@ -72,7 +81,7 @@ students:
     term: Spring
     year: 2012
     project: Production at the two-word stage
-    advisor: Masha Fedzechkina
+    advisor: *mfedzech
     thesis: false
 
   - lastname: Davison
@@ -84,8 +93,8 @@ students:
     year: 2012
     project: Effects of linguistic and musical training on language processing
     advisor:
-      - Alex Fine
-      - Dave Kleinschmidt
+      - *afine
+      - *dkleinschmidt
     thesis: false
 
   - lastname: Lisandrelli
@@ -97,8 +106,8 @@ students:
     year: 2012
     project: Effects of linguistic and musical training on language processing
     advisor:
-      - Alex Fine
-      - Dave Kleinschmidt
+      - *afine
+      - *dkleinschmidt
     thesis: false
 
   - lastname: Gogos
@@ -108,8 +117,8 @@ students:
     year: 2012
     project: Effects of linguistic and musical training on language processing
     advisor:
-      - Alex Fine
-      - Dave Kleinschmidt
+      - *afine
+      - *dkleinschmidt
     thesis: false
 
   - lastname: Kremer
@@ -118,8 +127,8 @@ students:
     year: 2012
     project: Audience Design
     advisor:
-      - Jenny Roche
-      - Esteban Buz
+      - *jroche
+      - *ebuz
     thesis: false
 
   - lastname: Fleming
@@ -129,8 +138,8 @@ students:
     year: 2012
     project: Audience Design
     advisor:
-      - Jenny Roche
-      - Esteban Buz
+      - *jroche
+      - *ebuz
     thesis: false
 
   - lastname: Cannon
@@ -139,8 +148,8 @@ students:
     year: 2012
     project: Audience Design
     advisor:
-      - Jenny Roche
-      - Esteban Buz
+      - *jroche
+      - *ebuz
     thesis: false
 
   - lastname: Hansen-Karr
@@ -149,7 +158,7 @@ students:
     term: Spring
     year: 2011
     project: Syntactic persistence and social attitude
-    advisor: T. Florian Jaeger
+    advisor: *fjaeger
     thesis: false
 
   - lastname: Stanley
@@ -158,7 +167,7 @@ students:
     term: Spring
     year: 2011
     project: Functional biases in language acquisition
-    advisor: Masha Fedzechkina
+    advisor: *mfedzech
     thesis: false
 
   - lastname: Gutman
@@ -167,7 +176,7 @@ students:
     term: Spring
     year: 2010
     project: Ambiguity Avoidance and Adaptation
-    advisor: T. Florian Jaeger
+    advisor: *fjaeger
     thesis: false
     funding: *bilski
 
@@ -178,8 +187,8 @@ students:
     year: 2010
     project: Processing and Word Order Acquisition
     advisor:
-      - T. Florian Jaeger
-      - Masha Fedzechkina
+      - *fjaeger
+      - *mfedzech
     thesis: false
 
   - lastname: Glass
@@ -189,8 +198,8 @@ students:
     year: 2010
     project: Processing and Word Order Acquisition
     advisor:
-      - T. Florian Jaeger
-      - Masha Fedzechkina
+      - *fjaeger
+      - *mfedzech
     thesis: false
 
   - lastname: Hilliard
@@ -201,7 +210,7 @@ students:
     term: Spring
     year: 2010
     project: Phonological similarity effects on sentence production
-    advisor: T. Florian Jaeger
+    advisor: *fjaeger
     thesis: false
 
   - lastname: Housel
@@ -210,7 +219,7 @@ students:
     term: Spring
     year: 2010
     project: Phonological similarity effects on sentence production
-    advisor: T. Florian Jaeger
+    advisor: *fjaeger
     thesis: true
     funding: *bishop
 
@@ -221,8 +230,8 @@ students:
     year: 2010
     project: Cross-linguistic syntactic priming
     advisor:
-      - T. Florian Jaeger
-      - Ting Qian
+      - *fjaeger
+      - *tqian
     thesis: false
 
   - lastname: Perlman
@@ -230,7 +239,7 @@ students:
     term: Fall
     year: 2009
     project: Ambiguity Avoidance in Reducible Subject Relatives
-    advisor: T. Florian Jaeger
+    advisor: *fjaeger
     thesis: false
 
   - lastname: Gutman
@@ -239,7 +248,7 @@ students:
     term: Fall
     year: 2009
     project: Ambiguity Avoidance in Reducible Subject Relatives
-    advisor: T. Florian Jaeger
+    advisor: *fjaeger
     thesis: false
 
   - lastname: Qian
@@ -248,6 +257,6 @@ students:
     term: Fall
     year: 2008
     project: Efficiency of Language Production in Native and Non-native Speakers
-    advisor: T. Florian Jaeger
+    advisor: *fjaeger
     thesis: true
     funding: *bishop
