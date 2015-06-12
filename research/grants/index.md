@@ -47,6 +47,21 @@ Previous support to the Human Language Processing Lab includes:
   </tbody>
 </table>
 
+<table id="gradfund">
+  <thead>
+    <tr><td>Graduate Student</td><td>Funding</td></tr>
+  </thead>
+  <tbody>
+    {% assign sorted_grads = site.data.grad_grants.grads |sort: 'lastname' %}
+    {% for grad in sorted_grads %}
+    <tr>
+      <td>{{grad.firstname}} {{grad.lastname}}{% if grad.gradyear %} ({{grad.gradyear}}){%endif%}</td>
+      <td>{{grad.support|join:', '}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
 Most of our costs come from supporting staff and students. Technical support for our experiments requires highly qualified staff. Another substantial cost comes from equipment, such as sound recording environments, high-end computers suitable for complex statistical modeling, and eye-trackers for the study of online language processing. For example, a single high-end eye-tracker costs anywhere from $10,000-$45,000. Finally, participants in our studies &mdash;over the web or in the lab&mdash; are compensated for their participation. This creates costs of about $18,000-$30,000/year.
 
 Some ideas for how you could support research in our lab:

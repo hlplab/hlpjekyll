@@ -1,0 +1,36 @@
+grants:
+  - &provost Provost Fellowship
+  - &sproull Sproull Fellowship
+  - &lsa LSA Fellowship
+  - &nsf NSF Graduate Fellowship
+  - &nrsa NRSA
+  - &nserc NSERC Post-graduate Fellowship
+
+grads:
+  - lastname: Fedzechkina
+    firstname: Maryia
+    gradyear: 2014
+    support: *lsa
+  - lastname: Kleinschmidt
+    firstname: Dave
+    support:
+      - *sproull
+      - *lsa
+      - *nsf
+  - lastname: Buz
+    firstname: Esteban
+    support: *provost
+  - lastname: Fine
+    firstname: Alex
+    gradyear: 2013
+    support: *nsf
+  - lastname: Pogue
+    firstname: Amanda
+    support: *nserc
+  - lastname: Pontillo
+    firstname: Dan
+    support: *lsa
+  - lastname: Frank
+    firstname: Austin
+    gradyear: 2010
+    support: *sproull
