@@ -1,4 +1,3 @@
-# FIXME: setting all majors to BCS even though I know it's wrong for some
 - lastname: Chu
   firstname: Becky
   username: bchu
@@ -6,7 +5,8 @@
   email: bchu@u.rochester.edu
   major: BCS
   gradyear: 2016
-  workswith: Mariya Fedzechkina
+  workswith:
+    - Mariya Fedzechkina
 
 - lastname: Clark
   firstname: Madeline
@@ -26,7 +26,8 @@
   email: akrishn8@u.rochester.edu
   major: ???
   gradyear: 2016
-  workswith: Esteban Buz
+  workswith:
+    - Esteban Buz
 
 - lastname: Leonard
   firstname: Brian
@@ -35,7 +36,8 @@
   haspic: false
   major: ???
   gradyear: 2017
-  workswith: Esteban Buz
+  workswith:
+    - Esteban Buz
 
 - lastname: MacDonald
   firstname: Anna
@@ -44,7 +46,8 @@
   haspic: false
   major: ???
   gradyear: 2016
-  workswith: Esteban Buz
+  workswith:
+    - Esteban Buz
 
 - lastname: Oey
   firstname: Lauren
@@ -56,4 +59,3 @@
   workswith:
     - Zach Burchill
     - Linda Liu
-
