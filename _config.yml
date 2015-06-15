@@ -34,6 +34,9 @@ scholar:
     - latex
     #- urllink
 
+sass:
+    style: :compressed
+
 #defaults:
 #  -
 #    scope:
