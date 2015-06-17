@@ -6,5 +6,10 @@ tags: efficient language
 categories: news
 ---
 
-## [Nature News, 1/24/2011](http://www.nature.com/news/2011/110124/full/news.2011.40.html)
+{% comment %}This ends up double blockquoting, but w/o the > the tag rejects the paragraph break{% endcomment %}
+{% quote title:"Nature News, January 24th, 2011" url:http://www.nature.com/news/2011/110124/full/news.2011.40.html %}
 > Longer words tend to carry more information, according to research by a team of cognitive scientists.
+>
+> It's a suggestion that might sound intuitively obvious, until you start to think about it. Why, then, the difference
+> in length between 'now' and 'immediately'?
+{% endquote %}

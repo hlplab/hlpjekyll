@@ -24,6 +24,7 @@ exclude: [deploywww.sh]
 gems:
   - 'jekyll/scholar'
   - jekyll-sitemap
+  - octopress-quote-tag
 
 scholar:
   style: elsevier-harvard

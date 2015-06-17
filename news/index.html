@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: sidenav
 ---
 <div class="row">
-  <div id="hlpnews" class="large-6 columns">
+  <div id="hlpnews" class="large-12 columns">
     <div class="row">
       <div class="large-9 columns">
         <h1 class="page-heading">HLP Lab In the news</h1>
@@ -13,15 +13,21 @@ layout: page
         </a>
       </div>
     </div>
-    <ul class="post-list">
-      {% for post in site.posts limit:10 %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
-      </li>
-      {% endfor %}
-    </ul>
+    <div class="row">
+      <div class="large-12 columns">
+        <ul class="post-list">
+          {% for post in site.posts limit:10 %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</span>
+            <h3>
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h3>
+            {{post.content}}
+            {% unless forloop.last %}<hr/>{% endunless %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
   </div>
 </div>

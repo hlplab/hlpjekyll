@@ -136,7 +136,7 @@
 
 .post-link {
     display: block;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 /**
@@ -158,34 +158,14 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
-
-    h2 {
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
 }
 
 .post-preview {
   font-size: small;
+}
+
+.post-list h2 {
+  font-size: 1.5rem
 }
 
 /**
@@ -226,6 +206,12 @@
 
 .wp-entry {
   list-style: none;
+}
+
+blockquote img {
+  max-width: 33%;
+  float: left;
+  padding-right: 1rem;
 }
 
 iframe[seamless] {
