@@ -13,6 +13,7 @@ navlinks:
     link: research/independent_study.html
   - text: Publications
     link: publications/
+    current: true
   - text: Video Publications
     link: publications/video.html
 ---

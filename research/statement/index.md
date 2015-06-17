@@ -303,25 +303,3 @@ prep), and Japanese (Kurumada and Jaeger, 2013, 2015).
 
 {% endlink_doi %}
 </div>
-
-## Learn more
-
-You can listen to and watch the following talk summarizing some of our work on efficiency in language production (given in April 2010 at Rutgers. Thanks to Chris Kourtev and Andrew Watts for preparing the video).
-
-<div class="flex-video">
-  <iframe width="420" height="315" src="https://www.youtube.com/embed/1fFkO7xV0SY" frameborder="0" allowfullscreen></iframe>
-</div>
-
-A list of [ongoing projects](http://wiki.bcs.rochester.edu/HlpLab/Projects) can be found in our lab wiki, and our publication page contains [presentations and papers about previous projects]({{site.baseurl}}/publications/). In case you're interested in our work, but do not have a background in psycholinguistics, here are some handbook references that may get you started:
-
-  * For an introduction to language production:
-    * Bock, K. and Levelt, W. (1994). Language production. In Gernsbacher, M. A., editor, Handbook of Psycholinguistics, chapter 29, pages 945–984. Academic Press, ﬁrst edition.
-    * Ferreira, V. and Slevc, L. (2007). Grammatical encoding. The Oxford Handbook of Psycholinguistics, chapter 27, pages 453–469. Oxford University Press.
-    * Griffin, Z. M. and Ferreira, V. S. (2006). Properties of spoken language production. In Traxler, M. and Gernsbacher, M. A., editors, Handbook of Psycholinguistics, chapter 2, pages 21–59. Academic Press, second edition.
-  * For an introduction to sentence comprehension:
-    * Pickering, M. J. and van Gompel, R. P. G. (2006). Syntactic parsing. In Traxler, M. and Gernsbacher, M. A., editors, Handbook of Psycholinguistics, chapter 12, pages 455–504. Academic Press, second edition.
-  * A brief overview of research on processing complexity in comprehension and production
-    * Jaeger, T.F. and Tily, H. (2010). [On Language ‘Utility’: Processing Complexity and Communicative Efficiency](http://www.bcs.rochester.edu/people/fjaeger/papers/JaegerTily10.pdf). WIRE: Cognitive Science.
-  * For a very quick introduction to probability theory and information theory as relevant to language research:
-    * Jurafsky, D. and Martin, J. H. (2008). Speech and Language Processing. Prentice Hall, second edition.
-    * Manning, C. D. and Schuetze, H. (1999). Foundations of Statistical Natural Language Processing, chapter 3. Mathematical Foundations, pages 39–80. MIT Press, ﬁrst edition.
