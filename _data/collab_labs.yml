@@ -41,7 +41,8 @@
   university: University of Rochester
   department: Linguistics
 
-- lab: MTanLab
+- lab: KurTanLab
+  lab_url: http://kurtan.bcs.rochester.edu/
   pi: Mike Tanenhaus
   pi_url: http://www.bcs.rochester.edu/people/mtan/mtan.html
   university: University of Rochester
