@@ -20,17 +20,16 @@ navlinks:
     link: people/collab.html
 ---
 
-<h2>Alumni</h2>
-
 {% if site.data.postdoc_alumni %}
 <h3 id="Post-doc-Alumni">Post-doc Alumni</h3>
 {% assign sorted_postdocs = site.data.postdoc_alumni |sort: 'lastname' %}
 {% for person in sorted_postdocs %}
 <div class="row person" id="{{person.username}}">
-  <div class="row">
-    {%comment%}Pics on this page should be 150x150{%endcomment%}
-    {% include roundpic.html %}
-    <div class="large-8 columns">
+  <div class="row alumni">
+    <div class="large-2 columns">
+      {% include roundpic.html %}
+    </div>
+    <div class="large-10 columns">
       <ul>
         <li><b>Name</b>: {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %} <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a></li>
         <li><b>From</b>: {{person.range.start}} <b>To</b>: {{person.range.end}}</li>
@@ -48,9 +47,11 @@ navlinks:
 {% assign sorted_grads = site.data.grad_alumni |sort: 'lastname' %}
 {% for person in sorted_grads %}
 <div class="row person" id="{{person.username}}">
-  <div class="row">
-    {% include roundpic.html %}
-    <div class="large-8 columns">
+  <div class="row alumni">
+    <div class="large-2 columns">
+      {% include roundpic.html %}
+    </div>
+    <div class="large-10 columns">
       <ul>
         <li><b>Name</b>: {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %} <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a></li>
         <li><b>Degree</b>: {{person.degree}} ({{person.department}}) {{person.year}}</li>
