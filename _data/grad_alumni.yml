@@ -64,7 +64,7 @@
 - lastname: Gómez Gallo
   firstname: Carlos
   username: cgomez
-  haspic: false
+  haspic: true
   email: cgomez@cs.rochester.edu
   department: CS
   degree: PhD
