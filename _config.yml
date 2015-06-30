@@ -25,6 +25,7 @@ gems:
   - 'jekyll/scholar'
   - jekyll-sitemap
   - octopress-quote-tag
+  - octopress-minify-html
 
 scholar:
   style: elsevier-harvard
