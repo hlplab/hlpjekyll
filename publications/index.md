@@ -13,6 +13,9 @@ navlinks:
     current: true
   - text: Recorded Presentations
     link: publications/video.html
+  - text: Lab wiki
+    link: http://wiki.bcs.rochester.edu/HlpLab/
+    external: true
 ---
 
 You can find all our papers on [academia.edu](http://www.academia.edu/).

@@ -12,6 +12,9 @@ navlinks:
     link: publications/
   - text: Recorded Presentations
     link: publications/video.html
+  - text: Lab wiki
+    link: http://wiki.bcs.rochester.edu/HlpLab/
+    external: true
 ---
 
 **Interested in participating in one of our experiments?** We are always looking

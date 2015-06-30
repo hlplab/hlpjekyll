@@ -15,6 +15,9 @@ navlinks:
 - text: Recorded Presentations
   link: publications/video.html
   current: true
+- text: Lab wiki
+  link: http://wiki.bcs.rochester.edu/HlpLab/
+  external: true
 ---
 
 ## Colloquium talks
