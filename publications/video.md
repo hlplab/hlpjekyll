@@ -1,6 +1,6 @@
 ---
 layout: sidenav
-title: Video and audio Presentations
+title: Video and Audio Presentations
 custom_remote_js:
   - //cdnjs.cloudflare.com/ajax/libs/html5media/1.1.8/html5media.js
 navlinks:
@@ -8,14 +8,11 @@ navlinks:
   link: research/statement/
 - text: How are we funded?
   link: research/grants/
-- text: Ongoing Projects
-  link: http://wiki.bcs.rochester.edu/HlpLab/Projects
-  external: true
 - text: Independent Study Projects
   link: research/independent_study.html
 - text: Publications
   link: publications/
-- text: Video Publications
+- text: Recorded Presentations
   link: publications/video.html
   current: true
 ---
