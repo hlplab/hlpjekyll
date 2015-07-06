@@ -19,7 +19,7 @@ markdown: redcarpet
 redcarpet:
   extensions: ["tables", "autolink", "strikethrough", "underline", "space_after_headers", "with_toc_data", "fenced_code_blocks", "footnotes"]
 
-exclude: [deploywww.sh]
+exclude: [deploywww.sh, Gemfile]
 
 gems:
   - 'jekyll/scholar'
