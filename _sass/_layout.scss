@@ -113,10 +113,8 @@
 }
 
 .img-circular {
+  @include border-radius(80px);
   background-size: cover;
-  -moz-border-radius: 80px;
-  -webkit-border-radius: 80px;
-  border-radius: 80px;
   display: block;
   height: 160px;
   width: 160px;
