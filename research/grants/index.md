@@ -28,7 +28,7 @@ Some ideas for how you could support research in our lab:
   * Support a large-scale experiment - for example, on the effects of our social networks, our language background, or education on how we talk, listen, read, and write (>$10,000).
   * Allow us to invest into new technology, such as the real-time manipulation of speech. This makes it possible to make speakers believe that they've said something slightly different than what they actually said (e.g., bug instead of big). By studying how our brain automatically adjust subsequent productions, we can understand that neural architecture underlying language production ($14,500).
 
-Or help us support [undergraduate research](#ugrad):
+Or help us support [undergraduate research](#undergraduate-research-and-teaching):
 
   * Allow an undergraduate researchers to present their work at a national (about $500-$1,000) or international conference (about $1,500). There are few thrills like the first time you get to present your own work to a large audience of experts that are interested in the same questions.
   * Support undergraduate research through a summer research stipend. This allows an undergraduate to conduct their own studies over the three months during the summer ($2,500 - $5,000).
