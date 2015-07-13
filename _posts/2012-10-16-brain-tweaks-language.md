@@ -6,11 +6,11 @@ tags: research
 categories: news
 ---
 {% comment %}This ends up double blockquoting, but w/o the > the tag rejects the paragraph break{% endcomment %}
-{% quote title:"Futurity, October 16th 2012" url:http://www.futurity.org/to-be-clear-brain-tweaks-language/ %}
+{% blockquote "Futurity, October 16th 2012 http://www.futurity.org/to-be-clear-brain-tweaks-language/ %}
 > The brain will occasionally change language in order to make communication as
 > precise and concise as possible, new research shows.
 >
 > The findings should come as good news for linguistic purists terrified about the
 > corruption of their mother tongue, say scientists who used an artificial language
 > for their study, which is published in Proceedings of the National Academy of Sciences.
-{% endquote %}
+{% endblockquote %}
