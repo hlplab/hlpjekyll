@@ -164,16 +164,40 @@ blockquote img {
 }
 
 .quote blockquote {
-  border: 1px solid #dde5ed;
+  border-left: 10px solid #dde5ed;
   background: #f8fafd;
   color: #758fa3;
   padding: 0.75rem;
   margin-bottom: 0;
   width: 100%;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.quote blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.quote blockquote:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
 }
 
 .quote p {
+  display: inline;
   line-height: 1.75rem;
+}
+
+.quote cite:before {
+  content: "\2014 \2009";
 }
 
 iframe[seamless] {
