@@ -7,6 +7,13 @@ navlinks:
 - text: How are we funded?
   link: research/grants/
   current: true
+  fragments:
+    - text: Previous Research Support
+      anchor: previous-research-support
+    - text: Previous Graduate Student Support
+      anchor: previous-graduate-student-support
+    - text: Undergraduate research and teaching
+      anchor: undergraduate-research-and-teaching
 - text: Independent Study Projects
   link: research/independent_study.html
 - text: Publications
