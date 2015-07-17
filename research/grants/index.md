@@ -4,9 +4,9 @@ title: Interested in sponsoring our research, teaching, or research opportunitie
 navlinks:
 - text: Research Statement
   link: research/statement/
-  current: true
 - text: How are we funded?
   link: research/grants/
+  current: true
 - text: Independent Study Projects
   link: research/independent_study.html
 - text: Publications

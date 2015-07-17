@@ -20,7 +20,7 @@ navlinks:
 
 ## What type of research do we do?
 
-**An introduction to research in the Human Language Processing Lab**
+**An introduction to research in the Human Language Processing Lab — (May 9th, 2015)**
 
 *T. Florian Jaeger, Brain and Cognitive Sciences, University of
 Rochester*

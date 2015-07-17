@@ -7,7 +7,7 @@ layout: page
         <ul class="side-nav">
         {% for link in page.navlinks %}
           {% if link.fragments %}
-          <li role="menuitem"><a href="#">{{link.text}}</a>
+          <li role="menuitem" {% if link.current %}class="active"{% endif %}><a href="#">{{link.text}}</a>
             <dl class="sub-nav">
               {% for f in link.fragments %}
               <dd><a href="#{{f.anchor}}">{{f.text}}</a></dd>
