@@ -12,6 +12,7 @@ github_username:  hlplab
 bitbucket_username: hlplab
 wordpress_username: hlplab
 youtube_id: UCfAMdAEbXx1vr5uZFnRfcdw
+google_api_key: AIzaSyCKbJAHLypyA2q1AwXOaJh51PMyx_zO4wY
 
 # Build settings
 markdown: redcarpet
