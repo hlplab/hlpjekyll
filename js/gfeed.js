@@ -1,3 +1,4 @@
+/*jshint multistr: true */
 //From http://stackoverflow.com/a/6271906/3846301
 function parseRSS(url, callback) {
   $.ajax({
@@ -21,7 +22,7 @@ var entry = _.template(
   '<li>\
     <span class="post-meta">{{publishedDate}} by {{author}}</span>\
     <h3><a class="post-link" href="{{link}}">{{title}}</a></h3>\
-    <p class="post-preview">{{contentSnippet}} <a href="{{link}}">Read the rest of this entry »</a></p>\
+    <p class="post-content">{{content}}</p>\
   </li>'
 );
 
