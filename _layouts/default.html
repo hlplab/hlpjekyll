@@ -16,7 +16,14 @@
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation.min.js"></script>
-    <script type="text/javascript">$(document).foundation();</script>
+    <script type="text/javascript">
+      $(document).foundation();
+      var pagecontent = $('.page-content');
+      pagecontent.css('left', - ($('body').width() - pagecontent.width()) / 2);
+      $(window).resize(function() {
+        pagecontent.css('left', - ($('body').width() - pagecontent.width()) / 2);
+      });
+    </script>
     {% if page.custom_remote_js %}
     {% for js_file in page.custom_remote_js %}
     <script type="text/javascript" src="{{js_file}}"></script>
