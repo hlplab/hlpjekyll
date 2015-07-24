@@ -13,6 +13,11 @@ navlinks:
   - text: Graduate Student and Post-doc Funding
     link: grads/funding.html
     current: true
+    fragments:
+      - text: Funding to come to the lab
+        anchor: funding-to-come-to-the-lab
+      - text: Other funding
+        anchor: other-funding
   - text: Visiting Faculty funding
     link: jobs/faculty_funding.html
   - text: Past job opportunities

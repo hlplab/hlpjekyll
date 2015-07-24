@@ -7,6 +7,13 @@ navlinks:
   - text: Research Assistants
     link: jobs/ra.html
     current: true
+    fragments:
+      - text: University Undergraduate Jobs
+        anchor: university-undergrad-jobs
+      - text: Research Assistant - speech transcription & annotation
+        anchor: research-assistant-speech-transcription-amp-annotation
+      - text: Research Assistant - visual media
+        anchor: research-assistant-visual-media
   - text: Volunteer
     link: jobs/volunteer.html
   - text: Graduate Students &amp; Post-Docs

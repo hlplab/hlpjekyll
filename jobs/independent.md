@@ -5,6 +5,11 @@ navlinks:
   - text: Independent Study
     link: jobs/independent.html
     current: true
+    fragments:
+      - text: Requirements
+        anchor: requirements
+      - text: Funding
+        anchor: funding
   - text: Research Assistants
     link: jobs/ra.html
   - text: Volunteer

@@ -15,6 +15,11 @@ navlinks:
   - text: Visiting Faculty funding
     link: jobs/faculty_funding.html
     current: true
+    fragments:
+      - text: Supplementary sabatical funding
+        anchor: supplementary-sabatical-funding
+      - text: Visiting/collaborating with institutions in other countries
+        anchor: visiting-collaborating-with-institutions-in-other-countries
   - text: Past job opportunities
     link: jobs/past.html
 ---
