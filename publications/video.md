@@ -1,5 +1,5 @@
 ---
-layout: sidenav
+layout: sidenav_sticky
 title: Video and Audio Presentations
 custom_remote_js:
   - //cdnjs.cloudflare.com/ajax/libs/html5media/1.1.8/html5media.js

@@ -1,5 +1,5 @@
 ---
-layout: sidenav
+layout: sidenav_sticky
 title: Research Statement
 navlinks:
   - text: Research Statement

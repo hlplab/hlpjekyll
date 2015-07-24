@@ -1,5 +1,5 @@
 ---
-layout: sidenav
+layout: sidenav_sticky
 title: Participate in Experiments
 navlinks:
   - text: Research Statement

@@ -1,5 +1,5 @@
 ---
-layout: sidenav
+layout: sidenav_sticky
 title: Volunteer
 navlinks:
   - text: Independent Study

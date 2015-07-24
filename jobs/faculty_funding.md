@@ -1,5 +1,5 @@
 ---
-layout: sidenav
+layout: sidenav_sticky
 title: Funding for visiting faculty
 navlinks:
   - text: Independent Study

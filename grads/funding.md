@@ -1,12 +1,22 @@
 ---
-layout: sidenav
+layout: sidenav_sticky
 title: Graduate Student and Post-doc Funding
 navlinks:
+  - text: Independent Study
+    link: jobs/independent.html
+  - text: Research Assistants
+    link: jobs/ra.html
+  - text: Volunteer
+    link: jobs/volunteer.html
   - text: Graduate Students and Post-docs
     link: grads/index.html
   - text: Graduate Student and Post-doc Funding
     link: grads/funding.html
     current: true
+  - text: Visiting Faculty funding
+    link: jobs/faculty_funding.html
+  - text: Past job opportunities
+    link: jobs/past.html
 ---
 ## Funding to come to the lab
 

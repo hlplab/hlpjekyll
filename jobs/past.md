@@ -1,5 +1,5 @@
 ---
-layout: sidenav
+layout: sidenav_sticky
 title: Past Job Opportunities
 navlinks:
   - text: Independent Study

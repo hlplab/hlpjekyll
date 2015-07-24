@@ -1,5 +1,5 @@
 ---
-layout: sidenav
+layout: sidenav_sticky
 title: HLP Lab Jobs
 navlinks:
   - text: Independent Study

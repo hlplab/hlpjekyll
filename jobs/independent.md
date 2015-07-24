@@ -1,5 +1,5 @@
 ---
-layout: sidenav
+layout: sidenav_sticky
 title: Independent Study
 navlinks:
   - text: Independent Study
