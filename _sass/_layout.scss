@@ -241,3 +241,9 @@ iframe[seamless] {
   font-size: small;
   margin: 0; // vcard default has 1.25rem bottom margin
 }
+
+// sticky
+.stickyside {
+  position: relative;
+  top: 0;
+}
