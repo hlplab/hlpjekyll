@@ -1,6 +1,7 @@
 ---
 layout: sidenav_sticky
 title: Research Assistant
+category: jobs
 navlinks:
   - text: Independent Study
     link: jobs/independent.html

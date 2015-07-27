@@ -1,6 +1,7 @@
 ---
 layout: sidenav_sticky
 title: HLP Lab Jobs
+category: jobs
 navlinks:
   - text: Independent Study
     link: jobs/independent.html
@@ -18,10 +19,10 @@ navlinks:
     link: jobs/past.html
 ---
 
-  * [Independent Study ](/jobs/independent.html)
-  * [Research Assistants ](/jobs/ra.html)
-  * [Volunteer ](/jobs/volunteer.html)
-  * [Graduate Students &amp; Post-Docs ](/grads/)
-  * [Grad &amp; Post-doc funding ](/grads/funding.html)
-  * [Visiting Faculty funding ](/jobs/faculty_funding.html)
-  * [Past job opportunities ](/jobs/past.html)
+  * [Independent Study ]({{site.baseurl}}/jobs/independent.html)
+  * [Research Assistants ]({{site.baseurl}}/jobs/ra.html)
+  * [Volunteer ]({{site.baseurl}}/jobs/volunteer.html)
+  * [Graduate Students &amp; Post-Docs ]({{site.baseurl}}/grads/)
+  * [Grad &amp; Post-doc funding ]({{site.baseurl}}/grads/funding.html)
+  * [Visiting Faculty funding ]({{site.baseurl}}/jobs/faculty_funding.html)
+  * [Past job opportunities ]({{site.baseurl}}/jobs/past.html)

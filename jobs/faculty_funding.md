@@ -1,6 +1,7 @@
 ---
 layout: sidenav_sticky
 title: Funding for visiting faculty
+category: jobs
 navlinks:
   - text: Independent Study
     link: jobs/independent.html

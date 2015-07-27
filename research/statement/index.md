@@ -1,6 +1,7 @@
 ---
 layout: sidenav_sticky
 title: Research Statement
+category: research
 navlinks:
   - text: Research Statement
     link: research/statement/

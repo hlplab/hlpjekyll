@@ -1,6 +1,7 @@
 ---
 layout: sidenav_sticky
 title: Past Job Opportunities
+category: jobs
 navlinks:
   - text: Independent Study
     link: jobs/independent.html
