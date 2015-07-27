@@ -19,9 +19,17 @@
     <script type="text/javascript">
       $(document).foundation();
       var pagecontent = $('.page-content');
-      pagecontent.css('left', - ($('body').width() - pagecontent.width()) / 2);
+      var topbar = $('.top-bar');
+      var footer = $('.footer-content');
+      var leftshift = - ($('body').width() - pagecontent.width()) / 2;
+      pagecontent.css('left', leftshift);
+      topbar.css('left', leftshift);
+      footer.css('left', leftshift);
       $(window).resize(function() {
-        pagecontent.css('left', - ($('body').width() - pagecontent.width()) / 2);
+        leftshift = - ($('body').width() - pagecontent.width()) / 2;
+        pagecontent.css('left', leftshift);
+        topbar.css('left', leftshift);
+        footer.css('left', leftshift);
       });
     </script>
     {% if page.custom_remote_js %}
