@@ -1,6 +1,7 @@
 ---
 layout: sidenav_sticky
 title: Graduate Student and Post-doc Funding
+category: jobs
 navlinks:
   - text: Independent Study
     link: jobs/independent.html

@@ -1,5 +1,6 @@
 ---
 layout: sidenav_sticky
+category: research
 title: Publications
 navlinks:
   - text: Research Statement
