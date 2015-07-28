@@ -1,29 +1,99 @@
-- name: Evelina Fedorenko
+- lastname: Campbell-Kibler
+  firstname: Kathryn
+  url: http://www.ling.ohio-state.edu/~kbck/
+  university: The Ohio State University
+  department: Linguistics
+
+- lastname: Farmer
+  firstname: Thomas
+  url: https://sites.google.com/site/thomasfarmeruniversityofiowa/
+  university: University of Iowa
+  department: Psychology
+
+- lastname: Ferreira
+  firstname: Vic
+  lab: Language Production Lab
+  lab_url: http://lpl.ucsd.edu/LabPage/LPL.html
+  university: UCSD
+  department: Psychology
+
+- lastname: Kaschak
+  firstname: Mike 
+  url: http://www.psy.fsu.edu/faculty/kaschak.dp.html
+  university: Florida State University
+  department: Psychology
+
+- lastname: Levy
+  firstname: Roger
+  url: http://idiom.ucsd.edu/~rlevy/
+  lab: Computational Psycholinguistics Lab
+  lab_url: http://grammar.ucsd.edu/labs/cpl/
+  university: UCSD
+  department: Linguistics
+
+- lastname: Raizada
+  firstname: Rajeev
+  lab: Raizada Lab
+  lab_url: http://raizadalab.org/
+  university: University of Rochester
+  department: BCS
+
+- lastname: Runner
+  firstname: Jeff
+  url: http://www.ling.rochester.edu/people/faculty/runner_jeff/index.html
+  lab: Lattimore Eye Tracking Lab
+  lab_url: http://ling.rochester.edu/research/labs/eye-lab.html
+  university: University of Rochester
+  department: Linguistics
+
+- lastname: Tanenhaus
+  firstname: Mike
+  url: http://www.bcs.rochester.edu/people/mtan/mtan.html
+  lab: KurTanLab
+  lab_url: http://kurtan.bcs.rochester.edu/
+  university: University of Rochester
+  department: BCS
+
+- lastname: Toscano
+  firstname: Joe
+  url: http://joetoscano.com/
+  university: Villanova University
+  department: Psychology
+
+# Former "Other" below
+
+- lastname: Fedorenko
+  firstname: Evelina
   url: http://web.mit.edu/evelina9/www/
   university: MIT
   department: BCS
 
-- name: Peter Graff
+- lastname: Graff
+  firstname: Peter
   url: http://web.mit.edu/graff/www/
   university: MIT
   department: Linguistics and Philosophy
 
-- name: Jane Grimshaw
+- lastname: Grimshaw
+  firstname: Jane
   url: https://sites.google.com/site/janegrimshaw/
   university: Rutgers University
   department: Linguistics
 
-- name: Dan Jurafsky
+- lastname: Jurafsky
+  firstname: Dan
   url: http://www.stanford.edu/~jurafsky/
   university: Stanford
   department: Linguistics
 
-- name: Cheyenne Munson
+- lastname: Munson
+  firstname: Cheyenne
   url: http://www2.psychology.uiowa.edu/students/munson/
   university: University of Iowa
   department: Psychology
 
-- name: Tom Wasow
+- lastname: Wasow
+  firstname: Tom
   url: http://www.stanford.edu/~wasow/
   university: Stanford
   department: Linguistics
