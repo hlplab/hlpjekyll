@@ -19,7 +19,7 @@ navlinks:
         anchor: methodological-advancement
   - text: How are we funded?
     link: research/grants/
-  - text: Independent Study Projects
+  - text: Undergraduate Independent Study Projects
     link: research/independent_study.html
   - text: Publications
     link: publications/
