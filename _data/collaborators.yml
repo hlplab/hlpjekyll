@@ -1,3 +1,58 @@
+- lastname: Shaw
+  firstname: Jason
+  url: http://marcs.uws.edu.au/people/jason-shaw
+  university: University of Western Sydney
+  department: The MARCS Institute
+
+- lastname: Best
+  firstname: Catherine
+  url: http://marcs.uws.edu.au/people/cathi-best
+  university: University of Western Sydney
+  department: The MARCS Institute
+
+- lastname: Foulkes
+  firstname: Paul
+  url: http://www.york.ac.uk/language/people/academic-research/paul-foulkes/
+  university: University of York
+  department: Language and Linguistic Science
+
+- lastname: Docherty
+  firstname: Gerry
+  url: https://www.griffith.edu.au/arts-education-law/staff/gerard-docherty
+  university: Griffith University
+  department: Arts, Education & Law
+
+- lastname: Hay
+  firstname: Jen
+  url: http://www.arts.canterbury.ac.nz/linguistics/people/hay.shtml
+  university: University of Canterbury
+  department: Linguistics
+
+- lastname: Hume
+  firstname: Beth
+  url: http://www.arts.canterbury.ac.nz/linguistics/people/hume.shtml
+  university: University of Canterbury
+  department: Linguistics
+
+- lastname: Wedel
+  firstname: Andy
+  url: http://dingo.sbs.arizona.edu/~wedel/
+  university: University of Arizona
+  department: Linguistics
+
+- lastname: Hall
+  firstname: Kathleen
+  url: http://linguistics.ubc.ca/persons/kathleen-hall/
+  university: University of British Columbia
+  department: Linguistics
+
+- lastname: Kurumada
+  firstname: Chigusa
+  lab: KurTanLab
+  lab_url: http://kurtan.bcs.rochester.edu/
+  university: University of Rochester
+  department: Brain and Cognitive Sciences
+
 - lastname: Campbell-Kibler
   firstname: Kathryn
   url: http://www.ling.ohio-state.edu/~kbck/
@@ -18,7 +73,7 @@
   department: Psychology
 
 - lastname: Kaschak
-  firstname: Mike 
+  firstname: Mike
   url: http://www.psy.fsu.edu/faculty/kaschak.dp.html
   university: Florida State University
   department: Psychology
@@ -60,20 +115,6 @@
   university: Villanova University
   department: Psychology
 
-# Former "Other" below
-
-- lastname: Fedorenko
-  firstname: Evelina
-  url: http://web.mit.edu/evelina9/www/
-  university: MIT
-  department: BCS
-
-- lastname: Graff
-  firstname: Peter
-  url: http://web.mit.edu/graff/www/
-  university: MIT
-  department: Linguistics and Philosophy
-
 - lastname: Grimshaw
   firstname: Jane
   url: https://sites.google.com/site/janegrimshaw/
@@ -85,12 +126,6 @@
   url: http://www.stanford.edu/~jurafsky/
   university: Stanford
   department: Linguistics
-
-- lastname: Munson
-  firstname: Cheyenne
-  url: http://www2.psychology.uiowa.edu/students/munson/
-  university: University of Iowa
-  department: Psychology
 
 - lastname: Wasow
   firstname: Tom
