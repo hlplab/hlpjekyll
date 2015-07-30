@@ -13,41 +13,21 @@ navlinks:
     link: people/collab.html
     current: true
     fragments:
-      - text: Collaborating Labs
-        anchor: labs
-      - text: Other Collaborators
-        anchor: collaborators
 ---
 
-<h3>Collaborating Labs</h3>
-<table id="labs">
-  <thead>
-      <tr><th>Lab</th><th>PI</th><th>University</th><th>Department</th></tr>
-  </thead>
-  <tbody>
-    {% for lab in site.data.collab_labs %}
-    <tr>
-      <td>{% if lab.lab_url %}<a href="{{lab.lab_url}}">{% endif %}{{lab.lab}}{% if lab.lab_url %}</a>{% endif %}</td>
-      <td>{% if lab.pi_url %}<a href="{{lab.pi_url}}">{% endif %}{{lab.pi}}{% if lab.pi_url %}</a>{% endif %}</td>
-      <td>{{lab.university}}</td>
-      <td>{{lab.department}}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
-
-<h3>Other Collaborators</h3>
 <table id="collaborators">
   <thead>
-      <tr><th>Name</th><th>University</th><th>Department</th></tr>
+      <tr><th>Lab</th><th>Collaborator</th><th>University</th><th>Department</th></tr>
   </thead>
   <tbody>
-  {% for collab in site.data.collaborators %}
-  <tr>
-    <td><a href="{{collab.url}}">{{collab.name}}</a></td>
-    <td>{{collab.university}}</td>
-    <td>{{collab.department}}</td>
+    {% assign sorted_collab = site.data.collaborators |sort: 'lastname' %}
+    {% for collab in sorted_collab %}
+    <tr>
+      <td>{% if collab.lab_url %}<a href="{{collab.lab_url}}">{% endif %}{{collab.lab}}{% if lab.lab_url %}</a>{% endif %}</td>
+      <td>{% if collab.url %}<a href="{{collab.url}}">{% endif %}{{collab.firstname}} {{collab.lastname}}{% if collab.url %}</a>{% endif %}</td>
+      <td>{{collab.university}}</td>
+      <td>{{collab.department}}</td>
     </tr>
-  {% endfor %}
+    {% endfor %}
   </tbody>
 </table>

@@ -46,6 +46,9 @@ Work has involved the following languages so far:
   * Spanish
   * Yucatec Mayan
   * Mandarin Chinese
+  * Japanese
+  * Swedish
+  * Dutch
   * Artificial languages
 
 ## Requirements

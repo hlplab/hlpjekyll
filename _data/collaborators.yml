@@ -1,29 +1,134 @@
-- name: Evelina Fedorenko
-  url: http://web.mit.edu/evelina9/www/
-  university: MIT
+- lastname: Shaw
+  firstname: Jason
+  url: http://marcs.uws.edu.au/people/jason-shaw
+  university: University of Western Sydney
+  department: The MARCS Institute
+
+- lastname: Best
+  firstname: Catherine
+  url: http://marcs.uws.edu.au/people/cathi-best
+  university: University of Western Sydney
+  department: The MARCS Institute
+
+- lastname: Foulkes
+  firstname: Paul
+  url: http://www.york.ac.uk/language/people/academic-research/paul-foulkes/
+  university: University of York
+  department: Language and Linguistic Science
+
+- lastname: Docherty
+  firstname: Gerry
+  url: https://www.griffith.edu.au/arts-education-law/staff/gerard-docherty
+  university: Griffith University
+  department: Arts, Education & Law
+
+- lastname: Hay
+  firstname: Jen
+  url: http://www.arts.canterbury.ac.nz/linguistics/people/hay.shtml
+  university: University of Canterbury
+  department: Linguistics
+
+- lastname: Hume
+  firstname: Beth
+  url: http://www.arts.canterbury.ac.nz/linguistics/people/hume.shtml
+  university: University of Canterbury
+  department: Linguistics
+
+- lastname: Wedel
+  firstname: Andy
+  url: http://dingo.sbs.arizona.edu/~wedel/
+  university: University of Arizona
+  department: Linguistics
+
+- lastname: Hall
+  firstname: Kathleen
+  url: http://linguistics.ubc.ca/persons/kathleen-hall/
+  university: University of British Columbia
+  department: Linguistics
+
+- lastname: Kurumada
+  firstname: Chigusa
+  lab: KurTanLab
+  lab_url: http://kurtan.bcs.rochester.edu/
+  university: University of Rochester
+  department: Brain and Cognitive Sciences
+
+- lastname: Campbell-Kibler
+  firstname: Kathryn
+  url: http://www.ling.ohio-state.edu/~kbck/
+  university: The Ohio State University
+  department: Linguistics
+
+- lastname: Farmer
+  firstname: Thomas
+  url: https://sites.google.com/site/thomasfarmeruniversityofiowa/
+  university: University of Iowa
+  department: Psychology
+
+- lastname: Ferreira
+  firstname: Vic
+  lab: Language Production Lab
+  lab_url: http://lpl.ucsd.edu/LabPage/LPL.html
+  university: UCSD
+  department: Psychology
+
+- lastname: Kaschak
+  firstname: Mike
+  url: http://www.psy.fsu.edu/faculty/kaschak.dp.html
+  university: Florida State University
+  department: Psychology
+
+- lastname: Levy
+  firstname: Roger
+  url: http://idiom.ucsd.edu/~rlevy/
+  lab: Computational Psycholinguistics Lab
+  lab_url: http://grammar.ucsd.edu/labs/cpl/
+  university: UCSD
+  department: Linguistics
+
+- lastname: Raizada
+  firstname: Rajeev
+  lab: Raizada Lab
+  lab_url: http://raizadalab.org/
+  university: University of Rochester
   department: BCS
 
-- name: Peter Graff
-  url: http://web.mit.edu/graff/www/
-  university: MIT
-  department: Linguistics and Philosophy
+- lastname: Runner
+  firstname: Jeff
+  url: http://www.ling.rochester.edu/people/faculty/runner_jeff/index.html
+  lab: Lattimore Eye Tracking Lab
+  lab_url: http://ling.rochester.edu/research/labs/eye-lab.html
+  university: University of Rochester
+  department: Linguistics
 
-- name: Jane Grimshaw
+- lastname: Tanenhaus
+  firstname: Mike
+  url: http://www.bcs.rochester.edu/people/mtan/mtan.html
+  lab: KurTanLab
+  lab_url: http://kurtan.bcs.rochester.edu/
+  university: University of Rochester
+  department: BCS
+
+- lastname: Toscano
+  firstname: Joe
+  url: http://joetoscano.com/
+  university: Villanova University
+  department: Psychology
+
+- lastname: Grimshaw
+  firstname: Jane
   url: https://sites.google.com/site/janegrimshaw/
   university: Rutgers University
   department: Linguistics
 
-- name: Dan Jurafsky
+- lastname: Jurafsky
+  firstname: Dan
   url: http://www.stanford.edu/~jurafsky/
   university: Stanford
   department: Linguistics
 
-- name: Cheyenne Munson
-  url: http://www2.psychology.uiowa.edu/students/munson/
-  university: University of Iowa
-  department: Psychology
-
-- name: Tom Wasow
+- lastname: Wasow
+  firstname: Tom
   url: http://www.stanford.edu/~wasow/
   university: Stanford
   department: Linguistics

@@ -7,8 +7,6 @@ navlinks:
     link: research/statement/
     current: true
     fragments:
-      - text: Intro
-        anchor: an-introduction-to-research-in-the-human-language-processing-lab
       - text: Prediction and Uncertainty
         anchor: the-role-of-prediction-and-uncertainty-in-language-understanding
       - text: Learning and Generalizing [lack of invariance]
@@ -19,7 +17,7 @@ navlinks:
         anchor: methodological-advancement
   - text: How are we funded?
     link: research/grants/
-  - text: Independent Study Projects
+  - text: Undergraduate Independent Study Projects
     link: research/independent_study.html
   - text: Publications
     link: publications/
@@ -30,12 +28,11 @@ navlinks:
     external: true
 ---
 
-## What type of research do we do?
+## Research in the Human Language Processing Lab
 
 *T. Florian Jaeger, Brain and Cognitive Sciences, University of
 Rochester — May 9th, 2015*
 
-### An introduction to research in the Human Language Processing Lab
  The stunning ability to communicate abstract messages is a
 quintessential human trait that uniquely defines us in the animal
 kingdom. At the same time, human language is a complex behavior that

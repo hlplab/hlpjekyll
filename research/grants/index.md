@@ -15,7 +15,7 @@ navlinks:
       anchor: previous-graduate-student-support
     - text: Undergraduate research and teaching
       anchor: undergraduate-research-and-teaching
-- text: Independent Study Projects
+- text: Undergraduate Independent Study Projects
   link: research/independent_study.html
 - text: Publications
   link: publications/
