@@ -247,3 +247,18 @@ iframe[seamless] {
   position: relative;
   top: 0;
 }
+
+.slick-prev, .slick-next {
+  z-index: 1001;
+  width: 40px;
+  height: 40px;
+  background: rgba($aluminum, 0.25);
+}
+
+.slick-prev {
+  left: -5px;
+}
+
+.slick-next {
+  right: -5px;
+}
