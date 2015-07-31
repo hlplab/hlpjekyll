@@ -218,14 +218,12 @@ iframe[seamless] {
 }
 
 .dataslide {
-  background-color: rgba($aluminum, 0.85);
-  //background-color:rgba(0, 70, 127, 0.85);
+  background-color: rgba($iron, 0.85);
   color: white;
   padding: 2rem;
 }
 
 .dataslide h3 {
-  //color: $secondary-color;
   color: $charcoal;
 }
 
@@ -256,9 +254,9 @@ iframe[seamless] {
 }
 
 .slick-prev {
-  left: -5px;
+  left: -10px;
 }
 
 .slick-next {
-  right: -5px;
+  right: -10px;
 }
