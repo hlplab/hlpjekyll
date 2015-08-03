@@ -1,0 +1,26 @@
+<div>
+  <div class="dataslide">
+    {% if item.heading %}<h3>{{item.heading}}</h3>{% endif %}
+    {% if item.image %}
+    <img src="{{site.baseurl}}/pics/{{item.image.src}}" alt="{{item.image.alt}}"/>
+    {% if item.image.caption %}<div class="image-caption">{{item.image.caption}}</div>{% endif %}
+    {% endif %}
+    {% if item.text %}
+    {{item.text|markdownify}}
+    {% endif %}
+    {% if item.links %}
+    <ul class="small-block-grid-3 large-block-grid-6">
+    {% for link in item.links %}
+    <li>
+    {% if link.type == 'local' %}
+    <a href="{{ "{{link.url}}" |prepend: site.baseurl }}">{{link.text}}</a>
+    {% else %}
+    <a data-tooltip aria-haspopup="true" class="has-tip" title="{{link.tip}}" href="{{link.url}}">
+      <img src="{{site.baseurl}}/pics/pdf.svg" width="32px" height="48px" /></a>
+    {% endif %}
+    </li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,106 @@
+- heading: Research Statement
+  text: >
+    The stunning ability to communicate abstract messages is a
+    quintessential human trait that uniquely defines us in the animal
+    kingdom. At the same time, human language is a complex behavior that
+    presumably draws in large parts on evolutionarily younger
+    neural/cognitive systems. Research in the Human Language Processing
+    (HLP) Lab seeks to understand the computational cognitive systems that
+    allow the human brain to communicate information at a rate and
+    complexity that far exceeds that of other animals.
+
+    [Read more &raquo;]({{site.baseurl}}/research/statement/)
+
+- image:
+    src: florian_katrina_yucatan_small.jpg
+    alt: Yucatec fieldwork
+    caption: T. Florian Jaeger and Katrina Housel Furth during fieldwork in the Yucatan in 2009
+
+- heading: Typological analysis
+  image:
+    src: family-distribution-sample5779_small.jpg
+    alt: family distribution
+  text: >
+    How can one estimate the Type I and II error rates of typological
+    analysis? How can one model genealogical dependencies between languages
+    without loss of power? How can one estimate the effects of language contact?
+    In some of our work, we have discussed the used of multi-level models
+    for typological research. Power analyses can be conducted by repeatedly
+    sampling from plausible pseudo-world (see Figure which shows one such pseudo-world).
+    We have introduced and tested simple algorithms that capture most
+    variance in typological properties due to language contact.
+
+    Interested? Read more:
+  links:
+    - url: # jaeger et al 2012
+      type: pdf
+      tip: foo
+    - url: # Jaeger, Pontillo, & Graff 2012-Science
+      type: pdf
+      tip: bar
+    - url: # jaeger et al 2011
+      tip: pdf
+      text: baz
+    - url: # Jaeger, Graff, Croft, & Pontillo, 2011-LT
+      type: pdf
+      tip: qux
+
+- heading: Robust language understanding in a variable world
+  image:
+    src: noisy_channel+adaptation.png
+    alt: noisy channel + adaptation
+  text: >
+    To understand each other, we must infer messages from the linguistic
+    signal, which is often perturbed by noise. Our brain seems to overcome
+    this problem by drawing on implicit knowledge about the distribution
+    of signals and linguistic categories. Going further, some research
+    from our lab suggests that listeners and readers can adapt their
+    expectations about these distributions based on recent input. This
+    is a critical ability, allowing efficient processing even in the
+    face of inter-talker variability in pronunciation, as well as lexical
+    and syntactic preferences.
+
+    Read more about this with regard to
+  links:
+    - url: #kleinschmidt and Jaeger 2015-PR
+      type: pdf
+      tip: speech perception
+    - url: # Yilidrim et al under review
+      type: pdf
+      tip: lexical processing
+    - url: #fine et al 2013
+      type: pdf
+      tip: syntactic processing
+
+- image:
+    src: vowel_normalization_male-vs-female.jpg
+    alt: vowel normalization
+  text: >
+    Example of cross-talker vowel variability before (left) and after (right)
+    normalizing for differences in vocal-tract length based on F3. **Top Panel**:
+    the average vowel space for adult male and adult female talkers in the
+    vowel corpus collected by Hillenbrand et al. (1995). Talkers in this
+    corpus are from the Northern dialect region of American English. **Middle Panel**:
+    the degree of overlap among adult male productions of /ʊ/ and adult female
+    productions of /u/. Plots show individual vowel tokens (small dots),
+    category means (large dots), and 95% confidence ellipses. **Bottom Panel**:
+    pair-wise vowel discriminability for select vowel pairs within and across talker sex
+    (i.e., distance between category means scaled by the square root of
+    the sum of category variances). Note that the unnormalized male and
+    female vowel spaces (**top left panel**) have approximately the same geometric
+    configuration, but the male vowels are characterized by comparatively
+    lower absolute F1 and F2 values, which reflects the fact that longer
+    vocal tracts resonate at lower frequencies than shorter vocal tracts.
+    As a result, the distribution of adult male tokens of /ʊ/ is highly
+    overlapping with the distribution of adult female tokens of /u/ in
+    F1xF2 space (**middle left panel**). That is, the same acoustic information
+    maps onto different phonological categories with different probabilities
+    depending on the talker’s sex. Hence neither F1 nor F2 provides reliable
+    information for discriminating these vowel categories across talker sex
+    (**bottom left panel**, middle two bars). Normalizing F1 and F2 based on F3
+    (which is correlated with vocal tract length) considerably reduces
+    the difference between the average male and female vowel spaces (<strong>top
+    right panel</strong>), while preserving the overall shape of the space (i.e.,
+    the relative position of vowels). As a result of F3-normalization,
+    tokens of /ʊ/ and /u/ are discriminable within and across talker sex
+    (**bottom right panel**).
