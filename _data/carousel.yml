@@ -104,3 +104,27 @@
     the relative position of vowels). As a result of F3-normalization,
     tokens of /ʊ/ and /u/ are discriminable within and across talker sex
     (**bottom right panel**).
+
+- heading: Alignment
+  image:
+    src: socalign-alignment_by_Similarity_and_SoundsSmart.jpg
+  text: >
+    When we interact with one another, we tend to align our behaviors, including
+    the way we talk. Linguistic alignment is due, at least in part, to automatic
+    and subconscious aspects of language production, but is also influenced by
+    social factors like one's attitude toward their interlocutor. Using a novel
+    web-based paradigm, we investigated how speakers adapt (align or potentially
+    anti-align) their sentence productions in response to their environment.
+
+    The figure shows mixed logit model predictions for social factors that affect
+    syntactic alignment (i.e., the tendency of participants to use the same sentence
+    structures that they've heard other talkers produce). PO = the prepositional
+    object structure (i.e., give [the object] [to the recipient]). DO = the double
+    object structure (i.e., give [the recipient] [the object]). Hearing another
+    talker produce either DO or PO structures increased the likelihood that
+    participants would subsequently use the same sentence structure (i.e., overall
+    alignment). However, the degree of alignment was influenced by a range of
+    social factors, including perceived interpersonal similarity. Note that
+    alignment rates were never reliably below baseline (i.e., no anti-alignment).
+    Together, these results suggest that alignment is largely automatic but
+    socially mediated.

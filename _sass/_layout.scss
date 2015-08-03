@@ -227,6 +227,19 @@ iframe[seamless] {
   color: $charcoal;
 }
 
+.dataslide img {
+  padding-bottom: 3rem;
+}
+
+.dataslide .image-caption {
+  background: rgba(51,51,51, 0.8);
+  font-color: $white;
+  padding: rem-calc(10 14);
+  position: relative;
+  bottom: 6rem;
+  width: 100%;
+}
+
 #socialbuttons {
   margin-top: 3rem;
 }
