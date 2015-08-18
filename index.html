@@ -19,9 +19,7 @@ custom_local_js:
         <a class="button small radius" href="{{ "/contact/" |prepend: site.baseurl }}">Contact</a>
       </div>
     </div>
-    <div id="spacer" class="row">
-
-    </div>
+    <div id="spacer" class="row"></div>
     <div class="row">
       <div class="large-10 large-centered columns">
         <div id="twitterfeed">
@@ -37,6 +35,7 @@ custom_local_js:
           {% for item in site.data.carousel %}
           {% include carousel.html %}
           {% endfor %}
+        </div>
       </div>
     </div>
     <div class="row">
