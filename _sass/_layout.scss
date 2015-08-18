@@ -227,8 +227,8 @@ iframe[seamless] {
   color: $charcoal;
 }
 
-.dataslide img {
-  padding-bottom: 3rem;
+.dataslide p:first-of-type {
+  margin-top: 3rem;
 }
 
 .dataslide .image-caption {
@@ -236,7 +236,7 @@ iframe[seamless] {
   font-color: $white;
   padding: rem-calc(10 14);
   position: relative;
-  bottom: 6rem;
+  bottom: 3rem;
   width: 100%;
 }
 
