@@ -7,14 +7,47 @@
     neural/cognitive systems. Research in the Human Language Processing
     (HLP) Lab seeks to understand the computational cognitive systems that
     allow the human brain to communicate information at a rate and
-    complexity that far exceeds that of other animals.
+    complexity that far exceeds that of other animals.<br/>
 
     [Read more &raquo;]({{site.baseurl}}/research/statement/)
+  links:
+    - url:
+      type: pdf
+      tip: dave's psych review paper
+    - url:
+      type: pdf
+      tip: my 2010 cognitive psychology paper
+    - url:
+      type: pdf
+      tip: masha's 2012 pnas paper
+    - url:
+      type: pdf
+      tip: Alex's 2013 plos one paper
+    - url:
+      type: pdf
+      tip: chigusa's 2015 case-marker paper
 
-- image:
+- heading: Fieldwork
+  image:
     src: florian_katrina_yucatan_small.jpg
     alt: Yucatec fieldwork
     caption: T. Florian Jaeger and Katrina Housel Furth during fieldwork in the Yucatan in 2009
+  links:
+    - url:
+      type: pdf
+      tip: norcliffe and jaeger in press
+    - url:
+      type: pdf
+      tip: butler et al 2014-cogsci
+    - url:
+      type: pdf
+      tip: butler et al 2011-cogsci
+    - url:
+      type: pdf
+      tip: butler et al 2014-chapter
+    - url:
+      type: pdf
+      tip: Gómez Gallo, C., Jaeger, T.F., Furth, K., 2010. A Database for the Exploration of Spanish Planning, in Language Resources And Evaluation Conference (LREC). Malta.
 
 - heading: Typological analysis
   image:
@@ -80,27 +113,47 @@
     normalizing for differences in vocal-tract length based on F3. **Top Panel**:
     the average vowel space for adult male and adult female talkers in the
     vowel corpus collected by Hillenbrand et al. (1995). Talkers in this
-    corpus are from the Northern dialect region of American English. **Middle Panel**:
+    corpus are from the Northern dialect region of American English. **Bottom Panel**:
     the degree of overlap among adult male productions of /ʊ/ and adult female
     productions of /u/. Plots show individual vowel tokens (small dots),
-    category means (large dots), and 95% confidence ellipses. **Bottom Panel**:
-    pair-wise vowel discriminability for select vowel pairs within and across talker sex
-    (i.e., distance between category means scaled by the square root of
-    the sum of category variances). Note that the unnormalized male and
-    female vowel spaces (**top left panel**) have approximately the same geometric
-    configuration, but the male vowels are characterized by comparatively
-    lower absolute F1 and F2 values, which reflects the fact that longer
+    category means (large dots), and 95% confidence ellipses. Note that the
+    unnormalized male and female vowel spaces (**top left panel**) have approximately
+    the same geometric configuration, but the male vowels are characterized by
+    comparatively lower absolute F1 and F2 values, which reflects the fact that longer
     vocal tracts resonate at lower frequencies than shorter vocal tracts.
     As a result, the distribution of adult male tokens of /ʊ/ is highly
     overlapping with the distribution of adult female tokens of /u/ in
-    F1xF2 space (**middle left panel**). That is, the same acoustic information
+    F1xF2 space (**bottom left panel**). That is, the same acoustic information
     maps onto different phonological categories with different probabilities
     depending on the talker’s sex. Hence neither F1 nor F2 provides reliable
-    information for discriminating these vowel categories across talker sex
-    (**bottom left panel**, middle two bars). Normalizing F1 and F2 based on F3
+    information for discriminating these vowel categories across talker sex.
+    Normalizing F1 and F2 based on F3
     (which is correlated with vocal tract length) considerably reduces
     the difference between the average male and female vowel spaces (<strong>top
     right panel</strong>), while preserving the overall shape of the space (i.e.,
     the relative position of vowels). As a result of F3-normalization,
-    tokens of /ʊ/ and /u/ are discriminable within and across talker sex
-    (**bottom right panel**).
+    tokens of /ʊ/ and /u/ are discriminable within and across talker sex.
+
+- heading: Alignment
+  image:
+    src: socalign-alignment_by_Similarity_and_SoundsSmart.jpg
+  text: >
+    When we interact with one another, we tend to align our behaviors, including
+    the way we talk. Linguistic alignment is due, at least in part, to automatic
+    and subconscious aspects of language production, but is also influenced by
+    social factors like one's attitude toward their interlocutor. Using a novel
+    web-based paradigm, we investigated how speakers adapt (align or potentially
+    anti-align) their sentence productions in response to their environment.
+
+    The figure shows mixed logit model predictions for social factors that affect
+    syntactic alignment (i.e., the tendency of participants to use the same sentence
+    structures that they've heard other talkers produce). PO = the prepositional
+    object structure (i.e., give [the object] [to the recipient]). DO = the double
+    object structure (i.e., give [the recipient] [the object]). Hearing another
+    talker produce either DO or PO structures increased the likelihood that
+    participants would subsequently use the same sentence structure (i.e., overall
+    alignment). However, the degree of alignment was influenced by a range of
+    social factors, including perceived interpersonal similarity. Note that
+    alignment rates were never reliably below baseline (i.e., no anti-alignment).
+    Together, these results suggest that alignment is largely automatic but
+    socially mediated.
