@@ -38,16 +38,16 @@
       tip: norcliffe and jaeger in press
     - url:
       type: pdf
-      tip: butler et al 2014-cogsci
+      tip: "Butler, L.K., Tilbe, T.J., Bohnemeyer, J., Jaeger, T.F., 2014. Order of nominal conjuncts in visual scene description depends on language, in: Proceedings Of the 36th Annual Meeting of the Cognitive Science Society (CogSci14). Austin, TX : Cognitive Science Society, pp. 284–289."
     - url:
       type: pdf
-      tip: butler et al 2011-cogsci
+      tip: "Butler, L.K., Jaeger, T.F., Bohnemeyer, J., Furth, K., 2011. Learning to express visual contrasts in the production of referring expressions in Yucatec Maya, in: Proceedings Of the Workshop on the Production of Referring Expressions (PRE-CogSci 2011). Boston, MA."
     - url:
       type: pdf
-      tip: butler et al 2014-chapter
+      tip: "Butler, L.K., Bohnemeyer, J., Jaeger, T.F., 2014. Syntactic constraints and production preferences for optional plural marking in Yucatec Maya, in: Machicao y Priemer, A., Nolda, A., Sioupi, A. (Eds.), Between Core And Periphery: Studies on Peripheral Phenomena in Language and Grammar, Studia Grammatica. De Gruyter, Berlin: Akademie-Verlag, pp. 181–208."
     - url:
       type: pdf
-      tip: Gómez Gallo, C., Jaeger, T.F., Furth, K., 2010. A Database for the Exploration of Spanish Planning, in Language Resources And Evaluation Conference (LREC). Malta.
+      tip: "Gómez Gallo, C., Jaeger, T.F., Furth, K., 2010. A Database for the Exploration of Spanish Planning, in Language Resources And Evaluation Conference (LREC). Malta."
 
 - heading: Typological analysis
   image:
@@ -65,18 +65,18 @@
 
     Interested? Read more:
   links:
-    - url: # jaeger et al 2012
+    - url:
       type: pdf
-      tip: foo
-    - url: # Jaeger, Pontillo, & Graff 2012-Science
+      tip: jaeger et al 2012
+    - url:
       type: pdf
-      tip: bar
-    - url: # jaeger et al 2011
-      tip: pdf
-      text: baz
-    - url: # Jaeger, Graff, Croft, & Pontillo, 2011-LT
+      tip: 'Jaeger, T.F., Pontillo, D., Graff, P., 2012. Comment on "Phonemic Diversity Supports a Serial Founder Effect Model of Language Expansion from Africa". Science 335, 1042. doi:10.1126/science.1215107'
+    - url:
       type: pdf
-      tip: qux
+      tip: jaeger et al 2011
+    - url:
+      type: pdf
+      tip: "Jaeger, T.F., Graff, P., Croft, W., Pontillo, D., 2011. Mixed effect models for genetic and areal dependencies in linguistic typology: Commentary on Atkinson. Linguistic Typology 15, 281–319. doi:10.1515/LITY.2011.021"
 
 - heading: Robust language understanding in a variable world
   image:
@@ -95,17 +95,18 @@
 
     Read more about this with regard to
   links:
-    - url: #kleinschmidt and Jaeger 2015-PR
+    - url: https://www.academia.edu/4691761/Robust_speech_perception_Recognizing_the_familiar_generalizing_to_the_similar_and_adapting_to_the_novel
       type: pdf
-      tip: speech perception
-    - url: # Yilidrim et al under review
+      tip: "Kleinschmidt, D.F., Jaeger, T.F., 2015. Robust speech perception: Recognizing the familiar, generalizing to the similar, and adapting to the novel. Psychological Review 122, 148–203. doi:10.1037/a0038695"
+    - url:
       type: pdf
-      tip: lexical processing
-    - url: #fine et al 2013
+      tip: Yilidrim et al under review # lexical processing
+    - url:
       type: pdf
-      tip: syntactic processing
+      tip: fine et al 2013 # syntactic processing
 
-- image:
+- heading: Speech Perception
+  image:
     src: vowel_normalization_male-vs-female.jpg
     alt: vowel normalization
   text: >
@@ -133,6 +134,10 @@
     right panel</strong>), while preserving the overall shape of the space (i.e.,
     the relative position of vowels). As a result of F3-normalization,
     tokens of /ʊ/ and /u/ are discriminable within and across talker sex.
+  links:
+    - url: https://www.academia.edu/14122668/Speech_perception_and_generalization_across_speakers_and_accents
+      type: pdf
+      tip: "Weatherholtz, K. and Jaeger, T.F. (under review) Speech perception and generalization across talkers and accents."
 
 - heading: Alignment
   image:
@@ -157,3 +162,7 @@
     alignment rates were never reliably below baseline (i.e., no anti-alignment).
     Together, these results suggest that alignment is largely automatic but
     socially mediated.
+  links:
+    - url: http://www.academia.edu/6274201/Weatherholtz_K._Campell-Kibler_K._and_Jaeger_T._F._2014._Socially-mediated_syntactic_alignment._Language_Variation_and_Change_26_3_387-420
+      type: pdf
+      tip: "Weatherholtz, K., Campell-Kibler, K., Jaeger, T.F., 2014. Socially-mediated syntactic Alignment. Language Variation and Change 26, 387–420. doi:10.1017/S0954394514000155"
