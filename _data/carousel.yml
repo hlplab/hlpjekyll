@@ -70,7 +70,8 @@
       tip: jaeger et al 2012
     - url: https://www.academia.edu/1457865/Jaeger_T._F._Pontillo_D._and_Graff_P._2012._Comment_on_Phonemic_Diversity_Supports_a_Serial_Founder_Effect_Model_of_Language_Expansion_from_Africa_._Science_335_1042._doi_10.1126_science.1215107_
       type: pdf
-      tip: 'Jaeger, T.F., Pontillo, D., Graff, P., 2012. Comment on "Phonemic Diversity Supports a Serial Founder Effect Model of Language Expansion from Africa". Science 335, 1042. doi:10.1126/science.1215107'
+      # Liquid 3 just cuts the string off at the quote, escaped or not
+      tip: Jaeger, T.F., Pontillo, D., Graff, P., 2012. Comment on \"Phonemic Diversity Supports a Serial Founder Effect Model of Language Expansion from Africa\". Science 335, 1042. doi:10.1126/science.1215107
     - url:
       type: pdf
       tip: jaeger et al 2011
