@@ -12,15 +12,15 @@
 - lastname: Bushong
   firstname: Wednesday
   username: wbushong
-  email: wbushong@mail.bcs.rochester.edu
+  email: wbushong@ur.rochester.edu
   haspic: true
   department: BCS
   blurb: >
-    lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
-    eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
-    voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita
-    kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem
-    ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
+    I'm interested in prediction, learning, and adaptation during language comprehension.
+    One current line of my research investigates whether people learn abstract linguistic
+    constraints through prediction error-based learning. I'm also interested in how
+    expectations about upcoming words influence the detail with which we maintain
+    representations about the current input.
 
 - lastname: Buz
   firstname: Esteban
