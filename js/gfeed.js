@@ -27,6 +27,10 @@ var entry = _.template(
 );
 
 function createEntry(element, index, list) {
+  // FIXME: Need to rewrite stupid http wordpress URLs with https, but this
+  // doesn't seem to work. 
+  // var newcontent = element.content.replace(/http(:\/\/feeds\.wordpress\.com)/gm, '"https$1"');
+  // element.content = newcontent;
   $('#wpfeed .wp-entry').append(entry(element));
 }
 
