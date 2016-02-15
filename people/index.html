@@ -27,7 +27,8 @@ navlinks:
 
 {% if site.data.faculty %}
 <h2 id="Faculty">Faculty</h2>
-{% for person in site.data.faculty | sort: 'lastname', 'firstname' %}
+{% assign sorted_faculty = site.data.faculty |sort: 'lastname' %}
+{% for person in sorted_faculty  %}
 {% include person.html %}
 {% unless forloop.last %}
 <hr/>

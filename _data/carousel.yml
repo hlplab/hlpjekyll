@@ -7,14 +7,47 @@
     neural/cognitive systems. Research in the Human Language Processing
     (HLP) Lab seeks to understand the computational cognitive systems that
     allow the human brain to communicate information at a rate and
-    complexity that far exceeds that of other animals.
+    complexity that far exceeds that of other animals.<br/>
 
-    [Read more &raquo;]({{site.baseurl}}/research/statement/)
+    [Read more &raquo;](/research/statement/)
+  links:
+    - url: https://www.academia.edu/4691761/Robust_speech_perception_Recognizing_the_familiar_generalizing_to_the_similar_and_adapting_to_the_novel
+      type: pdf
+      tip: "Kleinschmidt, D.F., Jaeger, T.F., 2015. Robust speech perception: Recognizing the familiar, generalizing to the similar, and adapting to the novel. Psychological Review 122, 148–203. doi:10.1037/a0038695"
+    - url: https://www.academia.edu/262803/Jaeger_T._F._2010._Redundancy_and_Reduction_Speakers_Manage_Syntactic_Information_Density._Cognitive_Psychology_61_1_23-62
+      type: pdf
+      tip: "Jaeger, T.F., 2010. Redundancy and Reduction: Speakers Manage Information Density. Cognitive Psychology 61, 23–62. doi:10.1016/j.cogpsych.2010.02.002"
+    - url: https://www.academia.edu/2033534/Fedzechkina_M._Jaeger_T._F._and_Newport_E._2012._Language_learners_restructure_their_input_to_facilitate_efficient_communication._Proceedings_of_the_National_Academy_of_Sciences_109_44_17897-17902_doi_10.1073_pnas.1215776109_
+      type: pdf
+      tip: "Fedzechkina, M., Jaeger, T.F., Newport, E., 2012. Language learners restructure their input to facilitate efficient communication. Proceedings of the National Academy of Sciences 109, 17897–17902. doi:10.1073/pnas.1215776109"
+    - url: http://www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0077661&representation=PDF
+      type: pdf
+      tip: "Fine, A.B., Jaeger, T.F., Farmer, T., Qian, T., 2013. Rapid Expectation Adaptation During Syntactic Comprehension. PLoS ONE 8. doi:10.1371/journal.pone.0077661"
+    - url: https://www.academia.edu/5142210/Communicative_efficiency_in_language_production_Optional_case-marking_in_Japanese._Journal_of_Memory_and_Language
+      type: pdf
+      tip: "Kurumada, C., Jaeger, T.F., 2015. Communicative efficiency in language production : Optional case-marking in Japanese. Journal of Memory and Language 83, 152–178. doi:10.1016/j.jml.2015.03.003"
 
-- image:
+- heading: Fieldwork
+  image:
     src: florian_katrina_yucatan_small.jpg
     alt: Yucatec fieldwork
     caption: T. Florian Jaeger and Katrina Housel Furth during fieldwork in the Yucatan in 2009
+  links:
+    - url: https://www.academia.edu/8714636/Predicting_head-marking_variability_in_Yucatec_Maya_relative_clause_production
+      type: pdf
+      tip: "Norcliffe, E. and Jaeger T.F. (in press) Predicting head-marking variability in Yucatec Maya relative clause production. Language and Cognition"
+    - url:
+      type: pdf
+      tip: "Butler, L.K., Tilbe, T.J., Bohnemeyer, J., Jaeger, T.F., 2014. Order of nominal conjuncts in visual scene description depends on language, in: Proceedings Of the 36th Annual Meeting of the Cognitive Science Society (CogSci14). Austin, TX : Cognitive Science Society, pp. 284–289."
+    - url:
+      type: pdf
+      tip: "Butler, L.K., Jaeger, T.F., Bohnemeyer, J., Furth, K., 2011. Learning to express visual contrasts in the production of referring expressions in Yucatec Maya, in: Proceedings Of the Workshop on the Production of Referring Expressions (PRE-CogSci 2011). Boston, MA."
+    - url:
+      type: pdf
+      tip: "Butler, L.K., Bohnemeyer, J., Jaeger, T.F., 2014. Syntactic constraints and production preferences for optional plural marking in Yucatec Maya, in: Machicao y Priemer, A., Nolda, A., Sioupi, A. (Eds.), Between Core And Periphery: Studies on Peripheral Phenomena in Language and Grammar, Studia Grammatica. De Gruyter, Berlin: Akademie-Verlag, pp. 181–208."
+    - url:
+      type: pdf
+      tip: "Gómez Gallo, C., Jaeger, T.F., Furth, K., 2010. A Database for the Exploration of Spanish Planning, in Language Resources And Evaluation Conference (LREC). Malta."
 
 - heading: Typological analysis
   image:
@@ -32,18 +65,19 @@
 
     Interested? Read more:
   links:
-    - url: # jaeger et al 2012
+    - url:
       type: pdf
-      tip: foo
-    - url: # Jaeger, Pontillo, & Graff 2012-Science
+      tip: jaeger et al 2012
+    - url: https://www.academia.edu/1457865/Jaeger_T._F._Pontillo_D._and_Graff_P._2012._Comment_on_Phonemic_Diversity_Supports_a_Serial_Founder_Effect_Model_of_Language_Expansion_from_Africa_._Science_335_1042._doi_10.1126_science.1215107_
       type: pdf
-      tip: bar
-    - url: # jaeger et al 2011
-      tip: pdf
-      text: baz
-    - url: # Jaeger, Graff, Croft, & Pontillo, 2011-LT
+      # Liquid 3 just cuts the string off at the quote, escaped or not
+      tip: Jaeger, T.F., Pontillo, D., Graff, P., 2012. Comment on \"Phonemic Diversity Supports a Serial Founder Effect Model of Language Expansion from Africa\". Science 335, 1042. doi:10.1126/science.1215107
+    - url:
       type: pdf
-      tip: qux
+      tip: jaeger et al 2011
+    - url: https://www.academia.edu/753571/Jaeger_T._F._Graff_P._Croft_B._and_Pontillo_D._2011._Mixed_effect_models_for_genetic_and_areal_dependencies_in_linguistic_typology_Commentary_on_Atkinson._Linguistic_Typology_15_2_281_319
+      type: pdf
+      tip: "Jaeger, T.F., Graff, P., Croft, W., Pontillo, D., 2011. Mixed effect models for genetic and areal dependencies in linguistic typology: Commentary on Atkinson. Linguistic Typology 15, 281–319. doi:10.1515/LITY.2011.021"
 
 - heading: Robust language understanding in a variable world
   image:
@@ -62,17 +96,18 @@
 
     Read more about this with regard to
   links:
-    - url: #kleinschmidt and Jaeger 2015-PR
+    - url: https://www.academia.edu/4691761/Robust_speech_perception_Recognizing_the_familiar_generalizing_to_the_similar_and_adapting_to_the_novel
       type: pdf
-      tip: speech perception
-    - url: # Yilidrim et al under review
+      tip: "Kleinschmidt, D.F., Jaeger, T.F., 2015. Robust speech perception: Recognizing the familiar, generalizing to the similar, and adapting to the novel. Psychological Review 122, 148–203. doi:10.1037/a0038695"
+    - url: http://www.academia.edu/7920375/Yildrim_I._Degen_J._Tanenhaus_M._K._and_Jaeger_T._F._in_press._Talker-specificity_and_adaptation_in_quantifier_interpretation._Journal_of_Memory_and_Language
       type: pdf
-      tip: lexical processing
-    - url: #fine et al 2013
+      tip: "Yildirim, I., Degen, J., Tanenhaus, M. K., and Jaeger, T. F. in press. Talker-speciﬁcity and adaptation in quantiﬁer interpretation. Journal of Memory and Language."
+    - url:
       type: pdf
-      tip: syntactic processing
+      tip: fine et al 2013 # syntactic processing
 
-- image:
+- heading: Speech Perception
+  image:
     src: vowel_normalization_male-vs-female.jpg
     alt: vowel normalization
   text: >
@@ -80,27 +115,55 @@
     normalizing for differences in vocal-tract length based on F3. **Top Panel**:
     the average vowel space for adult male and adult female talkers in the
     vowel corpus collected by Hillenbrand et al. (1995). Talkers in this
-    corpus are from the Northern dialect region of American English. **Middle Panel**:
+    corpus are from the Northern dialect region of American English. **Bottom Panel**:
     the degree of overlap among adult male productions of /ʊ/ and adult female
     productions of /u/. Plots show individual vowel tokens (small dots),
-    category means (large dots), and 95% confidence ellipses. **Bottom Panel**:
-    pair-wise vowel discriminability for select vowel pairs within and across talker sex
-    (i.e., distance between category means scaled by the square root of
-    the sum of category variances). Note that the unnormalized male and
-    female vowel spaces (**top left panel**) have approximately the same geometric
-    configuration, but the male vowels are characterized by comparatively
-    lower absolute F1 and F2 values, which reflects the fact that longer
+    category means (large dots), and 95% confidence ellipses. Note that the
+    unnormalized male and female vowel spaces (**top left panel**) have approximately
+    the same geometric configuration, but the male vowels are characterized by
+    comparatively lower absolute F1 and F2 values, which reflects the fact that longer
     vocal tracts resonate at lower frequencies than shorter vocal tracts.
     As a result, the distribution of adult male tokens of /ʊ/ is highly
     overlapping with the distribution of adult female tokens of /u/ in
-    F1xF2 space (**middle left panel**). That is, the same acoustic information
+    F1xF2 space (**bottom left panel**). That is, the same acoustic information
     maps onto different phonological categories with different probabilities
     depending on the talker’s sex. Hence neither F1 nor F2 provides reliable
-    information for discriminating these vowel categories across talker sex
-    (**bottom left panel**, middle two bars). Normalizing F1 and F2 based on F3
+    information for discriminating these vowel categories across talker sex.
+    Normalizing F1 and F2 based on F3
     (which is correlated with vocal tract length) considerably reduces
     the difference between the average male and female vowel spaces (<strong>top
     right panel</strong>), while preserving the overall shape of the space (i.e.,
     the relative position of vowels). As a result of F3-normalization,
-    tokens of /ʊ/ and /u/ are discriminable within and across talker sex
-    (**bottom right panel**).
+    tokens of /ʊ/ and /u/ are discriminable within and across talker sex.
+  links:
+    - url: https://www.academia.edu/14122668/Speech_perception_and_generalization_across_speakers_and_accents
+      type: pdf
+      tip: "Weatherholtz, K. and Jaeger, T.F. (under review) Speech perception and generalization across talkers and accents."
+
+- heading: Alignment
+  image:
+    src: socalign-alignment_by_Similarity_and_SoundsSmart.jpg
+  text: >
+    When we interact with one another, we tend to align our behaviors, including
+    the way we talk. Linguistic alignment is due, at least in part, to automatic
+    and subconscious aspects of language production, but is also influenced by
+    social factors like one's attitude toward their interlocutor. Using a novel
+    web-based paradigm, we investigated how speakers adapt (align or potentially
+    anti-align) their sentence productions in response to their environment.
+
+    The figure shows mixed logit model predictions for social factors that affect
+    syntactic alignment (i.e., the tendency of participants to use the same sentence
+    structures that they've heard other talkers produce). PO = the prepositional
+    object structure (i.e., give [the object] [to the recipient]). DO = the double
+    object structure (i.e., give [the recipient] [the object]). Hearing another
+    talker produce either DO or PO structures increased the likelihood that
+    participants would subsequently use the same sentence structure (i.e., overall
+    alignment). However, the degree of alignment was influenced by a range of
+    social factors, including perceived interpersonal similarity. Note that
+    alignment rates were never reliably below baseline (i.e., no anti-alignment).
+    Together, these results suggest that alignment is largely automatic but
+    socially mediated.
+  links:
+    - url: http://www.academia.edu/6274201/Weatherholtz_K._Campell-Kibler_K._and_Jaeger_T._F._2014._Socially-mediated_syntactic_alignment._Language_Variation_and_Change_26_3_387-420
+      type: pdf
+      tip: "Weatherholtz, K., Campell-Kibler, K., Jaeger, T.F., 2014. Socially-mediated syntactic Alignment. Language Variation and Change 26, 387–420. doi:10.1017/S0954394514000155"

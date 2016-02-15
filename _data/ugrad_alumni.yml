@@ -12,6 +12,7 @@
 - lastname: Craycraft
   firstname: Nicole
   workedwith: Alex Fine
+  major: BCS
   gradyear: 2014
 
 - lastname: Cronin
@@ -243,5 +244,3 @@
   workedwith: Esteban Buz
   gradyear: 2016
   major: BCS
-
-

@@ -1,10 +1,13 @@
 source 'https://rubygems.org'
-gem 'jekyll', '~>2.5'
+gem 'jekyll', '~> 3.1'
 gem 'jekyll-sitemap'
 gem 'bibtex-ruby'
-gem 'jekyll-scholar'
+gem 'jekyll-scholar', '~> 5.4', '>= 5.4.1'
+gem 'psych', '2.0.8' # 2.0.15 breaks Jekyll
+gem 'jekyll-textile-converter' # Just to make octopress-quote-tag happy
 
 group :jekyll_plugins do
-  gem 'octopress-quote-tag'
+  # As of 2015-12-07, only the git version of octopress-quote-tag works with Jekyll 3.x
+  gem 'octopress-quote-tag', git: 'git://github.com/octopress/quote-tag.git'
   gem 'octopress-minify-html'
 end

@@ -1,9 +1,14 @@
 ---
 layout: default
+custom_remote_css:
+  - //cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css
+  - //cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css
 custom_remote_js:
-  - //cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js
+  - //cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.min.js
+  - //cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js
 custom_local_js:
   - gfeed
+  - slickify
 ---
 
 <div id="contentrow" class="row">
@@ -12,13 +17,14 @@ custom_local_js:
       <div class="large-12 columns">
         <a class="button small radius" href="{{ "/research/participate/" |prepend: site.baseurl }}">Participate in an Experiment</a><br/>
         <a class="button small radius" href="{{ "/contact/" |prepend: site.baseurl }}">Contact</a>
+        <a class="button small radius alert" href="{{ "/jobs/2016postdocs.html" |prepend: site.baseurl }}">Two post-doc positions available</a>
       </div>
     </div>
     <div id="spacer" class="row">
 
     </div>
     <div class="row">
-      <div class="large-10 large-offset-2 columns">
+      <div class="large-10 large-centered columns">
         <div id="twitterfeed">
           {% include twitter_feed.html %}
         </div>
@@ -28,96 +34,11 @@ custom_local_js:
   <div class="large-8 columns">
     <div class="row">
       <div class="large-12 columns">
-        <ul class="hlp-orbit" data-orbit>
-          <li data-orbit-slide="headline-1">
-            <div id="research" class="dataslide">
-              <h3>Research Statement</h3>
-              <p>The stunning ability to communicate abstract messages is a
-              quintessential human trait that uniquely defines us in the animal
-              kingdom. At the same time, human language is a complex behavior that
-              presumably draws in large parts on evolutionarily younger
-              neural/cognitive systems. Research in the Human Language Processing
-              (HLP) Lab seeks to understand the computational cognitive systems that
-              allow the human brain to communicate information at a rate and
-              complexity that far exceeds that of other animals.
-              </p>
-              <a href="{{ "/research/statement/" |prepend: site.baseurl }}">Read more &raquo;</a>
-            </div>
-          </li>
-          <li>
-            <img src="{{site.baseurl}}/pics/florian_katrina_yucatan_small.jpg" alt="Yucatec fieldworkd" />
-            <div class="orbit-caption">
-              T. Florian Jaeger and Katrina Housel Furth in the Yucatec doing fieldwork on Mayan in 2009
-            </div>
-          </li>
-          <li data-orbit-slide="headline-2">
-            <div class="dataslide">
-              <h3>Typological analysis</h3>
-              <img src="{{site.baseurl}}/pics/family-distribution-sample5779_small.jpg" alt="family distribution"/>
-              <p>How can one estimate the Type I and II error rates of typological
-                analysis? How can one model genealogical dependencies between languages
-                without loss of power? How can one estimate the effects of language contact?
-                In some of our work, we have discussed the used of multi-level models
-                for typological research. Power analyses can be conducted by repeatedly
-                sampling from plausible pseudo-world (see Figure which shows one such pseudo-world).
-                We have introduced and tested simple algorithms that capture most
-                variance in typological properties due to language contact.</p>
-                <p> Interested? Read more: [link to jaeger et al 2012 | Jaeger, Pontillo, & Graff 2012-Science]
-                   [link to jaeger et al 2011 | Jaeger, Graff, Croft, & Pontillo, 2011-LT]</p>
-            </div>
-          </li>
-          <li data-orbit-slide="headline-3">
-            <div class="dataslide">
-              <h3>Robust language understanding in a variable world</h3>
-              <img src="{{site.baseurl}}/pics/noisy_channel+adaptation.png" alt="noisy channel + adaptation"/>
-              <p>To understand each other, we must infer messages from the linguistic
-                signal, which is often perturbed by noise. Our brain seems to overcome
-                this problem by drawing on implicit knowledge about the distribution
-                of signals and linguistic categories. Going further, some research
-                from our lab suggests that listeners and readers can adapt their
-                expectations about these distributions based on recent input. This
-                is a critical ability, allowing efficient processing even in the
-                face of inter-talker variability in pronunciation, as well as lexical
-                and syntactic preferences.</p>
-                <p>Read more about this with regard to [link to kleinschmidt and Jaeger 2015-PR | speech perception]
-                [link to Yilidrim et al under review | lexical processing] [link to fine et al 2013 | syntactic processing]</p>
-              </div>
-          </li>
-          <li data-orbit-slide="headline-4">
-            <div class="dataslide">
-              <img src="{{site.baseurl}}/pics/vowel_normalization_male-vs-female.jpg" alt="vowel normalization">
-              <p>Example of cross-talker vowel variability before (left) and after (right)
-              normalizing for differences in vocal-tract length based on F3. <strong>Top Panel</strong>:
-              the average vowel space for adult male and adult female talkers in the
-              vowel corpus collected by Hillenbrand et al. (1995). Talkers in this
-              corpus are from the Northern dialect region of American English. <strong>Middle Panel</strong>:
-               the degree of overlap among adult male productions of /ʊ/ and adult female
-               productions of /u/. Plots show individual vowel tokens (small dots),
-               category means (large dots), and 95% confidence ellipses. <strong>Bottom Panel</strong>:
-               pair-wise vowel discriminability for select vowel pairs within and across talker sex
-               (i.e., distance between category means scaled by the square root of
-               the sum of category variances). Note that the unnormalized male and
-               female vowel spaces (<strong>top left panel</strong>) have approximately the same geometric
-               configuration, but the male vowels are characterized by comparatively
-               lower absolute F1 and F2 values, which reflects the fact that longer
-               vocal tracts resonate at lower frequencies than shorter vocal tracts.
-               As a result, the distribution of adult male tokens of /ʊ/ is highly
-               overlapping with the distribution of adult female tokens of /u/ in
-               F1xF2 space (<strong>middle left panel</strong>). That is, the same acoustic information
-               maps onto different phonological categories with different probabilities
-               depending on the talker’s sex. Hence neither F1 nor F2 provides reliable
-               information for discriminating these vowel categories across talker sex
-               (<strong>bottom left panel</strong>, middle two bars). Normalizing F1 and F2 based on F3
-               (which is correlated with vocal tract length) considerably reduces
-               the difference between the average male and female vowel spaces (<strong>top
-               right panel</strong>), while preserving the overall shape of the space (i.e.,
-               the relative position of vowels). As a result of F3-normalization,
-               tokens of /ʊ/ and /u/ are discriminable within and across talker sex
-               (<strong>bottom right panel</strong>).</p>
-           </div>
-          </li>
-        </ul>
-        <hr/>
+        <div class="mycarousel">
+          {% for item in site.data.carousel %}
+          {% include carousel.html %}
+          {% endfor %}
+        </div>
       </div>
     </div>
     <div class="row">

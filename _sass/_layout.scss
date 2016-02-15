@@ -222,15 +222,26 @@ iframe[seamless] {
 }
 
 .dataslide {
-  background-color: rgba($aluminum, 0.85);
-  //background-color:rgba(0, 70, 127, 0.85);
+  background-color: rgba($iron, 0.85);
   color: white;
   padding: 2rem;
 }
 
 .dataslide h3 {
-  //color: $secondary-color;
   color: $charcoal;
+}
+
+.dataslide p:first-of-type {
+  margin-top: 3rem;
+}
+
+.dataslide .image-caption {
+  background: rgba(51,51,51, 0.8);
+  font-color: $white;
+  padding: rem-calc(10 14);
+  position: relative;
+  bottom: 3rem;
+  width: 100%;
 }
 
 #socialbuttons {
@@ -250,4 +261,19 @@ iframe[seamless] {
 .stickyside {
   position: relative;
   top: 0;
+}
+
+.slick-prev, .slick-next {
+  z-index: 1001;
+  width: 40px;
+  height: 40px;
+  background: rgba($aluminum, 0.25);
+}
+
+.slick-prev {
+  left: -10px;
+}
+
+.slick-next {
+  right: -10px;
 }
