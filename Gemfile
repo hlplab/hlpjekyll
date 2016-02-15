@@ -1,9 +1,8 @@
 source 'https://rubygems.org'
-gem 'jekyll', '~> 3.0.0'
+gem 'jekyll', '~> 3.1'
 gem 'jekyll-sitemap'
 gem 'bibtex-ruby'
 gem 'jekyll-scholar', '~> 5.4', '>= 5.4.1'
-gem 'redcarpet'
 gem 'psych', '2.0.8' # 2.0.15 breaks Jekyll
 gem 'jekyll-textile-converter' # Just to make octopress-quote-tag happy
 
