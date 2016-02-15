@@ -16,10 +16,13 @@ youtube_id: UCfAMdAEbXx1vr5uZFnRfcdw
 google_api_key: AIzaSyCKbJAHLypyA2q1AwXOaJh51PMyx_zO4wY
 
 # Build settings
-markdown: redcarpet
+#markdown: redcarpet
 
-redcarpet:
-  extensions: ["tables", "autolink", "strikethrough", "underline", "space_after_headers", "with_toc_data", "fenced_code_blocks", "footnotes"]
+kramdown:
+  input: GFM
+
+#redcarpet:
+#  extensions: ["tables", "autolink", "strikethrough", "underline", "space_after_headers", "with_toc_data", "fenced_code_blocks", "footnotes"]
 
 exclude: [deploywww.sh, Gemfile]
 

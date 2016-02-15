@@ -27,10 +27,6 @@ var entry = _.template(
 );
 
 function createEntry(element, index, list) {
-  // FIXME: Need to rewrite stupid http wordpress URLs with https, but this
-  // doesn't seem to work. 
-  // var newcontent = element.content.replace(/http(:\/\/feeds\.wordpress\.com)/gm, '"https$1"');
-  // element.content = newcontent;
   $('#wpfeed .wp-entry').append(entry(element));
 }
 
@@ -39,7 +35,7 @@ function displayRSS(feed) {
   $('#wpfeed .page-heading a').html(feed.title);
   $('#wpfeed .page-heading a').prop('href', feed.link);
   $('#wpfeed a.rss').prop('href', feed.feedUrl);
-  _.each(_.first(feed.entries, 10), createEntry);
+  _.each(_.take(feed.entries, 10), createEntry);
 }
 
 $(document).ready(function() {
