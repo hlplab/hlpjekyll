@@ -1,6 +1,8 @@
 _site
 .sass-cache
 
+Gemfile.lock
+
 # Files MacOS leaves laying around
 ._*
 .DS_Store

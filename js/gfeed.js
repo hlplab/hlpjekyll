@@ -35,7 +35,7 @@ function displayRSS(feed) {
   $('#wpfeed .page-heading a').html(feed.title);
   $('#wpfeed .page-heading a').prop('href', feed.link);
   $('#wpfeed a.rss').prop('href', feed.feedUrl);
-  _.each(_.first(feed.entries, 10), createEntry);
+  _.each(_.take(feed.entries, 10), createEntry);
 }
 
 $(document).ready(function() {

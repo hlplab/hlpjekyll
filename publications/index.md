@@ -19,6 +19,8 @@ navlinks:
         anchor: in-press
       - text: In Prep
         anchor: in-prep
+      - text: 2016
+        anchor: 2016  
       - text: 2015
         anchor: 2015
       - text: 2014
@@ -59,7 +61,7 @@ You can find all our papers on [academia.edu](http://www.academia.edu/).
 ## In Prep
 {% bibliography --query @*[year=In Prep] %}
 
-{% for year in (2005..2015) reversed %}
+{% for year in (2005..2016) reversed %}
 ## {{year}}
 {% bibliography --query @*[year={{year}}] %}
 {% endfor %}
