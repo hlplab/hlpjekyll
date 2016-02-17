@@ -15,8 +15,8 @@
     {% if link.type == 'local' %}
     <a href="{{link.url |prepend: site.baseurl}}">{{link.text}}</a>
     {% else %}
-    <a data-tooltip aria-haspopup="true" class="has-tip" title="{{link.tip}}" href="{{link.url}}">
-      <img src="{{site.baseurl}}/pics/pdf.svg" width="32px" height="48px" /></a>
+    <a data-tooltip aria-haspopup="true" class="has-tip" title="{{link.tip| escape }}" href="{{link.url}}">
+      <img src="{{site.baseurl}}/pics/pdf.svg" width="32" height="48" alt="pdf"/></a>
     {% endif %}
     </li>
     {% endfor %}

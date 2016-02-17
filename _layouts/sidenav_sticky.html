@@ -6,18 +6,18 @@ custom_local_js: sticky
 <div class="row">
   <div class="large-2 columns offset-1">
      <article id="sidebar" class="stickyside">
-      <ul class="side-nav">
+      <ul class="side-nav" role="menu">
       {% for link in page.navlinks %}
         {% if link.fragments %}
-        <li role="menuitem" {% if link.current %}class="active"{% endif %}><a href="#">{{link.text}}</a>
-          <dl class="sub-nav">
+        <li role="menuitem" {% if link.current %} class="active"{% endif %}><a href="#">{{link.text}}</a>
+          <ul class="sub-nav">
             {% for f in link.fragments %}
-            <dd><a href="#{{f.anchor}}">{{f.text}}</a></dd>
+            <li><a href="#{{f.anchor}}">{{f.text}}</a></li>
             {% endfor %}
-          </dl>
+          </ul>
         </li>
         {% else %}
-        <li role="menuitem"{% if link.current %}class="active"{% endif %}><a href="{% unless link.external %}{{site.baseurl}}/{% endunless %}{{link.link}}">{{link.text}}</a></li>
+        <li role="menuitem"{% if link.current %} class="active"{% endif %}><a href="{% unless link.external %}{{site.baseurl}}/{% endunless %}{{link.link}}">{{link.text}}</a></li>
         {% endif %}
       {% endfor %}
       </ul>
