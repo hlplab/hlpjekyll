@@ -25,7 +25,7 @@
 - lastname: Buz
   firstname: Esteban
   username: ebuz
-  email: ebuz@bcs.rochester.edu
+  email: ebuz@ur.rochester.edu
   haspic: true
   department: BCS
   homepage: http://www.bcs.rochester.edu/people/ebuz/
@@ -62,7 +62,7 @@
 - lastname: Pogue
   firstname: Amanda
   username: apogue
-  email: apogue@bcs.rochester.edu
+  email: apogue@ur.rochester.edu
   haspic: true
   department: BCS
   homepage: http://www.bcs.rochester.edu/people/apogue/
@@ -77,7 +77,7 @@
 - lastname: Seifeldin
   firstname: Maryam
   username: mseifeldin
-  email: mseifeldin@bcs.rochester.edu
+  email: mseifeld@ur.rochester.edu
   haspic: true
   department: BCS
   blurb: >

@@ -6,7 +6,7 @@
       <div class="large-8 columns">
         <div class="row">
           <div class="large-6 columns">
-            {{person.firstname}} {{person.lastname}} ({{person.major}}, {{person.gradyear}})
+            {{person.firstname}} {{person.lastname}} ({{person.major| array_to_sentence_string}}, {{person.gradyear}})
           </div>
           <div class="large-6 columns">
             <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a><br/>

@@ -3,7 +3,8 @@
   username: bchu
   haspic: false
   email: bchu@u.rochester.edu
-  major: BCS
+  major:
+    - BCS
   gradyear: 2016
   workswith:
     - Mariya Fedzechkina
@@ -13,7 +14,9 @@
   username: mclark
   haspic: false
   email: mclark31@u.rochester.edu
-  major: Linguistics
+  major:
+    - Linguistics
+    - Japanese
   gradyear: 2018
   workswith:
     - Zach Burchill
@@ -24,7 +27,8 @@
   username: akrishna
   haspic: false
   email: akrishn8@u.rochester.edu
-  major: ???
+  major:
+    - ???
   gradyear: 2016
   workswith:
     - Esteban Buz
@@ -34,7 +38,8 @@
   email: bleonar5@u.rochester.edu
   username: bleonard
   haspic: false
-  major: ???
+  major:
+    - ???
   gradyear: 2017
   workswith:
     - Esteban Buz
@@ -44,7 +49,8 @@
   email: amacdon4@u.rochester.edu
   username: amacdonald
   haspic: false
-  major: ???
+  major:
+    - ???
   gradyear: 2016
   workswith:
     - Esteban Buz
@@ -54,7 +60,21 @@
   username: loey
   email: loey@u.rochester.edu
   gradyear: 2018
-  major: ???
+  major:
+    - BCS
+    - Statistics
+  haspic: false
+  workswith:
+    - Zach Burchill
+    - Linda Liu
+
+- lastname: Orth
+  firstname: Wesley
+  username: worth
+  email: worth@u.rochester.edu
+  gradyear: 2018
+  major:
+    - ???
   haspic: false
   workswith:
     - Zach Burchill
