@@ -244,3 +244,24 @@
   workedwith: Esteban Buz
   gradyear: 2016
   major: BCS
+
+- lastname: Krishnamoorthy
+  firstname: Aishwarya
+  workedwith: Esteban Buz
+  gradyear: 2016
+  major:
+    - ???
+
+- lastname: Leonard
+  firstname: Brian
+  workedwith: Esteban Buz
+  gradyear: 2017
+  major:
+    - ???
+
+- lastname: MacDonald
+  firstname: Anna
+  workedwith: Esteban Buz
+  gradyear: 2016
+  major:
+    - ???

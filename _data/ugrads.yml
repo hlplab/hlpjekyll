@@ -22,36 +22,25 @@
     - Zach Burchill
     - Linda Liu
 
-- lastname: Krishnamoorthy
-  firstname: Aishwarya
-  username: akrishna
+- lastname: Gardner
+  firstname: Bethany
+  username: bgardner
   haspic: false
-  email: akrishn8@u.rochester.edu
+  email: bethany.gardner@rochester.edu
   major:
-    - ???
-  gradyear: 2016
+    - BCS
+  gradyear: 2018
   workswith:
     - Esteban Buz
 
-- lastname: Leonard
-  firstname: Brian
-  email: bleonar5@u.rochester.edu
-  username: bleonard
+- lastname: Lewis
+  firstname: Emily
+  username: elewis
   haspic: false
+  email: elewis11@u.rochester.edu
   major:
     - ???
-  gradyear: 2017
-  workswith:
-    - Esteban Buz
-
-- lastname: MacDonald
-  firstname: Anna
-  email: amacdon4@u.rochester.edu
-  username: amacdonald
-  haspic: false
-  major:
-    - ???
-  gradyear: 2016
+  gradyear: 2018
   workswith:
     - Esteban Buz
 
