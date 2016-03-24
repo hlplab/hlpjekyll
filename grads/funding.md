@@ -82,6 +82,10 @@ grants through the department or research grants.
   at the University of Rochester. You will learn to prep a research abstract and
   create a poster, and have the option to do a GRE prep course. Open to sophomores
   and juniors with at least a 3.0 GPA. Must be a US citizen or have a current F1 Visa.
+  * [REACH](http://www.rochester.edu/careercenter/students/internship/reach/) funds
+  from the University of Rochester provide money to current UR students for a summer
+  internship. On the same page, current UR students can also apply for a Discover Grant
+  to pay for undergraduate research.
 
 ## Other funding
 
