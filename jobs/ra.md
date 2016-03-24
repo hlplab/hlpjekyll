@@ -31,7 +31,7 @@ custom_remote_js:
 
 ## University Undergrad Jobs
 
-In addition to the jobs we have to offer, the university has a site to search for [undergrad research jobs](http://www.rochester.edu/College/ugresearch/jobs/).
+In addition to the jobs we have to offer, the university has a site to search for [undergrad research jobs](https://www.rochester.edu/college/ugresearch/opportunities.html).
 
 ## Research Assistant - speech transcription & annotation
 
