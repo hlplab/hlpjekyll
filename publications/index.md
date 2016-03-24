@@ -50,7 +50,7 @@ navlinks:
     external: true
 ---
 
-You can find all our papers on [academia.edu](http://www.academia.edu/).
+You can find all our papers on [academia.edu](https://rochester.academia.edu/tiflo/papers/).
 
 ## Submitted
 {% bibliography --query @*[year=Submitted] %}
