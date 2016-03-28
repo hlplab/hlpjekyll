@@ -3,7 +3,7 @@ layout: sidenav_sticky
 title: Independent Study
 category: jobs
 navlinks:
-  - text: Independent Study
+  - text: Undergrad - Independent Study
     link: jobs/independent.html
     current: true
     fragments:
@@ -11,18 +11,14 @@ navlinks:
         anchor: requirements
       - text: Funding
         anchor: funding
-  - text: Research Assistants
+  - text: Undergrad - Research Assistants
     link: jobs/ra.html
-  - text: Volunteer
+  - text: Undergrad - Volunteer
     link: jobs/volunteer.html
-  - text: Undergraduate funding
-    link: jobs/ugrad_funding.html  
   - text: Graduate Students &amp; Post-Docs
     link: grads/
-  - text: Grad &amp; Post-doc funding
-    link: grads/funding.html
-  - text: Visiting Faculty funding
-    link: jobs/faculty_funding.html
+  - text: Fund your research / visit
+    link: jobs/funding.html
   - text: Past job opportunities
     link: jobs/past.html
 ---
@@ -59,11 +55,3 @@ Work has involved the following languages so far:
   * All independent study students need to create a wiki page. That page needs to list all references to readings (typically about 15-20 papers for 3-4 credits, but it could be less). It can also contain notes about the papers. You can find [examples of directed reading pages on our wiki](http://wiki.bcs.rochester.edu/HlpLab/DirectedReadings).
   * If the goal is to design an experiment, then you will have to create a second page describing that project. This page will be a log book for your progress, describing the general idea, design choices, items, procedure, etc. of the experiment. There are several [examples of such lab logs on our wiki](http://wiki.bcs.rochester.edu/HlpLab/Projects) (some are only accessible to HLP lab members). These wiki pages will help you to organize your thoughts, your advisor to assess your progress, and --most importantly, they will help future students interested in similar topics.
   * If you plan to take 3-4 credits, you will also need to give a short (15-20 minute) informal presentation at the end of the semester to either the other RAs in the lab or the entire lab crowd (including graduate students, etc.). It's a very supportive environment and a great chance to get feedback on your project. There is no requirement for a write-up beyond what's mentioned above. The wiki pages are the write-up.
-
-## Funding
-
-  * If you are a low-income, first-generation, or underrepresented minority undergraduate you might be able to get funding through the [McNair Program](http://www.rochester.edu/college/kearnscenter/mcnairmain.html) to do a semester-long mentored research project, which also helps with preparing to apply to graduate school.
-  * [Glamour Top 10 College Women Prize](http://www.glamour.com/about/top-10-college-women)
-  * [Josephine de Karman Fellowship](http://www.dekarman.org/)
-  * The department-internal Bishop and Bilski-Mayer fellowships for excellence in undergraduate research typically provide between $1,500 to $5000 to pursue your own summer or semester research project under the guidance of one or several advisors. You need to be nominated by a faculty and you should have worked in a lab already.
-  * The UR [Discover Grant program](http://www.rochester.edu/college/ugresearch/discover.html) is a new research grant program aimed at increasing and enhancing the undergraduate research opportunities for current University of Rochester students, open to proposals from individual and groups of current University of Rochester students and faculty.

@@ -42,17 +42,19 @@
           <li class="divider"></li>
           <li class="has-dropdown {% if page.category == 'jobs' %}active{% endif %}"><a href="{{ "/jobs/" |prepend: site.baseurl }}">Job &amp; Research Opportunities &raquo;</a>
             <ul class="dropdown">
-              <li><a href="{{ "/jobs/independent.html" |prepend: site.baseurl }}">Independent Study</a></li>
-              <li><a href="{{ "/jobs/ra.html" |prepend: site.baseurl }}">Research Assistants</a></li>
-              <li><a href="{{ "/jobs/volunteer.html" |prepend: site.baseurl }}">Volunteer</a></li>
-              <li><a href="{{ "/jobs/ugrad_funding.html" |prepend: site.baseurl}}">Undergraduate funding</a></li>
+              <li><a href="{{ "/jobs/independent.html" |prepend: site.baseurl }}">Undergrad - Independent Study</a></li>
+              <li><a href="{{ "/jobs/ra.html" |prepend: site.baseurl }}">Undergrad - Research Assistants</a></li>
+              <li><a href="{{ "/jobs/volunteer.html" |prepend: site.baseurl }}">Undergrad - Volunteer</a></li>
               <li><a href="{{ "/grads/" |prepend: site.baseurl }}">Graduate Students &amp; Post-Docs</a></li>
-              <li class="has-dropdown"><a href="{{ "/grads/funding.html" |prepend: site.baseurl }}">Grad &amp; Post-doc funding</a>
-                  <ul class="dropdown">
-                    <li><a href="{{ "/jobs/2016postdocs.html" |prepend: site.baseurl }}">Two post-docs available for 2016</a></li>
-                  </ul>
+              <li class="has-dropdown"><a href="{{ "jobs/funding.html" |prepend: site.baseurl}}">Fund your research/visit</a>
+                <ul class="dropdown">
+                  <li><a href="/jobs/funding.html#ugrad">Undergraduate</a></li>
+                  <li><a href="/jobs/funding.html#grad">Graduate</a></li>
+                  <li><a href="/jobs/funding.html#postdoc">Post-Docs</a></li>
+                  <li><a href="/jobs/funding.html#faculty">Visiting Faculty</a></li>
+                </ul>
               </li>
-              <li><a href="{{ "/jobs/faculty_funding.html" |prepend: site.baseurl }}">Visiting Faculty funding</a></li>
+              <li><a href="{{ "/jobs/2016postdocs.html" |prepend: site.baseurl }}">Two post-docs available for 2016</a></li>
               <li><a href="{{ "/jobs/past.html" |prepend: site.baseurl }}">Past job opportunities</a></li>
             </ul>
           </li>

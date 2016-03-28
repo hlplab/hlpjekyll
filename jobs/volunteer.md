@@ -3,21 +3,17 @@ layout: sidenav_sticky
 title: Volunteer
 category: jobs
 navlinks:
-  - text: Independent Study
+  - text: Undergrad - Independent Study
     link: jobs/independent.html
-  - text: Research Assistants
+  - text: Undergrad - Research Assistants
     link: jobs/ra.html
-  - text: Volunteer
+  - text: Undergrad - Volunteer
     link: jobs/volunteer.html
     current: true
-  - text: Undergraduate funding
-    link: jobs/ugrad_funding.html  
   - text: Graduate Students &amp; Post-Docs
     link: grads/
-  - text: Grad &amp; Post-doc funding
-    link: grads/funding.html
-  - text: Visiting Faculty funding
-    link: jobs/faculty_funding.html
+  - text: Fund your research / visit
+    link: jobs/funding.html
   - text: Past job opportunities
     link: jobs/past.html
 ---
