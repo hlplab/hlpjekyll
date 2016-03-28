@@ -10,6 +10,8 @@ navlinks:
   - text: Volunteer
     link: jobs/volunteer.html
     current: true
+  - text: Undergraduate funding
+    link: jobs/ugrad_funding.html  
   - text: Graduate Students &amp; Post-Docs
     link: grads/
   - text: Grad &amp; Post-doc funding

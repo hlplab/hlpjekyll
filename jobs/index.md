@@ -9,6 +9,8 @@ navlinks:
     link: jobs/ra.html
   - text: Volunteer
     link: jobs/volunteer.html
+  - text: Undergraduate funding
+    link: jobs/ugrad_funding.html    
   - text: Graduate Students &amp; Post-Docs
     link: grads/
   - text: Grad &amp; Post-doc funding
@@ -22,6 +24,7 @@ navlinks:
   * [Independent Study ]({{site.baseurl}}/jobs/independent.html)
   * [Research Assistants ]({{site.baseurl}}/jobs/ra.html)
   * [Volunteer ]({{site.baseurl}}/jobs/volunteer.html)
+  * [Undergraduate funding]({{site.baseurl}}/jobs/ugrad_funding.html)
   * [Graduate Students &amp; Post-Docs ]({{site.baseurl}}/grads/)
   * [Grad &amp; Post-doc funding ]({{site.baseurl}}/grads/funding.html)
   * [Visiting Faculty funding ]({{site.baseurl}}/jobs/faculty_funding.html)

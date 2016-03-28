@@ -9,6 +9,8 @@ navlinks:
     link: jobs/ra.html
   - text: Volunteer
     link: jobs/volunteer.html
+  - text: Undergraduate funding
+    link: jobs/ugrad_funding.html  
   - text: Graduate Students and Post-docs
     link: grads/index.html
   - text: Graduate Student and Post-doc Funding
@@ -60,7 +62,7 @@ grants through the department or research grants.
   Predoctoral, Dissertation, and Postdoctoral fellowships available.
   * [Visits and research collaborations to HLP Lab for WUN members](http://www.rochester.edu/research/icf/)
 
-### For undergraduates preparing for graduate school / Early graduate school
+### For early graduate school
 
   * [NSF Graduate Research Fellowship](http://www.nsfgrfp.org/). These are given
   based on research experience, promise of the proposed research program, and broader
@@ -75,17 +77,6 @@ grants through the department or research grants.
     and plant biology—as well as interdisciplinary research). Open to 2nd or 3rd
     year PhD students who are ineligible for fellowships or training grants
     through U.S. federal agencies.
-  * [Summer Scholars Program](https://www.urmc.rochester.edu/education/graduate/summer-scholars.aspx)
-  at [URMC](https://www.urmc.rochester.edu/) is a 10 week summer program for
-  undergraduate students interested in the PhD degree in the Biological or Biomedical
-  Sciences and for students with a potential interest in attending graduate school
-  at the University of Rochester. You will learn to prep a research abstract and
-  create a poster, and have the option to do a GRE prep course. Open to sophomores
-  and juniors with at least a 3.0 GPA. Must be a US citizen or have a current F1 Visa.
-  * [REACH](http://www.rochester.edu/careercenter/students/internship/reach/) funds
-  from the University of Rochester provide money to current UR students for a summer
-  internship. On the same page, current UR students can also apply for a Discover Grant
-  to pay for undergraduate research.
 
 ## Other funding
 
