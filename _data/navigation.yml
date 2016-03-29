@@ -1,0 +1,77 @@
+- category: research
+  title: More about HLP Lab research
+  href: /research/statement/
+  children:
+    - childtitle: Research Statement
+      childhref: /research/statement/
+    - childtitle: How are we funded?
+      childhref: /research/grants/
+    - childtitle: Undergraduate Independent Study Projects
+      childhref: /research/independent_study.html
+    - childtitle: Publications
+      childhref: /publications
+    - childtitle: Recorded Presentations
+      childhref: /publications/video.html
+    - childtitle: HLP Lab In the News
+      childhref: /news/
+    - childtitle: Lab Wiki
+      childhref: http://wiki.bcs.rochester.edu/HlpLab/
+      external: true
+
+- category: people
+  title: People
+  href: /people/
+  children:
+    - childtitle: Faculty
+      childhref: /people/#Faculty
+    - childtitle: Postdocs
+      childhref: /people/#Postdocs
+    - childtitle: Grads
+      childhref: /people/#Grads
+    - childtitle: Staff
+      childhref: /people/#Staff
+    - childtitle: Undergraduate RAs
+      childhref: /people/#RA
+    - childtitle: Alumni
+      childhref: /people/alumni.html
+    - childtitle: Visiting Scholars
+      childhref: /people/visitors.html
+    - childtitle: Collaborators
+      childhref: /people/collab.html
+
+- category: jobs
+  title: Job &amp; Research Opportunities
+  href: /jobs/
+  children:
+    - childtitle: Undergrad - Independent Study
+      childhref: /jobs/independent.html
+    - childtitle: Undergrad - Research Assistants
+      childhref: /jobs/ra.html
+    - childtitle: Undergrad - Volunteer
+      childhref: /jobs/volunteer.html
+    - childtitle: Graduate Students &amp; Post-Docs
+      childhref: /grads/
+    - childtitle: Fund your research/visit
+      childhref: /jobs/funding.html
+      grandchildren:
+        - grandchildtitle: Undergraduate
+          grandchildhref: /jobs/funding.html#ugrad
+        - grandchildtitle: Graduate
+          grandchildhref: /jobs/funding.html#grad
+        - grandchildtitle: Post-Docs
+          grandchildhref: /jobs/funding.html#postdoc
+        - grandchildtitle: Visiting Faculty
+          grandchildhref: /jobs/funding.html#faculty
+    - childtitle: Two post-docs available for 2016
+      childhref: /jobs/2016postdocs.html
+    - childtitle: Past job opportunities
+      childhref: /jobs/past.html
+
+- category: resources
+  title: Resources
+  href: ''
+  children:
+    - childtitle: Public Files
+      childhref: /resources/
+    - childtitle: Internal Files (password required)
+      childhref: /internal/

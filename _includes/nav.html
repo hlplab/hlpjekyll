@@ -1,0 +1,33 @@
+<header class="site-header">
+
+  <div class="wrapper">
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  </div>
+
+  <div class="sticky">
+    <nav class="top-bar" data-topbar role="navigation">
+      <section class="top-bar-section">
+        <ul class="left">
+          <li><a href="{{ "/calendar/" |prepend: site.baseurl }}">Calendar</a></li>
+        </ul>
+        <ul class="right">
+          {% for nav in site.data.navigation %}
+          <li class="divider"></li>
+            {% if nav.children != null %}
+          <li class="has-dropdown {% if page.category == nav.category %}active{% endif %}"><a href="{{ nav.href |prepend: site.baseurl }}">{{nav.title}}</a>
+            <ul class="dropdown">
+              {% for child in nav.children %}
+              <li><a href="{% if child.external %}{{ child.childhref }}{% else %}{{ child.childhref |prepend: site.baseurl }}{% endif %}">{{child.childtitle}}</a></li>
+              {% endfor %}
+            </ul>
+            {% else %}
+            <li><a href="{% if child.external %}{{ child.childhref }}{% else %}{{ child.childhref |prepend: site.baseurl }}{% endif %}">{{ nav.title }}</a>
+            {% endif %}</li>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+    </nav>
+  </div>
+
+</header>
