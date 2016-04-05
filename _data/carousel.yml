@@ -65,16 +65,16 @@
 
     Interested? Read more:
   links:
-    - url:
-      type: pdf
-      tip: jaeger et al 2012
+    # - url:
+    #   type: pdf
+    #   tip: jaeger et al 2012
     - url: https://www.academia.edu/1457865/Jaeger_T._F._Pontillo_D._and_Graff_P._2012._Comment_on_Phonemic_Diversity_Supports_a_Serial_Founder_Effect_Model_of_Language_Expansion_from_Africa_._Science_335_1042._doi_10.1126_science.1215107_
       type: pdf
       # Liquid 3 just cuts the string off at the quote, escaped or not
       tip: Jaeger, T.F., Pontillo, D., Graff, P., 2012. Comment on "Phonemic Diversity Supports a Serial Founder Effect Model of Language Expansion from Africa". Science 335, 1042. doi:10.1126/science.1215107
-    - url:
-      type: pdf
-      tip: jaeger et al 2011
+    # - url:
+    #   type: pdf
+    #   tip: jaeger et al 2011
     - url: https://www.academia.edu/753571/Jaeger_T._F._Graff_P._Croft_B._and_Pontillo_D._2011._Mixed_effect_models_for_genetic_and_areal_dependencies_in_linguistic_typology_Commentary_on_Atkinson._Linguistic_Typology_15_2_281_319
       type: pdf
       tip: "Jaeger, T.F., Graff, P., Croft, W., Pontillo, D., 2011. Mixed effect models for genetic and areal dependencies in linguistic typology: Commentary on Atkinson. Linguistic Typology 15, 281–319. doi:10.1515/LITY.2011.021"
@@ -102,9 +102,9 @@
     - url: http://www.academia.edu/7920375/Yildrim_I._Degen_J._Tanenhaus_M._K._and_Jaeger_T._F._in_press._Talker-specificity_and_adaptation_in_quantifier_interpretation._Journal_of_Memory_and_Language
       type: pdf
       tip: "Yildirim, I., Degen, J., Tanenhaus, M. K., and Jaeger, T. F. in press. Talker-speciﬁcity and adaptation in quantiﬁer interpretation. Journal of Memory and Language."
-    - url:
-      type: pdf
-      tip: fine et al 2013 # syntactic processing
+    # - url:
+    #   type: pdf
+    #   tip: fine et al 2013 # syntactic processing
 
 - heading: Speech Perception
   image:

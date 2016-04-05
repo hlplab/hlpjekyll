@@ -22,16 +22,20 @@
   title: People
   href: /people/
   children:
-    - childtitle: Faculty
-      childhref: /people/#Faculty
-    - childtitle: Postdocs
-      childhref: /people/#Postdocs
-    - childtitle: Grads
-      childhref: /people/#Grads
-    - childtitle: Staff
-      childhref: /people/#Staff
-    - childtitle: Undergraduate RAs
-      childhref: /people/#RA
+    - childtitle: People
+      childhref: /people/
+      showfragments: true
+      fragments:
+        - fragtitle: Faculty
+          fraghref: /people/#Faculty
+        - fragtitle: Postdocs
+          fraghref: /people/#Postdocs
+        - fragtitle: Grads
+          fraghref: /people/#Grads
+        - fragtitle: Staff
+          fraghref: /people/#Staff
+        - fragtitle: Undergraduate RAs
+          fraghref: /people/#RA
     - childtitle: Alumni
       childhref: /people/alumni.html
     - childtitle: Visiting Scholars
