@@ -26,7 +26,8 @@ navlinks:
 ---
 
 {% if site.data.faculty %}
-<h2 id="Faculty">Faculty</h2>
+<section id="Faculty" data-magellan-target="Faculty">
+<h2>Faculty</h2>
 {% assign sorted_faculty = site.data.faculty |sort: 'lastname' %}
 {% for person in sorted_faculty  %}
 {% include person.html %}
@@ -34,10 +35,12 @@ navlinks:
 <hr/>
 {% endunless %}
 {% endfor %}
+</section>
 {% endif %}
 
 {% if site.data.postdocs %}
-<h2 id="Postdocs">Postdocs</h2>
+<section id="Postdocs" data-magellan-target="Postdocs">
+<h2>Postdocs</h2>
 {% assign sorted_postdocs = site.data.postdocs |sort: 'lastname' %}
 {% for person in sorted_postdocs %}
 {% include person.html %}
@@ -45,10 +48,12 @@ navlinks:
 <hr/>
 {% endunless %}
 {% endfor %}
+</section>
 {% endif %}
 
 {% if site.data.grads %}
-<h2 id="Grads">Grad students</h2>
+<section id="Grads" data-magellan-target="Grads">
+<h2>Grad students</h2>
 {% assign sorted_grads = site.data.grads |sort: 'lastname' %}
 {% for person in sorted_grads %}
 {% include person.html %}
@@ -56,10 +61,12 @@ navlinks:
 <hr/>
 {% endunless %}
 {% endfor %}
+</section>
 {% endif %}
 
 {% if site.data.staff %}
-<h2 id="Staff">Staff</h2>
+<section id="Staff" data-magellan-target="Staff">
+<h2>Staff</h2>
 {% assign sorted_staff = site.data.staff |sort: 'lastname' %}
 {% for person in sorted_staff  %}
 {% include person.html %}
@@ -70,7 +77,8 @@ navlinks:
 {% endif %}
 
 {% if site.data.ugrads %}
-<h2 id="Ugrads">Current Undergraduate RAs</h2>
+<section id="Ugrads" data-magellan-target="Ugrads">
+<h2>Current Undergraduate RAs</h2>
 {% assign sorted_ugrads = site.data.ugrads |sort: 'lastname' %}
 {% for person in sorted_ugrads %}
 {% include ugrad.html %}
@@ -78,4 +86,5 @@ navlinks:
 <hr/>
 {% endunless %}
 {% endfor %}
+</section>
 {% endif %}
