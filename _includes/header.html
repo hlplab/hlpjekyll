@@ -5,18 +5,18 @@
   </div>
 
   <div data-sticky-container>
-    <nav class="title-bar" data-sticky data-options="marginTop:0;" style="width:100%">
+    <nav class="top-bar" data-sticky data-options="marginTop:0;" data-top-anchor="1" data-btm-anchor="content:bottom" style="width:100%">
 
-      <section class="title-bar-left">
+      <section class="top-bar-left">
         <ul class="dropdown menu" data-dropdown-menu>
           <li class="menu-text"><a href="{{ "/calendar/" |prepend: site.baseurl }}">Calendar</a></li>
         </ul>
       </section>
 
-      <section class="title-bar-right">
+      <section class="top-bar-right">
         <ul class="dropdown menu" data-dropdown-menu>
           <li class="divider"></li>
-          <li "{% if page.category == 'research' %}active{% endif %}"><a href="{{ "/research/statement/" |prepend: site.baseurl }}">More about HLP Lab research &raquo;</a>
+          <li {% if page.category == 'research' %}class="active"{% endif %}><a href="{{ "/research/statement/" |prepend: site.baseurl }}">More about HLP Lab research &raquo;</a>
             <ul class="menu vertical">
               <li><a href="{{ "/research/statement/" |prepend: site.baseurl }}">Research Statement</a></li>
               <li><a href="{{ "/research/grants/" |prepend: site.baseurl }}">How are we funded?</a></li>
@@ -28,7 +28,7 @@
             </ul>
           </li>
           <li class="divider"></li>
-          <li "{% if page.category == 'people' %}active{% endif %}"><a href="{{ "/people/" |prepend: site.baseurl }}">People &raquo;</a>
+          <li {% if page.category == 'people' %}class="active"{% endif %}><a href="{{ "/people/" |prepend: site.baseurl }}">People &raquo;</a>
             <ul class="menu vertical">
               <li><a href="{{ "/people/#Faculty" |prepend: site.baseurl }}">Faculty</a></li>
               <li><a href="{{ "/people/#Postdocs" |prepend: site.baseurl }}">Postdocs</a></li>
@@ -42,7 +42,7 @@
             </ul>
           </li>
           <li class="divider"></li>
-          <li "{% if page.category == 'jobs' %}active{% endif %}"><a href="{{ "/jobs/" |prepend: site.baseurl }}">Job &amp; Research Opportunities &raquo;</a>
+          <li {% if page.category == 'jobs' %}class="active"{% endif %}><a href="{{ "/jobs/" |prepend: site.baseurl }}">Job &amp; Research Opportunities &raquo;</a>
             <ul class="menu vertical">
               <li><a href="{{ "/jobs/independent.html" |prepend: site.baseurl }}">Undergrad - Independent Study</a></li>
               <li><a href="{{ "/jobs/ra.html" |prepend: site.baseurl }}">Undergrad - Research Assistants</a></li>
@@ -70,5 +70,5 @@
         </ul>
       </section>
     </nav>
-  {% comment %}</div>{% endcomment%}
+  </div>
 </header>
