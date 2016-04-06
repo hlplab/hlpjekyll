@@ -1,5 +1,5 @@
 ---
-layout: sidenav_sticky
+layout: sidenav
 title: Funding
 category: jobs
 navlinks:

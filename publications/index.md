@@ -1,5 +1,5 @@
 ---
-layout: sidenav_sticky
+layout: sidenav
 category: research
 title: Publications
 navlinks:
