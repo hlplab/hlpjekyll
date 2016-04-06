@@ -4,18 +4,20 @@
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
   </div>
 
-  <div class="sticky">
-    <nav class="top-bar" data-topbar role="navigation">
+  <div data-sticky-container>
+    <nav class="title-bar" data-sticky data-options="marginTop:0;" style="width:100%">
 
-      <section class="top-bar-section">
-        <ul class="left">
-          <li><a href="{{ "/calendar/" |prepend: site.baseurl }}">Calendar</a></li>
+      <section class="title-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text"><a href="{{ "/calendar/" |prepend: site.baseurl }}">Calendar</a></li>
         </ul>
+      </section>
 
-        <ul class="right">
+      <section class="title-bar-right">
+        <ul class="dropdown menu" data-dropdown-menu>
           <li class="divider"></li>
-          <li class="has-dropdown {% if page.category == 'research' %}active{% endif %}"><a href="{{ "/research/statement/" |prepend: site.baseurl }}">More about HLP Lab research &raquo;</a>
-            <ul class="dropdown">
+          <li "{% if page.category == 'research' %}active{% endif %}"><a href="{{ "/research/statement/" |prepend: site.baseurl }}">More about HLP Lab research &raquo;</a>
+            <ul class="menu vertical">
               <li><a href="{{ "/research/statement/" |prepend: site.baseurl }}">Research Statement</a></li>
               <li><a href="{{ "/research/grants/" |prepend: site.baseurl }}">How are we funded?</a></li>
               <li><a href="{{ "/research/independent_study.html" |prepend: site.baseurl }}">Undergraduate Independent Study Projects</a></li>
@@ -26,8 +28,8 @@
             </ul>
           </li>
           <li class="divider"></li>
-          <li class="has-dropdown {% if page.category == 'people' %}active{% endif %}"><a href="{{ "/people/" |prepend: site.baseurl }}">People &raquo;</a>
-            <ul class="dropdown">
+          <li "{% if page.category == 'people' %}active{% endif %}"><a href="{{ "/people/" |prepend: site.baseurl }}">People &raquo;</a>
+            <ul class="menu vertical">
               <li><a href="{{ "/people/#Faculty" |prepend: site.baseurl }}">Faculty</a></li>
               <li><a href="{{ "/people/#Postdocs" |prepend: site.baseurl }}">Postdocs</a></li>
               <li><a href="{{ "/people/#Grads" |prepend: site.baseurl }}">Grads</a></li>
@@ -40,14 +42,14 @@
             </ul>
           </li>
           <li class="divider"></li>
-          <li class="has-dropdown {% if page.category == 'jobs' %}active{% endif %}"><a href="{{ "/jobs/" |prepend: site.baseurl }}">Job &amp; Research Opportunities &raquo;</a>
-            <ul class="dropdown">
+          <li "{% if page.category == 'jobs' %}active{% endif %}"><a href="{{ "/jobs/" |prepend: site.baseurl }}">Job &amp; Research Opportunities &raquo;</a>
+            <ul class="menu vertical">
               <li><a href="{{ "/jobs/independent.html" |prepend: site.baseurl }}">Undergrad - Independent Study</a></li>
               <li><a href="{{ "/jobs/ra.html" |prepend: site.baseurl }}">Undergrad - Research Assistants</a></li>
               <li><a href="{{ "/jobs/volunteer.html" |prepend: site.baseurl }}">Undergrad - Volunteer</a></li>
               <li><a href="{{ "/grads/" |prepend: site.baseurl }}">Graduate Students &amp; Post-Docs</a></li>
-              <li class="has-dropdown"><a href="{{ "/jobs/funding.html" |prepend: site.baseurl}}">Fund your research/visit</a>
-                <ul class="dropdown">
+              <li><a href="{{ "/jobs/funding.html" |prepend: site.baseurl}}">Fund your research/visit</a>
+                <ul class="menu vertical">
                   <li><a href="{{ "/jobs/funding.html#ugrad" |prepend: site.baseurl }}">Undergraduate</a></li>
                   <li><a href="{{ "/jobs/funding.html#grad" |prepend: site.baseurl }}">Graduate</a></li>
                   <li><a href="{{ "/jobs/funding.html#postdoc" |prepend: site.baseurl }}">Post-Docs</a></li>
@@ -59,8 +61,8 @@
             </ul>
           </li>
           <li class="divider"></li>
-          <li class="has-dropdown"><a href="">Resources &raquo;</a>
-            <ul class="dropdown">
+          <li><a href="">Resources &raquo;</a>
+            <ul class="menu vertical">
               <li><a href="/resources/">Public Files</a></li>
               <li><a href="/internal/">Internal Files (password required)</a></li>
             </ul>
@@ -68,5 +70,5 @@
         </ul>
       </section>
     </nav>
-  </div>
+  {% comment %}</div>{% endcomment%}
 </header>
