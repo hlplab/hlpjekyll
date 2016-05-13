@@ -2,6 +2,7 @@
 layout: sidenav_sticky
 title: Funding
 category: jobs
+description: Funding for coming to the lab as an Undergraduate, Graduate, Postdoc, or Visiting Faculty
 navlinks:
   - text: Undergrad - Independent Study
     link: jobs/independent.html
@@ -106,9 +107,9 @@ grants through the department or research grants.
    particularly those opportunities that encourage underrepresented minority
    recruitment and broader impact vis a vis diversity.
   * Fellowships and grant opportunities in Arts, Science, and Engineering at UR:
-    * http://www.rochester.edu/college/fellowships/
-    * http://www.rochester.edu/college/fellowships/other.html
-    * http://www.rochester.edu/college/studentfellowships/index.html
+    * <http://www.rochester.edu/college/fellowships/>
+    * <http://www.rochester.edu/college/fellowships/other.html>
+    * <http://www.rochester.edu/college/studentfellowships/index.html>
   * [The Office of Research Projects Administration (ORPA)](http://www.rochester.edu/orpa/)
   website at UR has information and online resources for PIs with respect to proposal preparation.
 
