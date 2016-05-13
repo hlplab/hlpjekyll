@@ -1,14 +1,9 @@
 ---
 layout: default
-custom_remote_css:
-  - //cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css
-  - //cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css
 custom_remote_js:
   - //cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.min.js
-  - //cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js
 custom_local_js:
   - gfeed
-  - slickify
 ---
 
 <div id="contentrow" class="row">
@@ -32,11 +27,11 @@ custom_local_js:
   <div class="large-8 columns">
     <div class="row">
       <div class="large-12 columns">
-        <div class="mycarousel">
+        <ul data-orbit>
           {% for item in site.data.carousel %}
           {% include carousel.html %}
           {% endfor %}
-        </div>
+        </ul>
       </div>
     </div>
     <div class="row">
