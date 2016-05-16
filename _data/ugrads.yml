@@ -1,14 +1,3 @@
-- lastname: Chu
-  firstname: Becky
-  username: bchu
-  haspic: false
-  email: bchu@u.rochester.edu
-  major:
-    - BCS
-  gradyear: 2016
-  workswith:
-    - Mariya Fedzechkina
-
 - lastname: Clark
   firstname: Madeline
   username: mclark
