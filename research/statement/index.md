@@ -226,87 +226,86 @@ prep), and Japanese (Kurumada and Jaeger, 2013, 2015).
 
 
 <a data-dropdown="drop_refs" aria-controls="drop_refs" aria-expanded="false"><b>Selected References &raquo;</b></a>
-<div id="drop_refs" data-dropdown-content class="f-dropdown content" aria-hidden="true" tabindex="-1">
+<div id="drop_refs" data-dropdown-content class="f-dropdown content" aria-hidden="true" tabindex="-1" markdown="1">
 {% link_doi %}
 
-  * Fedzechkina, M., Jaeger, T. F., & Newport, E. L. (2012). Language
+  - Fedzechkina, M., Jaeger, T. F., & Newport, E. L. (2012). Language
   learners restructure their input to facilitate efficient communication.
-
-  *Proceedings of the National Academy of Sciences of the United States of
+  Proceedings of the National Academy of Sciences of the United States of
   America*, 1–6. doi:10.1073/pnas.1215776109
 
-  * Fine, A. B., & Jaeger, T. F. (2013). Evidence for Implicit Learning in
+  - Fine, A. B., & Jaeger, T. F. (2013). Evidence for Implicit Learning in
   Syntactic Comprehension. *Cognitive Science*, *37*, 578–591.
   doi:10.1111/cogs.12022
 
-  * Fine, A. B., Jaeger, T. F., Farmer, T. a., & Qian, T. (2013). Rapid
+  - Fine, A. B., Jaeger, T. F., Farmer, T. a., & Qian, T. (2013). Rapid
   expectation adaptation during syntactic comprehension. *PloS ONE*,
   *8*(10), e77661. doi:10.1371/journal.pone.0077661
 
-  * Fine, A. B., Qian, T., Jaeger, T. F., & Jacobs, R. A. (2010). Is there
+  - Fine, A. B., Qian, T., Jaeger, T. F., & Jacobs, R. A. (2010). Is there
   syntactic adaptation in language comprehension? In J. T. Hale (Ed.),
   *Proceedings of ACL: Workshop on Cognitive Modeling and Computational
   Linguistics* (pp. 18–26). Stroudsburg, PA: Association for Computational
   Linguistics.
 
-  * Jaeger, T. F. (2008). Categorical Data Analysis: Away from ANOVAs
+  - Jaeger, T. F. (2008). Categorical Data Analysis: Away from ANOVAs
   (transformation or not) and towards Logit Mixed Models. *Journal of
   Memory and Language*, *59*(4), 434–446. doi:10.1016/j.jml.2007.11.007
 
-  * Jaeger, T. F. (2010). Redundancy and reduction: speakers manage
+  - Jaeger, T. F. (2010). Redundancy and reduction: speakers manage
   syntactic information density. *Cognitive Psychology*, *61*(1), 23–62.
   doi:10.1016/j.cogpsych.2010.02.002
 
-  * Jaeger, T. F. (2013). Production preferences cannot be understood
+  - Jaeger, T. F. (2013). Production preferences cannot be understood
   without reference to communication. *Frontiers in Psychology*,
   *4*(April), 1–4. doi:10.3389/fpsyg.2013.00230
 
-  * Jaeger, T. F., & Ferreira, V. (2013). Seeking predictions from a
+  - Jaeger, T. F., & Ferreira, V. (2013). Seeking predictions from a
   predictive framework. *Behavioral and Brain Sciences*, *36*(4), 31–32.
   doi:10.1017/S0140525X12002592
 
-  * Jaeger, T. F., Furth, K., & Hilliard, C. (2012). Phonological Overlap
+  - Jaeger, T. F., Furth, K., & Hilliard, C. (2012). Phonological Overlap
   Affects Lexical Selection During Sentence Production. *Journal of
   Experimental Psychology: Learning, Memory, and Cognition*, *38*(5),
   1439–1449. doi:10.1037/a0027862
 
-  * Jaeger, T. F., Graff, P., Croft, W., & Pontillo, D. (2011). Mixed effect
+  - Jaeger, T. F., Graff, P., Croft, W., & Pontillo, D. (2011). Mixed effect
   models for genetic and areal dependencies in linguistic typology.
   *Linguistic Typology*, *15*(2), 281–319. doi:10.1515/LITY.2011.021
 
-  * Jaeger, T. F., Pontillo, D., & Graff, P. (2012). Comment on “Phonemic
+  - Jaeger, T. F., Pontillo, D., & Graff, P. (2012). Comment on “Phonemic
   diversity supports a serial founder effect model of language expansion
   from Africa”. *Science*, *335*(6072), 1042. doi:10.1126/science.1215107
 
-  * Jaeger, T. F., & Snider, N. E. (2013). Alignment as a consequence of
+  - Jaeger, T. F., & Snider, N. E. (2013). Alignment as a consequence of
   expectation adaptation: Syntactic priming is affected by the prime’s
   prediction error given both prior and recent experience. *Cognition*,
   *127*(1), 57–83. doi:10.1016/j.cognition.2012.10.013
 
-  * Kleinschmidt, D., & Jaeger, T. F. (2011). A Bayesian belief updating
+  - Kleinschmidt, D., & Jaeger, T. F. (2011). A Bayesian belief updating
   model of phonetic recalibration and selective adaptation. *Proceedings
   of the Cognitive Modeling and Computational Linguistics Workshop at
   ACL*, 10–19.
 
-  * Kleinschmidt, D. F., & Jaeger, T. (n.d.). Robust Speech Perception:
+  - Kleinschmidt, D. F., & Jaeger, T. (n.d.). Robust Speech Perception:
   Recognizing the familiar, Generalizing to the similar, and adapting to
   the novel. Resubmitted to *Psychological Review.*
 
-  * Levy, R., & Jaeger, T. F. (2007). Speakers optimize information density
+  - Levy, R., & Jaeger, T. F. (2007). Speakers optimize information density
   through syntactic reduction. In B. Schlökopf, J. Platt, & T. Hoffman
   (Eds.), *Advances in neural information processing systems (NIPS) 19*
   (pp. 849–856). Cambridge, MA: MIT Press.
 
-  * Qian, T., & Jaeger, T. F. (2012). Cue effectiveness in communicatively
+  - Qian, T., & Jaeger, T. F. (2012). Cue effectiveness in communicatively
   efficient discourse production. *Cognitive Science, 36(7)*, 1312–36.
   doi:10.1111/j.1551-6709.2012.01256.x
 
-  * Tily, H. J., Frank, M. C., & Jaeger, T. F. (2011). The learnability of
+  - Tily, H. J., Frank, M. C., & Jaeger, T. F. (2011). The learnability of
   constructed languages reflects typological patterns. In *Proceedings of
   the 33rd Annual Meeting of the Cognitive Science Society (CogSci11)*
   (pp. 1364–1369). Austin, TX: Cognitive Science Society.
 
-  * Yildirim, I., Degen, J., Tanenhaus, M. K., & Jaeger, T. F. (submitted).
+  - Yildirim, I., Degen, J., Tanenhaus, M. K., & Jaeger, T. F. (submitted).
   Linguistic Variability and Adaptation in Quantifier Meanings. Submitted
   for review to *Journal of Memory and Language.*
 
