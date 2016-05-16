@@ -29,6 +29,7 @@ navlinks:
 ---
 
 ## Undergraduate
+{:data-magellan-destination="undergraduate"}
 
   * If you are a low-income, first-generation, or underrepresented minority undergraduate you might be able to get funding through the [McNair Program](http://www.rochester.edu/college/kearnscenter/mcnairmain.html) to do a semester-long mentored research project, which also helps with preparing to apply to graduate school.
   * [Glamour Top 10 College Women Prize](http://www.glamour.com/about/top-10-college-women)
@@ -48,6 +49,7 @@ internship. On the same page, current UR students can also apply for a Discover 
 to pay for undergraduate research.
 
 ## Graduate
+{:data-magellan-destination="graduate"}
 
 Graduate students in the Brain and Cognitive Sciences at the University of Rochester
 are funded via a mixture of training grants, university fellowships, and individual
@@ -127,6 +129,7 @@ grants through the department or research grants.
   * [Reimar Lüst Prize for International Scientific and Cultural Mediation](http://www.humboldt-foundation.de/web/6798.html)
 
 ## Post-docs
+{:data-magellan-destination="post-docs"}
 
 ### Post-doc support
 
@@ -143,6 +146,7 @@ grants through the department or research grants.
   * Any country: [NSF International Research Fellowship Program (IRFP)](http://www.nsf.gov/pubs/2006/nsf06582/nsf06582.html)
 
 ## Visiting faculty
+{:data-magellan-destination="visiting-faculty"}
 
 ### Supplementary sabatical funding
 

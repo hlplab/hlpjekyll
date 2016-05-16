@@ -16,12 +16,20 @@ navlinks:
 - text: Recorded Presentations
   link: publications/video.html
   current: true
+  fragments:
+    - text: Colloquium talks
+      anchor: colloquium-talks
+    - text: Workshop Materials
+      anchor: workshop-materials
+    - text: Undergrad Research Expo 2008
+      anchor: undergrad-research-expo-2008
 - text: Lab wiki
   link: http://wiki.bcs.rochester.edu/HlpLab/
   external: true
 ---
 
 ## Colloquium talks
+{:data-magellan-destination="colloquium-talks"}
 
   * Jaeger, T. Florian. *Speakers' preferences at choice points in language production facilitate efficient communication.* Rutgers University colloquium talk (Part 1 of 2) April, 2010.
 
@@ -34,6 +42,7 @@ navlinks:
   <audio src="/resources/recordedHLPtalks/Jaeger10-UID-PennStateCLS-Inaugural-Young-Scientist-Colloqium-Speaker.mp3" controls preload></audio>
 
 ## Workshop Materials
+{:data-magellan-destination="workshop-materials"}
 
   * Jaeger, T. Florian. *Penn State Regression Workshop*
     * Day 1 materials: [[PDF slides]](/resources/recordedHLPtalks/PennStateRegression10/PennState-Day1.pdf) [[R file]](/resources/recordedHLPtalks/PennStateRegression10/Day1.R)
@@ -45,6 +54,7 @@ navlinks:
     <audio src="/resources/recordedHLPtalks/PennStateRegression10/Florian-Workshop-II.mp3" controls preload></audio>
 
 ## Undergrad Research Expo 2008
+{:data-magellan-destination="undergrad-research-expo-2008"}
 
   * Katrina Housel. *Phonological Priming in Spontaneous Speech Production.* University of Rochester Undergrad Rearch Exposition April, 2008. [[PPT Slides]](/resources/recordedHLPtalks/URE08/KatrinaURE08.ppt)
 

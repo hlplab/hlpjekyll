@@ -2,7 +2,7 @@
 layout: sidenav_sticky
 title: HLP Lab People
 category: people
-description: Faculty, Grads, Postdocs, Staff, RAs in the HLP Lab  
+description: Faculty, Grads, Postdocs, Staff, RAs in the HLP Lab
 navlinks:
   - text: People
     link: people/
@@ -27,7 +27,7 @@ navlinks:
 ---
 
 {% if site.data.faculty %}
-<h2 id="Faculty">Faculty</h2>
+<h2 data-magellan-destination="Faculty" id="Faculty">Faculty</h2>
 {% assign sorted_faculty = site.data.faculty |sort: 'lastname' %}
 {% for person in sorted_faculty  %}
 {% include person.html %}
@@ -38,7 +38,7 @@ navlinks:
 {% endif %}
 
 {% if site.data.postdocs %}
-<h2 id="Postdocs">Postdocs</h2>
+<h2 data-magellan-destination="Postdocs" id="Postdocs">Postdocs</h2>
 {% assign sorted_postdocs = site.data.postdocs |sort: 'lastname' %}
 {% for person in sorted_postdocs %}
 {% include person.html %}
@@ -49,7 +49,7 @@ navlinks:
 {% endif %}
 
 {% if site.data.grads %}
-<h2 id="Grads">Grad students</h2>
+<h2 data-magellan-destination="Grads" id="Grads">Grad students</h2>
 {% assign sorted_grads = site.data.grads |sort: 'lastname' %}
 {% for person in sorted_grads %}
 {% include person.html %}
@@ -60,7 +60,7 @@ navlinks:
 {% endif %}
 
 {% if site.data.staff %}
-<h2 id="Staff">Staff</h2>
+<h2 data-magellan-destination="Staff" id="Staff">Staff</h2>
 {% assign sorted_staff = site.data.staff |sort: 'lastname' %}
 {% for person in sorted_staff  %}
 {% include person.html %}
@@ -71,7 +71,7 @@ navlinks:
 {% endif %}
 
 {% if site.data.ugrads %}
-<h2 id="Ugrads">Current Undergraduate RAs</h2>
+<h2 data-magellan-destination="Ugrads" id="Ugrads">Current Undergraduate RAs</h2>
 {% assign sorted_ugrads = site.data.ugrads |sort: 'lastname' %}
 {% for person in sorted_ugrads %}
 {% include ugrad.html %}

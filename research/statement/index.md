@@ -65,6 +65,7 @@ and listeners take advantage of redundancy in the signal as well as
 expectations about likely messages based on previous experience.
 
 ### The role of prediction and uncertainty in language understanding.
+{:data-magellan-destination="the-role-of-prediction-and-uncertainty-in-language-understanding"}
 To understand language, comprehenders must map an acoustic (or visual)
 signal onto sequences of phonemes, words, and phrases, with the ultimate
 goal of inferring the intended message. This signal is perturbed by
@@ -90,6 +91,7 @@ information from the bottom-up acoustic signal and top-down constraints
 follows the principles of an ideal observer_ (Bicknell et al., in prep).
 
 ### The lack of invariance problem and how we can understand each other at all.
+{:data-magellan-destination="the-lack-of-invariance-problem-and-how-we-can-understand-each-other-at-all"}
 This ability to integrate information from different sources into
 predictions about upcoming sounds, words, etc. is even more astonishing
 once we take into consideration one of the oldest puzzle of the speech
@@ -148,6 +150,7 @@ prediction and uncertainty affect language processing (Bicknell et al.,
 to appear; Kuperberg and Jaeger, under review; Linzen & Jaeger, 2015).
 
 ### To what extent and how do speakers contribute to successful communication?
+{:data-magellan-destination="to-what-extent-and-how-do-speakers-contribute-to-successful-communication"}
 Another focus of research in HLP Lab lies on the
 speaker. Languages often provide several near-meaning equivalent ways of
 encoding the same message. We have investigated to what extent speakers’
@@ -196,6 +199,7 @@ expectations (Jaeger and Snider, 2013) or in response to _social
 relations or status of interlocutors_ (Weatherholtz et al., 2014).
 
 ### Methodological advancement
+{:data-magellan-destination="methodological-advancement"}
 This includes introductions and reviews
 of advanced statistical methods (e.g., _Generalized Linear Mixed
 Models_, Jaeger, 2008) and their application to typology, which

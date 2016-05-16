@@ -23,7 +23,7 @@ navlinks:
 ---
 
 {% if site.data.postdoc_alumni %}
-<h3 id="Post-doc-Alumni">Post-doc Alumni</h3>
+<h3 data-magellan-destination="Post-doc-Alumni" id="Post-doc-Alumni">Post-doc Alumni</h3>
 {% assign sorted_postdocs = site.data.postdoc_alumni |sort: 'lastname' %}
 {% for person in sorted_postdocs %}
 <div class="row person" id="{{person.username}}">
@@ -45,7 +45,7 @@ navlinks:
 {% endif %}
 
 {% if site.data.grad_alumni %}
-<h2 id="Graduate-Alumni">Graduate Alumni</h2>
+<h2 data-magellan-destination="Graduate-Alumni" id="Graduate-Alumni">Graduate Alumni</h2>
 {% assign sorted_grads = site.data.grad_alumni |sort: 'lastname' %}
 {% for person in sorted_grads %}
 <div class="row person" id="{{person.username}}">
@@ -69,7 +69,7 @@ navlinks:
 {% endif %}
 
 {% if site.data.ugrad_alumni %}
-<h2 id="Undergraduate-Alumni">Undergraduate Alumni</h2>
+<h2 data-magellan-destination="Undergraduate-Alumni" id="Undergraduate-Alumni">Undergraduate Alumni</h2>
 <div class="row">
   <div class="large-12 columns">
     {% assign sorted_ugrads = site.data.ugrad_alumni |sort: 'lastname' %}

@@ -53,15 +53,19 @@ navlinks:
 You can find all our papers on [academia.edu](https://rochester.academia.edu/tiflo/papers/).
 
 ## Submitted
+{:data-magellan-destination="submitted"}
 {% bibliography --query @*[year=Submitted] %}
 
 ## In Press
+{:data-magellan-destination="in-press"}
 {% bibliography --query @*[year=In Press] %}
 
 ## In Prep
+{:data-magellan-destination="in-prep"}
 {% bibliography --query @*[year=In Prep] %}
 
 {% for year in (2005..2016) reversed %}
 ## {{year}}
+{:data-magellan-destination="{{year}}"}
 {% bibliography --query @*[year={{year}}] %}
 {% endfor %}
