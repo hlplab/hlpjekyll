@@ -16,7 +16,19 @@
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/foundation.min.js"></script>
-    <script type="text/javascript">$(document).foundation();</script>
+    <script type="text/javascript">$(document).foundation({
+      $magellan : {
+        // specify the class used for active sections
+        active_class: 'reading',
+        // how many pixels until the magellan bar sticks, 0 = auto
+        threshold: 5000,
+        // pixels from the top of destination for it to be considered active
+        destination_threshold: 20,
+        // calculation throttling to increase framerate
+        throttle_delay: 50
+      },
+    });
+    </script>
     {% if page.custom_remote_js %}
     {% for js_file in page.custom_remote_js %}
     <script type="text/javascript" src="{{js_file}}"></script>
