@@ -49,6 +49,9 @@ scholar:
 sass:
     style: :compressed
 
+# set to false for development. comment out for production
+minify_html: false
+
 #defaults:
 #  -
 #    scope:
