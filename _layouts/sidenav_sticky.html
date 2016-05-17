@@ -10,11 +10,13 @@ custom_local_js: sticky
       {% for link in page.navlinks %}
         {% if link.fragments %}
         <li role="menuitem" {% if link.current %} class="active"{% endif %}><a href="#">{{link.text}}</a>
-          <ul class="sub-nav">
-            {% for f in link.fragments %}
-            <li><a href="#{{f.anchor}}">{{f.text}}</a></li>
-            {% endfor %}
-          </ul>
+          <div data-magellan-expedition="fixed" data-options="threshold:0;destination_threshold:20;fixed_top:0">
+            <ul class="sub-nav">
+              {% for f in link.fragments %}
+              <li data-magellan-arrival="{{f.anchor}}"><a href="#{{f.anchor}}">{{f.text}}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
         </li>
         {% else %}
         <li role="menuitem"{% if link.current %} class="active"{% endif %}><a href="{% unless link.external %}{{site.baseurl}}/{% endunless %}{{link.link}}">{{link.text}}</a></li>

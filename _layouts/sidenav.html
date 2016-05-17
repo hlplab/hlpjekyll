@@ -10,7 +10,7 @@ layout: page
           <li role="menuitem" {% if link.current %} class="active"{% endif %}><a href="#">{{link.text}}</a>
             <ul class="sub-nav">
               {% for f in link.fragments %}
-              <li><a href="#{{f.anchor}}">{{f.text}}</a></li>
+              <li data-magellan-arrival="{{f.anchor}}"><a href="#{{f.anchor}}">{{f.text}}</a></li>
               {% endfor %}
             </ul>
           </li>
