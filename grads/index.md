@@ -2,6 +2,7 @@
 layout: sidenav_sticky
 title: Graduate Students and Post-docs
 category: jobs
+custom_local_js: sticky
 navlinks:
   - text: Independent Study
     link: jobs/independent.html

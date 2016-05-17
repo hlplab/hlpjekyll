@@ -2,6 +2,7 @@
 layout: sidenav_sticky
 title: Two post-doctoral positions available for 2016
 category: jobs
+custom_local_js: sticky
 navlinks:
   - text: Independent Study
     link: jobs/independent.html

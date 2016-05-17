@@ -2,6 +2,7 @@
 layout: sidenav_sticky
 category: research
 title: Publications
+custom_local_js: sticky
 navlinks:
   - text: Research Statement
     link: research/statement/
