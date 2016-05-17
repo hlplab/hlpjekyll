@@ -1,0 +1,31 @@
+---
+layout: page
+custom_local_js: sticky
+---
+
+<div class="row">
+  <div class="large-2 columns offset-1">
+     <article id="sidebar" class="stickyside">
+      <ul class="side-nav" role="menu">
+      {% for link in page.navlinks %}
+        {% if link.fragments %}
+        <li role="menuitem" {% if link.current %} class="active"{% endif %}><a href="#">{{link.text}}</a>
+          <div data-magellan-expedition="fixed" data-options="threshold:5000;destination_threshold:20;fixed_top:0">
+            <ul class="sub-nav">
+              {% for f in link.fragments %}
+              <li data-magellan-arrival="{{f.anchor}}"><a href="#{{f.anchor}}">{{f.text}}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </li>
+        {% else %}
+        <li role="menuitem"{% if link.current %} class="active"{% endif %}><a href="{% unless link.external %}{{site.baseurl}}/{% endunless %}{{link.link}}">{{link.text}}</a></li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+    </article>
+  </div>
+  <div class="large-9 columns">
+      {{content}}
+  </div>
+</div>

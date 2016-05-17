@@ -27,13 +27,11 @@ custom_local_js:
   <div class="large-8 columns">
     <div class="row">
       <div class="large-12 columns">
-        {% comment %}
-        <div class="mycarousel">
+        <ul data-orbit>
           {% for item in site.data.carousel %}
           {% include carousel.html %}
           {% endfor %}
-        </div>
-        {% endcomment %}
+        </ul>
       </div>
     </div>
     <div class="row">

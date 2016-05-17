@@ -2,6 +2,7 @@
 layout: sidenav
 title: Research Assistant
 category: jobs
+custom_local_js: sticky
 navlinks:
   - text: Undergrad - Independent Study
     link: jobs/independent.html
@@ -28,10 +29,12 @@ custom_remote_js:
 ---
 
 ## University Undergrad Jobs
+{:data-magellan-destination="university-undergrad-jobs"}
 
 In addition to the jobs we have to offer, the university has a site to search for [undergrad research jobs](https://www.rochester.edu/college/ugresearch/opportunities.html).
 
 ## Research Assistant - speech transcription & annotation
+{:data-magellan-destination="research-assistant-speech-transcription-amp-annotation"}
 
 Right now we're looking for several hourly-paid research assistants for transcription
 and annotation work. You will be transcribing sound files that are produced by
@@ -47,6 +50,7 @@ to learn more about the experiments and the research conducted in our lab. Pay w
 be slightly above standard RA salaries. Minimum hours per week required are 5 (10 preferred).
 
 ## Research Assistant - visual media
+{:data-magellan-destination="research-assistant-visual-media"}
 
 We are also searching for a research assistant for the creation of animated video stimuli. These stimuli will be used in psycholinguistic experimentations that elicit descriptions from participants (to study what influences how participants produce such descriptions). Stimuli are either pictures or videos. Creation of the stimuli requires use of software such as Photoshop and Poser, a 3D video animation program. We will train the RA in Poser during the first weeks of the job. Experience in other photo software is appreciated, but not required.
 

@@ -11,7 +11,7 @@ layout: page
           <li {% if link.current %} class="active"{% endif %}><a href="#">{{link.text}}</a>
             <ul class="nested vertical menu" data-magellan>
               {% for f in link.fragments %}
-              <li><a href="#{{f.anchor}}">{{f.text}}</a></li>
+              <li data-magellan-arrival="{{f.anchor}}"><a href="#{{f.anchor}}">{{f.text}}</a></li>
               {% endfor %}
             </ul>
           </li>

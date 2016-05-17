@@ -1,13 +1,5 @@
-<div>
-  <div class="dataslide">
+<li class="dataslide" {% unless item.image %}orbit-data-slide{% endunless %}>
     {% if item.heading %}<h3>{{item.heading}}</h3>{% endif %}
-    {% if item.image %}
-    <img src="{{site.baseurl}}/pics/{{item.image.src}}" alt="{{item.image.alt}}"/>
-    {% if item.image.caption %}<div class="image-caption">{{item.image.caption}}</div>{% endif %}
-    {% endif %}
-    {% if item.text %}
-    {{item.text|markdownify}}
-    {% endif %}
     {% if item.links %}
     <ul class="small-block-grid-3 large-block-grid-6">
     {% for link in item.links %}
@@ -22,5 +14,11 @@
     {% endfor %}
     </ul>
     {% endif %}
-  </div>
-</div>
+    {% if item.image %}
+    <img src="{{site.baseurl}}/pics/{{item.image.src}}" alt="{{item.image.alt}}"/>
+    {% if item.image.caption %}<div class="orbit-caption">{{item.image.caption}}</div>{% endif %}
+    {% endif %}
+    {% if item.text %}
+    {{item.text|markdownify}}
+    {% endif %}
+</li>

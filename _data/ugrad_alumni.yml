@@ -9,6 +9,15 @@
   gradyear: 2012
   major: BCS
 
+- lastname: Chu
+  firstname: Becky
+  email: bchu@u.rochester.edu
+  major:
+    - BCS
+  gradyear: 2016
+  workedwith:
+    - Mariya Fedzechkina
+
 - lastname: Craycraft
   firstname: Nicole
   workedwith: Alex Fine

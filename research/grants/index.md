@@ -2,6 +2,7 @@
 layout: sidenav
 title: Interested in sponsoring our research, teaching, or research opportunities for undergraduates?
 category: research
+custom_local_js: sticky
 navlinks:
 - text: Research Statement
   link: research/statement/
@@ -44,6 +45,7 @@ Or help us support [undergraduate research](#undergraduate-research-and-teaching
   We will try our best to match your donations and will keep you up to date about where you money went.
 
 ## Previous Research Support
+{:data-magellan-destination="previous-research-support"}
 
 <table id="funded">
   <thead>
@@ -69,6 +71,7 @@ Or help us support [undergraduate research](#undergraduate-research-and-teaching
 </table>
 
 ## Previous Graduate Student Support
+{:data-magellan-destination="previous-graduate-student-support"}
 
 Most of our costs come from supporting staff and students. Technical support for our experiments requires highly qualified staff. Another substantial cost comes from equipment, such as sound recording environments, high-end computers suitable for complex statistical modeling, and eye-trackers for the study of online language processing. For example, a single high-end eye-tracker costs anywhere from $10,000-$45,000. Finally, participants in our studies &mdash;over the web or in the lab&mdash; are compensated for their participation. This creates costs of about $18,000-$30,000/year.
 
@@ -88,6 +91,7 @@ Most of our costs come from supporting staff and students. Technical support for
 </table>
 
 ## Undergraduate research and teaching
+{:data-magellan-destination="undergraduate-research-and-teaching"}
 In our lab, we take great pride in helping undergraduates to find their inner scientist. We know that the first step is often the hardest in deciding what one is interested in. That's why we reach out to students that stand out in our classes and invite them to join the lab. We welcome [contributions that are specifically targeted at supporting undergraduate research](mailto:jaegerlab@mail.bcs.rochester.edu).
 
 Research has many facets, from the creative exploration of novel ideas, to the nitty-gritty implementation of experiments, to the development of quantitative models, to sharing ones theories with other scientists. To allow students to find what drives their interest in the cognitive sciences, we aim to involve undergraduate researchers in all aspects of our research. We are dedicated to providing training in experimental methods, design, statistics, and theory. In addition to one-on-one advising, we run weekly or bi-weekly meetings in which we present technical tutorials, discuss papers, and help undergraduates develop their own research ideas.

@@ -1,19 +1,22 @@
 # Site settings
 title: HLP Lab
 email: jaegerlab@bcs.rochester.edu
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >
+  Florian Jaeger's Human Language Processing (HLP) Lab at The University of Rochester
 #baseurl: "/2015refresh" # the subpath of your site, e.g. /blog/
 baseurl: ""
 url: "https://www.hlp.rochester.edu" # the base hostname & protocol for your site
-twitter_username: _hlplab_
-github_username:  hlplab
-bitbucket_username: hlplab
-wordpress_username: hlplab
+twitter:
+  username: _hlplab_
+github:
+  username: hlplab
+bitbucket:
+  username: hlplab
+wordpress:
+  username: hlplab
 youtube_id: UCfAMdAEbXx1vr5uZFnRfcdw
 google_api_key: AIzaSyCKbJAHLypyA2q1AwXOaJh51PMyx_zO4wY
+logo: /pics/UR.v2.svg
 
 # Build settings
 #markdown: redcarpet
@@ -28,6 +31,7 @@ exclude: [deploywww.sh, Gemfile]
 
 gems:
   - 'jekyll/scholar'
+  - jekyll-seo-tag
   - jekyll-sitemap
   - octopress-quote-tag
   - octopress-minify-html
@@ -44,6 +48,9 @@ scholar:
 
 sass:
     style: :compressed
+
+# set to false for development. comment out for production
+minify_html: false
 
 #defaults:
 #  -

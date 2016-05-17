@@ -1,6 +1,7 @@
 ---
 layout: sidenav
 title: "FUNDING: grad student or post-doctoral researcher in field-based psycholinguistics"
+custom_local_js: sticky
 navlinks:
   - text: Independent Study
     link: jobs/independent.html
