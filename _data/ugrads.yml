@@ -50,9 +50,10 @@
   firstname: Wesley
   username: worth
   email: worth@u.rochester.edu
-  gradyear: 2018
+  gradyear: 2017
   major:
-    - ???
+    - BCS
+    - Linguistics
   haspic: false
   workswith:
     - Zach Burchill
