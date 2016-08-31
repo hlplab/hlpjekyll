@@ -50,6 +50,7 @@ scholar:
 sass:
     style: :compressed
 
+#  You should set your JEKYLL_ENV=development on your development machine and JEKYLL_ENV=production when building to push.
 assets:
   integrity: true
 
