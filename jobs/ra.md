@@ -25,7 +25,9 @@ navlinks:
   - text: Past job opportunities
     link: jobs/past.html
 custom_remote_js:
-  - //cdnjs.cloudflare.com/ajax/libs/html5media/1.1.8/html5media.js
+  - src: //cdnjs.cloudflare.com/ajax/libs/html5media/1.1.8/html5media.js
+    integrity: sha256-llUKWaqjbtgY/CBYDWocEUUEYITf+VkV2Y4tHQPFbG0=
+    crossorigin: anonymous
 ---
 
 ## University Undergrad Jobs

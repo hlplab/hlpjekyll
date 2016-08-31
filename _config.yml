@@ -33,6 +33,7 @@ gems:
   - 'jekyll/scholar'
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-assets
   - octopress-quote-tag
   - octopress-minify-html
   - jekyll-textile-converter
@@ -48,6 +49,9 @@ scholar:
 
 sass:
     style: :compressed
+
+assets:
+  integrity: true
 
 # set to false for development. comment out for production
 minify_html: false

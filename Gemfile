@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 gem 'jekyll', '~> 3.1'
 gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
+gem 'jekyll-assets'
 gem 'bibtex-ruby'
 gem 'jekyll-scholar', '~> 5.4', '>= 5.4.1'
 gem 'psych', '2.0.8' # 2.0.15 breaks Jekyll

@@ -12,10 +12,9 @@
     </div>
 
     {% include footer.html %}
-
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/foundation.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js" integrity="sha256-t6SrqvTQmKoGgi5LOl0AUy+lBRtIvEJ+++pLAsfAjWs=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/foundation.min.js" integrity="sha256-KXypdIy75PPHsbEaVkrhBvlQg8XTQy8NvalzrIxMrco=" crossorigin="anonymous"></script>
     <script type="text/javascript">$(document).foundation({
       $magellan : {
         // specify the class used for active sections
@@ -31,7 +30,7 @@
     </script>
     {% if page.custom_remote_js %}
     {% for js_file in page.custom_remote_js %}
-    <script type="text/javascript" src="{{js_file}}"></script>
+    <script type="text/javascript" src="{{js_file.src}}" integrity="{{js_file.integrity}}" crossorigin="{{js_file.crossorigin}}"></script>
     {% endfor %}
     {% endif %}
     {% if page.custom_local_js %}
