@@ -1,3 +1,13 @@
+- lastname: Buz
+  firstname: Esteban
+  username: ebuz
+  email: ebuz@ur.rochester.edu
+  haspic: true
+  department: BCS
+  degree: PhD
+  year: 2016
+  homepage: http://www.bcs.rochester.edu/people/ebuz/
+
 - lastname: Corbin
   firstname: Samuel
   username: scorbin
@@ -37,8 +47,8 @@
   department: BCS
   degree: PhD
   year: 2014
-  homepage: http://www.sas.upenn.edu/~mfedze/files/Home.html
-  current: Post doctoral fellow, Department of Psychology, University of Pennsylvania
+  homepage: http://mfedzech.github.io/index.html
+  current: Assistant Professor, Department of Linguistics, University of Arizona
 
 - lastname: Fine
   firstname: Alex
@@ -81,6 +91,17 @@
   degree: PhD
   year: 2011
   current: Senior Human Subjects Protection Scientist, US Army Office of Research Protections, Fort Detrick, MD
+
+- lastname: Kleinschmidt
+  firstname: Dave
+  username: dkleinschmidt
+  email: dkleins2@ur.rochester.edu
+  haspic: true
+  department: BCS
+  degree: PhD
+  year: 2016
+  homepage: http://www.davekleinschmidt.com/
+  current: C.V. Starr Fellow at the Princeton Neuroscience Institute
 
 - lastname: Post
   firstname: Matt

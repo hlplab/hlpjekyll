@@ -11,17 +11,17 @@
     (for in the lab and on the web), providing programming assitance, and just plain
     programming.
 
-- lastname: Nikolayeva
-  firstname: Olga
-  username: onikolayeva
-  haspic: true
-  email: onikolay@ur.rochester.edu
-  department: BCS
-  blurb: >
-    I am a graduate from the University of Rochester with a BA degree in Russian
-    and Linguistics. I was introduced to research when I started volunteering
-    for Chigusa Kurumada collecting child prosody data and have been working in
-    the lab since. I am currently a lab manager for the Rochester Kinderlab and
-    the Human Language Processing lab. Current projects are building a tutorial
-    for BCS 152: Introduction to Psycholinguistics and helping to set up the
-    Kinderlab. I will be pursing a Masters degree this upcoming Fall (2015).
+# - lastname: Nikolayeva
+#   firstname: Olga
+#   username: onikolayeva
+#   haspic: true
+#   email: onikolay@ur.rochester.edu
+#   department: BCS
+#   blurb: >
+#     I am a graduate from the University of Rochester with a BA degree in Russian
+#     and Linguistics. I was introduced to research when I started volunteering
+#     for Chigusa Kurumada collecting child prosody data and have been working in
+#     the lab since. I am currently a lab manager for the Rochester Kinderlab and
+#     the Human Language Processing lab. Current projects are building a tutorial
+#     for BCS 152: Introduction to Psycholinguistics and helping to set up the
+#     Kinderlab. I will be pursing a Masters degree this upcoming Fall (2015).
