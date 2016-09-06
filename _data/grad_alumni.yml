@@ -1,12 +1,13 @@
 - lastname: Buz
   firstname: Esteban
   username: ebuz
-  email: ebuz@ur.rochester.edu
+  email: esteban.buz@gmail.com
   haspic: true
   department: BCS
   degree: PhD
   year: 2016
-  homepage: http://www.bcs.rochester.edu/people/ebuz/
+  homepage: http://www.esteban.bz/
+  current: Post doctoral researcher, Department of Psychology, Princeton University
 
 - lastname: Corbin
   firstname: Samuel

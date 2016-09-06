@@ -16,3 +16,6 @@ _staging/*
 
 # NFS lock files
 .nfs*
+
+# Vim swap files
+*.swp
