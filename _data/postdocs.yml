@@ -1,3 +1,21 @@
+- lastname: Xie
+  firstname: Xin
+  username: xxie
+  email: xxie13@ur.rochester.edu
+  haspic: false
+  department: BCS
+  blurb: >
+    I am interested in the cognitive and neural processes underlying speech
+    processing, in the context of native and non-native communication. I combine
+    psycholinguistic experimentation and functional neuroimaging methods (fMRI;
+    recently, learning to apply statistical modeling) in my research to investigate
+    how experience-dependent plasticity occurs (perceptual adaptation, long-term
+    L2 learning). My most current line of work investigates foreign accent
+    adaptation and its generalization across talkers, as well as maintenance over
+    time. Broadly, I hope to better understand how people learn and represent
+    structured variability (e.g., talker information) in spoken languages and
+    the neural mechanisms that support such learning and representations.
+
 - lastname: Weatherholz
   firstname: Kodi
   username: kweatherholz
