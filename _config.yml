@@ -53,10 +53,19 @@ sass:
 #  You should set your JEKYLL_ENV=development on your development machine and JEKYLL_ENV=production when building to push.
 #  Being in production mode causes octopress-minify-html to minify and jekyll-assets to add digests to filenames
 
+# Uncomment this to not minify even in production
+#minify_html: false
+
 # Temporarily commenting this out because the sha hashes it generates are wrong 
-#assets:
-#  features:
-#    integrity: true
+assets:
+  # If you compress the assets the integrity hash comes out wrong
+  # https://github.com/jekyll/jekyll-assets/issues/328
+  compress:
+    css: false
+    js: false
+  digest: false
+  features:
+    integrity: true
 
 #defaults:
 #  -
