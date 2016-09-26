@@ -1,6 +1,6 @@
   {%if person.haspic %}
-    {% assign picname = "/pics/USERNAME.jpg"|replace:'USERNAME',person.username |prepend: site.baseurl  %}
+    {% assign picname = "USERNAME.jpg"|replace:'USERNAME',person.username %}
   {% else %}
-    {% assign picname = "/pics/person.png" |prepend: site.baseurl %}
+    {% assign picname = "person.png" %}
   {% endif %}
-  <div class="img-circular" style="background-image: url({{picname}});"></div>
+  <div class="img-circular" style="background-image: url({% asset_path "{{picname}}" %});"></div>
