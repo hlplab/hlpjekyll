@@ -22,6 +22,17 @@
   workswith:
     - Esteban Buz
 
+- lastname: Hawthorn
+  firstname: Henry
+  username: hhawthorn
+  haspic: false
+  email: hhawthor@u.rochester.edu
+  major:
+    - ???
+  gradyear: 2019
+  workswith:
+    - Zach Burchill
+
 - lastname: Lewis
   firstname: Emily
   username: elewis
@@ -32,6 +43,17 @@
   gradyear: 2018
   workswith:
     - Esteban Buz
+
+- lastname: Li
+  firstname: Ruolan
+  username: lruolan
+  haspic: false
+  email: rli36@u.rochester.edu
+  major:
+    - BCS
+  gradyear: 2020
+  workswith:
+    - Xin Xie
 
 - lastname: Oey
   firstname: Lauren
