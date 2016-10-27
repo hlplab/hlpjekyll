@@ -65,7 +65,7 @@
   firstname: Shaorong
   username: syan
   email: syan13@ur.rochester.edu
-  haspic: false
+  haspic: true
   department: BCS
   blurb: >
     I’m interested in predictive processing of language. More specifically, I’m 
