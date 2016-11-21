@@ -26,13 +26,13 @@
   firstname: Thomas
   username: tfarmer
   haspic: true
-  email: thomas-farmer@uiowa.edu
+  email: tafarmer@ucdavis.edu
   department: BCS
   range:
     start: Fall 2010
     end: Summer 2012
   homepage: https://sites.google.com/site/thomasfarmeruniversityofiowa/
-  current: Assistant professor, Department of Psychology, University of Iowa
+  current: Associate Project Scientist, Center for Mind & Brain, UC Davis
 
 - lastname: Fraundorf
   firstname: Scott
