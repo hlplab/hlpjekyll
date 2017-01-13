@@ -1,10 +1,13 @@
 advisors:
+  - &zburchill Zach Burchill
+  - &wbushong Wednesday Bushong
   - &ebuz Esteban Buz
   - &jdegen Judith Degen
   - &mfedzech Maryia Fedzechkina
   - &afine Alex Fine
   - &tiflo T. Florian Jaeger
   - &dkleins David Kleinschmidt
+  - &lliu Linda Liu
   - &bpajak Bozena Pajak
   - &jroche Jenny Roche
   - &nsnider Neal Snider
@@ -183,6 +186,12 @@ students:
     gradyear: 2011
     major: BME
 
+  - lastname: Langfield
+    firstname: Christopher
+    workedwith:
+      - *wbushong
+    gradyear: 2018
+
   - lastname: Lincoln
     firstname: Theo
     workedwith:
@@ -219,6 +228,13 @@ students:
     workedwith:
       - *nsnider
     gradyear: 2010
+
+  - lastname: Prochaska
+    firstname: Mary
+    workedwith:
+      - *zburchill
+      - *lliu
+    gradyear: 2018
 
   - lastname: Saba
     firstname: Allison
