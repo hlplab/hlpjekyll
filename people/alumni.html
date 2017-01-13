@@ -73,7 +73,7 @@ navlinks:
 <h2 data-magellan-destination="Undergraduate-Alumni" id="Undergraduate-Alumni">Undergraduate Alumni</h2>
 <div class="row">
   <div class="large-12 columns" style=" max-height: 500px; overflow: scroll;">
-    {% assign sorted_ugrads = site.data.ugrad_alumni |sort: 'lastname' %}
+    {% assign sorted_ugrads = site.data.ugrad_alumni.students |sort: 'lastname' %}
     <table id="undergrad_alumni" style="width: 100%;">
       <thead>
         <tr><th>Name</th><th>Major</th><th>Worked With</th><th>Graduation Year</th></tr>
