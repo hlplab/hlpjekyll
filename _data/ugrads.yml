@@ -63,11 +63,11 @@
   major:
     - BCS
     - Statistics
+    - Linguistics
   haspic: true
   workswith:
     - Zach Burchill
     - Linda Liu
-    - Linguistics
 
 - lastname: Orth
   firstname: Wesley
