@@ -22,6 +22,17 @@
   workswith:
     - Esteban Buz
 
+- lastname: Hamaguchi
+  firstname: Evan
+  username: ehamaguchi
+  haspic: false
+  email: ehamaguc@ur.rochester.edu
+  major:
+    - NA
+  gradyear: Post-bac
+  workswith:
+    - Florian Jaeger
+
 - lastname: Hawthorn
   firstname: Henry
   username: hhawthorn
