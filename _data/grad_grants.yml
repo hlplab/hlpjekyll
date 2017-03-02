@@ -5,6 +5,7 @@ grants:
   - &nsf NSF Graduate Fellowship
   - &nrsa NRSA
   - &nserc NSERC Post-graduate Fellowship
+  - &amazon Amazon Applied Scientist Internship
 
 grads:
   - lastname: Fedzechkina
@@ -19,11 +20,13 @@ grads:
       - *sproull
       - *lsa
       - *nsf
+      - *nrsa
   - lastname: Buz
     firstname: Esteban
     gradyear: 2016
     support:
       - *provost
+      - *nrsa
   - lastname: Fine
     firstname: Alex
     gradyear: 2013
@@ -50,5 +53,6 @@ grads:
     firstname: Linda
     support:
       - *lsa
+      - *amazon
 
 
