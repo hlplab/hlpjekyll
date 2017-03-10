@@ -48,12 +48,12 @@
 - lastname: Hörberg
   firstname: Thomas
   username: thorberg
-  haspic: false
+  haspic: true
   affiliation:
     role: Graduate student
     department: Linguistics
     institution: <a href="http://www.su.se/english/">Stockholm University</a>
-  homepage: http://www.ling.su.se/pub/jsp/polopoly.jsp?d=14331&a=81539
+  homepage: http://www.su.se/english/profiles/thh1385-1.184347
   start: 2011-04-06
   end: 2011-04-30
 
@@ -141,5 +141,18 @@
     The first study is looking at the basic effects of contrast on constituent order
     and prosody in language production in English and Basque, while later experiments
     will focus on common vs. privileged ground.
+
+- lastname: Montero Melis
+  firstname: Guillermo
+  username: gmelis
+  haspic: false
+  affiliation:
+    role: Graduate student
+    department: Centre for Research on Bilingualism
+    institution: <a href="http://www.su.se/english/"> Stockholm University</a>
+  homepage: http://www.biling.su.se/english/about-us/contact/staff-and-phd-students/guillermo-montero-melis-1.91597
+  start: 2015-10-05
+  end: 2015-10-23
+  # dates estimated based on 3 week visit and the Monday of the week he emailed me
 
 # When possible, have funding and blurb
