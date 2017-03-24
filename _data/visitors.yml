@@ -142,4 +142,19 @@
     and prosody in language production in English and Basque, while later experiments
     will focus on common vs. privileged ground.
 
+- lastname: Cao
+  firstname: Grace Wenling
+  username: wlcao
+  haspic: true
+  affiliation:
+    role: Graduate Student
+    department: Linguistics
+    institution: <a href="https://www.york.ac.uk/language/">University of York</a>
+  homepage: http://wlcaolinguistics.blogspot.com/
+  start: 2017-03-20
+  end: 2017-04-14
+  funding: WUN Research Mobility Award
+  blurb:
+
+
 # When possible, have funding and blurb
