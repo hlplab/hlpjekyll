@@ -1,11 +1,5 @@
 ---
 layout: default
-custom_remote_js:
-  - src: //cdnjs.cloudflare.com/ajax/libs/lodash.js/4.16.2/lodash.min.js
-    integrity: sha256-w+d8P09DJs+/OjLmfZNBIfXUVa1btamnUTdwu6ghZq0=
-    crossorigin: anonymous
-custom_local_js:
-  - gfeed
 ---
 
 <div id="contentrow" class="row">
@@ -31,27 +25,16 @@ custom_local_js:
       <div class="large-12 columns">
         <ul data-orbit>
           {% for item in site.data.carousel %}
-          {% include carousel.html %}
+          {% if item.image %}
+          {% include carousel_pic.html %}
+          {% else %}
+          {% include carousel_data.html %}
+          {% endif %}
           {% endfor %}
         </ul>
       </div>
     </div>
-    <div class="row">
-      <div id="wpfeed" class="large-12 columns">
-          <div class="row">
-            <div class="large-9 columns">
-              <h1 class="page-heading"><a></a></h1>
-            </div>
-            <div class="large-3 columns">
-              <a class="rss"><img src="{{site.baseurl}}/webicons/webicon-rss.svg" alt="RSS" width="20" height="20"></a>
-            </div>
-          </div>
-          <div class="row">
-            <ul class="wp-entry">
-            </ul>
-          </div>
-      </div>
-    </div>
+    {% include invited_talks.html %}
   </div>
   <hr/>
 </div>
