@@ -1,0 +1,16 @@
+<li>
+    {% if item.heading %}<h3>{{item.heading}}</h3>{% endif %}
+    {% if item.text %}
+    <p style="text-align: right;"><a data-dropdown="{{item.topic}}_abstract" aria-controls="{{item.topic}}_abstract" aria-expanded="false">Read more &raquo;</a></p>
+    <div id="{{item.topic}}_abstract" data-dropdown-content class="large f-dropdown content" aria-hidden="true" tabindex="-1">
+        {{ item.text }}
+        {% include item_links.html %}
+    </div>
+    {% else %}
+    {% include item_links.html %}
+    {% endif %}
+    {% img '{{item.image.src}}' alt:'{{item.image.alt}}' %}
+    <div class="orbit-caption">
+    {% if item.image.caption %}{{item.image.caption}}{% endif %}
+    </div>
+</li>

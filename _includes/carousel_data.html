@@ -1,0 +1,7 @@
+<li class="dataslide" orbit-data-slide>
+    {% if item.heading %}<h3>{{item.heading}}</h3>{% endif %}
+    {% include item_links.html %}
+    {% if item.text %}
+    {{item.text|markdownify}}
+    {% endif %}
+</li>

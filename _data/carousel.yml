@@ -28,6 +28,7 @@
       tip: "Kurumada, C., Jaeger, T.F., 2015. Communicative efficiency in language production : Optional case-marking in Japanese. Journal of Memory and Language 83, 152–178. doi:10.1016/j.jml.2015.03.003"
 
 - heading: Fieldwork
+  topic: fieldwork
   image:
     src: florian_katrina_yucatan_small.jpg
     alt: Yucatec fieldwork
@@ -49,10 +50,11 @@
       type: pdf
       tip: "Gómez Gallo, C., Jaeger, T.F., Furth, K., 2010. A Database for the Exploration of Spanish Planning, in Language Resources And Evaluation Conference (LREC). Malta."
 
-- heading: Typological analysis
+- topic: typology
   image:
     src: family-distribution-sample5779_small.jpg
     alt: family distribution
+    caption: Typological analysis
   text: >
     How can one estimate the Type I and II error rates of typological
     analysis? How can one model genealogical dependencies between languages
@@ -79,10 +81,11 @@
       type: pdf
       tip: "Jaeger, T.F., Graff, P., Croft, W., Pontillo, D., 2011. Mixed effect models for genetic and areal dependencies in linguistic typology: Commentary on Atkinson. Linguistic Typology 15, 281–319. doi:10.1515/LITY.2011.021"
 
-- heading: Robust language understanding in a variable world
+- topic: robust_understanding
   image:
     src: noisy_channel+adaptation.png
     alt: noisy channel + adaptation
+    caption: Robust language understanding in a variable world
   text: >
     To understand each other, we must infer messages from the linguistic
     signal, which is often perturbed by noise. Our brain seems to overcome
@@ -106,10 +109,11 @@
     #   type: pdf
     #   tip: fine et al 2013 # syntactic processing
 
-- heading: Speech Perception
+- topic: speech_perception
   image:
     src: vowel_normalization_male-vs-female.jpg
     alt: vowel normalization
+    caption: Speech Perception
   text: >
     Example of cross-talker vowel variability before (left) and after (right)
     normalizing for differences in vocal-tract length based on F3. **Top Panel**:
@@ -140,9 +144,10 @@
       type: pdf
       tip: "Weatherholtz, K. and Jaeger, T.F. (under review) Speech perception and generalization across talkers and accents."
 
-- heading: Alignment
+- topic: alignment
   image:
     src: socalign-alignment_by_Similarity_and_SoundsSmart.jpg
+    caption: Alignment
   text: >
     When we interact with one another, we tend to align our behaviors, including
     the way we talk. Linguistic alignment is due, at least in part, to automatic
