@@ -162,3 +162,15 @@
       studies shed light on how listeners process prosodic information, suggesting
       that prosodic representations are somewhat flexible, and are influenced by
       listeners’ expectations and experience with language.
+
+- lastname: Nielsen
+  firstname: Kuniko
+  username: knielsen
+  homepage: https://files.oakland.edu/users/nielsen/web/
+  affiliation:
+    role: Assoiciate Professor
+    department: Linguistics
+    institution: Oakland University
+  haspic: true
+  talk:
+    date: 2016-05-16
