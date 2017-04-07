@@ -125,7 +125,7 @@
   }
 }
 
-.alumni .img-circular {
+.smallpic .img-circular {
   height: 100px;
   width: 100px;
 }
@@ -141,11 +141,12 @@
   margin-left: 2rem;
 }
 
-#wpfeed {
+#invited_talks {
   min-height: 150px;
   max-height: 700px;
   overflow: scroll;
   margin-top: 6rem;
+  margin-left: 1em;
 }
 
 .wp-entry {

@@ -12,7 +12,7 @@ layout: default
       </div>
     </div>
     <div id="spacer" class="row"></div>
-    <div class="row">
+    <div class="row" style="border-right:lightgray solid 1px;">
       <div class="large-10 large-centered columns">
         <div id="twitterfeed">
           {% include twitter_feed.html %}
@@ -34,7 +34,20 @@ layout: default
         </ul>
       </div>
     </div>
-    {% include invited_talks.html %}
+    <div id="talks" class="row">
+      <div class="large-12 columns">
+      <h2>Language science that caught our ear</h2>
+      <p>HLP Lab now runs an informal skype talk series. Work we dig, that caught
+      our attention, researchers we're curious about, and lots of discussion. Thank
+      you to our presenters for making time.</p>
+      <hr/>
+      </div>
+    </div>
+    <div class="row" id="invited_talks">
+      <div class="large-12 columns">
+      {% include invited_talks.html %}
+      </div>
+    </div>
   </div>
   <hr/>
 </div>

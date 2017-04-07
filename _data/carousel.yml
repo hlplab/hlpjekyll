@@ -1,5 +1,6 @@
-- heading: Research Statement
-  text: >
+- text: >
+    **Research Statement**
+    <br/>
     The stunning ability to communicate abstract messages is a
     quintessential human trait that uniquely defines us in the animal
     kingdom. At the same time, human language is a complex behavior that
@@ -27,8 +28,7 @@
       type: pdf
       tip: "Kurumada, C., Jaeger, T.F., 2015. Communicative efficiency in language production : Optional case-marking in Japanese. Journal of Memory and Language 83, 152–178. doi:10.1016/j.jml.2015.03.003"
 
-- heading: Fieldwork
-  topic: fieldwork
+- topic: fieldwork
   image:
     src: florian_katrina_yucatan_small.jpg
     alt: Yucatec fieldwork

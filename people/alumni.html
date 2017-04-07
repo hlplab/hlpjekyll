@@ -28,7 +28,7 @@ navlinks:
 {% assign sorted_postdocs = site.data.postdoc_alumni |sort: 'lastname' %}
 {% for person in sorted_postdocs %}
 <div class="row person" id="{{person.username}}">
-  <div class="row alumni">
+  <div class="row smallpic">
     <div class="large-2 columns">
       {% include roundpic.html %}
     </div>
@@ -50,7 +50,7 @@ navlinks:
 {% assign sorted_grads = site.data.grad_alumni |sort: 'lastname' %}
 {% for person in sorted_grads %}
 <div class="row person" id="{{person.username}}">
-  <div class="row alumni">
+  <div class="row smallpic">
     <div class="large-2 columns">
       {% include roundpic.html %}
     </div>
