@@ -44,17 +44,6 @@
   workswith:
     - Zach Burchill
 
-- lastname: Lewis
-  firstname: Emily
-  username: elewis
-  haspic: true
-  email: elewis11@u.rochester.edu
-  major:
-    - ???
-  gradyear: 2018
-  workswith:
-    - Esteban Buz
-
 - lastname: Li
   firstname: Ruolan
   username: lruolan

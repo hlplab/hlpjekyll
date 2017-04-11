@@ -192,6 +192,12 @@ students:
       - *wbushong
     gradyear: 2018
 
+  - lastname: Lewis
+    firstname: Emily
+    workedwith:
+      - *ebuz
+    gradyear: 2018
+
   - lastname: Lincoln
     firstname: Theo
     workedwith:

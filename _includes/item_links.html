@@ -5,7 +5,7 @@
 {% if link.type == 'local' %}
 <a href="{{link.url |prepend: site.baseurl}}">{{link.text}}</a>
 {% else %}
-<a data-tooltip aria-haspopup="true" class="has-tip" title="{{link.tip| escape }}" href="{{link.url}}">
+<a data-tooltip aria-haspopup="true" class="has-tip tip-top radius" title="{{link.tip| escape }}" href="{{link.url}}">
     {% img pdf.svg width:32 height:48 alt:'pdf' %}
 </a>
 {% endif %}

@@ -1,6 +1,5 @@
 {% if site.data.invited_talks %}
-{% assign sorted_talks = site.data.invited_talks |sort: 'lastname' %}
-{% for person in sorted_talks %}
+{% for person in site.data.invited_talks %}
 <div class="row person" id="{{person.username}}" >
   <div class="row smallpic">
     <div class="large-3 columns">
