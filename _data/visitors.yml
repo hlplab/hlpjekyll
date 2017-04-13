@@ -91,12 +91,12 @@
 - lastname: Montero Melis
   firstname: Guillermo
   username: gmelis
-  haspic: false
+  haspic: true
   affiliation:
     role: Graduate student
     department: Centre for Research on Bilingualism
     institution: <a href="http://www.su.se/english/"> Stockholm University</a>
-  homepage: http://www.biling.su.se/english/about-us/contact/staff-and-phd-students/guillermo-montero-melis-1.91597
+  homepage: http://www.su.se/english/profiles/gumo8029-1.189266
   start: 2014-04-13
   end: 2014-05-02
 
@@ -159,12 +159,12 @@
 - lastname: Montero Melis
   firstname: Guillermo
   username: gmelis
-  haspic: false
+  haspic: true
   affiliation:
     role: Graduate student
     department: Centre for Research on Bilingualism
     institution: <a href="http://www.su.se/english/"> Stockholm University</a>
-  homepage: http://www.biling.su.se/english/about-us/contact/staff-and-phd-students/guillermo-montero-melis-1.91597
+  homepage: http://www.su.se/english/profiles/gumo8029-1.189266
   start: 2015-10-05
   end: 2015-10-23
   # dates estimated based on 3 week visit and the Monday of the week he emailed me
