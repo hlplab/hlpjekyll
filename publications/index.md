@@ -1,4 +1,11 @@
 ---
+description: >
+    Select publications from Florian Jaeger's Human Language Processing (HLP)
+    Lab at The University of Rochester
+seo:
+    links:
+        - https://rochester.academia.edu/tiflo/papers/
+        - https://www.researchgate.net/profile/T_Florian_Jaeger/publications
 layout: sidenav_sticky
 category: research
 title: Publications
@@ -21,9 +28,9 @@ navlinks:
       - text: In Prep
         anchor: in-prep
       - text: 2017
-        anchor: 2017  
+        anchor: 2017
       - text: 2016
-        anchor: 2016  
+        anchor: 2016
       - text: 2015
         anchor: 2015
       - text: 2014
