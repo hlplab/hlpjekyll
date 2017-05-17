@@ -10,7 +10,7 @@
         {{person.talk.date}}: {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %}
         ({% if person.affiliation.role %}{{person.affiliation.role}}, {% endif %}{% if person.affiliation.department %}{{person.affiliation.department}}, {% endif %}{% if person.affiliation.institution %}{{person.affiliation.institution}}{% endif %})
         {% if person.talk.title %}<i>
-            {% if person.talk.link %}<a href="{{person.talk.link}}">{% endif %}
+            {% if person.talk.link %}<a href="{{person.talk.link}}" target="_blank">{% endif %}
             {{person.talk.title}}</i>
             {% if person.talk.link %}</a>{% endif %}
         {% endif %}
