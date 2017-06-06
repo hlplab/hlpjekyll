@@ -344,3 +344,13 @@ students:
     workedwith:
       - *ebuz
     gradyear: 2016
+
+  - lastname: Orth
+    firstname: Wesley
+    gradyear: 2017
+    major:
+      - BCS
+      - Linguistics
+    workedwith:
+      - *zburchill
+      - *lliu

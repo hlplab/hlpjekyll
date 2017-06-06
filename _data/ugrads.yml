@@ -68,16 +68,3 @@
   workswith:
     - Zach Burchill
     - Linda Liu
-
-- lastname: Orth
-  firstname: Wesley
-  username: worth
-  email: worth@u.rochester.edu
-  gradyear: 2017
-  major:
-    - BCS
-    - Linguistics
-  haspic: true
-  workswith:
-    - Zach Burchill
-    - Linda Liu
