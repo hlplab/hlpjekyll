@@ -1,3 +1,17 @@
+- lastname: Buxó-Lugo
+  firstname: Andrés
+  haspic: false
+  department: BCS
+  blurb: >
+    Starting July 2017
+
+- lastname: Seyfarth
+  firstname: Scott
+  haspic: false
+  department: BCS
+  blurb: >
+    Starting August 2017
+
 - lastname: Xie
   firstname: Xin
   username: xxie
