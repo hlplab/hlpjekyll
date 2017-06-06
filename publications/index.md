@@ -9,6 +9,8 @@ seo:
 layout: sidenav_sticky
 category: research
 title: Publications
+scholar:
+  bibliography: hlplab.bib
 custom_local_js: sticky
 navlinks:
   - text: Research Statement
@@ -64,18 +66,18 @@ You can find all our papers on [academia.edu](https://rochester.academia.edu/tif
 
 ## Submitted
 {:data-magellan-destination="submitted"}
-{% bibliography --query @*[year=Submitted] %}
+{% bibliography -f hlplab -q @*[year=Submitted] %}
 
 ## In Press
 {:data-magellan-destination="in-press"}
-{% bibliography --query @*[year=In Press] %}
+{% bibliography -f hlplab -q @*[year=In Press] %}
 
 ## In Prep
 {:data-magellan-destination="in-prep"}
-{% bibliography --query @*[year=In Prep] %}
+{% bibliography -f hlplab -q @*[year=In Prep] %}
 
 {% for year in (2005..2017) reversed %}
 ## {{year}}
 {:data-magellan-destination="{{year}}"}
-{% bibliography --query @*[year={{year}}] %}
+{% bibliography -f hlplab -q @*[year={{year}}] %}
 {% endfor %}

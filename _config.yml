@@ -42,7 +42,7 @@ gems:
 scholar:
   style: elsevier-harvard
   sort_by: name
-  bibliography: hlplab.bib
+  # bibliography: hlplab.bib
   bibliography_template: bib
   bibtex_filters:
     - latex
