@@ -30,7 +30,7 @@ kramdown:
 
 exclude: [deploywww.sh, Gemfile]
 
-gems:
+plugins:
   - 'jekyll/scholar'
   - jekyll-seo-tag
   - jekyll-sitemap
