@@ -2,7 +2,7 @@
   firstname: Andrés
   username: abuxolug
   email: abuxolug@ur.rochester.edu
-  haspic: false
+  haspic: true
   department: BCS
   homepage: https://abuxolugo.github.io/
   blurb: >
@@ -20,7 +20,7 @@
   firstname: Scott
   username: sseyfarth
   email: scott.seyfarth@rochester.edu
-  haspic: false
+  haspic: true
   department: BCS
   blurb: >
     Starting August 2017
