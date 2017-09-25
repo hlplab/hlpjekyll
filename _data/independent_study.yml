@@ -10,6 +10,8 @@ advisors:
   - &dkleinschmidt Dave Kleinschmidt
   - &jroche Jenny Roche
   - &ebuz Esteban Buz
+  - &kweatherholtz Kodi Weatherholtz
+  - &xxie Xin Xie
 
 students:
   # Florian found Christine Keck listed in his independent study course
@@ -33,26 +35,30 @@ students:
     project: Second language learning in a miniature language learning paradigm
     advisor: *fjaeger
     thesis: false
- 
+
   - lastname: Simon
     firstname: Emily
     major: BCS
     term: Fall
     year: 2016
     project: Generalization during accent perception
-    advisor: *fjaeger
+    advisor:
+      - *fjaeger
+      - *xxie
     thesis: false
 
   - lastname: Oey
     firstname: Lauren
-    major: 
+    major:
       - BCS
       - Linguistics
       - Statistics
     term: Fall
     year: 2016
     project: Generalization during accent perception
-    advisor: *fjaeger
+    advisor:
+      - *fjaeger
+      - *xxie
     thesis: false
 
   - lastname: Lee
@@ -61,7 +67,9 @@ students:
     term: Fall
     year: 2016
     project: Generalization during accent perception
-    advisor: *fjaeger
+    advisor:
+      - *fjaeger
+      - *xxie
     thesis: false
 
   - lastname: Bainton
@@ -70,7 +78,9 @@ students:
     year: 2015
     term: Fall
     project: Accent perception and generalization
-    advisor: *fjaeger
+    advisor:
+      - *fjaeger
+      - *kweatherholtz
     thesis: false
 
   - lastname: Rowe
@@ -79,7 +89,9 @@ students:
     year: 2015
     term: Fall
     project: Accent perception and generalization
-    advisor: *fjaeger
+    advisor:
+      - *fjaeger
+      - *kweatherholtz
     thesis: false
 
   - lastname: Menhaj
