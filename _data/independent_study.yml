@@ -25,6 +25,63 @@ students:
   #   advisor: ???
   #   thesis: false
 
+  - lastname: Clark
+    firstname: Madeline
+    major: Linguistics
+    term: Fall
+    year: 2017
+    project: Second language learning in a miniature language learning paradigm
+    advisor: *fjaeger
+    thesis: false
+ 
+  - lastname: Simon
+    firstname: Emily
+    major: BCS
+    term: Fall
+    year: 2016
+    project: Generalization during accent perception
+    advisor: *fjaeger
+    thesis: false
+
+  - lastname: Oey
+    firstname: Lauren
+    major: 
+      - BCS
+      - Linguistics
+      - Statistics
+    term: Fall
+    year: 2016
+    project: Generalization during accent perception
+    advisor: *fjaeger
+    thesis: false
+
+  - lastname: Lee
+    firstname: Crystal
+    major: BCS
+    term: Fall
+    year: 2016
+    project: Generalization during accent perception
+    advisor: *fjaeger
+    thesis: false
+
+  - lastname: Bainton
+    firstname: Larisa
+    major: Music
+    year: 2015
+    term: Fall
+    project: Accent perception and generalization
+    advisor: *fjaeger
+    thesis: false
+
+  - lastname: Rowe
+    firstname: Emily
+    major: BCS
+    year: 2015
+    term: Fall
+    project: Accent perception and generalization
+    advisor: *fjaeger
+    thesis: false
+
   - lastname: Menhaj
     firstname: Delarom
     major: Linguistics
