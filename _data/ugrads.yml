@@ -33,17 +33,6 @@
   workswith:
     - Florian Jaeger
 
-- lastname: Hawthorn
-  firstname: Henry
-  username: hhawthorn
-  haspic: false
-  email: hhawthor@u.rochester.edu
-  major:
-    - ???
-  gradyear: 2019
-  workswith:
-    - Zach Burchill
-
 - lastname: Li
   firstname: Ruolan
   username: lruolan
@@ -58,6 +47,7 @@
 - lastname: Oey
   firstname: Lauren
   username: loey
+  homepage: https://loey18.github.io/publications.html
   email: loey@u.rochester.edu
   gradyear: 2018
   major:

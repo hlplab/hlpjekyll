@@ -157,6 +157,15 @@ students:
     workedwith:
       - *ebuz
 
+  - lastname: Hawthorn
+    firstname: Henry
+    email: hhawthor@u.rochester.edu
+    major:
+      - ???
+    gradyear: 2019
+    workedwith:
+      - *zburchill
+
   - lastname: Hilliard
     firstname: Caitlin
     workedwith:
