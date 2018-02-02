@@ -23,15 +23,23 @@ layout: default
   <div class="large-8 cell">
     <div class="grid-x">
       <div class="large-12 cell">
-        <ul data-orbit>
-          {% for item in site.data.carousel %}
-          {% if item.image %}
-          {% include carousel_pic.html %}
-          {% else %}
-          {% include carousel_data.html %}
-          {% endif %}
-          {% endfor %}
-        </ul>
+          <div class="orbit" role="region" aria-label="HLP Lab" data-orbit>
+              <div class="orbit-wrapper">
+                  <div class="orbit-controls">
+                  <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                  <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                  </div>
+                  <ul class="orbit-container">
+                      {% for item in site.data.carousel %}
+                          {% if item.image %}
+                          {% include carousel_pic.html %}
+                          {% else %}
+                          {% include carousel_data.html %}
+                          {% endif %}
+                      {% endfor %}
+                  </ul>
+              </div>
+          </div>
       </div>
     </div>
     <div id="talks" class="grid-x">

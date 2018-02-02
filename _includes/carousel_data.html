@@ -1,6 +1,8 @@
-<li class="dataslide" orbit-data-slide>
+<li class="orbit-slide">
+    <div>
     {% if item.text %}
     {{item.text|markdownify}}
     {% endif %}
     {% include item_links.html %}
+    </div> 
 </li>

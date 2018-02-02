@@ -11,6 +11,7 @@ $ur-yellow: #FFDD00;
 
 @import 'foundation6/settings/settings';
 @import 'foundation6/foundation';
+@import 'foundation6/motion-ui/motion-ui';
 
 @include foundation-global-styles;                                                 
 // @include foundation-grid;                                                       
@@ -56,6 +57,6 @@ $ur-yellow: #FFDD00;
 @include foundation-flex-classes;                                                  
                                                                                     
 // @include foundation-prototype-classes;                                          
-                                                                                    
-// @include motion-ui-transitions;                                                    
-// @include motion-ui-animations;      
+ 
+@include motion-ui-transitions;                                                    
+@include motion-ui-animations;      
