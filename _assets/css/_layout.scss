@@ -217,23 +217,23 @@ iframe[seamless] {
   overflow-y: scroll;
 }
 
-.dataslide {
+.orbit-slide {
   background-color: rgba($iron, 0.85);
   color: white;
   padding: 2rem;
 }
 
-.dataslide h3 {
+.orbit-slide h3 {
   color: $charcoal;
 }
 
-.dataslide p:first-of-type {
+.orbit-slide p:first-of-type {
   margin-top: 3rem;
   background-color: rgba(51,51,51,0.7);
   padding: .75rem 1rem;
 }
 
-.dataslide .image-caption {
+.orbit-slide .image-caption {
   background: rgba(51,51,51, 0.8);
   font-color: $white;
   padding: rem-calc(10 14);
