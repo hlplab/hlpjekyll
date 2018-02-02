@@ -54,15 +54,15 @@ candidate and the project, we can wait. The lab has a good record at job
 placement, with three of the four most recent post-docs now holding
 tenure-track positions in linguistics or psychology.
 
-**Interested candidates should contact** HLP lab manager Olga Nikolayeva
-(<onikolay@u.rochester.edu>) along with a CV and a brief statement of
+**Interested candidates should contact** HLP lab manager Andrew Watts
+(<jaegerlab@bcs.rochester.edu>) along with a CV and a brief statement of
 *primary* research interests (no full research statement necessary, but
 if there is one we'd be happy to read it). Recommendations are will be
 elicited after initial review of applications, but applicants are
 welcome to include them in the initial application. **Applications are
 reviewed on a rolling basis starting 3/1.** (if you're wondering whether
 it makes sense to apply, please contact Florian Jaeger at
-<fjaeger@mail.bcs.rochester.edu>).
+<fjaeger@ur.rochester.edu>).
 
 **About the project:** The project includes research on *lack of
 invariance, learning in non-stationary environments, inference under

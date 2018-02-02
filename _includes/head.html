@@ -6,16 +6,17 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
 
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css" integrity="sha256-GSio8qamaXapM8Fq9JYdGNTvk/dgs+cMLgPeevOYEx0=" crossorigin="anonymous" />-->
     {% if page.custom_remote_css %}
     {% for css_file in page.custom_remote_css %}
     <link rel="stylesheet" href="{{css_file}}" />
     {% endfor %}
     {% endif %}
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.2/motion-ui.min.css" />
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/css/webicons.css" | prepend: site.baseurl }}">
+    {% css main %}
+    {% css foundation }
+    {% css webicons %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" integrity="sha256-0rguYS0qgS6L4qVzANq4kjxPLtvnp5nn2nB5G1lWRv4=" crossorigin="anonymous"></script>
     {% seo %}
 </head>

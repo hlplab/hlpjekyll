@@ -1,276 +1,365 @@
-- lastname: Brown
-  firstname: Sarah
-  workedwith: Florian Jaeger
-  gradyear: 2010
+advisors:
+  - &zburchill Zach Burchill
+  - &wbushong Wednesday Bushong
+  - &ebuz Esteban Buz
+  - &jdegen Judith Degen
+  - &mfedzech Maryia Fedzechkina
+  - &afine Alex Fine
+  - &tiflo T. Florian Jaeger
+  - &dkleins David Kleinschmidt
+  - &lliu Linda Liu
+  - &bpajak Bozena Pajak
+  - &jroche Jenny Roche
+  - &nsnider Neal Snider
 
-- lastname: Choi
-  firstname: Vivian
-  workedwith: Maryia Fedzechkina
-  gradyear: 2012
-  major: BCS
 
-- lastname: Chu
-  firstname: Becky
-  email: bchu@u.rochester.edu
-  major:
-    - BCS
-  gradyear: 2016
-  workedwith:
-    - Mariya Fedzechkina
+students:
+  - lastname: Brown
+    firstname: Sarah
+    workedwith:
+      - *tiflo
+    gradyear: 2010
 
-- lastname: Craycraft
-  firstname: Nicole
-  workedwith: Alex Fine
-  major: BCS
-  gradyear: 2014
+  - lastname: Choi
+    firstname: Vivian
+    workedwith:
+      - *mfedzech
+    gradyear: 2012
+    major: BCS
 
-- lastname: Cronin
-  firstname: Michaela
-  email: mcronin3@u.rochester.edu
-  major: BCS
-  gradyear: 2015
-  workedwith: Dave Kleinschmidt
+  - lastname: Chu
+    firstname: Becky
+    email: bchu@u.rochester.edu
+    major:
+      - BCS
+    gradyear: 2016
+    workedwith:
+      - *mfedzech
 
-- lastname: Dizon
-  firstname: Maureen
-  workedwith: Florian Jaeger
-  gradyear: 2010
-  major:
-    - Linguistics
-    - Spanish
+  - lastname: Craycraft
+    firstname: Nicole
+    workedwith:
+      - *afine
+    major: BCS
+    gradyear: 2014
 
-- lastname: Doko
-  firstname: Donias
-  workedwith:
-    - Maryia Fedzechkina
-    - Bozena Pajak
-  gradyear: 2013
-  major:
-    - History
-    - Neuroscience
+  - lastname: Cronin
+    firstname: Michaela
+    email: mcronin3@u.rochester.edu
+    major: BCS
+    gradyear: 2015
+    workedwith:
+      - *dkleins
 
-- lastname: Dolan
-  firstname: Colleen
-  workedwith: Maryia Fedzechkina
-  gradyear: 2012
-  major: BCS
+  - lastname: Dizon
+    firstname: Maureen
+    workedwith:
+      - *tiflo
+    gradyear: 2010
+    major:
+      - Linguistics
+      - Spanish
 
-- lastname: Donatelli
-  firstname: Cassandra
-  workedwith: Former Poser RA
-  gradyear: 2013
-  major: Archeology, Technology & Historical Structures
+  - lastname: Doko
+    firstname: Donias
+    workedwith:
+      - *mfedzech
+      - *bpajak
+    gradyear: 2013
+    major:
+      - History
+      - Neuroscience
 
-- lastname: Ferris
-  firstname: Jeremy
-  workedwith: Alex Fine
-  gradyear: 2011
-  major: BCS
+  - lastname: Dolan
+    firstname: Colleen
+    workedwith:
+      - *mfedzech
+    gradyear: 2012
+    major: BCS
 
-- lastname: Fleming
-  firstname: Justin
-  workedwith:
-    - Alex Fine
-    - Dave Kleinschmidt
-  gradyear: 2013
-  major: BCS
+  - lastname: Donatelli
+    firstname: Cassandra
+    workedwith:
+      - Former Poser RA
+    gradyear: 2013
+    major:
+      - Archeology, Technology & Historical Structures
 
-- lastname: Gogos
-  firstname: Narissa
-  workedwith:
-    - Alex Fine
-    - Masha Fedzechkina
-  gradyear: 2013
-  major: BCS
+  - lastname: Ferris
+    firstname: Jeremy
+    workedwith:
+      - *afine
+    gradyear: 2011
+    major: BCS
 
-- lastname: Grealish
-  firstname: Alyson
-  workedwith: Esteban Buz
-  gradyear: 2016
-  major: Computer Science
+  - lastname: Fleming
+    firstname: Justin
+    workedwith:
+      - *afine
+      - *dkleins
+    gradyear: 2013
+    major: BCS
 
-- lastname: Gruters
-  firstname: Kurtis
-  workedwith: Alex Fine
-  gradyear: 2009
-  major:
-    - BCS
-    - Music Theory
+  - lastname: Gogos
+    firstname: Narissa
+    workedwith:
+      - *afine
+      - *mfedzech
+    gradyear: 2013
+    major: BCS
 
-- lastname: Guevara
-  firstname: Alma
-  workedwith: Jenny Roche
-  gradyear: 2013
-  major: BCS
+  - lastname: Grealish
+    firstname: Alyson
+    workedwith:
+      - *ebuz
+    gradyear: 2016
+    major:
+      - Computer Science
 
-- lastname: Gutman
-  firstname: Jacqueline
-  workedwith: Florian Jaeger
-  gradyear: 2012
-  major: BCS
+  - lastname: Gruters
+    firstname: Kurtis
+    workedwith:
+      - *afine
+    gradyear: 2009
+    major:
+      - BCS
+      - Music Theory
 
-- lastname: Hansen-Karr
-  firstname: Camber
-  workedwith: Florian Jaeger
-  gradyear: 2011
-  major:
-    - BCS
-    - French
-    - Linguistics
+  - lastname: Guevara
+    firstname: Alma
+    workedwith:
+      - *jroche
+    gradyear: 2013
+    major: BCS
 
-- lastname: Harris
-  firstname: Lindsey
-  email: linsey.harris@rochester.edu
-  major: BCS
-  gradyear: 2015
-  workedwith: Esteban Buz
+  - lastname: Gutman
+    firstname: Jacqueline
+    workedwith:
+      - *tiflo
+    gradyear: 2012
+    major: BCS
 
-- lastname: Hilliard
-  firstname: Caitlin
-  workedwith: Judith Degen
-  gradyear: 2010
+  - lastname: Hansen-Karr
+    firstname: Camber
+    workedwith:
+      - *tiflo
+    gradyear: 2011
+    major:
+      - BCS
+      - French
+      - Linguistics
 
-- lastname: Housel
-  firstname: Katrina
-  workedwith: Florian Jaeger
-  gradyear: 2010
-  major: BCS
+  - lastname: Harris
+    firstname: Lindsey
+    email: linsey.harris@rochester.edu
+    major: BCS
+    gradyear: 2015
+    workedwith:
+      - *ebuz
 
-- lastname: Krishnan
-  firstname: Shreya
-  workedwith: Maryia Fedzechkina
-  gradyear: 2014
-  major:
-    - BCS
-    - Psychology
+  - lastname: Hawthorn
+    firstname: Henry
+    email: hhawthor@u.rochester.edu
+    major:
+      - ???
+    gradyear: 2019
+    workedwith:
+      - *zburchill
 
-- lastname: Kumar
-  firstname: Swapna
-  workedwith: Florian Jaeger
-  gradyear: 2011
-  major: BME
+  - lastname: Hilliard
+    firstname: Caitlin
+    workedwith:
+      - *jdegen
+    gradyear: 2010
 
-- lastname: Lincoln
-  firstname: Theo
-  workedwith: Masha Fedzechkina
-  gradyear: 2014
-  major: Neuroscience
+  - lastname: Housel
+    firstname: Katrina
+    workedwith:
+      - *tiflo
+    gradyear: 2010
+    major: BCS
 
-- lastname: Minkina
-  firstname: Irene
-  workedwith: Florian Jaeger
-  gradyear: 2010
-  major:
-    - BCS
-    - English
+  - lastname: Krishnan
+    firstname: Shreya
+    workedwith:
+      - *mfedzech
+    gradyear: 2014
+    major:
+      - BCS
+      - Psychology
 
-- lastname: Murphy
-  firstname: Derek
-  workedwith: Jenny Roche
-  gradyear: 2011
-  major:
-    - BCS
-    - Film and Media Studies
+  - lastname: Kumar
+    firstname: Swapna
+    workedwith:
+      - *tiflo
+    gradyear: 2011
+    major: BME
 
-- lastname: Murphy
-  firstname: Ryan
-  workedwith: Florian Jaeger
-  gradyear: 2010
+  - lastname: Langfield
+    firstname: Christopher
+    workedwith:
+      - *wbushong
+    gradyear: 2018
 
-- lastname: Perlman
-  firstname: Amanda
-  workedwith: Neal Snider
-  gradyear: 2010
+  - lastname: Lewis
+    firstname: Emily
+    workedwith:
+      - *ebuz
+    gradyear: 2018
 
-- lastname: Saba
-  firstname: Allison
-  workedwith: Esteban Buz
-  gradyear: 2015
-  major:
-    - BCS
-    - Psychology
+  - lastname: Lincoln
+    firstname: Theo
+    workedwith:
+      - *mfedzech
+    gradyear: 2014
+    major: Neuroscience
 
-- lastname: Sharp
-  firstname: Jenny
-  workedwith: Florian Jaeger
-  gradyear: 2014
-  major:
-    - BCS
-    - Spanish
+  - lastname: Minkina
+    firstname: Irene
+    workedwith:
+      - *tiflo
+    gradyear: 2010
+    major:
+      - BCS
+      - English
 
-- lastname: Stanley
-  firstname: Tara
-  workedwith: Maryia Fedzechkina
-  gradyear: 2012
-  major: BCS
+  - lastname: Murphy
+    firstname: Derek
+    workedwith:
+      - *jroche
+    gradyear: 2011
+    major:
+      - BCS
+      - Film and Media Studies
 
-- lastname: Williams
-  firstname: Erica
-  workedwith: Maryia Fedzechkina
-  gradyear: 2014
-  major: BCS
+  - lastname: Murphy
+    firstname: Ryan
+    workedwith:
+      - *tiflo
+    gradyear: 2010
 
-- lastname: Wood
-  firstname: Andrew
-  workedwith: Florian Jaeger
-  gradyear: 2010
-  major: Computer Science
+  - lastname: Perlman
+    firstname: Amanda
+    workedwith:
+      - *nsnider
+    gradyear: 2010
 
-- lastname: Song
-  firstname: Keyu
-  workedwith: Bozena Pajak
-  gradyear: 2015
-  major: Political Science
+  - lastname: Prochaska
+    firstname: Mary
+    workedwith:
+      - *zburchill
+      - *lliu
+    gradyear: 2018
 
-- lastname: Smith
-  firstname: Greta
-  workedwith: Masha Fedzechkina
-  gradyear: 2014
+  - lastname: Saba
+    firstname: Allison
+    workedwith:
+      - *ebuz
+    gradyear: 2015
+    major:
+      - BCS
+      - Psychology
 
-- lastname: Rutherford
-  firstname: Christina
-  workedwith: Bozena Pajak
-  gradyear: 2016
+  - lastname: Sharp
+    firstname: Jenny
+    workedwith:
+      - *tiflo
+    gradyear: 2014
+    major:
+      - BCS
+      - Spanish
 
-- lastname: Blackley
-  firstname: Suzanne
-  workedwith: Masha Fedzechkina
-  gradyear: 2014
-  major:
-    - BCS
-    - Linguistics
+  - lastname: Stanley
+    firstname: Tara
+    workedwith:
+      - *mfedzech
+    gradyear: 2012
+    major: BCS
 
-- lastname: Meinhardt
-  firstname: Eric
-  workedwith: Florian Jaeger
-  gradyear: 2013
-  major:
-    - BCS
-    - Linguistics
+  - lastname: Williams
+    firstname: Erica
+    workedwith:
+      - *mfedzech
+    gradyear: 2014
+    major: BCS
 
-- lastname: Rowe
-  firstname: Emily
-  workedwith: Esteban Buz
-  gradyear: 2016
-  major: BCS
+  - lastname: Wood
+    firstname: Andrew
+    workedwith:
+      - *tiflo
+    gradyear: 2010
+    major:
+      - Computer Science
 
-- lastname: Krishnamoorthy
-  firstname: Aishwarya
-  workedwith: Esteban Buz
-  gradyear: 2016
-  major:
-    - ???
+  - lastname: Song
+    firstname: Keyu
+    workedwith:
+      - *bpajak
+    gradyear: 2015
+    major:
+      - Political Science
 
-- lastname: Leonard
-  firstname: Brian
-  workedwith: Esteban Buz
-  gradyear: 2017
-  major:
-    - ???
+  - lastname: Smith
+    firstname: Greta
+    workedwith:
+      - *mfedzech
+    gradyear: 2014
 
-- lastname: MacDonald
-  firstname: Anna
-  workedwith: Esteban Buz
-  gradyear: 2016
-  major:
-    - ???
+  - lastname: Rutherford
+    firstname: Christina
+    workedwith:
+      - *bpajak
+    gradyear: 2016
+
+  - lastname: Blackley
+    firstname: Suzanne
+    workedwith:
+      - *mfedzech
+    gradyear: 2014
+    major:
+      - BCS
+      - Linguistics
+
+  - lastname: Meinhardt
+    firstname: Eric
+    workedwith:
+      - *tiflo
+    gradyear: 2013
+    major:
+      - BCS
+      - Linguistics
+
+  - lastname: Rowe
+    firstname: Emily
+    workedwith:
+      - *ebuz
+    gradyear: 2016
+    major: BCS
+
+  - lastname: Krishnamoorthy
+    firstname: Aishwarya
+    workedwith:
+      - *ebuz
+    gradyear: 2016
+
+  - lastname: Leonard
+    firstname: Brian
+    workedwith:
+      - *ebuz
+    gradyear: 2017
+
+  - lastname: MacDonald
+    firstname: Anna
+    workedwith:
+      - *ebuz
+    gradyear: 2016
+
+  - lastname: Orth
+    firstname: Wesley
+    gradyear: 2017
+    major:
+      - BCS
+      - Linguistics
+    workedwith:
+      - *zburchill
+      - *lliu

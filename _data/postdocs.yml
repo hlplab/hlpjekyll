@@ -1,18 +1,36 @@
-- lastname: Weatherholz
-  firstname: Kodi
-  username: kweatherholz
-  email: kweathe4@ur.rochester.edu
+- lastname: Buxó-Lugo
+  firstname: Andrés
+  username: abuxolug
+  email: abuxolug@ur.rochester.edu
   haspic: true
   department: BCS
-  homepage: http://kweatherholtz.github.io/
+  homepage: https://abuxolugo.github.io/
   blurb: >
-    I am interested in variation and speech processing. My primary line of
-    research investigates the cognitive processes by which listeners cope with
-    pronunciation variation in order to recognize and comprehend spoken
-    language (learning, adaptation, generalization, social inference). I also
-    investigate the relationship between language production and language
-    processing, particularly how/when people adapt their productions in
-    response to other talkers (alignment). To address these issues, I combine
-    psycholinguistic experimentation and statistical modeling with tools,
-    techniques, and insights from a range of disciplines, including phonetics,
-    sociolinguistics, and social psychology.
+    I’m interested in what speech and prosody — the rhythm, intonation, and 
+    intensity of speech — reveal about the cognitive mechanisms that underlie 
+    language production, comprehension, and acquisition. An ongoing goal of mine
+    has been to develop computational models of prosodic production and 
+    comprehension. My latest research focuses on how listeners integrate 
+    information from a variety of (often noisy) cues, and on how people learn 
+    to understand and produce constructions that are not already familiar to 
+    them (e.g., new uses of prosody, pronunciations that are not native to their
+    language, etc.).
+
+- lastname: Xie
+  firstname: Xin
+  username: xxie
+  email: xxie13@ur.rochester.edu
+  haspic: true
+  department: BCS
+  homepage: https://xinxie-cogsci.github.io/
+  blurb: >
+    I am interested in the cognitive and neural processes underlying speech
+    processing, in the context of native and non-native communication. I combine
+    psycholinguistic experimentation and functional neuroimaging methods (fMRI;
+    recently, learning to apply statistical modeling) in my research to investigate
+    how experience-dependent plasticity occurs (perceptual adaptation, long-term
+    L2 learning). My most current line of work investigates foreign accent
+    adaptation and its generalization across talkers, as well as maintenance over
+    time. Broadly, I hope to better understand how people learn and represent
+    structured variability (e.g., talker information) in spoken languages and
+    the neural mechanisms that support such learning and representations.

@@ -14,25 +14,24 @@
   firstname: Lindsay
   username: lbutler
   haspic: false
-  email: lkb164@psu.edu
+  email: lindsaykaybutler@gmail.com
   department: BCS
   range:
     start: Fall 2009
     end: Winter 2012
-  homepage: http://sites.psu.edu/lkb164/
-  current: M.S. student, Speech-Language Pathology, The Pennsylvania State University
+  current: Speech Language Pathologist, Eastconn
 
 - lastname: Farmer
   firstname: Thomas
   username: tfarmer
   haspic: true
-  email: thomas-farmer@uiowa.edu
+  email: tafarmer@ucdavis.edu
   department: BCS
   range:
     start: Fall 2010
     end: Summer 2012
   homepage: https://sites.google.com/site/thomasfarmeruniversityofiowa/
-  current: Assistant professor, Department of Psychology, University of Iowa
+  current: Associate Project Scientist, Center for Mind & Brain, UC Davis
 
 - lastname: Fraundorf
   firstname: Scott
@@ -81,3 +80,16 @@
     end: Spring 2010
   homepage: http://www.hlp.rochester.edu/~nsnider/
   current: Research Manager, Natural Language Understanding at Nuance Communications
+
+- lastname: Weatherholz
+  firstname: Kodi
+  username: kweatherholz
+  email: kweatherholtz@gmail.com
+  haspic: true
+  department: BCS
+  range:
+    start: Fall 2015
+    end: Fall 2016
+  homepage: http://kweatherholtz.github.io/
+  current: Senior Research Analyst / Data Scientist at Pearson Education
+

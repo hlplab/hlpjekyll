@@ -84,7 +84,7 @@ Most of our costs come from supporting staff and students. Technical support for
     {% for grad in sorted_grads %}
     <tr>
       <td>{{grad.firstname}} {{grad.lastname}}{% if grad.gradyear %} ({{grad.gradyear}}){%endif%}</td>
-      <td>{{grad.support|join:', '}}</td>
+      <td>{{grad.support| array_to_sentence_string}}</td>
     </tr>
     {% endfor %}
   </tbody>

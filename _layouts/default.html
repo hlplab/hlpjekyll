@@ -7,36 +7,24 @@
 
     {% include header.html %}
 
-    <div id="content" class="page-content row">
+    <div id="content" class="page-content grid-x">
       {{ content }}
     </div>
 
     {% include footer.html %}
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/what-input/2.0.1/what-input.min.js"></script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/foundation/6.2.0/foundation.min.js"></script>
-    <script type="text/javascript">$(document).foundation({
-      $magellan : {
-        // specify the class used for active sections
-        active_class: 'reading',
-        // how many pixels until the magellan bar sticks, 0 = auto
-        threshold: 5000,
-        // pixels from the top of destination for it to be considered active
-        destination_threshold: 20,
-        // calculation throttling to increase framerate
-        throttle_delay: 50
-      },
-    });
-    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js" integrity="sha256-t6SrqvTQmKoGgi5LOl0AUy+lBRtIvEJ+++pLAsfAjWs=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js" integrity="sha256-mRYlCu5EG+ouD07WxLF8v4ZAZYCA6WrmdIXyn1Bv9Vk=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">$(document).foundation();</script>
     {% if page.custom_remote_js %}
     {% for js_file in page.custom_remote_js %}
-    <script type="text/javascript" src="{{js_file}}"></script>
+    <script type="text/javascript" src="{{js_file.src}}" integrity="{{js_file.integrity}}" crossorigin="{{js_file.crossorigin}}"></script>
     {% endfor %}
     {% endif %}
     {% if page.custom_local_js %}
     {% for js_file in page.custom_local_js %}
-    {% assign jsurl = "/js/FILENAME.js"|replace:'FILENAME', js_file |prepend: site.baseurl  %}
-    <script type="text/javascript" src="{{jsurl}}" ></script>
+        {% js '{{js_file}}' %}
     {% endfor %}
     {% endif %}
     <script>
@@ -45,7 +33,7 @@
         e=o.createElement(i);r=o.getElementsByTagName(i)[0];
         e.src='//www.google-analytics.com/analytics.js';
         r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-        ga('create','UA-6365921-1','auto');ga('send','pageview');
+        ga('create','{{site.google_site_verification}}','auto');ga('send','pageview');
     </script>
   </body>
 

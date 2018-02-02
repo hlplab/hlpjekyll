@@ -1,7 +1,16 @@
 ---
-layout: sidenav
+description: >
+    Select publications from Florian Jaeger's Human Language Processing (HLP)
+    Lab at The University of Rochester
+seo:
+    links:
+        - https://rochester.academia.edu/tiflo/papers/
+        - https://www.researchgate.net/profile/T_Florian_Jaeger/publications
+layout: sidenav_sticky
 category: research
 title: Publications
+scholar:
+  bibliography: hlplab.bib
 custom_local_js: sticky
 navlinks:
   - text: Research Statement
@@ -20,8 +29,10 @@ navlinks:
         anchor: in-press
       - text: In Prep
         anchor: in-prep
+      - text: 2017
+        anchor: 2017
       - text: 2016
-        anchor: 2016  
+        anchor: 2016
       - text: 2015
         anchor: 2015
       - text: 2014
@@ -55,18 +66,18 @@ You can find all our papers on [academia.edu](https://rochester.academia.edu/tif
 
 ## Submitted
 {:data-magellan-destination="submitted"}
-{% bibliography --query @*[year=Submitted] %}
+{% bibliography -f hlplab -q @*[year=Submitted] %}
 
 ## In Press
 {:data-magellan-destination="in-press"}
-{% bibliography --query @*[year=In Press] %}
+{% bibliography -f hlplab -q @*[year=In Press] %}
 
 ## In Prep
 {:data-magellan-destination="in-prep"}
-{% bibliography --query @*[year=In Prep] %}
+{% bibliography -f hlplab -q @*[year=In Prep] %}
 
-{% for year in (2005..2016) reversed %}
+{% for year in (2005..2017) reversed %}
 ## {{year}}
 {:data-magellan-destination="{{year}}"}
-{% bibliography --query @*[year={{year}}] %}
+{% bibliography -f hlplab -q @*[year={{year}}] %}
 {% endfor %}

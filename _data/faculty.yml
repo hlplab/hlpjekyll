@@ -4,11 +4,23 @@
   email: fjaeger@ur.rochester.edu
   haspic: true
   department: BCS
-  homepage: http://www.bcs.rochester.edu/people/fjaeger/
-  blurb: >
-    I am interested in how production and comprehension complexity (due to locality; expectation)
-    influences speakers' choice in language variation. I use psycholinguistic experimentation and
-    corpus-based statistical modeling to investigate whether/to what extent speakers use prosodic
-    and syntactic cues to make unexpected information easier to process (predictability; information
-    structure; common ground), and to which extend this is done for their addressees (audience design).
+  homepage: http://www2.bcs.rochester.edu/sites/fjaeger/
+  blurb: |
+    T. Florian Jaeger holds an M.A. in Linguistics and Computer Science from Humboldt 
+    University to Berlin (2001) and a Ph.D. in Linguistics with a designation in 
+    the Cognitive Sciences from Stanford University (2006). Other education includes 
+    stints at MIT, UC Berkeley, Edinburgh, and at post‐doc in psychology at UCSD. 
+    In 2007, he joined the University of Rochester, where he now is a Professor in 
+    the Departments of Brain and Cognitive Sciences, Computer Science, and Linguistics. 
+    He is an Alfred P. Sloan Fellow in the Neurosciences, and NSF CAREER recipient 
+    in Robust Intelligence. 
+
+    His research focuses on the development of computational frameworks for language 
+    production and understanding. This includes research on the consequences of noise 
+    and variability (e.g., between talkers) for communication and the study of inference 
+    under uncertainty and learning in production and comprehension. This research is 
+    funded by the National Science Foundation and the National Institutes for Health. 
+    He has served as reviewer for federal funding agencies in the US, Belgium, Canada, 
+    Germany, Holland, and the European Union.
+  
     For more see <a href="http://www.bcs.rochester.edu/people/fjaeger/cv.pdf">my CV</a>.

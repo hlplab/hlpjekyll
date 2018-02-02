@@ -5,32 +5,54 @@ grants:
   - &nsf NSF Graduate Fellowship
   - &nrsa NRSA
   - &nserc NSERC Post-graduate Fellowship
+  - &amazon Amazon Applied Scientist Internship
 
 grads:
   - lastname: Fedzechkina
     firstname: Maryia
     gradyear: 2014
-    support: *lsa
+    support:
+      - *lsa
   - lastname: Kleinschmidt
     firstname: Dave
+    gradyear: 2016
     support:
       - *sproull
       - *lsa
       - *nsf
+      - *nrsa
   - lastname: Buz
     firstname: Esteban
-    support: *provost
+    gradyear: 2016
+    support:
+      - *provost
+      - *nrsa
   - lastname: Fine
     firstname: Alex
     gradyear: 2013
-    support: *nsf
+    support:
+      - *nsf
   - lastname: Pogue
     firstname: Amanda
-    support: *nserc
+    support:
+      - *nserc
   - lastname: Pontillo
     firstname: Dan
-    support: *lsa
+    support:
+      - *lsa
   - lastname: Frank
     firstname: Austin
     gradyear: 2010
-    support: *sproull
+    support:
+      - *sproull
+  - lastname: Bushong
+    firstname: Wednesday
+    support:
+      - *provost
+  - lastname: Liu
+    firstname: Linda
+    support:
+      - *lsa
+      - *amazon
+
+

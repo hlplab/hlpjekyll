@@ -1,8 +1,21 @@
 _site
 .sass-cache
+.asset-cache/*
 
 Gemfile.lock
 
 # Files MacOS leaves laying around
 ._*
 .DS_Store
+
+# IntelliJ IDEA metadata
+.idea/*
+
+# Files I may or may not integrate
+_staging/*
+
+# NFS lock files
+.nfs*
+
+# Vim swap files
+*.swp

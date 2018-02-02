@@ -48,12 +48,12 @@
 - lastname: Hörberg
   firstname: Thomas
   username: thorberg
-  haspic: false
+  haspic: true
   affiliation:
     role: Graduate student
     department: Linguistics
     institution: <a href="http://www.su.se/english/">Stockholm University</a>
-  homepage: http://www.ling.su.se/pub/jsp/polopoly.jsp?d=14331&a=81539
+  homepage: http://www.su.se/english/profiles/thh1385-1.184347
   start: 2011-04-06
   end: 2011-04-30
 
@@ -91,12 +91,12 @@
 - lastname: Montero Melis
   firstname: Guillermo
   username: gmelis
-  haspic: false
+  haspic: true
   affiliation:
     role: Graduate student
     department: Centre for Research on Bilingualism
     institution: <a href="http://www.su.se/english/"> Stockholm University</a>
-  homepage: http://www.biling.su.se/english/about-us/contact/staff-and-phd-students/guillermo-montero-melis-1.91597
+  homepage: http://www.su.se/english/profiles/gumo8029-1.189266
   start: 2014-04-13
   end: 2014-05-02
 
@@ -141,5 +141,32 @@
     The first study is looking at the basic effects of contrast on constituent order
     and prosody in language production in English and Basque, while later experiments
     will focus on common vs. privileged ground.
+
+- lastname: Cao
+  firstname: Grace Wenling
+  username: wlcao
+  haspic: true
+  affiliation:
+    role: Graduate Student
+    department: Linguistics
+    institution: <a href="https://www.york.ac.uk/language/">University of York</a>
+  homepage: http://wlcaolinguistics.blogspot.com/
+  start: 2017-03-20
+  end: 2017-04-14
+  funding: WUN Research Mobility Award
+  blurb:
+
+- lastname: Montero Melis
+  firstname: Guillermo
+  username: gmelis
+  haspic: true
+  affiliation:
+    role: Graduate student
+    department: Centre for Research on Bilingualism
+    institution: <a href="http://www.su.se/english/"> Stockholm University</a>
+  homepage: http://www.su.se/english/profiles/gumo8029-1.189266
+  start: 2015-10-05
+  end: 2015-10-23
+  # dates estimated based on 3 week visit and the Monday of the week he emailed me
 
 # When possible, have funding and blurb

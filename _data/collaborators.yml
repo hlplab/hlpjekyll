@@ -1,32 +1,32 @@
-- lastname: Shaw
-  firstname: Jason
-  url: http://marcs.uws.edu.au/people/jason-shaw
-  university: University of Western Sydney
-  department: The MARCS Institute
+# - lastname: Shaw
+#   firstname: Jason
+#   url: http://marcs.uws.edu.au/people/jason-shaw
+#   university: University of Western Sydney
+#   department: The MARCS Institute
 
-- lastname: Best
-  firstname: Catherine
-  url: http://marcs.uws.edu.au/people/cathi-best
-  university: University of Western Sydney
-  department: The MARCS Institute
+# - lastname: Best
+#   firstname: Catherine
+#   url: http://marcs.uws.edu.au/people/cathi-best
+#   university: University of Western Sydney
+#   department: The MARCS Institute
 
-- lastname: Foulkes
-  firstname: Paul
-  url: http://www.york.ac.uk/language/people/academic-research/paul-foulkes/
-  university: University of York
-  department: Language and Linguistic Science
+# - lastname: Foulkes
+#   firstname: Paul
+#   url: http://www.york.ac.uk/language/people/academic-research/paul-foulkes/
+#   university: University of York
+#   department: Language and Linguistic Science
 
-- lastname: Docherty
-  firstname: Gerry
-  url: https://www.griffith.edu.au/arts-education-law/staff/gerard-docherty
-  university: Griffith University
-  department: Arts, Education & Law
+# - lastname: Docherty
+#   firstname: Gerry
+#   url: https://www.griffith.edu.au/arts-education-law/staff/gerard-docherty
+#   university: Griffith University
+#   department: Arts, Education & Law
 
-- lastname: Hay
-  firstname: Jen
-  url: http://www.arts.canterbury.ac.nz/linguistics/people/hay.shtml
-  university: University of Canterbury
-  department: Linguistics
+# - lastname: Hay
+#   firstname: Jen
+#   url: http://www.arts.canterbury.ac.nz/linguistics/people/hay.shtml
+#   university: University of Canterbury
+#   department: Linguistics
 
 - lastname: Hume
   firstname: Beth
@@ -62,8 +62,8 @@
 - lastname: Farmer
   firstname: Thomas
   url: https://sites.google.com/site/thomasfarmeruniversityofiowa/
-  university: University of Iowa
-  department: Psychology
+  university: UC Davis
+  department: Center for Mind & Brain
 
 - lastname: Ferreira
   firstname: Vic

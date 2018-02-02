@@ -1,3 +1,14 @@
+- lastname: Buz
+  firstname: Esteban
+  username: ebuz
+  email: esteban.buz@gmail.com
+  haspic: true
+  department: BCS
+  degree: PhD
+  year: 2016
+  homepage: http://www.esteban.bz/
+  current: Post doctoral researcher, Department of Psychology, Princeton University
+
 - lastname: Corbin
   firstname: Samuel
   username: scorbin
@@ -16,7 +27,7 @@
   degree: PhD
   year: 2013
   homepage: https://sites.google.com/site/judithdegen/home
-  current: Post doctoral researcher, Department of Psychology, Stanford University
+  current: Assistant Professor, Department of Linguistics, Stanford University
 
 - lastname: Van Durme
   firstname: Benjamin
@@ -33,12 +44,12 @@
   firstname: Maryia
   username: mfedzechkina
   haspic: true
-  email: mfedze@sas.upenn.edu
+  email: mfedzech@email.arizona.edu
   department: BCS
   degree: PhD
   year: 2014
-  homepage: http://www.sas.upenn.edu/~mfedze/files/Home.html
-  current: Post doctoral fellow, Department of Psychology, University of Pennsylvania
+  homepage: http://mfedzech.github.io/index.html
+  current: Assistant Professor, Department of Linguistics, University of Arizona
 
 - lastname: Fine
   firstname: Alex
@@ -48,8 +59,8 @@
   department: BCS, Ling
   degree: PhD
   year: 2013
-  homepage: http://internal.psychology.illinois.edu/~abfine/AlexFineHome.html
-  current: Data Scientist, MaxPoint
+  homepage: http://abfine.github.io/home.html
+  current: Quantitative Scientist, Flatiron Health
 
 - lastname: Frank
   firstname: Austin
@@ -81,6 +92,17 @@
   degree: PhD
   year: 2011
   current: Senior Human Subjects Protection Scientist, US Army Office of Research Protections, Fort Detrick, MD
+
+- lastname: Kleinschmidt
+  firstname: Dave
+  username: dkleinschmidt
+  email: dkleins2@ur.rochester.edu
+  haspic: true
+  department: BCS
+  degree: PhD
+  year: 2016
+  homepage: http://www.davekleinschmidt.com/
+  current: C.V. Starr Fellow at the Princeton Neuroscience Institute
 
 - lastname: Post
   firstname: Matt

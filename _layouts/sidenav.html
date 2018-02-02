@@ -2,8 +2,8 @@
 layout: page
 ---
 
-<div class="row">
-  <div class="large-2 columns offset-1" data-sticky-container>
+<div class="grid-x">
+  <div class="large-2 cell large-offset-1" data-sticky-container>
     <nav class="columns sticky" data-sticky data-anchor="pagecontent">
       <ul class="vertical menu">
         {% for link in page.navlinks %}
@@ -22,7 +22,7 @@ layout: page
       </ul>
     </nav>
   </div>
-  <div id="pagecontent" class="large-9 columns">
+  <div id="pagecontent" class="large-9 cell">
       {{content}}
   </div>
 </div>

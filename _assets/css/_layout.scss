@@ -1,0 +1,266 @@
+/**
+ * Site header
+ */
+.site-header {
+    border-top: 5px solid $grey-color-dark;
+    border-bottom: 1px solid $grey-color-light;
+    min-height: 56px;
+    background: linear-gradient(to bottom, $steel, $base);
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+.site-title {
+    font-size: 26px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+
+    &,
+    &:visited {
+        color: $primary-color;
+    }
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit 0;
+    background: linear-gradient(to bottom, $base, $steel);
+}
+
+.site-footer ul.vcard {
+  border: none;
+}
+
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: $spacing-unit / 2;
+}
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit 0;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.page-heading, .post-list {
+  background-color: rgba($background-color, 0.6);
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    //font-size: 1rem;
+}
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+}
+
+.post-preview {
+  font-size: small;
+}
+
+.post-list h2 {
+  font-size: 1.5rem
+}
+
+.post-content h1,h2,h3 {
+  margin-top: 2.5rem;
+}
+
+/**
+* People pages
+*/
+
+.person {
+  margin: 2rem 0; /*!important;*/
+
+.person .alumni {
+  margin-bottom: 0px;
+}
+
+.img-circular {
+  @include border-radius(80px);
+  background-size: cover;
+  display: block;
+  height: 160px;
+  width: 160px;
+  }
+}
+
+.smallpic .img-circular {
+  height: 100px;
+  width: 100px;
+}
+
+
+// Other stuff
+
+#contactus {
+  margin-bottom: 8rem;
+}
+
+#contentrow {
+  margin-left: 2rem;
+}
+
+#invited_talks {
+  min-height: 150px;
+  max-height: 700px;
+  overflow: scroll;
+  margin-left: 1em;
+}
+
+.wp-entry {
+  list-style: none;
+}
+
+blockquote img {
+  max-width: 33%;
+  float: left;
+  padding-right: 1rem;
+}
+
+.quote-source {
+  margin: 5px 5px 5px 0;
+  padding: 5px;
+  background: #eaeff5;
+  border-top: 1px solid #f4f7fa;
+  border-bottom: 1px solid #dde5ed;
+  text-shadow: 0px 1px 0px #f8fafb;
+}
+
+.quote blockquote {
+  border-left: 10px solid #dde5ed;
+  background: #f8fafd;
+  color: #758fa3;
+  padding: 0.75rem;
+  margin-bottom: 0;
+  width: 100%;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.quote blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.quote blockquote:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.quote p {
+  display: inline;
+  line-height: 1.75rem;
+}
+
+.quote cite:before {
+  content: "\2014 \2009";
+}
+
+iframe[seamless] {
+  background-color: transparent;
+  border: 0px none transparent;
+  padding: 0px;
+  overflow: hidden;
+}
+
+#drop_refs {
+  max-width: 85%;
+  max-height: 450px;
+  overflow-y: scroll;
+}
+
+.dataslide {
+  background-color: rgba($iron, 0.85);
+  color: white;
+  padding: 2rem;
+}
+
+.dataslide h3 {
+  color: $charcoal;
+}
+
+.dataslide p:first-of-type {
+  margin-top: 3rem;
+  background-color: rgba(51,51,51,0.7);
+  padding: .75rem 1rem;
+}
+
+.dataslide .image-caption {
+  background: rgba(51,51,51, 0.8);
+  font-color: $white;
+  padding: rem-calc(10 14);
+  position: relative;
+  bottom: 3rem;
+  width: 100%;
+}
+
+#socialbuttons {
+  margin-top: 3rem;
+}
+
+.site-footer p {
+  font-size: small;
+}
+
+.site-footer ul.vcard {
+  font-size: small;
+  margin: 0; // vcard default has 1.25rem bottom margin
+}
+
+// sticky
+.stickyside {
+  position: relative;
+  top: 0;
+}
+
+ul.sub-nav li {
+  list-style-type: none;
+}

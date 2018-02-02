@@ -17,6 +17,7 @@ wordpress:
 youtube_id: UCfAMdAEbXx1vr5uZFnRfcdw
 google_api_key: AIzaSyCKbJAHLypyA2q1AwXOaJh51PMyx_zO4wY
 logo: /pics/UR.v2.svg
+google_site_verification: UA-6365921-1
 
 # Build settings
 #markdown: redcarpet
@@ -29,18 +30,18 @@ kramdown:
 
 exclude: [deploywww.sh, Gemfile]
 
-gems:
+plugins:
   - 'jekyll/scholar'
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-assets
   - octopress-quote-tag
-  - octopress-minify-html
   - jekyll-textile-converter
 
 scholar:
   style: elsevier-harvard
   sort_by: name
-  bibliography: hlplab.bib
+  # bibliography: hlplab.bib
   bibliography_template: bib
   bibtex_filters:
     - latex
@@ -49,8 +50,28 @@ scholar:
 sass:
     style: :compressed
 
-# set to false for development. comment out for production
-minify_html: false
+
+jekyll-minifier:
+  exclude: 'atom.xml'
+  compress_css: false                # Default: true
+  compress_javascript: false         # Default: true
+
+#  You should set your JEKYLL_ENV=development on your development machine and JEKYLL_ENV=production when building to push.
+#  Being in production mode causes octopress-minify-html to minify and jekyll-assets to add digests to filenames
+
+# Uncomment this to not minify even in production
+# minify_html: false
+
+# Temporarily commenting this out because the sha hashes it generates are wrong
+assets:
+  # If you compress the assets the integrity hash comes out wrong
+  # https://github.com/jekyll/jekyll-assets/issues/328
+  compress:
+    css: false
+    js: false
+  digest: false
+  features:
+    integrity: true
 
 #defaults:
 #  -

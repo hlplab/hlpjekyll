@@ -19,12 +19,12 @@ navlinks:
 {% if site.data.visitors %}
 {% assign sorted_people = site.data.visitors |sort: 'start' |reverse %}
 {% for person in sorted_people %}
-<div class="row person" id="{{person.username}}" >
-  <div class="row">
-    <div class="large-3 columns">
+<div class="grid-x person" id="{{person.username}}" >
+  <div class="grid-x">
+    <div class="large-3 cell">
       {% include roundpic.html %}
     </div>
-    <div class="large-9 columns">
+    <div class="large-9 cell">
       <ul>
         <li><b>Name</b>: {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %}</li>
         <li><b>Affiliation</b>: {% if person.affiliation.role %}{{person.affiliation.role}}, {% endif %}{% if person.affiliation.department %}{{person.affiliation.department}}, {% endif %}{% if person.affiliation.institution %}{{person.affiliation.institution}}{% endif %}</li>

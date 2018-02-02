@@ -4,6 +4,7 @@
   email: zburchil@ur.rochester.edu
   haspic: true
   department: BCS
+  homepage: http://www.zachburchill.ml/
   blurb: >
     I'm interested in language adaptation, production, and comprehension, but I haven't narrowed my
     focus much as of yet. Other areas that have caught my curiosity include binomial word order,
@@ -15,6 +16,7 @@
   email: wbushong@ur.rochester.edu
   haspic: true
   department: BCS
+  homepage: https://wbushong.github.io/
   blurb: >
     I'm interested in prediction, learning, and adaptation during language comprehension.
     One current line of my research investigates whether people learn abstract linguistic
@@ -22,37 +24,13 @@
     expectations about upcoming words influence the detail with which we maintain
     representations about the current input.
 
-- lastname: Buz
-  firstname: Esteban
-  username: ebuz
-  email: ebuz@ur.rochester.edu
-  haspic: true
-  department: BCS
-  homepage: http://www.bcs.rochester.edu/people/ebuz/
-  blurb: >
-    My interests are in phonetic production and variation, audience design and computational models
-    of speaker behavior. My current focus is on if speakers behave in a boundedly rational way during
-    phonetic production.
-
-- lastname: Kleinschmidt
-  firstname: Dave
-  username: dkleinschmidt
-  email: dkleins2@ur.rochester.edu
-  haspic: true
-  department: BCS
-  homepage: http://www.bcs.rochester.edu/people/dkleinschmidt/
-  blurb: >
-    I'm interested in computational modeling and speech perception, and specifically in developing
-    models of how phonetic categories are learned and deployed that are plausible from linguistic,
-    computational, neural, and developmental perspectives. I'm also interested in how phonetic categories
-    interact with lexical representations.
-
 - lastname: Liu
   firstname: Linda
   username: lliu
   email: lliu47@ur.rochester.edu
   haspic: true
   department: BCS
+  homepage: http://www.lindaliu.me/
   blurb: >
     I am interested in taking computational and experimental approaches to investigate sentence
     comprehension, accent adaptation, and how listeners form structural generalizations across speaker
@@ -65,7 +43,7 @@
   email: apogue@ur.rochester.edu
   haspic: true
   department: BCS
-  homepage: http://www.bcs.rochester.edu/people/apogue/
+  homepage: https://amandapogue.github.io/
   blurb: >
     I'm interested in the kinds of information people take into account when
     comprehending or producing referring expressions. In particular my research
@@ -74,12 +52,18 @@
     children learn to integrate all of this information in their comprehension
     and productions.
 
-- lastname: Seifeldin
-  firstname: Maryam
-  username: mseifeldin
-  email: mseifeld@ur.rochester.edu
+- lastname: Yan
+  firstname: Shaorong
+  username: syan
+  email: syan13@ur.rochester.edu
   haspic: true
   department: BCS
+  homepage: https://shaorongyan.github.io/
   blurb: >
-    I am interested in how higher-level implicit knowledge of the sociolinguistic
-    distribution of feature variation can affect adaptive strategies in sentence processing.
+    I’m interested in predictive processing of language. More specifically, I’m
+    interested in when and how people translate higher-level predictions into
+    expectations about lower-level features. Besides, I’m also interested in how
+    people adjust those higher- and lower-level expectancies in the face of unexpected
+    information in the current context (i.e. adaptation). My other interest includes
+    how prosodic information is used in language processing, both in speech and in
+    silent reading.

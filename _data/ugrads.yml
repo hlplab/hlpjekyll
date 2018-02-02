@@ -1,7 +1,7 @@
 - lastname: Clark
   firstname: Madeline
   username: mclark
-  haspic: false
+  haspic: true
   email: mclark31@u.rochester.edu
   major:
     - Linguistics
@@ -14,7 +14,7 @@
 - lastname: Gardner
   firstname: Bethany
   username: bgardner
-  haspic: false
+  haspic: true
   email: bethany.gardner@rochester.edu
   major:
     - BCS
@@ -22,38 +22,39 @@
   workswith:
     - Esteban Buz
 
-- lastname: Lewis
-  firstname: Emily
-  username: elewis
-  haspic: false
-  email: elewis11@u.rochester.edu
+- lastname: Hamaguchi
+  firstname: Evan
+  username: ehamaguchi
+  haspic: true
+  email: ehamaguc@ur.rochester.edu
   major:
-    - ???
-  gradyear: 2018
+    - NA
+  gradyear: Post-bac
   workswith:
-    - Esteban Buz
+    - Florian Jaeger
+
+- lastname: Li
+  firstname: Ruolan
+  username: lruolan
+  haspic: false
+  email: rli36@u.rochester.edu
+  major:
+    - BCS
+  gradyear: 2020
+  workswith:
+    - Xin Xie
 
 - lastname: Oey
   firstname: Lauren
   username: loey
+  homepage: https://loey18.github.io/
   email: loey@u.rochester.edu
   gradyear: 2018
   major:
     - BCS
     - Statistics
-  haspic: false
-  workswith:
-    - Zach Burchill
-    - Linda Liu
-
-- lastname: Orth
-  firstname: Wesley
-  username: worth
-  email: worth@u.rochester.edu
-  gradyear: 2018
-  major:
-    - ???
-  haspic: false
+    - Linguistics
+  haspic: true
   workswith:
     - Zach Burchill
     - Linda Liu
