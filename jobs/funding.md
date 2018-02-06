@@ -3,7 +3,6 @@ layout: sidenav
 title: Funding
 category: jobs
 description: Funding for coming to the lab as an Undergraduate, Graduate, Postdoc, or Visiting Faculty
-custom_local_js: sticky
 navlinks:
   - text: Undergrad - Independent Study
     link: jobs/independent.html

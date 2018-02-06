@@ -6,12 +6,11 @@ seo:
     links:
         - https://rochester.academia.edu/tiflo/papers/
         - https://www.researchgate.net/profile/T_Florian_Jaeger/publications
-layout: sidenav_sticky
+layout: sidenav
 category: research
 title: Publications
 scholar:
   bibliography: hlplab.bib
-custom_local_js: sticky
 navlinks:
   - text: Research Statement
     link: research/statement/

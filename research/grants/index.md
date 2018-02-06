@@ -2,7 +2,6 @@
 layout: sidenav
 title: Interested in sponsoring our research, teaching, or research opportunities for undergraduates?
 category: research
-custom_local_js: sticky
 navlinks:
 - text: Research Statement
   link: research/statement/

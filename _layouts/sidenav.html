@@ -1,9 +1,10 @@
 ---
 layout: page
+custom_local_js: sticky-sidenav-fix
 ---
 
 <div class="grid-x">
-  <div class="large-2 cell large-offset-1" data-sticky-container>
+  <div class="large-2 cell large-offset-1" data-sticky-container id="sidenav">
     <nav class="columns sticky" data-sticky data-anchor="pagecontent">
       <ul class="vertical menu">
         {% for link in page.navlinks %}

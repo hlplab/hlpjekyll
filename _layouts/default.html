@@ -17,6 +17,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js" integrity="sha256-mRYlCu5EG+ouD07WxLF8v4ZAZYCA6WrmdIXyn1Bv9Vk=" crossorigin="anonymous"></script>
 
     <script type="text/javascript">$(document).foundation();</script>
+    {% if layout.custom_remote_js %}
+    {% for js_file in layout.custom_remote_js %}
+    <script type="text/javascript" src="{{js_file.src}}" integrity="{{js_file.integrity}}" crossorigin="{{js_file.crossorigin}}"></script>
+    {% endfor %}
+    {% endif %}
+    {% if layout.custom_local_js %}
+    {% for js_file in layout.custom_local_js %}
+        {% js '{{js_file}}' %}
+    {% endfor %}
+    {% endif %}
     {% if page.custom_remote_js %}
     {% for js_file in page.custom_remote_js %}
     <script type="text/javascript" src="{{js_file.src}}" integrity="{{js_file.integrity}}" crossorigin="{{js_file.crossorigin}}"></script>

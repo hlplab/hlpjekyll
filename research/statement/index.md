@@ -4,7 +4,6 @@ title: Research Statement
 category: research
 scholar:
   bibliography: statement.bib
-custom_local_js: sticky
 navlinks:
   - text: Research Statement
     link: research/statement/
