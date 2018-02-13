@@ -274,3 +274,22 @@ ol li .button.small.hollow {
   color: $primary-color;
   border: 1px solid $primary-color;
 }
+
+// top bar
+.top-bar {
+  background: #333;
+}
+
+.top-bar-section ul li > a {
+  color: #fff;
+}
+
+// VCard
+ul.vcard {
+  list-style: none;
+}
+
+.vcard .fn {
+  font-weight: bold;
+  font-size: 1.0714285714rem;
+}
