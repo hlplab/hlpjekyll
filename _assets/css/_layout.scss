@@ -276,11 +276,11 @@ ol li .button.small.hollow {
 }
 
 // top bar
-.top-bar {
+.top-bar, .top-bar ul {
   background: #333;
 }
 
-.top-bar-section ul li > a {
+.top-bar section ul li > a {
   color: #fff;
 }
 
