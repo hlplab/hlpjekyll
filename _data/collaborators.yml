@@ -53,11 +53,11 @@
   university: University of Rochester
   department: Brain and Cognitive Sciences
 
-- lastname: Campbell-Kibler
-  firstname: Kathryn
-  url: http://www.ling.ohio-state.edu/~kbck/
-  university: The Ohio State University
-  department: Linguistics
+# - lastname: Campbell-Kibler
+#   firstname: Kathryn
+#   url: http://www.ling.ohio-state.edu/~kbck/
+#   university: The Ohio State University
+#   department: Linguistics
 
 - lastname: Farmer
   firstname: Thomas
@@ -78,13 +78,13 @@
   university: Florida State University
   department: Psychology
 
-- lastname: Levy
-  firstname: Roger
-  url: http://idiom.ucsd.edu/~rlevy/
-  lab: Computational Psycholinguistics Lab
-  lab_url: http://grammar.ucsd.edu/labs/cpl/
-  university: UCSD
-  department: Linguistics
+# - lastname: Levy
+#   firstname: Roger
+#   url: http://idiom.ucsd.edu/~rlevy/
+#   lab: Computational Psycholinguistics Lab
+#   lab_url: http://grammar.ucsd.edu/labs/cpl/
+#   university: UCSD
+#   department: Linguistics
 
 - lastname: Raizada
   firstname: Rajeev
@@ -93,13 +93,13 @@
   university: University of Rochester
   department: BCS
 
-- lastname: Runner
-  firstname: Jeff
-  url: http://www.ling.rochester.edu/people/faculty/runner_jeff/index.html
-  lab: Lattimore Eye Tracking Lab
-  lab_url: http://ling.rochester.edu/research/labs/eye-lab.html
-  university: University of Rochester
-  department: Linguistics
+# - lastname: Runner
+#   firstname: Jeff
+#   url: http://www.ling.rochester.edu/people/faculty/runner_jeff/index.html
+#   lab: Lattimore Eye Tracking Lab
+#   lab_url: http://ling.rochester.edu/research/labs/eye-lab.html
+#   university: University of Rochester
+#   department: Linguistics
 
 - lastname: Tanenhaus
   firstname: Mike
@@ -109,17 +109,17 @@
   university: University of Rochester
   department: BCS
 
-- lastname: Toscano
-  firstname: Joe
-  url: http://joetoscano.com/
-  university: Villanova University
-  department: Psychology
+# - lastname: Toscano
+#   firstname: Joe
+#   url: http://joetoscano.com/
+#   university: Villanova University
+#   department: Psychology
 
-- lastname: Grimshaw
-  firstname: Jane
-  url: https://sites.google.com/site/janegrimshaw/
-  university: Rutgers University
-  department: Linguistics
+# - lastname: Grimshaw
+#   firstname: Jane
+#   url: https://sites.google.com/site/janegrimshaw/
+#   university: Rutgers University
+#   department: Linguistics
 
 - lastname: Jurafsky
   firstname: Dan
