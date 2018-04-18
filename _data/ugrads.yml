@@ -58,3 +58,13 @@
   workswith:
     - Zach Burchill
     - Linda Liu
+
+- lastname: Vieyto
+  firstname: Nicole
+  username: nvieyto
+  email: nvieyto@u.rochester.edu
+  gradyear: 2020
+  major:
+    - BCS
+    - Linguistics
+  haspic: false

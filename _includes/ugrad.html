@@ -12,11 +12,13 @@
             <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a><br/>
           </div>
         </div>
+        {% if person.workswith %}
         <div class="row">
           <div class="large-12 columns">
             <p>Works with: {{person.workswith| array_to_sentence_string}}</p>
           </div>
         </div>
       </div>
+      {% endif %}
   </div>
 </div>
