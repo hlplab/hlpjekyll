@@ -36,6 +36,18 @@ students:
     workedwith:
       - *mfedzech
 
+  - lastname: Clark
+    firstname: Madeline
+    username: mclark
+    email: mclark31@u.rochester.edu
+    major:
+      - Linguistics
+      - Japanese
+    gradyear: 2018
+    workedwith:
+      - *zburchill
+      - *lliu
+
   - lastname: Craycraft
     firstname: Nicole
     workedwith:
@@ -99,6 +111,16 @@ students:
       - *dkleins
     gradyear: 2013
     major: BCS
+  
+  - lastname: Gardner
+    firstname: Bethany
+    username: bgardner
+    email: bethany.gardner@rochester.edu
+    major:
+      - BCS
+    gradyear: 2018
+    workedwith:
+      - *ebuz
 
   - lastname: Gogos
     firstname: Narissa
@@ -237,6 +259,20 @@ students:
     workedwith:
       - *tiflo
     gradyear: 2010
+
+  - lastname: Oey
+    firstname: Lauren
+    username: loey
+    homepage: https://loey18.github.io/
+    email: loey@u.rochester.edu
+    gradyear: 2018
+    major:
+      - BCS
+      - Statistics
+      - Linguistics
+    workedwith:
+      - *zburchill
+      - *lliu
 
   - lastname: Perlman
     firstname: Amanda
