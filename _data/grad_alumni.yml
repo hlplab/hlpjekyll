@@ -60,7 +60,7 @@
   degree: PhD
   year: 2013
   homepage: http://abfine.github.io/home.html
-  current: Quantitative Scientist, Flatiron Health
+  current: Senior Data Scientist, Qntfy
 
 - lastname: Frank
   firstname: Austin
@@ -103,6 +103,17 @@
   year: 2016
   homepage: http://www.davekleinschmidt.com/
   current: C.V. Starr Fellow at the Princeton Neuroscience Institute
+
+- lastname: Pogue
+  firstname: Amanda
+  username: apogue
+  email: apogue@ur.rochester.edu
+  haspic: true
+  department: BCS
+  degree: PhD
+  year: 2018
+  homepage: https://amandapogue.github.io/
+  current: Data science fellow, Insight
 
 - lastname: Post
   firstname: Matt
