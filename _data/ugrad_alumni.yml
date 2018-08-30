@@ -161,6 +161,14 @@ students:
     gradyear: 2012
     major: BCS
 
+  - lastname: Hamaguchi
+    firstname: Evan
+    username: ehamaguchi
+    major: NA
+    gradyear: Post-bac
+    workedwith:
+      - *fjaeger
+
   - lastname: Hansen-Karr
     firstname: Camber
     workedwith:

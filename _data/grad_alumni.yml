@@ -104,6 +104,17 @@
   homepage: http://www.davekleinschmidt.com/
   current: C.V. Starr Fellow at the Princeton Neuroscience Institute
 
+- lastname: Liu
+  firstname: Linda
+  username: lliu
+  email: lliu47@ur.rochester.edu
+  haspic: true
+  department: BCS
+  degree: PhD
+  year: 2018
+  homepage: http://www.lindaliu.me/
+  current: Data scientist, Amazon Alexa
+
 - lastname: Pogue
   firstname: Amanda
   username: apogue

@@ -24,19 +24,6 @@
     expectations about upcoming words influence the detail with which we maintain
     representations about the current input.
 
-- lastname: Liu
-  firstname: Linda
-  username: lliu
-  email: lliu47@ur.rochester.edu
-  haspic: true
-  department: BCS
-  homepage: http://www.lindaliu.me/
-  blurb: >
-    I am interested in taking computational and experimental approaches to investigate sentence
-    comprehension, accent adaptation, and how listeners form structural generalizations across speaker
-    groups. I also have interests computational modeling, prosody, and cross-modality/domain work,
-    e.g. sign language and music cognition.
-
 - lastname: Yan
   firstname: Shaorong
   username: syan
