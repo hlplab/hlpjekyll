@@ -34,7 +34,7 @@ navlinks:
     <div class="row">
       <div class="large-12 columns">
         <ul class="post-list">
-          {% for post in site.posts limit:10 %}
+          {% for post in site.newsblurbs limit:10 %}
           <li>
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</span>
             <h3>
