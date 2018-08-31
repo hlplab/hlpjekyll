@@ -10,4 +10,5 @@ gem 'jekyll-textile-converter' # Just to make octopress-quote-tag happy
 
 group :jekyll_plugins do
   gem 'jekyll-minifier'
+  gem 'jekyll-feed'
 end

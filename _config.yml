@@ -35,7 +35,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-assets
-  - jekyll-textile-converter
+  - jekyll-feed  
 
 collections:
   newsblurbs:
