@@ -6,7 +6,9 @@ slug: two-UR-scientists-awarded-sloan-fellowships
 source: University of Rochester News, March 4th, 2011
 tags:
   - efficient language
-image: /pics/sloan.gif
+image:
+  - path: /pics/sloan.gif
+    alt: Sloan Foundation logo
 description: David McCamant and T. Florian Jaeger selected as 2011 Alfred P. Sloan Research Fellows
 ---
 David McCamant, assistant professor of chemistry, and T. Florian Jaeger,
