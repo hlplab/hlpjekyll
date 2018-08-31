@@ -1,0 +1,19 @@
+---
+layout: post
+---
+<figure class="quote">
+    {% if page.image %}
+        {% for image in page.image %}
+        <img src="{{image.path}}" alt="{{image.alt}}">
+        {% endfor %}
+    {% endif %}
+    <blockquote>{{content}}</blockquote>
+    <figcaption>
+    {% if page.author %}
+        <span class="quote-author">{{page.author}}</span>
+    {% endif %}
+        <cite class="quote-title">
+            <a class="quote-link" href="{{page.storyurl}}">{{page.title}}</a>
+        </cite>
+    </figcaption>
+</figure>

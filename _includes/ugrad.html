@@ -14,9 +14,11 @@
         </div>
         <div class="grid-x">
           <div class="large-12 cell">
+        {% if person.workswith %}
             <p>Works with: {{person.workswith| array_to_sentence_string}}</p>
           </div>
         </div>
       </div>
+      {% endif %}
   </div>
 </div>

@@ -35,8 +35,12 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-assets
-  - octopress-quote-tag
-  - jekyll-textile-converter
+  - jekyll-feed  
+
+collections:
+  newsblurbs:
+    output: true
+    permalink: /news/:year/:month/:day/:slug.html
 
 scholar:
   style: elsevier-harvard
@@ -73,7 +77,12 @@ assets:
   features:
     integrity: true
 
-#defaults:
+defaults:
+  - scope:
+      path: ""
+      type: "newsblurbs"
+    values:
+      layout: newsblurb
 #  -
 #    scope:
 #      path: ""
