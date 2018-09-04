@@ -33,6 +33,7 @@ exclude:
   - Gemfile
   - index.old.html
   - deps.txt
+  - tmp/
 
 plugins:
   - 'jekyll/scholar'
