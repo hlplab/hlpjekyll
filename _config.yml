@@ -49,7 +49,7 @@ collections:
 
 scholar:
   style: elsevier-harvard
-  sort_by: name
+  sort_by: author
   # bibliography: hlplab.bib
   bibliography_template: bib
   bibtex_filters:
