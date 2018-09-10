@@ -47,6 +47,10 @@ collections:
     output: true
     permalink: /news/:year/:month/:day/:slug.html
 
+feed:
+  collections:
+    - newsblurbs
+
 scholar:
   style: elsevier-harvard
   sort_by: author

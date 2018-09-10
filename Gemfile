@@ -10,5 +10,5 @@ gem 'jekyll-textile-converter' # Just to make octopress-quote-tag happy
 
 group :jekyll_plugins do
   gem 'jekyll-minifier'
-  gem 'jekyll-feed'
+  gem 'jekyll-feed', '>= 0.11.0' # Minimum version that has feeds for collections
 end
