@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="large-12 columns">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.talk.title }}</h1>
+  </header>
+
+  <article class="post-content">
+      <div class="row">
+         <div class="large-3 columns">
+        {% if page.haspic %}
+        {% assign picname = "USERNAME.jpg"|replace:'USERNAME',page.username %}
+            <div style="background-image: url({% asset_path "{{picname}}" %}); height: 200px; width: 200px; background-size: cover; border-radius: 100px;"></div>
+        {% endif %}
+        </div>
+       <div class="large-9 columns">
+    <p>{{page.date | date_to_long_string }}: {% if page.homepage %}<a href="{{page.homepage}}">{% endif %}{{page.firstname}} {{page.lastname}}{% if page.homepage %}</a>{% endif %}
+        ({% if page.affiliation.role %}{{page.affiliation.role}}, {% endif %}{% if page.affiliation.department %}{{page.affiliation.department}}, {% endif %}{% if page.affiliation.institution %}{{page.affiliation.institution}}{% endif %})</p>
+    {% if page.talk.link %}<a href="{{page.talk.link}}" target="_blank">{{page.talk.title}}</a>{% endif %}
+        </div>
+    </div>
+    <h3>Abstract</h3>
+    {{content | markdownify }}
+  </article>
+</div>

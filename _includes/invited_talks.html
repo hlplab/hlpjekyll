@@ -1,5 +1,6 @@
-{% if site.data.invited_talks %}
-{% for person in site.data.invited_talks %}
+{% if site.invited_talks %}
+{% assign invited_talks = site.invited_talks | sort: 'date' | reverse %}
+{% for person in invited_talks %}
 <div class="row person" id="{{person.username}}" >
   <div class="row smallpic">
     <div class="large-3 columns">
@@ -7,7 +8,7 @@
     </div>
     <div class="large-9 columns">
         <p>
-        {{person.talk.date}}: {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %}
+        {{person.date | date_to_long_string}}: {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %}
         ({% if person.affiliation.role %}{{person.affiliation.role}}, {% endif %}{% if person.affiliation.department %}{{person.affiliation.department}}, {% endif %}{% if person.affiliation.institution %}{{person.affiliation.institution}}{% endif %})
         {% if person.talk.title %}<i>
             {% if person.talk.link %}<a href="{{person.talk.link}}" target="_blank">{% endif %}
@@ -15,10 +16,7 @@
             {% if person.talk.link %}</a>{% endif %}
         {% endif %}
         </p>
-        {% if person.talk.abstract %}
-        <p style="text-align:right; padding-right: 1em;"><a data-dropdown="{{person.username}}_abstract" aria-controls="{{person.username}}_abstract" aria-expanded="false">[Abstract]</a></p>
-        <span id="{{person.username}}_abstract" data-dropdown-content class="large f-dropdown content" aria-hidden="true" tabindex="-1">{{ person.talk.abstract }}</span>
-        {% endif %}
+        <a href="{{ person.url }}">[Detail]</a>
     </div>
   </div>
 </div>
