@@ -48,8 +48,10 @@ collections:
     permalink: /news/:year/:month/:day/:slug.html
 
 feed:
+  path: "posts.xml"
   collections:
-    - newsblurbs
+    newsblurbs:
+      path: "news.xml"
 
 scholar:
   style: elsevier-harvard
