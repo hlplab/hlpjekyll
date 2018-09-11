@@ -1,19 +1,21 @@
 ---
-lastname: Nicenboim
-firstname: Bruno
-username: bnicenboim
-homepage: http://www.ling.uni-potsdam.de/~nicenboim/
-affiliation:
-  role: PhD student
-  department: Department of Linguistics
-  institution:  University of Potsdam, Germany
-haspic: true
+author:
+  name: Bruno Nicenboim
+  lastname: Nicenboim
+  firstname: Bruno
+  username: bnicenboim
+  uri: http://www.ling.uni-potsdam.de/~nicenboim/
+  affiliation:
+    role: PhD student
+    department: Department of Linguistics
+    institution:  University of Potsdam, Germany
+  haspic: true
 date: 2017-01-23
 talk:
   link: https://arxiv.org/abs/1612.04174
-  title: >
-      Models of retrieval in sentence comprehension: A computational evaluation
-      using Bayesian hierarchical modeling
+title: >
+  Models of retrieval in sentence comprehension: A computational evaluation 
+  using Bayesian hierarchical modeling
 ---
 Research on similarity-based interference has provided extensive evidence
 that the formation of dependencies between non-adjacent words relies on a

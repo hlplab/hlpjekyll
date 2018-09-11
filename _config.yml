@@ -55,8 +55,8 @@ feed:
   collections:
     newsblurbs:
         path: "news.xml"
-#    invited_talks:
-#        path: "talks.xml"
+    invited_talks:
+        path: "talks.xml"
 
 scholar:
   style: elsevier-harvard

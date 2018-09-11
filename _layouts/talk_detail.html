@@ -2,25 +2,33 @@
 layout: default
 ---
 <div class="large-12 columns">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.talk.title }}</h1>
-  </header>
-
   <article class="post-content">
-      <div class="row">
-         <div class="large-3 columns">
-        {% if page.haspic %}
-        {% assign picname = "USERNAME.jpg"|replace:'USERNAME',page.username %}
-            <div style="background-image: url({% asset_path "{{picname}}" %}); height: 200px; width: 200px; background-size: cover; border-radius: 100px;"></div>
+    <div class="card-info primary">
+      <div class="card-info-content">
+        <h3 class="lead">{{ page.title }}</h3>
+        {% if page.author.haspic %}
+        {% assign picname = "USERNAME.jpg"|replace:'USERNAME',page.author.username %}
+        <div style="background-image: url({% asset_path '{{picname}}' %}); height: 200px; width: 200px; background-size: cover; border-radius: 100px;"></div>
         {% endif %}
-        </div>
-       <div class="large-9 columns">
-    <p>{{page.date | date_to_long_string }}: {% if page.homepage %}<a href="{{page.homepage}}">{% endif %}{{page.firstname}} {{page.lastname}}{% if page.homepage %}</a>{% endif %}
-        ({% if page.affiliation.role %}{{page.affiliation.role}}, {% endif %}{% if page.affiliation.department %}{{page.affiliation.department}}, {% endif %}{% if page.affiliation.institution %}{{page.affiliation.institution}}{% endif %})</p>
-    {% if page.talk.link %}<a href="{{page.talk.link}}" target="_blank">{{page.talk.title}}</a>{% endif %}
+        <ul class="fa-ul">
+          <li><i class="far fa-calendar-alt"></i>&nbsp;{{page.date | date_to_long_string }}</li>
+          <li><i class="fas fa-user-circle"></i>&nbsp;
+            {% if page.author.uri %}<a href="{{page.author.uri}}">{% endif %}
+            {{page.author.name}}
+            {% if page.author.uri %}</a>{% endif %}
+          </li>
+          {% if page.author.affiliation %}
+          {% assign affiliation = page.author.affiliation %}
+          <li><i class="fas fa-university"></i>&nbsp;
+            {{affiliation.role}}, {{affiliation.department}}, {{affiliation.institution}}
+          </li>
+          {% endif %}
+          {% if page.talk.link %}
+          <li><i class="far fa-file-alt"></i>&nbsp;<a href="{{page.talk.link}}" target="_blank">{{page.title}}</a></li>
+          {% endif %} 
+        </ul>
+            {{content | markdownify }}
         </div>
     </div>
-    <h3>Abstract</h3>
-    {{content | markdownify }}
   </article>
 </div>

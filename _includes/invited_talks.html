@@ -1,22 +1,23 @@
 {% if site.invited_talks %}
 {% assign invited_talks = site.invited_talks | sort: 'date' | reverse %}
-{% for person in invited_talks %}
-<div class="row person" id="{{person.username}}" >
+{% for talk in invited_talks %}
+<div class="row person" id="{{talk.author.username}}" >
   <div class="row smallpic">
     <div class="large-3 columns">
+      {% assign person = talk.author %}
       {% include roundpic.html %}
     </div>
     <div class="large-9 columns">
         <p>
-        {{person.date | date_to_long_string}}: {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %}
-        ({% if person.affiliation.role %}{{person.affiliation.role}}, {% endif %}{% if person.affiliation.department %}{{person.affiliation.department}}, {% endif %}{% if person.affiliation.institution %}{{person.affiliation.institution}}{% endif %})
-        {% if person.talk.title %}<i>
-            {% if person.talk.link %}<a href="{{person.talk.link}}" target="_blank">{% endif %}
-            {{person.talk.title}}</i>
-            {% if person.talk.link %}</a>{% endif %}
+        {{talk.date | date_to_long_string}}: {% if talk.author.uri %}<a href="{{talk.author.uri}}">{% endif %}{{talk.author.name}}{% if talk.author.uri %}</a>{% endif %}
+        ({% if talk.author.affiliation.role %}{{talk.author.affiliation.role}}, {% endif %}{% if talk.author.affiliation.department %}{{talk.author.affiliation.department}}, {% endif %}{% if talk.author.affiliation.institution %}{{talk.author.affiliation.institution}}{% endif %})
+        {% if talk.title %}<i>
+            {% if talk.talk.link %}<a href="{{talk.talk.link}}" target="_blank">{% endif %}
+            {{talk.title}}</i>
+            {% if talk.talk.link %}</a>{% endif %}
         {% endif %}
         </p>
-        <a href="{{ person.url }}">[Detail]</a>
+        <a href="{{ talk.url }}">[Detail]</a>
     </div>
   </div>
 </div>

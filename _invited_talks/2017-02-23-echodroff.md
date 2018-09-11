@@ -1,18 +1,19 @@
 ---
-lastname: Chodroff
-firstname: Eleanor
-username: echodroff
-homepage: https://www.eleanorchodroff.com/
-affiliation:
-  role: PhD student
-  department: Department of Cognitive Sciences
-  institution: Johns Hopkins University
-haspic: true
+author:
+  name: Eleanor Chodroff
+  lastname: Chodroff
+  firstname: Eleanor
+  username: echodroff
+  uri: https://www.eleanorchodroff.com/
+  affiliation:
+    role: PhD student
+    department: Department of Cognitive Sciences
+    institution: Johns Hopkins University
+  haspic: true
 date: 2017-02-23
-talk:
-  title: >
-    Uniformity in talker-specific phonetic realization: Evidence from sibilant
-    fricatives in American English and Czech
+title: >
+  Uniformity in talker-specific phonetic realization: Evidence from sibilant
+  fricatives in American English and Czech
 ---
 The acoustic-phonetic properties of speech sounds vary substantially across
 languages, and even across talkers within a single language. There is, however,
