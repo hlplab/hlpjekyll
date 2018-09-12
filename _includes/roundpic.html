@@ -3,4 +3,4 @@
   {% else %}
     {% assign picname = "person.png" %}
   {% endif %}
-  <div class="img-circular" style="background-image: url({% asset_path "{{picname}}" %});"></div>
+  <div class="img-circular" style="background-image: url({% asset '{{picname}}' @path %});"></div>

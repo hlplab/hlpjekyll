@@ -8,7 +8,7 @@ layout: default
         <h3 class="lead">{{ page.title }}</h3>
         {% if page.author.haspic %}
         {% assign picname = "USERNAME.jpg"|replace:'USERNAME',page.author.username %}
-        <div style="background-image: url({% asset_path '{{picname}}' %}); height: 200px; width: 200px; background-size: cover; border-radius: 100px;"></div>
+        <div style="background-image: url({% asset '{{picname}}' @path %}); height: 200px; width: 200px; background-size: cover; border-radius: 100px;"></div>
         {% endif %}
         <ul class="fa-ul">
           <li><i class="far fa-calendar-alt"></i>&nbsp;{{page.date | date_to_long_string }}</li>

@@ -8,7 +8,7 @@
     {% else %}
     {% include item_links.html %}
     {% endif %}
-    {% img '{{item.image.src}}' alt:'{{item.image.alt}}' %}
+    {% asset '{{item.image.src}}' alt:'{{item.image.alt}}' %}
     <div class="orbit-caption">
     {% if item.image.caption %}{{item.image.caption}}{% endif %}
     </div>
