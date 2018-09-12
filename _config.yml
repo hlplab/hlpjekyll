@@ -31,7 +31,6 @@ kramdown:
 exclude:
   - deploywww.sh
   - Gemfile
-  - index.old.html
   - deps.txt
   - tmp/
 
