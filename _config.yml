@@ -92,6 +92,10 @@ assets:
   digest: false
   features:
     integrity: true
+  autoprefixer:
+    browsers:
+    - "last 2 versions"
+    - "IE > 9"
 
 defaults:
   - scope:
