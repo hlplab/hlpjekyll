@@ -50,7 +50,12 @@ $primary-color: #900;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "normalize",
+        "foundation",
+        "font-awesome-sprockets",
+        "font-awesome",
         "base",
         "layout",
+        "card-info",
         "syntax-highlighting"
 ;

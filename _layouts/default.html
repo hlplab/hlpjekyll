@@ -62,7 +62,7 @@
     {% endif %}
     {% if page.custom_local_js %}
     {% for js_file in page.custom_local_js %}
-        {% js '{{js_file}}' %}
+        {% asset '{{js_file}}' %}
     {% endfor %}
     {% endif %}
     <script>

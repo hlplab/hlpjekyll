@@ -28,6 +28,8 @@ navlinks:
         anchor: in-press
       - text: In Prep
         anchor: in-prep
+      - text: 2018
+        anchor: 2018
       - text: 2017
         anchor: 2017
       - text: 2016
@@ -75,7 +77,7 @@ You can find all our papers on [academia.edu](https://rochester.academia.edu/tif
 {:data-magellan-destination="in-prep"}
 {% bibliography -f hlplab -q @*[year=In Prep] %}
 
-{% for year in (2005..2017) reversed %}
+{% for year in (2005..2018) reversed %}
 ## {{year}}
 {:data-magellan-destination="{{year}}"}
 {% bibliography -f hlplab -q @*[year={{year}}] %}

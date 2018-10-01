@@ -31,8 +31,8 @@ kramdown:
 exclude:
   - deploywww.sh
   - Gemfile
-  - index.old.html
   - deps.txt
+  - tmp/
 
 plugins:
   - 'jekyll/scholar'
@@ -43,12 +43,23 @@ plugins:
 
 collections:
   newsblurbs:
-    output: true
-    permalink: /news/:year/:month/:day/:slug.html
+      output: true
+      permalink: /news/:year/:month/:day/:slug.html
+  invited_talks:
+      output: true
+      permalink: /talks/:year/:month/:day/:slug.html
+
+feed:
+  path: "posts.xml"
+  collections:
+    newsblurbs:
+        path: "news.xml"
+    invited_talks:
+        path: "talks.xml"
 
 scholar:
   style: elsevier-harvard
-  sort_by: name
+  sort_by: author
   # bibliography: hlplab.bib
   bibliography_template: bib
   bibtex_filters:
@@ -80,6 +91,10 @@ assets:
   digest: false
   features:
     integrity: true
+  autoprefixer:
+    browsers:
+    - "last 2 versions"
+    - "IE > 9"
 
 defaults:
   - scope:
@@ -87,6 +102,12 @@ defaults:
       type: "newsblurbs"
     values:
       layout: newsblurb
+
+  - scope:
+      path: ""
+      type: "invited_talks"
+    values:
+      layout: talk_detail
 #  -
 #    scope:
 #      path: ""
