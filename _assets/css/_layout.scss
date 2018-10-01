@@ -290,3 +290,9 @@ ul.vcard {
   font-weight: bold;
   font-size: 1.0714285714rem;
 }
+
+// Magellan active menu item
+ul.menu li a.is-active {
+  background: $primary-color;
+  color: #fefefe;
+}

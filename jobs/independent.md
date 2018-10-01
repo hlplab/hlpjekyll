@@ -48,7 +48,7 @@ Work has involved the following languages so far:
   * Artificial languages
 
 ## Requirements
-{:data-magellan-destination="requirements"}
+{:data-magellan-target="requirements"}
 
   * You can take independent study for 1-4 credits. If you want to run your own study, even if it is a small project, this realistically compares to the workload of 4 credits. However, you can also decide to help out in a project and to just learn some of the steps involved in research on human language processing. In that case, maybe 2 credits are most appropriate. Depending on the number of credits you want to earn, there are different requirements.
   * All independent study students need to create a wiki page. That page needs to list all references to readings (typically about 15-20 papers for 3-4 credits, but it could be less). It can also contain notes about the papers. You can find [examples of directed reading pages on our wiki](http://wiki.bcs.rochester.edu/HlpLab/DirectedReadings).

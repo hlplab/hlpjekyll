@@ -1,6 +1,6 @@
 <li class="orbit-slide">
     <figure class="orbit-figure">
-        {% img '{{item.image.src}}' alt:'{{item.image.alt}}' %}
+        {% asset '{{item.image.src}}' alt:'{{item.image.alt}}' %}
         {% if item.image.caption %}
         <figcaption class="orbit-caption">{{item.image.caption}}</figcaption>
         {% endif %}

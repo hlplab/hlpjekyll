@@ -8,8 +8,8 @@
     {% feed_meta %}
 
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css" integrity="sha256-GSio8qamaXapM8Fq9JYdGNTvk/dgs+cMLgPeevOYEx0=" crossorigin="anonymous" />-->
-    {% css foundation %}
-    {% css main %}
+    {% asset foundation %}
+    {% asset main %}
     {% if page.custom_remote_css %}
     {% for css_file in page.custom_remote_css %}
     <link rel="stylesheet" href="{{css_file}}" />
