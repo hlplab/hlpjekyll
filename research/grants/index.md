@@ -1,5 +1,5 @@
 ---
-layout: sidenav
+layout: page
 title: Interested in sponsoring our research, teaching, or research opportunities for undergraduates?
 category: research
 navlinks:

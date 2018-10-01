@@ -1,5 +1,5 @@
 ---
-layout: sidenav
+layout: page
 title: Volunteer
 category: jobs
 navlinks:

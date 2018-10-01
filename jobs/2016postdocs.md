@@ -1,5 +1,5 @@
 ---
-layout: sidenav
+layout: page
 title: Two post-doctoral positions available for 2016
 category: jobs
 navlinks:

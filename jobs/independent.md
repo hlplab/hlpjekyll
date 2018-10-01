@@ -1,5 +1,5 @@
 ---
-layout: sidenav
+layout: page
 title: Independent Study
 category: jobs
 navlinks:

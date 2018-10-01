@@ -4,14 +4,42 @@
   {% include head.html %}
 
   <body>
-
-    {% include header.html %}
-
-    <div id="content" class="page-content grid-x grid-padding-x">
-      {{ content }}
+    <div class="off-canvas-wrapper">
+      {% if page.navlinks %}
+      <div class="off-canvas off-canvas-absolute position-left reveal-for-medium" id="offCanvasSidebar" data-off-canvas>
+        <div data-sticky-container id="sidenav">
+          <nav class="columns sticky" data-sticky data-top-anchor="site-header:bottom">
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <ul class="vertical menu">
+              {% for link in page.navlinks %}
+                {% if link.fragments %}
+                <li {% if link.current %} class="active"{% endif %}><a href="#">{{link.text}}</a>
+                  <ul class="nested vertical menu" data-magellan>
+                    {% for f in link.fragments %}
+                    <li data-magellan-arrival="{{f.anchor}}"><a href="#{{f.anchor}}">{{f.text}}</a></li>
+                    {% endfor %}
+                  </ul>
+                </li>
+                {% else %}
+                <li {% if link.current %} class="active"{% endif %}><a href="{% unless link.external %}{{site.baseurl}}/{% endunless %}{{link.link}}">{{link.text}}</a></li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </nav>
+        </div>
+      </div>
+      {% endif %}
+      <div class="off-canvas-content" data-off-canvas-content>
+        {% include header.html %}
+        <div id="content" class="page-content grid-x grid-padding-x">
+          {{ content }}
+        </div>
+        {% include footer.html %}
+      </div>
     </div>
 
-    {% include footer.html %}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js" integrity="sha256-t6SrqvTQmKoGgi5LOl0AUy+lBRtIvEJ+++pLAsfAjWs=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js" integrity="sha256-mRYlCu5EG+ouD07WxLF8v4ZAZYCA6WrmdIXyn1Bv9Vk=" crossorigin="anonymous"></script>

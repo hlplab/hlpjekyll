@@ -1,5 +1,5 @@
 ---
-layout: sidenav
+layout: page
 title: HLP Lab Jobs
 category: jobs
 navlinks:

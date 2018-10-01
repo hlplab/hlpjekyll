@@ -1,5 +1,5 @@
 ---
-layout: sidenav
+layout: page
 title: Funding
 category: jobs
 description: Funding for coming to the lab as an Undergraduate, Graduate, Postdoc, or Visiting Faculty

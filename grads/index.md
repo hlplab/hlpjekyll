@@ -1,5 +1,5 @@
 ---
-layout: sidenav
+layout: page
 title: Graduate Students and Post-docs
 category: jobs
 navlinks:

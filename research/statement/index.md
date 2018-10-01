@@ -1,5 +1,5 @@
 ---
-layout: sidenav
+layout: page
 title: Research Statement
 category: research
 scholar:

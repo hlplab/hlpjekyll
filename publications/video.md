@@ -1,5 +1,5 @@
 ---
-layout: sidenav
+layout: page
 title: Video and Audio Presentations
 category: research
 custom_remote_js:

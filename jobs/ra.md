@@ -1,5 +1,5 @@
 ---
-layout: sidenav
+layout: page
 title: Research Assistant
 category: jobs
 navlinks:

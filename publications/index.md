@@ -6,7 +6,7 @@ seo:
     links:
         - https://rochester.academia.edu/tiflo/papers/
         - https://www.researchgate.net/profile/T_Florian_Jaeger/publications
-layout: sidenav
+layout: page
 category: research
 title: Publications
 scholar:
