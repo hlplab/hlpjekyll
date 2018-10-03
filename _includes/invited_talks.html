@@ -1,24 +1,22 @@
 {% if site.invited_talks %}
 {% assign invited_talks = site.invited_talks | sort: 'date' | reverse %}
 {% for talk in invited_talks %}
-<div class="row person" id="{{talk.author.username}}" >
-  <div class="grid-x smallpic">
-    <div class="large-3 cell">
-      {% assign person = talk.author %}
-      {% include roundpic.html %}
-    </div>
-    <div class="large-9 cell">
-        <p>
-        {{talk.date | date_to_long_string}}: {% if talk.author.uri %}<a href="{{talk.author.uri}}">{% endif %}{{talk.author.name}}{% if talk.author.uri %}</a>{% endif %}
-        ({% if talk.author.affiliation.role %}{{talk.author.affiliation.role}}, {% endif %}{% if talk.author.affiliation.department %}{{talk.author.affiliation.department}}, {% endif %}{% if talk.author.affiliation.institution %}{{talk.author.affiliation.institution}}{% endif %})
-        {% if talk.title %}<i>
-            {% if talk.talk.link %}<a href="{{talk.talk.link}}" target="_blank">{% endif %}
-            {{talk.title}}</i>
-            {% if talk.talk.link %}</a>{% endif %}
-        {% endif %}
-        </p>
-        <a href="{{ talk.url }}">[Detail]</a>
-    </div>
+<div class="grid-x smallpic person" id="{{talk.author.username}}" >
+  <div class="large-3 cell">
+    {% assign person = talk.author %}
+    {% include roundpic.html %}
+  </div>
+  <div class="large-9 cell">
+      <p>
+      {{talk.date | date_to_long_string}}: {% if talk.author.uri %}<a href="{{talk.author.uri}}">{% endif %}{{talk.author.name}}{% if talk.author.uri %}</a>{% endif %}
+      ({% if talk.author.affiliation.role %}{{talk.author.affiliation.role}}, {% endif %}{% if talk.author.affiliation.department %}{{talk.author.affiliation.department}}, {% endif %}{% if talk.author.affiliation.institution %}{{talk.author.affiliation.institution}}{% endif %})
+      {% if talk.title %}<i>
+          {% if talk.talk.link %}<a href="{{talk.talk.link}}" target="_blank">{% endif %}
+          {{talk.title}}</i>
+          {% if talk.talk.link %}</a>{% endif %}
+      {% endif %}
+      </p>
+      <a href="{{ talk.url }}">[Detail]</a>
   </div>
 </div>
 {% unless forloop.last %}
