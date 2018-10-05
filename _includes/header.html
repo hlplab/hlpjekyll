@@ -4,7 +4,9 @@
 
       <section class="top-bar-left">
         <ul class="dropdown menu" data-dropdown-menu>
+          {% if page.navlinks %}
           <button class="menu-icon" type="button" data-open="offCanvasSidebar"></button>
+          {% endif %}
           <li><span class="title-bar-title"></span><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></span></li>
           <li class="divider"></li>
           <li class="menu-text"><a href="{{ "/calendar/" |prepend: site.baseurl }}">Calendar</a></li>

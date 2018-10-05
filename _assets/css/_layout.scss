@@ -296,3 +296,8 @@ ul.menu li a.is-active {
   background: $primary-color;
   color: #fefefe;
 }
+
+// Fix to keep Orbit from trampling top menu content
+.top-bar {
+  z-index: 9999;
+}
