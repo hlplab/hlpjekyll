@@ -5,7 +5,7 @@ description: >
   Florian Jaeger's Human Language Processing (HLP) Lab at The University of Rochester
 #baseurl: "/2015refresh" # the subpath of your site, e.g. /blog/
 baseurl: ""
-url: "https://www.hlp.rochester.edu" # the base hostname & protocol for your site
+url: "https://www.hlplab.com" # the base hostname & protocol for your site
 twitter:
   username: _hlplab_
 github:
