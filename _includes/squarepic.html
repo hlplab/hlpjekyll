@@ -1,8 +1,6 @@
-<div class="large-4 cell">
-  {%if person.haspic %}
-    {% assign picname = "USERNAME.jpg"|replace:'USERNAME',person.username  %}
-    {% asset '{{picname}}' class='userpic' height='200px' width='200px' alt='{{person.username}}' %}
-  {% else %}
-    {% asset 'person.png' class='userpic' height='200px' width='200px' alt='{{person.username}}' %}
-  {% endif %}
-</div>
+{%if person.haspic %}
+  {% assign picname = "USERNAME.jpg"|replace:'USERNAME',person.username  %}
+  {% asset '{{picname}}' class='userpic' alt='{{person.username}}' %}
+{% else %}
+  {% asset 'person.png' class='userpic' alt='{{person.username}}' %}
+{% endif %}
