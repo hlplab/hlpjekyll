@@ -31,10 +31,8 @@ navlinks:
 <h2>Faculty</h2>
 {% assign sorted_faculty = site.data.faculty |sort: 'lastname' %}
 {% for person in sorted_faculty  %}
-{% include person.html %}
-{% unless forloop.last %}
-<hr/>
-{% endunless %}
+{% include person_card.html %}
+
 {% endfor %}
 </section>
 {% endif %}
@@ -44,10 +42,7 @@ navlinks:
 <h2>Postdocs</h2>
 {% assign sorted_postdocs = site.data.postdocs |sort: 'lastname' %}
 {% for person in sorted_postdocs %}
-{% include person.html %}
-{% unless forloop.last %}
-<hr/>
-{% endunless %}
+{% include person_card.html %}
 {% endfor %}
 </section>
 {% endif %}
@@ -57,10 +52,7 @@ navlinks:
 <h2>Grad students</h2>
 {% assign sorted_grads = site.data.grads |sort: 'lastname' %}
 {% for person in sorted_grads %}
-{% include person.html %}
-{% unless forloop.last %}
-<hr/>
-{% endunless %}
+{% include person_card.html %}
 {% endfor %}
 </section>
 {% endif %}
@@ -70,22 +62,19 @@ navlinks:
 <h2>Staff</h2>
 {% assign sorted_staff = site.data.staff |sort: 'lastname' %}
 {% for person in sorted_staff  %}
-{% include person.html %}
-{% unless forloop.last %}
-<hr/>
-{% endunless %}
+{% include person_card.html %}
 {% endfor %}
+</section>
 {% endif %}
 
 {% if site.data.ugrads %}
 <section id="Ugrads" data-magellan-target="Ugrads">
 <h2>Current Undergraduate RAs</h2>
+<div class="grid-x grid-margin-x">
 {% assign sorted_ugrads = site.data.ugrads |sort: 'lastname' %}
 {% for person in sorted_ugrads %}
-{% include ugrad.html %}
-{% unless forloop.last %}
-<hr/>
-{% endunless %}
+{% include ugrad_card.html %}
 {% endfor %}
+</div>
 </section>
 {% endif %}
