@@ -301,3 +301,8 @@ ul.menu li a.is-active {
 .top-bar {
   z-index: 9999;
 }
+
+// Tighten spacing for cards on alumni page
+.smallpic.person .card-info {
+  margin: 0;
+}

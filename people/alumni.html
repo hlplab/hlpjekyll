@@ -27,18 +27,25 @@ navlinks:
 {% assign sorted_postdocs = site.data.postdoc_alumni |sort: 'lastname' %}
 {% for person in sorted_postdocs %}
 <div class="grid-x smallpic person" id="{{person.username}}">
-  <div class="large-2 cell">
-    {% include roundpic.html %}
-  </div>
-  <div class="large-10 cell">
-    <ul>
-      <li><b>Name</b>: {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %} <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a></li>
-      <li><b>From</b>: {{person.range.start}} <b>To</b>: {{person.range.end}}</li>
-      {% if person.current %}<li><b>Current position</b>: {{person.current}}</li>{% endif %}
-    </ul>
-  </div>
+    <div class="cell large-12">
+      <div class="card-info">
+        <div class="card-info-content">
+          <div class="grid-x">
+            <div class="large-2 cell">
+              {% include roundpic.html %}
+            </div>
+            <div class="large-10 cell">
+              <ul class="fa-ul">
+                <li><i class="fas fa-user"></i>&nbsp;{% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %} <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a></li>
+                <li><i class="fas fa-calendar"></i>&nbsp;{{person.range.start}} &mdash; {{person.range.end}}</li>
+                {% if person.current %}<li><i class="fas fa-briefcase"></i>&nbsp;{{person.current}}</li>{% endif %}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 </div>
-<hr/>
 {% endfor %}
 {% endif %}
 
@@ -46,21 +53,26 @@ navlinks:
 <h2 data-magellan-target="Graduate-Alumni" id="Graduate-Alumni">Graduate Alumni</h2>
 {% assign sorted_grads = site.data.grad_alumni |sort: 'lastname' %}
 {% for person in sorted_grads %}
-<div class="grid-x person smallpic" id="{{person.username}}">
-  <div class="large-2 cell">
-    {% include roundpic.html %}
-  </div>
-  <div class="large-10 cell">
-    <ul>
-      <li><b>Name</b>: {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %} <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a></li>
-      <li><b>Degree</b>: {{person.degree}} ({{person.department}}) {{person.year}}</li>
-      {% if person.current %}<li><b>Current position</b>: {{person.current}}</li>{% endif %}
-    </ul>
-  </div>
+<div class="grid-x smallpic person" id="{{person.username}}">
+    <div class="cell large-12">
+      <div class="card-info">
+        <div class="card-info-content">
+          <div class="grid-x">
+            <div class="large-2 cell">
+              {% include roundpic.html %}
+            </div>
+            <div class="large-10 cell">
+              <ul class="fa-ul">
+                <li><i class="fas fa-user"></i>&nbsp;{% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %} <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a></li>
+                <li><i class="fas fa-graduation-cap "></i>&nbsp;{{person.degree}} ({{person.department}}) {{person.year}}</li>
+                {% if person.current %}<li><i class="fas fa-briefcase"></i>&nbsp;{{person.current}}</li>{% endif %}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 </div>
-{% unless forloop.last %}
-<hr/>
-{% endunless %}
 {% endfor %}
 {% endif %}
 
