@@ -1,4 +1,4 @@
-{%if person.haspic %}
+{% if person.haspic %}
   {% assign picname = "USERNAME.jpg"|replace:'USERNAME',person.username  %}
   {% asset '{{picname}}' class='userpic' alt='{{person.username}}' %}
 {% else %}
