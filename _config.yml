@@ -22,6 +22,9 @@ google_site_verification: UA-6365921-1
 # Build settings
 #markdown: redcarpet
 
+# Generate pages even if date is in the future
+future: true
+
 kramdown:
   input: GFM
 
