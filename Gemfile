@@ -7,7 +7,7 @@ gem 'bibtex-ruby'
 gem 'jekyll-scholar', '~> 5.14'
 gem 'psych', '2.0.8' # 2.0.15 breaks Jekyll
 gem 'autoprefixer-rails'
-gem 'font-awesome-sass', '~> 5.3.1'
+gem 'font-awesome-sass', '~> 5.4.1'
 
 group :jekyll_plugins do
   gem 'jekyll-minifier'
