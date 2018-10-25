@@ -7,7 +7,7 @@ source: University of Rochester News, March 4th, 2011
 tags:
   - efficient language
 image:
-  - path: /pics/sloan.gif
+  - file: sloan.gif
     alt: Sloan Foundation logo
 description: David McCamant and T. Florian Jaeger selected as 2011 Alfred P. Sloan Research Fellows
 ---
