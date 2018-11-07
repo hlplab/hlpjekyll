@@ -1,9 +1,8 @@
 ---
-layout: sidenav_sticky
+layout: page
 title: HLP Lab People
 category: people
 description: Faculty, Grads, Postdocs, Staff, RAs in the HLP Lab
-custom_local_js: sticky
 navlinks:
   - text: People
     link: people/
@@ -28,56 +27,54 @@ navlinks:
 ---
 
 {% if site.data.faculty %}
-<h2 data-magellan-destination="Faculty" id="Faculty">Faculty</h2>
+<section id="Faculty" data-magellan-target="Faculty">
+<h2>Faculty</h2>
 {% assign sorted_faculty = site.data.faculty |sort: 'lastname' %}
 {% for person in sorted_faculty  %}
-{% include person.html %}
-{% unless forloop.last %}
-<hr/>
-{% endunless %}
+{% include person_card.html %}
+
 {% endfor %}
+</section>
 {% endif %}
 
 {% if site.data.postdocs %}
-<h2 data-magellan-destination="Postdocs" id="Postdocs">Postdocs</h2>
+<section id="Postdocs" data-magellan-target="Postdocs">
+<h2>Postdocs</h2>
 {% assign sorted_postdocs = site.data.postdocs |sort: 'lastname' %}
 {% for person in sorted_postdocs %}
-{% include person.html %}
-{% unless forloop.last %}
-<hr/>
-{% endunless %}
+{% include person_card.html %}
 {% endfor %}
+</section>
 {% endif %}
 
 {% if site.data.grads %}
-<h2 data-magellan-destination="Grads" id="Grads">Grad students</h2>
+<section id="Grads" data-magellan-target="Grads">
+<h2>Grad students</h2>
 {% assign sorted_grads = site.data.grads |sort: 'lastname' %}
 {% for person in sorted_grads %}
-{% include person.html %}
-{% unless forloop.last %}
-<hr/>
-{% endunless %}
+{% include person_card.html %}
 {% endfor %}
+</section>
 {% endif %}
 
 {% if site.data.staff %}
-<h2 data-magellan-destination="Staff" id="Staff">Staff</h2>
+<section id="Staff" data-magellan-target="Staff">
+<h2>Staff</h2>
 {% assign sorted_staff = site.data.staff |sort: 'lastname' %}
 {% for person in sorted_staff  %}
-{% include person.html %}
-{% unless forloop.last %}
-<hr/>
-{% endunless %}
+{% include person_card.html %}
 {% endfor %}
+</section>
 {% endif %}
 
 {% if site.data.ugrads %}
-<h2 data-magellan-destination="Ugrads" id="Ugrads">Current Undergraduate RAs</h2>
+<section id="Ugrads" data-magellan-target="Ugrads">
+<h2>Current Undergraduate RAs</h2>
+<div class="grid-x grid-margin-x">
 {% assign sorted_ugrads = site.data.ugrads |sort: 'lastname' %}
 {% for person in sorted_ugrads %}
-{% include ugrad.html %}
-{% unless forloop.last %}
-<hr/>
-{% endunless %}
+{% include ugrad_card.html %}
 {% endfor %}
+</div>
+</section>
 {% endif %}

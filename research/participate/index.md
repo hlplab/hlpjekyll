@@ -1,7 +1,6 @@
 ---
-layout: sidenav_sticky
+layout: page
 title: Participate in Experiments
-custom_local_js: sticky
 navlinks:
   - text: Research Statement
     link: research/statement/

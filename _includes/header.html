@@ -1,22 +1,24 @@
-<header class="site-header">
+<header class="site-header" id="site-header">
+  <div data-sticky-container>
+    <nav class="top-bar" data-sticky data-options="marginTop:0;" data-top-anchor="1" style="width:100%">
 
-  <div class="wrapper">
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-  </div>
-
-  <div class="sticky">
-    <nav class="top-bar" data-topbar role="navigation">
-
-      <section class="top-bar-section">
-        <ul class="left">
-          <li><a href="{{ "/calendar/" |prepend: site.baseurl }}">Calendar</a></li>
-          <li><a href="{{"/#talks" |prepend: site.baseurl }}">Cool talks</a></li>
-        </ul>
-
-        <ul class="right">
+      <section class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          {% if page.navlinks %}
+          <button class="menu-icon" type="button" data-toggle="offCanvasSidebar"></button>
+          {% endif %}
+          <li><span class="title-bar-title"></span><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></span></li>
           <li class="divider"></li>
-          <li class="has-dropdown {% if page.category == 'research' %}active{% endif %}"><a href="{{ "/research/statement/" |prepend: site.baseurl }}">More about HLP Lab research &raquo;</a>
-            <ul class="dropdown">
+          <li class="menu-text"><a href="{{ "/calendar/" |prepend: site.baseurl }}" class="show-for-medium">Calendar</a></li>
+          <li class="menu-text"><a href="{{"/#talks" |prepend: site.baseurl }}" class="show-for-medium">Cool talks</a></li>
+        </ul>
+      </section>
+
+      <section class="top-bar-right">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="divider"></li>
+          <li {% if page.category == 'research' %}class="active"{% endif %}><a href="{{ "/research/statement/" |prepend: site.baseurl }}">More about HLP Lab research &raquo;</a>
+            <ul class="menu vertical">
               <li><a href="{{ "/research/statement/" |prepend: site.baseurl }}">Research Statement</a></li>
               <li><a href="{{ "/research/grants/" |prepend: site.baseurl }}">How are we funded?</a></li>
               <li><a href="{{ "/research/independent_study.html" |prepend: site.baseurl }}">Undergraduate Independent Study Projects</a></li>
@@ -27,8 +29,8 @@
             </ul>
           </li>
           <li class="divider"></li>
-          <li class="has-dropdown {% if page.category == 'people' %}active{% endif %}"><a href="{{ "/people/" |prepend: site.baseurl }}">People &raquo;</a>
-            <ul class="dropdown">
+          <li {% if page.category == 'people' %}class="active"{% endif %}><a href="{{ "/people/" |prepend: site.baseurl }}">People &raquo;</a>
+            <ul class="menu vertical">
               <li><a href="{{ "/people/#Faculty" |prepend: site.baseurl }}">Faculty</a></li>
               <li><a href="{{ "/people/#Postdocs" |prepend: site.baseurl }}">Postdocs</a></li>
               <li><a href="{{ "/people/#Grads" |prepend: site.baseurl }}">Grads</a></li>
@@ -41,14 +43,14 @@
             </ul>
           </li>
           <li class="divider"></li>
-          <li class="has-dropdown {% if page.category == 'jobs' %}active{% endif %}"><a href="{{ "/jobs/" |prepend: site.baseurl }}">Job &amp; Research Opportunities &raquo;</a>
-            <ul class="dropdown">
+          <li {% if page.category == 'jobs' %}class="active"{% endif %}><a href="{{ "/jobs/" |prepend: site.baseurl }}">Job &amp; Research Opportunities &raquo;</a>
+            <ul class="menu vertical">
               <li><a href="{{ "/jobs/independent.html" |prepend: site.baseurl }}">Undergrad - Independent Study</a></li>
               <li><a href="{{ "/jobs/ra.html" |prepend: site.baseurl }}">Undergrad - Research Assistants</a></li>
               <li><a href="{{ "/jobs/volunteer.html" |prepend: site.baseurl }}">Undergrad - Volunteer</a></li>
               <li><a href="{{ "/grads/" |prepend: site.baseurl }}">Graduate Students &amp; Post-Docs</a></li>
-              <li class="has-dropdown"><a href="{{ "/jobs/funding.html" |prepend: site.baseurl}}">Fund your research/visit</a>
-                <ul class="dropdown">
+              <li><a href="{{ "/jobs/funding.html" |prepend: site.baseurl}}">Fund your research/visit</a>
+                <ul class="menu vertical">
                   <li><a href="{{ "/jobs/funding.html#ugrad" |prepend: site.baseurl }}">Undergraduate</a></li>
                   <li><a href="{{ "/jobs/funding.html#grad" |prepend: site.baseurl }}">Graduate</a></li>
                   <li><a href="{{ "/jobs/funding.html#postdoc" |prepend: site.baseurl }}">Post-Docs</a></li>
@@ -60,8 +62,8 @@
             </ul>
           </li>
           <li class="divider"></li>
-          <li class="has-dropdown"><a href="">Resources &raquo;</a>
-            <ul class="dropdown">
+          <li><a href="">Resources &raquo;</a>
+            <ul class="menu vertical">
               <li><a href="/resources/">Public Files</a></li>
               <li><a href="/internal/">Internal Files (password required)</a></li>
             </ul>

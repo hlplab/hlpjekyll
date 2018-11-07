@@ -7,21 +7,25 @@
 {% endif %}
 
 {% if entry.abstract %}
-<a data-dropdown="{{entry.key|replace:':',''}}_abstract" aria-controls="{{entry.key|replace:':',''}}_abstract" aria-expanded="false">[Abstract]</a>
-<div id="{{entry.key|replace:':',''}}_abstract" data-dropdown-content class="large f-dropdown content" aria-hidden="true" tabindex="-1">
-  <p>Abstract: {{ entry.abstract }}</p>
+<button class="button small hollow" type="button" data-toggle="{{entry.key|replace:':',''}}_abstract">Abstract</button>
+<div class="dropdown-pane" data-dropdown id="{{entry.key|replace:':',''}}_abstract" aria-expanded="false">
+  <div id="{{entry.key|replace:':',''}}_abstract" data-dropdown-content class="large f-dropdown content" aria-hidden="true" tabindex="-1">
+    <p>Abstract: {{ entry.abstract }}</p>
+  </div>
 </div>
 {% endif %}
 
 {% if entry.doi %}
-<a href="http://dx.doi.org/{{entry.doi}}">[DOI]</a>
+<a class="button small hollow" href="http://dx.doi.org/{{entry.doi}}">DOI</a>
 {% endif %}
 
 {% if entry.url %}
-<a href="{{entry.url}}">[Paper]</a>
+<a class="button small hollow" href="{{entry.url}}">Paper</a>
 {% endif %}
 
-<a data-dropdown="{{entry.key|replace:':',''}}_bibtex" aria-controls="{{entry.key|replace:':',''}}_bibtex" aria-expanded="false">[BibTeX]</a>
-<div id="{{entry.key|replace:':',''}}_bibtex" data-dropdown-content class="large f-dropdown content" aria-hidden="true" tabindex="-1">
-<pre>{{ entry.bibtex }}</pre>
+<button class="button small hollow" type="button" data-toggle="{{entry.key|replace:':',''}}_bibtex">BibTeX</button>
+<div class="dropdown-pane" data-dropdown id="{{entry.key|replace:':',''}}_bibtex">
+  <div id="{{entry.key|replace:':',''}}_bibtex" data-dropdown-content class="large f-dropdown content" aria-hidden="true" tabindex="-1">
+  <pre>{{ entry.bibtex }}</pre>
+  </div>
 </div>

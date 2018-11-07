@@ -137,10 +137,6 @@
   margin-bottom: 8rem;
 }
 
-#contentrow {
-  margin-left: 2rem;
-}
-
 #invited_talks {
   min-height: 150px;
   max-height: 700px;
@@ -217,23 +213,23 @@ iframe[seamless] {
   overflow-y: scroll;
 }
 
-.dataslide {
+.orbit-slide {
   background-color: rgba($iron, 0.85);
   color: white;
   padding: 2rem;
 }
 
-.dataslide h3 {
+.orbit-slide h3 {
   color: $charcoal;
 }
 
-.dataslide p:first-of-type {
+.orbit-slide p:first-of-type {
   margin-top: 3rem;
   background-color: rgba(51,51,51,0.7);
   padding: .75rem 1rem;
 }
 
-.dataslide .image-caption {
+.orbit-slide .image-caption {
   background: rgba(51,51,51, 0.8);
   font-color: $white;
   padding: rem-calc(10 14);
@@ -263,4 +259,50 @@ iframe[seamless] {
 
 ul.sub-nav li {
   list-style-type: none;
+}
+
+// bibliography page
+ol li div.dropdown-pane {
+  width: 60%;
+}
+
+ol li .button.small.hollow {
+  color: $primary-color;
+  border: 1px solid $primary-color;
+  padding: 0.25rem 0.5rem;
+}
+
+// top bar
+.top-bar, .top-bar ul {
+  background: #333;
+}
+
+.top-bar section ul li > a {
+  color: #fff;
+}
+
+// VCard
+ul.vcard {
+  list-style: none;
+}
+
+.vcard .fn {
+  font-weight: bold;
+  font-size: 1.0714285714rem;
+}
+
+// Magellan active menu item
+ul.menu li a.is-active {
+  background: $primary-color;
+  color: #fefefe;
+}
+
+// Fix to keep Orbit from trampling top menu content
+.top-bar {
+  z-index: 9999;
+}
+
+// Tighten spacing for cards on alumni page
+.smallpic.person .card-info {
+  margin: 0;
 }

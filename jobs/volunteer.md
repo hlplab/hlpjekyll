@@ -1,8 +1,7 @@
 ---
-layout: sidenav_sticky
+layout: page
 title: Volunteer
 category: jobs
-custom_local_js: sticky
 navlinks:
   - text: Undergrad - Independent Study
     link: jobs/independent.html

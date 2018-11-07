@@ -1,8 +1,7 @@
 ---
-layout: sidenav_sticky
+layout: page
 title: Undergraduate Independent Study Projects
 category: research
-custom_local_js: sticky
 navlinks:
   - text: Research Statement
     link: research/statement/
@@ -23,8 +22,8 @@ navlinks:
 {% assign sources = site.data.independent_study.funding %}
 
 {% comment %}
-<div class="row">
-  <div class="large-12 columns">
+<div class="grid-x">
+  <div class="large-12 cell">
     {% assign funding = site.data.independent_study.students | group_by:'funding' %}
     <ul id="funding">
     {% for source in funding%}
@@ -45,8 +44,8 @@ navlinks:
 
 {% assign grouped_students = site.data.independent_study.students | sort:'year'| reverse| group_by:'year' %}
 {% for row in grouped_students %}
-<div class="row">
-  <div class="large-12 columns">
+<div class="grid-x">
+  <div class="large-12 cell">
   <h2>{{row.name}}</h2>
     <table id="students_{{row.name}}" style="width: 100%;">
       <thead>
@@ -69,8 +68,8 @@ navlinks:
 </div>
 {% endfor %}
 
-<div class="row">
-  <div class="large-12 columns">
+<div class="grid-x">
+  <div class="large-12 cell">
     <ul id="funding">
     {% for s in sources %}
     <li id="funding{{forloop.index}}">[{{forloop.index}}] Research supported by a {{s}}</li>

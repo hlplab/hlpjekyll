@@ -4,30 +4,54 @@
   {% include head.html %}
 
   <body>
-
-    {% include header.html %}
-
-    <div class="page-content row">
-      {{ content }}
+    <div class="off-canvas-wrapper">
+      {% if page.navlinks %}
+      <div class="off-canvas off-canvas-absolute position-left reveal-for-medium" id="offCanvasSidebar" data-off-canvas>
+        <div data-sticky-container id="sidenav">
+          <nav class="columns sticky" data-sticky data-top-anchor="site-header:bottom">
+            <ul class="vertical menu">
+              {% for link in page.navlinks %}
+                {% if link.fragments %}
+                <li {% if link.current %} class="active"{% endif %}><a href="#">{{link.text}}</a>
+                  <ul class="nested vertical menu" data-magellan>
+                    {% for f in link.fragments %}
+                    <li><a href="#{{f.anchor}}">{{f.text}}</a></li>
+                    {% endfor %}
+                  </ul>
+                </li>
+                {% else %}
+                <li {% if link.current %} class="active"{% endif %}><a href="{% unless link.external %}{{site.baseurl}}/{% endunless %}{{link.link}}">{{link.text}}</a></li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </nav>
+        </div>
+      </div>
+      {% endif %}
+      <div class="off-canvas-content" data-off-canvas-content>
+        {% include header.html %}
+        <div id="content" class="page-content grid-x grid-padding-x">
+          {{ content }}
+        </div>
+        {% include footer.html %}
+      </div>
     </div>
 
-    {% include footer.html %}
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js" integrity="sha256-t6SrqvTQmKoGgi5LOl0AUy+lBRtIvEJ+++pLAsfAjWs=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/foundation.min.js" integrity="sha256-AzlJ8HJLIrCNZBxNsC9+JJOTxkW18ipP/JL/rzbuEBg=" crossorigin="anonymous"></script>
-    <script type="text/javascript">$(document).foundation({
-      $magellan : {
-        // specify the class used for active sections
-        active_class: 'reading',
-        // how many pixels until the magellan bar sticks, 0 = auto
-        threshold: 5000,
-        // pixels from the top of destination for it to be considered active
-        destination_threshold: 20,
-        // calculation throttling to increase framerate
-        throttle_delay: 50
-      },
-    });
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/5.1.2/what-input.min.js" integrity="sha256-JZSCmGGQUyffJFe7ABkAk/cIPAYtkbh9mx7VWbQszR8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js" integrity="sha256-mRYlCu5EG+ouD07WxLF8v4ZAZYCA6WrmdIXyn1Bv9Vk=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">$(document).foundation();</script>
+    {% if layout.custom_remote_js %}
+    {% for js_file in layout.custom_remote_js %}
+    <script type="text/javascript" src="{{js_file.src}}" integrity="{{js_file.integrity}}" crossorigin="{{js_file.crossorigin}}"></script>
+    {% endfor %}
+    {% endif %}
+    {% if layout.custom_local_js %}
+    {% for js_file in layout.custom_local_js %}
+        {% asset '{{js_file}}' %}
+    {% endfor %}
+    {% endif %}
     {% if page.custom_remote_js %}
     {% for js_file in page.custom_remote_js %}
     <script type="text/javascript" src="{{js_file.src}}" integrity="{{js_file.integrity}}" crossorigin="{{js_file.crossorigin}}"></script>

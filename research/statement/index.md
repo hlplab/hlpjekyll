@@ -1,10 +1,9 @@
 ---
-layout: sidenav_sticky
+layout: page
 title: Research Statement
 category: research
 scholar:
   bibliography: statement.bib
-custom_local_js: sticky
 navlinks:
   - text: Research Statement
     link: research/statement/
@@ -83,7 +82,7 @@ problem space (rational analysis) and the possible consequences of
 goals, tasks, and perceptual and cognitive limitations.
 
 ### Speech perception and adaptation
-{:data-magellan-destination="speech-perception-and-adaptation"}
+{:data-magellan-target="speech-perception-and-adaptation"}
 
 The mapping from the physical speech signal to linguistic categories
 (e.g., phonemes) is non-deterministic—due to motor, perceptual, and
@@ -202,7 +201,7 @@ supramarginal gyrus encode *talker-specific* information about
 phonetic contrasts after short exposure to novel talkers.
 
 ### Prediction and adaptation beyond speech processing
-{:data-magellan-destination="prediction-and-adaptation-beyond-speech-processing"}
+{:data-magellan-target="prediction-and-adaptation-beyond-speech-processing"}
 
 We have extended similar investigations into domains of language
 processing beyond speech perception. Just as talkers differ in the
@@ -311,7 +310,7 @@ debates in language acquisition (cf. traditional reinforcement learning
 vs. structure-inducing learners).
 
 ### Communicative goals and adaptation in language production
-{:data-magellan-destination="communicative-goals-and-adaptation-in-language-production"}
+{:data-magellan-target="communicative-goals-and-adaptation-in-language-production"}
 
 Paralleling the research on language understanding, I have been deeply
 interested in the processes that allow us to encode thoughts into the
@@ -452,7 +451,7 @@ generations systems that aim for uniform information density are rated
 as better by human readers (e.g., Rajkumar & White, 2011, and others).
 
 ### Linking processing to cross-linguistic diversity and generalization
-{:data-magellan-destination="linking-processing-to-cross-linguistic-diversity-and-generalization"}
+{:data-magellan-target="linking-processing-to-cross-linguistic-diversity-and-generalization"}
 
 There is now considerable *correlational* evidence that the
 languages across the world exhibit phonological and lexical properties
@@ -526,7 +525,7 @@ too, can benefit from taking into account the mechanisms that underlie
 language processing (see also Hofmeister, Jaeger, Arnon, Ivan, & Snider, 2013; Jaeger & Norcliffe, 2009; Norcliffe, Harris, & Jaeger, 2016).
 
 ### Statistical data analysis and other methodological contributions
-{:data-magellan-destination="statistical-data-analysis-and-other-methodological-contributions"}
+{:data-magellan-target="statistical-data-analysis-and-other-methodological-contributions"}
 
 Above I have focused on the theoretical aspects of my work. This leaves
 aside another aspect of my work I consider critical and that I try to

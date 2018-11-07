@@ -1,10 +1,9 @@
 ---
 layout: page
-custom_local_js: sticky
 ---
 
-<div class="row">
-  <div class="large-2 columns offset-1">
+<div class="grid-x">
+  <div class="large-2 cell large-offset-1">
      <article id="sidebar" class="stickyside">
       <ul class="side-nav" role="menu">
       {% for link in page.navlinks %}
@@ -25,7 +24,7 @@ custom_local_js: sticky
       </ul>
     </article>
   </div>
-  <div class="large-9 columns">
+  <div class="large-9 cell">
       {{content}}
   </div>
 </div>

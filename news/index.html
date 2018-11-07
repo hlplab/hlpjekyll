@@ -1,5 +1,5 @@
 ---
-layout: sidenav_sticky
+layout: page
 category: research
 navlinks:
   - text: Research Statement
@@ -19,18 +19,18 @@ navlinks:
     link: http://wiki.bcs.rochester.edu/HlpLab/
     external: true
 ---
-<div class="row">
-  <div id="hlpnews" class="large-12 columns">
-    <div class="row">
-      <div class="large-9 columns">
+<div class="grid-x">
+  <div id="hlpnews" class="large-12 cell">
+    <div class="grid-x">
+      <div class="large-9 cell">
         <h1 class="page-heading">HLP Lab In the news</h1>
       </div>
-      <div class="large-3 columns">
-        <a href="{{ "/news.xml" | prepend: site.baseurl }}" class="item"><i class="fas fa-rss-square" style="font-size: 3em; color: #f26522;"></i></a>
+      <div class="large-3 cell">
+        <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="item"><i class="fas fa-rss-square" style="font-size: 3em; color: #f26522;"></i></a>
       </div>
     </div>
-    <div class="row">
-      <div class="large-12 columns">
+    <div class="grid-x">
+      <div class="large-12 cell">
         <ul class="post-list">
         {% assign newsblurbs = site.newsblurbs | sort: 'date' | reverse  %}
           {% for post in newsblurbs limit:10 %}

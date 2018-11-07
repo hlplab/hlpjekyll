@@ -1,0 +1,41 @@
+---
+layout: page
+---
+
+<div class="row">
+  <div class="large-2 columns offset-1">
+     <article id="sidebar" class="stickyside">
+      <ul class="side-nav" role="menu">
+      {% comment %}
+      This is a stupid way to do it (iterating over each until we find the right category).
+      I want to just find the item with the right category
+      {% endcomment %}
+      {% for group in site.data.navigation %}
+      {% if group.category == page.category%}
+      <li>
+        {{group.category}}
+      </li>
+      {% endif %}
+      {% endfor %}
+      {% comment %}
+      {% for link in page.navlinks %}
+        {% if link.fragments %}
+        <li role="menuitem" {% if link.current %} class="active"{% endif %}><a href="#">{{link.text}}</a>
+          <ul class="sub-nav">
+            {% for f in link.fragments %}
+            <li><a href="#{{f.anchor}}">{{f.text}}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% else %}
+        <li role="menuitem"{% if link.current %} class="active"{% endif %}><a href="{% unless link.external %}{{site.baseurl}}/{% endunless %}{{link.link}}">{{link.text}}</a></li>
+        {% endif %}
+      {% endfor %}
+      {% endcomment %}
+      </ul>
+    </article>
+  </div>
+  <div class="large-9 columns">
+      {{content}}
+  </div>
+</div>

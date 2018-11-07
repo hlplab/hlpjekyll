@@ -2,25 +2,27 @@
 layout: page
 ---
 
-<div class="row">
-    <div class="large-2 columns offset-1">
-        <ul class="side-nav" role="menu">
+<div class="grid-x">
+  <div class="large-2 cell large-offset-1" data-sticky-container id="sidenav">
+    <nav class="columns sticky" data-sticky data-anchor="pagecontent">
+      <ul class="vertical menu">
         {% for link in page.navlinks %}
           {% if link.fragments %}
-          <li role="menuitem" {% if link.current %} class="active"{% endif %}><a href="#">{{link.text}}</a>
-            <ul class="sub-nav">
+          <li {% if link.current %} class="active"{% endif %}><a href="#">{{link.text}}</a>
+            <ul class="nested vertical menu" data-magellan>
               {% for f in link.fragments %}
               <li data-magellan-arrival="{{f.anchor}}"><a href="#{{f.anchor}}">{{f.text}}</a></li>
               {% endfor %}
             </ul>
           </li>
           {% else %}
-          <li role="menuitem"{% if link.current %} class="active"{% endif %}><a href="{% unless link.external %}{{site.baseurl}}/{% endunless %}{{link.link}}">{{link.text}}</a></li>
+          <li {% if link.current %} class="active"{% endif %}><a href="{% unless link.external %}{{site.baseurl}}/{% endunless %}{{link.link}}">{{link.text}}</a></li>
           {% endif %}
         {% endfor %}
-        </ul>
-    </div>
-    <div class="large-9 columns">
-        {{content}}
-    </div>
+      </ul>
+    </nav>
+  </div>
+  <div id="pagecontent" class="large-9 cell">
+      {{content}}
+  </div>
 </div>

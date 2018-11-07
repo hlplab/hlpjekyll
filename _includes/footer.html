@@ -1,32 +1,32 @@
 <footer class="site-footer">
-    <div class="row">
-      <div class="large-3 columns">
-        {% asset UR.v2.svg alt="University of Rochester" width="123" height="100" %}
+    <div class="grid-x">
+      <div class="cell small-9 small-offset-3 large-2 large-offset-1">
+        {% asset 'UR.v2.svg' alt='University of Rochester' width=123 height=100 %}
       </div>
-      <div class="large-6 columns">
-        <ul id="socialbuttons" class="large-block-grid-6 small-block-grid-3">
-          <li>
+      <div class="cell small-11 small-offset-1 large-4">
+        <div id="socialbuttons" class="grid-x grid-padding-x large-up-6 medium-up-3 small-up-2">
+          <div class="cell">
             <a href="https://github.com/{{ site.github.username }}" class="item" ><i class="fab fa-github" style="font-size: 3em; color: #333;"></i></a>
-          </li>
-          <li>
-              <a href="https://bitbucket.org/{{ site.bitbucket.username }}" class="item"><i class="fab fa-bitbucket" style="font-size: 3em; color: #205081;"></i></a>
-          </li>
-          <li>
+          </div>
+          <div class="cell">
+            <a href="https://bitbucket.org/{{ site.bitbucket.username }}" class="item"><i class="fab fa-bitbucket" style="font-size: 3em; color: #205081;"></i></a>
+          </div>
+          <div class="cell">
             <a href="https://twitter.com/{{ site.twitter.username }}" class="item"><i class="fab fa-twitter" style="font-size: 3em; color: #1da1f2;"></i></a>
-          </li>
-          <li>
+          </div>
+          <div class="cell">
             <a href="https://{{site.wordpress.username}}.wordpress.com/" class="item"><i class="fab fa-wordpress" style="font-size: 3em; color: #21759b;"></i></a>
-          </li>
-          <li>
+          </div>
+          <div class="cell">
             <a href="https://www.youtube.com/channel/{{site.youtube_id}}/" class="item"><i class="fab fa-youtube" style="font-size: 3em; color: #ff0000;"></i></a>
-          </li>
-          <li>
+          </div>
+          <div class="cell">
             <a href="{{ "/news.xml" | prepend: site.baseurl }}" class="item"><i class="fas fa-rss-square" style="font-size: 3em; color: #f26522;"></i></a>
-          </li>
-        </ul>
+          </div>
+        </div>
         <p class="text-center">Copyright&#169; 2007-2018 HLP Lab - University of Rochester</p>
       </div>
-      <div class="large-3 columns">
+      <div class="cell small-11 small-offset-1 large-3 large-offset-1">
         <!-- <h2 class="footer-heading">{{ site.title }}</h2>-->
         <ul class="vcard">
           <li class="fn">HLP Lab</li>
@@ -37,10 +37,5 @@
           <li class="email"><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
-      {% comment %}
-      <div class="large-3 columns">
-        <p class="text">{{ site.description }}</p>
-      </div>
-      {% endcomment %}
     </div>
 </footer>

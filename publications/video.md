@@ -1,8 +1,7 @@
 ---
-layout: sidenav_sticky
+layout: page
 title: Video and Audio Presentations
 category: research
-custom_local_js: sticky
 custom_remote_js:
   - src: //cdnjs.cloudflare.com/ajax/libs/html5media/1.1.8/html5media.js
     integrity: sha256-llUKWaqjbtgY/CBYDWocEUUEYITf+VkV2Y4tHQPFbG0=
@@ -32,7 +31,7 @@ navlinks:
 ---
 
 ## Colloquium talks
-{:data-magellan-destination="colloquium-talks"}
+{:data-magellan-target="colloquium-talks"}
 
   * Jaeger, T. Florian. *Speakers' preferences at choice points in language production facilitate efficient communication.* Rutgers University colloquium talk (Part 1 of 2) April, 2010.
 
@@ -45,7 +44,7 @@ navlinks:
   <audio src="/resources/recordedHLPtalks/Jaeger10-UID-PennStateCLS-Inaugural-Young-Scientist-Colloqium-Speaker.mp3" controls preload></audio>
 
 ## Workshop Materials
-{:data-magellan-destination="workshop-materials"}
+{:data-magellan-target="workshop-materials"}
 
   * Jaeger, T. Florian. *Penn State Regression Workshop*
     * Day 1 materials: [[PDF slides]](/resources/recordedHLPtalks/PennStateRegression10/PennState-Day1.pdf) [[R file]](/resources/recordedHLPtalks/PennStateRegression10/Day1.R)
@@ -57,7 +56,7 @@ navlinks:
     <audio src="/resources/recordedHLPtalks/PennStateRegression10/Florian-Workshop-II.mp3" controls preload></audio>
 
 ## Undergrad Research Expo 2008
-{:data-magellan-destination="undergrad-research-expo-2008"}
+{:data-magellan-target="undergrad-research-expo-2008"}
 
   * Katrina Housel. *Phonological Priming in Spontaneous Speech Production.* University of Rochester Undergrad Rearch Exposition April, 2008. [[PPT Slides]](/resources/recordedHLPtalks/URE08/KatrinaURE08.ppt)
 

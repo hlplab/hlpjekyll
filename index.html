@@ -2,58 +2,66 @@
 layout: default
 ---
 
-<div id="contentrow" class="row">
-  <div class="large-4 columns">
-    <div id="contactus" class="row">
-      <div class="large-12 columns">
-        <a class="button small radius" href="{{ "/research/participate/" |prepend: site.baseurl }}">Participate in an Experiment</a><br/>
-        <a class="button small radius" href="{{ "/contact/" |prepend: site.baseurl }}">Contact</a>
-        <a class="button small radius alert" href="{{ "/jobs/2016postdocs.html" |prepend: site.baseurl }}">Two post-doc positions available</a>
-      </div>
-    </div>
-    <div id="spacer" class="row"></div>
-    <div class="row" style="border-right:lightgray solid 1px;">
-      <div class="large-10 large-centered columns">
-        <div id="twitterfeed">
-          {% include twitter_feed.html %}
+<div id="contentrow" class="grid-x grid-padding-x">
+  <div class="large-10 cell large-offset-1">
+    <div class="grid-x grid-padding-x">
+      <div class="large-4 cell">
+        <div id="contactus" class="grid-x grid-padding-x">
+          <div class="large-12 cell">
+            <a class="button small radius" href="{{ "/research/participate/" |prepend: site.baseurl }}">Participate in an Experiment</a><br/>
+            <a class="button small radius" href="{{ "/contact/" |prepend: site.baseurl }}">Contact</a>
+            <a class="button small radius alert" href="{{ "/jobs/2016postdocs.html" |prepend: site.baseurl }}">Two post-doc positions available</a>
+          </div>
+        </div>
+        <div id="spacer" class="grid-x grid-padding-x"></div>
+        <div class="grid-x grid-padding-x" style="border-right:lightgray solid 1px;">
+          <div class="large-10 large-centered cell">
+            <div id="twitterfeed" class="show-for-medium">
+              {% include twitter_feed.html %}
+            </div>
+          </div>
         </div>
       </div>
+      <div class="large-8 cell">
+        <div class="grid-x grid-padding-x">
+          <div class="large-12 cell">
+            <div class="orbit" role="region" aria-label="HLP Lab" data-orbit>
+              <div class="orbit-wrapper">
+                <div class="orbit-controls">
+                  <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                  <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                </div>
+                <ul class="orbit-container">
+                  {% for item in site.data.carousel %}
+                  {% if item.image %}
+                  {% include carousel_pic.html %}
+                  {% else %}
+                  {% include carousel_data.html %}
+                  {% endif %}
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="talks" class="grid-x grid-padding-x">
+          <div class="large-12 cell">
+            <h2>Language science that caught our ear</h2>
+            <p>HLP Lab now runs an informal talk series. Work we dig, that caught our 
+              attention, researchers we're curious about, and lots of discussion. Sometimes 
+              per Skype, sometimes by collocation. Thank you to our presenters for making 
+              time.</p>
+            <a href="{{ "/talks.xml" | prepend: site.baseurl }}" class="item"><i class="fas fa-rss-square" style="font-size: 1.5em; color: #f26522;"></i></a>
+              <hr/>
+            </div>
+          </div>
+          <div class="grid-x grid-padding-x" id="invited_talks">
+            <div class="large-12 cell">
+              {% include invited_talks.html %}
+            </div>
+          </div>
+        </div>
+        <hr/>
+      </div>
     </div>
   </div>
-  <div class="large-8 columns">
-    <div class="row">
-      <div class="large-12 columns">
-        <ul data-orbit>
-          {% for item in site.data.carousel %}
-          {% if item.image %}
-          {% include carousel_pic.html %}
-          {% else %}
-          {% include carousel_data.html %}
-          {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-    <div id="talks" class="row">
-      <div class="large-12 columns">
-      <h2>Language science that caught our ear</h2>
-      <p>HLP Lab now runs an informal talk series. Work we dig, that caught our 
-      attention, researchers we're curious about, and lots of discussion. Sometimes 
-      per Skype, sometimes by collocation. Thank you to our presenters for making 
-      time.
-      <a href="{{ "/talks.xml" | prepend: site.baseurl }}" class="item"><i class="fas fa-rss-square" style="font-size: 1.5em; color: #f26522;"></i></a>
-      </p>
-      <hr/>
-      </div>
-    </div>
-    <div class="row" id="invited_talks">
-      <div class="large-12 columns">
-      {% include invited_talks.html %}
-      </div>
-    </div>
-  </div>
-  <hr/>
-</div>
-
-
- <div class="row"></div>

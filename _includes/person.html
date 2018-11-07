@@ -1,19 +1,19 @@
-<div class="row person" id="{{person.username}}" >
-  <div class="row">
-      <div class="large-4 columns">
+<div class="grid-x person" id="{{person.username}}" >
+  <div class="grid-x">
+      <div class="large-4 cell">
         {% include roundpic.html %}
       </div>
-      <div class="large-8 columns">
-        <div class="row">
-          <div class="large-6 columns">
+      <div class="large-8 cell">
+        <div class="grid-x">
+          <div class="large-6 cell">
             {% if person.homepage %}<a href="{{person.homepage}}">{% endif %}{{person.firstname}} {{person.lastname}}{% if person.homepage %}</a>{% endif %} ({{person.department}})
           </div>
-          <div class="large-6 columns">
+          <div class="large-6 cell">
             <a href="mailto:{{person.email}}">&lt;{{person.email}}&gt;</a><br/>
           </div>
         </div>
-        <div class="row">
-          <div class="large-12 columns">
+        <div class="grid-x">
+          <div class="large-12 cell">
             <p>{{person.blurb|markdownify}}</p>
           </div>
         </div>

@@ -6,12 +6,11 @@ seo:
     links:
         - https://rochester.academia.edu/tiflo/papers/
         - https://www.researchgate.net/profile/T_Florian_Jaeger/publications
-layout: sidenav_sticky
+layout: page
 category: research
 title: Publications
 scholar:
   bibliography: hlplab.bib
-custom_local_js: sticky
 navlinks:
   - text: Research Statement
     link: research/statement/
@@ -67,19 +66,19 @@ navlinks:
 You can find all our papers on [academia.edu](https://rochester.academia.edu/tiflo/papers/).
 
 ## Submitted
-{:data-magellan-destination="submitted"}
+{:data-magellan-target="submitted"}
 {% bibliography -f hlplab -q @*[year=Submitted] %}
 
 ## In Press
-{:data-magellan-destination="in-press"}
+{:data-magellan-target="in-press"}
 {% bibliography -f hlplab -q @*[year=In Press] %}
 
 ## In Prep
-{:data-magellan-destination="in-prep"}
+{:data-magellan-target="in-prep"}
 {% bibliography -f hlplab -q @*[year=In Prep] %}
 
 {% for year in (2005..2018) reversed %}
 ## {{year}}
-{:data-magellan-destination="{{year}}"}
+{:data-magellan-target="{{year}}"}
 {% bibliography -f hlplab -q @*[year={{year}}] %}
 {% endfor %}
