@@ -1,15 +1,15 @@
-- lastname: Watts
-  firstname: Andrew
-  username: awatts
-  haspic: true
-  email: awatts2@ur.rochester.edu
-  department: BCS
-  blurb: >
-    I came to the lab in 2007 with a Bachelors in Computer Science and Linguistics
-    and a Masters in Linguistics from The Ohio State Univeristy. My primary responsibilities
-    are maintaining the computing environment and webpage, programming experiments
-    (for in the lab and on the web), providing programming assitance, and just plain
-    programming.
+# - lastname: Watts
+#   firstname: Andrew
+#   username: awatts
+#   haspic: true
+#   email: awatts2@ur.rochester.edu
+#   department: BCS
+#   blurb: >
+#     I came to the lab in 2007 with a Bachelors in Computer Science and Linguistics
+#     and a Masters in Linguistics from The Ohio State Univeristy. My primary responsibilities
+#     are maintaining the computing environment and webpage, programming experiments
+#     (for in the lab and on the web), providing programming assitance, and just plain
+#     programming.
 
 # - lastname: Nikolayeva
 #   firstname: Olga
