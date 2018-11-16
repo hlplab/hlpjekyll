@@ -2,11 +2,12 @@
   firstname: Klinton
   username: kbicknell
   haspic: true
-  email: kbicknell@northwestern.edu
+  email: klinton@duolingo.com
   department: BCS
   range:
     start: Summer 2013
     end: Spring 2014
+  homepage: http://www.klintonbicknell.com/  
   current: Research Scientist, Duolingo
 
 - lastname: Butler
