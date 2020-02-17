@@ -6,6 +6,7 @@ gem 'jekyll-assets', '~> 3.0', '>= 3.0.11'
 gem 'bibtex-ruby'
 gem 'jekyll-scholar', '~> 5.14'
 gem 'psych', '2.0.8' # 2.0.15 breaks Jekyll
+gem "sprockets", "~> 3.7" # 4.x breaks stuff with these old versions
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.4.1'
 
