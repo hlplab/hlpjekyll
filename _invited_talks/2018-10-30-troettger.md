@@ -4,7 +4,7 @@ author:
   lastname: Roettger
   firstname: Timo
   username: troettger
-  uri: https://timo-roettger.weebly.com/
+  uri: https://www.hf.uio.no/iln/english/people/aca/linguistics/tenured/timor/
   affiliation:
     role: Postdoctoral researcher
     department: Linguistics
