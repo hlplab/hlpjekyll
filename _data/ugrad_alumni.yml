@@ -251,22 +251,13 @@ students:
       - *ebuz
     gradyear: 2018
 
-- lastname: Li
-  firstname: Ruolan
-  major:
-    - BCS
-  workswith:
-    - *xxie
-  gradyear: 2020
-
-- lastname: Vieyto
-  firstname: Nicole
-  workswith:
-    - *tiflo
-  major:
-    - BCS
-    - Linguistics
-  gradyear: 2020
+  - lastname: Li
+    firstname: Ruolan
+    major:
+     - BCS
+    workedwith:
+     - *xxie
+    gradyear: 2020
 
   - lastname: Lincoln
     firstname: Theo
@@ -438,6 +429,15 @@ students:
     workedwith:
       - *zburchill
       - *lliu
+
+  - lastname: Vieyto
+    firstname: Nicole
+    workedwith:
+       - *tiflo
+    major:
+      - BCS
+      - Linguistics
+    gradyear: 2020
 
   - lastname: Menghan
     firstname: Yang

@@ -1,13 +1,15 @@
 - lastname: Menghan
-    firstname: Yang
-    workedwith:
-      - *tiflo
-    gradyear: 2022
-    major: BCS
+  firstname: Yang
+  haspic: false
+  workswith:
+    - T. Florian Jaeger
+  gradyear: 2022
+  major: BCS
 
 - lastname: Kevin
-    firstname: Liu
-    workedwith:
-      - *tiflo
-    gradyear: 2022
-    major: BCS
+  firstname: Liu
+  haspic: false
+  workswith:
+    - T. Florian Jaeger
+  gradyear: 2022
+  major: BCS
