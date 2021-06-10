@@ -11,7 +11,7 @@ advisors:
   - &bpajak Bozena Pajak
   - &jroche Jenny Roche
   - &nsnider Neal Snider
-
+  - &xxie Xin Xie
 
 students:
   - lastname: Brown
@@ -63,6 +63,13 @@ students:
     workedwith:
       - *dkleins
 
+  - lastname: Cummings
+    firstname: Shawn
+    workedwith:
+      - *tiflo
+    gradyear: 2021
+    major: BCS
+
   - lastname: Dizon
     firstname: Maureen
     workedwith:
@@ -111,7 +118,7 @@ students:
       - *dkleins
     gradyear: 2013
     major: BCS
-  
+
   - lastname: Gardner
     firstname: Bethany
     username: bgardner
@@ -209,6 +216,13 @@ students:
     gradyear: 2010
     major: BCS
 
+  - lastname: Karboga
+    firstname: Gevher
+    workedwith:
+      - *tiflo
+    gradyear: 2022
+    major: BCS
+
   - lastname: Krishnan
     firstname: Shreya
     workedwith:
@@ -236,6 +250,23 @@ students:
     workedwith:
       - *ebuz
     gradyear: 2018
+
+- lastname: Li
+  firstname: Ruolan
+  major:
+    - BCS
+  workswith:
+    - *xxie
+  gradyear: 2020
+
+- lastname: Vieyto
+  firstname: Nicole
+  workswith:
+    - *tiflo
+  major:
+    - BCS
+    - Linguistics
+  gradyear: 2020
 
   - lastname: Lincoln
     firstname: Theo
@@ -407,3 +438,10 @@ students:
     workedwith:
       - *zburchill
       - *lliu
+
+  - lastname: Menghan
+    firstname: Yang
+    workedwith:
+      - *tiflo
+    gradyear: 2022
+    major: BCS

@@ -7,7 +7,7 @@
   range:
     start: Summer 2013
     end: Spring 2014
-  homepage: http://www.klintonbicknell.com/  
+  homepage: http://www.klintonbicknell.com/
   current: Research Scientist, Duolingo
 
 - lastname: Butler
@@ -20,6 +20,15 @@
     start: Fall 2009
     end: Winter 2012
   current: Speech Language Pathologist, Eastconn
+
+- lastname: Buxó-Lugo
+  firstname: Andrés
+  username: abuxolug
+  email: abuxolug@ur.rochester.edu
+  haspic: true
+  department: BCS
+  homepage: https://abuxolugo.github.io/
+  current: Assistant Professor, Psychology, SUNY Buffalo
 
 - lastname: Farmer
   firstname: Thomas
@@ -93,3 +102,11 @@
   homepage: http://kweatherholtz.github.io/
   current: Senior Efficacy and Research Analyst, Khan Academy
 
+- lastname: Xie
+  firstname: Xin
+  username: xxie
+  email: xxie13@ur.rochester.edu
+  haspic: true
+  department: BCS
+  homepage: https://xinxie-cogsci.github.io/
+  current: Assistant Professor, Language Sciences, UC Irvine

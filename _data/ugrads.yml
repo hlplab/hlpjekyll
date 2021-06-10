@@ -1,20 +1,13 @@
-- lastname: Li
-  firstname: Ruolan
-  username: lruolan
-  haspic: false
-  email: rli36@u.rochester.edu
-  major:
-    - BCS
-  gradyear: 2020
-  workswith:
-    - Xin Xie
+- lastname: Menghan
+    firstname: Yang
+    workedwith:
+      - *tiflo
+    gradyear: 2022
+    major: BCS
 
-- lastname: Vieyto
-  firstname: Nicole
-  username: nvieyto
-  haspic: false
-  email: nvieyto@u.rochester.edu
-  gradyear: 2020
-  major:
-    - BCS
-    - Linguistics
+- lastname: Kevin
+    firstname: Liu
+    workedwith:
+      - *tiflo
+    gradyear: 2022
+    major: BCS

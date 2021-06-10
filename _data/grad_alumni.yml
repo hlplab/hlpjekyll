@@ -1,3 +1,12 @@
+- lastname: Bushong
+  firstname: Wednesday
+  username: wbushong
+  email: wbushong@ur.rochester.edu
+  haspic: true
+  department: BCS
+  homepage: https://wbushong.github.io/
+  current: Assistant Professor, University of Hartford
+
 - lastname: Buz
   firstname: Esteban
   username: ebuz
@@ -49,7 +58,7 @@
   degree: PhD
   year: 2014
   homepage: http://mfedzech.github.io/index.html
-  current: Assistant Professor, Department of Linguistics, University of Arizona
+  current: Research scientist, Apple; Assistant Professor, Department of Linguistics, University of Arizona
 
 - lastname: Fine
   firstname: Alex
@@ -101,7 +110,7 @@
   degree: PhD
   year: 2016
   homepage: http://www.davekleinschmidt.com/
-  current: Assistant Professor, Psychology Department, Rutgers University
+  current: Research scientist, BioSignal
 
 - lastname: Liu
   firstname: Linda
@@ -146,3 +155,12 @@
   year: 2014
   homepage: http://www.bcs.rochester.edu/people/tqian/
   current: Lecturer, Department of Psychology, Princeton University
+
+- lastname: Yan
+  firstname: Shaorong
+  username: syan
+  email: syan13@ur.rochester.edu
+  haspic: true
+  department: BCS
+  homepage: https://shaorongyan.github.io/
+  current: Data scientist, Tapad

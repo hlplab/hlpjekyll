@@ -10,32 +10,21 @@
     focus much as of yet. Other areas that have caught my curiosity include binomial word order,
     text-setting, and synchronous speech.
 
-- lastname: Bushong
-  firstname: Wednesday
-  username: wbushong
-  email: wbushong@ur.rochester.edu
+- lastname: Tan
+  firstname: Maryann
+  username: mtan
+  email: maryann.tan@biling.su.se
   haspic: true
-  department: BCS
-  homepage: https://wbushong.github.io/
+  department: Centre for Research in Bilingualism
+  homepage: https://www.su.se/english/profiles/mata4004-1.344423
   blurb: >
-    I'm interested in prediction, learning, and adaptation during language comprehension.
-    One current line of my research investigates whether people learn abstract linguistic
-    constraints through prediction error-based learning. I'm also interested in how
-    expectations about upcoming words influence the detail with which we maintain
-    representations about the current input.
+    
 
-- lastname: Yan
-  firstname: Shaorong
-  username: syan
-  email: syan13@ur.rochester.edu
+- lastname: Persson
+  firstname: Anna
+  username: apersson
+  email: anna.persson@su.se
   haspic: true
-  department: BCS
-  homepage: https://shaorongyan.github.io/
+  department: The Department of Swedish Language and Multilingualism
+  homepage: https://www.su.se/english/profiles/anpe7128-1.281692
   blurb: >
-    I’m interested in predictive processing of language. More specifically, I’m
-    interested in when and how people translate higher-level predictions into
-    expectations about lower-level features. Besides, I’m also interested in how
-    people adjust those higher- and lower-level expectancies in the face of unexpected
-    information in the current context (i.e. adaptation). My other interest includes
-    how prosodic information is used in language processing, both in speech and in
-    silent reading.
