@@ -9,6 +9,7 @@ gem 'psych', '2.0.8' # 2.0.15 breaks Jekyll
 gem "sprockets", "~> 3.7" # 4.x breaks stuff with these old versions
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.4.1'
+gem 'kramdown-parser-gfm'
 
 group :jekyll_plugins do
   gem 'jekyll-minifier'
