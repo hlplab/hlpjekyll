@@ -1,14 +1,13 @@
 source 'https://rubygems.org'
-gem 'jekyll', '~> 3.8', '>= 3.8.3'
+gem 'jekyll', '~> 3.9', '>= 3.9.3'
 gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
-gem 'jekyll-assets', '~> 3.0', '>= 3.0.11'
+gem 'jekyll-assets', '~> 3.0', '>= 3.0.12'
 gem 'bibtex-ruby'
-gem 'jekyll-scholar', '~> 5.14'
-gem 'psych', '2.0.8' # 2.0.15 breaks Jekyll
+gem 'jekyll-scholar', '~> 5.16'
 gem "sprockets", "~> 3.7" # 4.x breaks stuff with these old versions
 gem 'autoprefixer-rails'
-gem 'font-awesome-sass', '~> 5.4.1'
+gem 'font-awesome-sass', '~> 5.15.1'
 gem 'kramdown-parser-gfm'
 
 group :jekyll_plugins do
