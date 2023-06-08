@@ -17,7 +17,7 @@ wordpress:
 youtube_id: UCfAMdAEbXx1vr5uZFnRfcdw
 google_api_key: AIzaSyCKbJAHLypyA2q1AwXOaJh51PMyx_zO4wY
 logo: /pics/UR.v2.svg
-google_site_verification: UA-6365921-1
+#google_site_verification: UA-6365921-1
 
 # Build settings
 #markdown: redcarpet
@@ -42,7 +42,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-assets
-  - jekyll-feed  
+  - jekyll-feed
 
 collections:
   newsblurbs:
